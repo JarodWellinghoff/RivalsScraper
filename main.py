@@ -1,8 +1,18 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import json
+import time
+import random
 
 player = "Skellinghoff"
+matches_url = (
+    f"https://api.tracker.gg/api/v2/marvel-rivals/standard/matches/ign/{player}"
+)
+heroes_url = f"https://api.tracker.gg/api/v2/marvel-rivals/standard/profile/ign/{player}/segments/career?mode=all"
+ranked_url = f"https://api.tracker.gg/api/v2/marvel-rivals/standard/profile/ign/{player}/stats/overview/ranked"
+urls = [matches_url, heroes_url, ranked_url]
+url_names = ["matches", "heroes", "ranked"]
+
 
 chrome_options = webdriver.ChromeOptions()
 # set a headless driver
@@ -10,10 +20,18 @@ chrome_options.add_argument("--headless")
 # set the user-agent back to chrome.
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36"
 chrome_options.add_argument(f"user-agent={user_agent}")
-url = f"https://api.tracker.gg/api/v2/marvel-rivals/standard/matches/ign/{player}"
 driver = webdriver.Chrome(options=chrome_options)
 driver.set_window_size(1080, 800)  # set the size of the window
-driver.get(url)
+for url, name in zip(urls, url_names):
+    print(f"Fetching {url}...")
+    driver.get(url)
+    time.sleep(random.uniform(1, 3))
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+    json_data = json.loads(soup.find("pre").text)
+    with open(f"data_{name}.json", "w") as f:
+        json.dump(json_data, f, indent=2)
+
+driver.get(matches_url)
 soup = BeautifulSoup(driver.page_source, "html.parser")
 json_data = json.loads(soup.find("pre").text)
 with open("data.json", "w") as f:
