@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1025</id>
+	<name>Cloak &amp; Dagger</name>
+	<real_name>Tyrone Johnson &amp; Tandy Bowen</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Cloak &amp; Dagger</name>
+		</item>
+		<item>
+			<id>1</id>
+			<name>Dagger</name>
+		</item>
+		<item>
+			<id>2</id>
+			<name>Cloak</name>
+		</item>
+	</transformations>
+	<description>Tyrone Johnson and Tandy Bowen are nearly inseparable, like two sides of the same coin. Intertwined by forces of shadow and light, Cloak &amp; Dagger fight as a united front, dealing havoc and healing allies across the arena.</description>
+	<team>
+		<item>Marvelknights</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>STRATEGIST</role>
+	<abilities>
+		<item>
+			<id>102511</id>
+			<name>Lightforce Dagger</name>
+			<type>Weapon</type>
+			<description>Unleash a bouncing &lt;Orange&gt;Lightforce Dagger&lt;/&gt; to damage enemies and heal nearby allies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>12</Ammo>
+				<Range>8m spherical radius</Range>
+				<Damage>18 damage per round</Damage>
+				<Casting>Single-cast projectile that generates a spell area upon impact</Casting>
+				<Fire_Rate>2.27 hits per second</Fire_Rate>
+				<Critical_Hit>No</Critical_Hit>
+				<Special_Effect>The projectile features an attraction effect, pulling in the closest target to the crosshair and creating a spell field upon impact. This spell field provides healing effects</Special_Effect>
+				<Healing_Per_Hit>16 per hit</Healing_Per_Hit>
+				<Area_of_Effect_Healing>16 per hit</Area_of_Effect_Healing>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102541</id>
+			<name>Dagger Storm</name>
+			<type>Normal</type>
+			<description>Launch a volley of daggers, creating a &lt;Buff&gt;Healing-Over-Time&lt;/&gt; field in the impact area. Allies in the area gain One-Time Healing when the field appears.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>5m spherical radius</Range>
+				<Casting>Single-cast projectile with delayed impact that also generates a spell field</Casting>
+				<Cooldown>Veil of Lightforce &amp; Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown</Cooldown>
+				<Duration>6s</Duration>
+				<Healing_Amount>45/s</Healing_Amount>
+				<Special_Effect>When a Spell Field is created, allies in range get a One-Time Healing of 60</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102551</id>
+			<name>Shadow's Embrace</name>
+			<type>Normal</type>
+			<description>Switch to Cloak.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Instant Cast</Casting>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102552</id>
+			<name>Light's Embrace</name>
+			<type>Normal</type>
+			<description>Switch to Dagger.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Instant Cast</Casting>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102561</id>
+			<name>Light Explosion</name>
+			<type>Normal</type>
+			<description>Deploy a Veil of Lightforce to heal allies upon touch and grant them a &lt;Buff&gt;Healing Boost&lt;/&gt;.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102562</id>
+			<name>Terror Cape</name>
+			<type>Normal</type>
+			<description>Deploy a Veil of Darkforce to damage enemies upon touch, applying &lt;Debuff&gt;Blind&lt;/&gt; to narrow their sight and &lt;Debuff&gt;Vulnerability&lt;/&gt; to amplify damage received.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>Width: 6m, Height: 4.5m</Range>
+				<Damage>55</Damage>
+				<Casting>Spell Field</Casting>
+				<Cooldown>12s</Cooldown>
+				<Vulnerability>28%</Vulnerability>
+				<Movement_Speed>20m/s</Movement_Speed>
+				<Special_Effect>The spell field advances along the casting path</Special_Effect>
+				<Maximum_Distance>25m</Maximum_Distance>
+				<Blinding_Duration>1.5s</Blinding_Duration>
+				<Vulnerability_Duration>3s</Vulnerability_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102571</id>
+			<name>Eternal Bond</name>
+			<type>Ultimate</type>
+			<description>Perform four rapid dashes, healing allies and damaging enemies along the path.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>A cylindrical spell field with a 4m radius and 15m in length</Range>
+				<Damage>30/s</Damage>
+				<Casting>Persistent Spell Field</Casting>
+				<Duration>13s</Duration>
+				<Energy_Cost>4500</Energy_Cost>
+				<Healing_Amount>250/s</Healing_Amount>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102581</id>
+			<name>Darkforce Cloak</name>
+			<type>Weapon</type>
+			<description>Inflict continuous damage to an enemy.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>∞</Ammo>
+				<Range>20m</Range>
+				<Damage>80/s</Damage>
+				<Casting>Cylindrical Spell Field</Casting>
+				<Critical_Hit>No</Critical_Hit>
+				<Special_Effect>Attacks will target the nearest enemy to the crosshair, dealing damage</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102591</id>
+			<name>Dark Teleportation</name>
+			<type>Normal</type>
+			<description>Enshroud nearby allies in the Darkforce Dimension and grant them &lt;Buff&gt;Phased&lt;/&gt;, making them untargetable and invisible to enemies and granting them a &lt;Buff&gt;Movement Boost&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>10m spherical radius</Range>
+				<Casting>Persistent Spell Field</Casting>
+				<Cooldown>Veil of Lightforce &amp; Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown</Cooldown>
+				<Duration>2s</Duration>
+				<Special_Effect>Allies within the area gain Invisibility and Movement Boost</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102511</id>
+			<name>Lightforce Dagger</name>
+			<type>Weapon</type>
+			<description>Unleash a bouncing &lt;Orange&gt;Lightforce Dagger&lt;/&gt; to damage enemies and heal nearby allies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>12</Ammo>
+				<Range>8m spherical radius</Range>
+				<Damage>18 damage per round</Damage>
+				<Casting>Single-cast projectile that generates a spell area upon impact</Casting>
+				<Fire_Rate>2.27 hits per second</Fire_Rate>
+				<Critical_Hit>No</Critical_Hit>
+				<Special_Effect>The projectile features an attraction effect, pulling in the closest target to the crosshair and creating a spell field upon impact. This spell field provides healing effects</Special_Effect>
+				<Healing_Per_Hit>16 per hit</Healing_Per_Hit>
+				<Area_of_Effect_Healing>16 per hit</Area_of_Effect_Healing>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102541</id>
+			<name>Dagger Storm</name>
+			<type>Normal</type>
+			<description>Launch a volley of daggers, creating a &lt;Buff&gt;Healing-Over-Time&lt;/&gt; field in the impact area. Allies in the area gain One-Time Healing when the field appears.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>5m spherical radius</Range>
+				<Casting>Single-cast projectile with delayed impact that also generates a spell field</Casting>
+				<Cooldown>Veil of Lightforce &amp; Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown</Cooldown>
+				<Duration>6s</Duration>
+				<Healing_Amount>45/s</Healing_Amount>
+				<Special_Effect>When a Spell Field is created, allies in range get a One-Time Healing of 60</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102551</id>
+			<name>Shadow's Embrace</name>
+			<type>Normal</type>
+			<description>Switch to Cloak.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Instant Cast</Casting>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102552</id>
+			<name>Light's Embrace</name>
+			<type>Normal</type>
+			<description>Switch to Dagger.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Instant Cast</Casting>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102561</id>
+			<name>Light Explosion</name>
+			<type>Normal</type>
+			<description>Deploy a Veil of Lightforce to heal allies upon touch and grant them a &lt;Buff&gt;Healing Boost&lt;/&gt;.</description>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102562</id>
+			<name>Terror Cape</name>
+			<type>Normal</type>
+			<description>Deploy a Veil of Darkforce to damage enemies upon touch, applying &lt;Debuff&gt;Blind&lt;/&gt; to narrow their sight and &lt;Debuff&gt;Vulnerability&lt;/&gt; to amplify damage received.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>Width: 6m, Height: 4.5m</Range>
+				<Damage>55</Damage>
+				<Casting>Spell Field</Casting>
+				<Cooldown>12s</Cooldown>
+				<Vulnerability>28%</Vulnerability>
+				<Movement_Speed>20m/s</Movement_Speed>
+				<Special_Effect>The spell field advances along the casting path</Special_Effect>
+				<Maximum_Distance>25m</Maximum_Distance>
+				<Blinding_Duration>1.5s</Blinding_Duration>
+				<Vulnerability_Duration>3s</Vulnerability_Duration>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102571</id>
+			<name>Eternal Bond</name>
+			<type>Ultimate</type>
+			<description>Perform four rapid dashes, healing allies and damaging enemies along the path.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>A cylindrical spell field with a 4m radius and 15m in length</Range>
+				<Damage>30/s</Damage>
+				<Casting>Persistent Spell Field</Casting>
+				<Duration>13s</Duration>
+				<Energy_Cost>4500</Energy_Cost>
+				<Healing_Amount>250/s</Healing_Amount>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102581</id>
+			<name>Darkforce Cloak</name>
+			<type>Weapon</type>
+			<description>Inflict continuous damage to an enemy.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>∞</Ammo>
+				<Range>20m</Range>
+				<Damage>80/s</Damage>
+				<Casting>Cylindrical Spell Field</Casting>
+				<Critical_Hit>No</Critical_Hit>
+				<Special_Effect>Attacks will target the nearest enemy to the crosshair, dealing damage</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102591</id>
+			<name>Dark Teleportation</name>
+			<type>Normal</type>
+			<description>Enshroud nearby allies in the Darkforce Dimension and grant them &lt;Buff&gt;Phased&lt;/&gt;, making them untargetable and invisible to enemies and granting them a &lt;Buff&gt;Movement Boost&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>10m spherical radius</Range>
+				<Casting>Persistent Spell Field</Casting>
+				<Cooldown>Veil of Lightforce &amp; Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown</Cooldown>
+				<Duration>2s</Duration>
+				<Special_Effect>Allies within the area gain Invisibility and Movement Boost</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102511</id>
+			<name>Lightforce Dagger</name>
+			<type>Weapon</type>
+			<description>Unleash a bouncing &lt;Orange&gt;Lightforce Dagger&lt;/&gt; to damage enemies and heal nearby allies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>12</Ammo>
+				<Range>8m spherical radius</Range>
+				<Damage>18 damage per round</Damage>
+				<Casting>Single-cast projectile that generates a spell area upon impact</Casting>
+				<Fire_Rate>2.27 hits per second</Fire_Rate>
+				<Critical_Hit>No</Critical_Hit>
+				<Special_Effect>The projectile features an attraction effect, pulling in the closest target to the crosshair and creating a spell field upon impact. This spell field provides healing effects</Special_Effect>
+				<Healing_Per_Hit>16 per hit</Healing_Per_Hit>
+				<Area_of_Effect_Healing>16 per hit</Area_of_Effect_Healing>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>102541</id>
+			<name>Dagger Storm</name>
+			<type>Normal</type>
+			<description>Launch a volley of daggers, creating a &lt;Buff&gt;Healing-Over-Time&lt;/&gt; field in the impact area. Allies in the area gain One-Time Healing when the field appears.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>5m spherical radius</Range>
+				<Casting>Single-cast projectile with delayed impact that also generates a spell field</Casting>
+				<Cooldown>Veil of Lightforce &amp; Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown</Cooldown>
+				<Duration>6s</Duration>
+				<Healing_Amount>45/s</Healing_Amount>
+				<Special_Effect>When a Spell Field is created, allies in range get a One-Time Healing of 60</Special_Effect>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>102551</id>
+			<name>Shadow's Embrace</name>
+			<type>Normal</type>
+			<description>Switch to Cloak.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Instant Cast</Casting>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>102552</id>
+			<name>Light's Embrace</name>
+			<type>Normal</type>
+			<description>Switch to Dagger.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Instant Cast</Casting>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>102561</id>
+			<name>Light Explosion</name>
+			<type>Normal</type>
+			<description>Deploy a Veil of Lightforce to heal allies upon touch and grant them a &lt;Buff&gt;Healing Boost&lt;/&gt;.</description>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>102562</id>
+			<name>Terror Cape</name>
+			<type>Normal</type>
+			<description>Deploy a Veil of Darkforce to damage enemies upon touch, applying &lt;Debuff&gt;Blind&lt;/&gt; to narrow their sight and &lt;Debuff&gt;Vulnerability&lt;/&gt; to amplify damage received.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>Width: 6m, Height: 4.5m</Range>
+				<Damage>55</Damage>
+				<Casting>Spell Field</Casting>
+				<Cooldown>12s</Cooldown>
+				<Vulnerability>28%</Vulnerability>
+				<Movement_Speed>20m/s</Movement_Speed>
+				<Special_Effect>The spell field advances along the casting path</Special_Effect>
+				<Maximum_Distance>25m</Maximum_Distance>
+				<Blinding_Duration>1.5s</Blinding_Duration>
+				<Vulnerability_Duration>3s</Vulnerability_Duration>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>102571</id>
+			<name>Eternal Bond</name>
+			<type>Ultimate</type>
+			<description>Perform four rapid dashes, healing allies and damaging enemies along the path.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>A cylindrical spell field with a 4m radius and 15m in length</Range>
+				<Damage>30/s</Damage>
+				<Casting>Persistent Spell Field</Casting>
+				<Duration>13s</Duration>
+				<Energy_Cost>4500</Energy_Cost>
+				<Healing_Amount>250/s</Healing_Amount>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>102581</id>
+			<name>Darkforce Cloak</name>
+			<type>Weapon</type>
+			<description>Inflict continuous damage to an enemy.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>∞</Ammo>
+				<Range>20m</Range>
+				<Damage>80/s</Damage>
+				<Casting>Cylindrical Spell Field</Casting>
+				<Critical_Hit>No</Critical_Hit>
+				<Special_Effect>Attacks will target the nearest enemy to the crosshair, dealing damage</Special_Effect>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>102591</id>
+			<name>Dark Teleportation</name>
+			<type>Normal</type>
+			<description>Enshroud nearby allies in the Darkforce Dimension and grant them &lt;Buff&gt;Phased&lt;/&gt;, making them untargetable and invisible to enemies and granting them a &lt;Buff&gt;Movement Boost&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>10m spherical radius</Range>
+				<Casting>Persistent Spell Field</Casting>
+				<Cooldown>Veil of Lightforce &amp; Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown</Cooldown>
+				<Duration>2s</Duration>
+				<Special_Effect>Allies within the area gain Invisibility and Movement Boost</Special_Effect>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>7.00</rank>
+			<mover_shaker>38.00</mover_shaker>
+			<rank_calc>4.14</rank_calc>
+			<mover_shaker_calc>-3.15</mover_shaker_calc>
+			<ZScore>-0.01</ZScore>
+			<winrate>48.01</winrate>
+			<pickrate>49.22</pickrate>
+			<banrate>1.07</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>49.78</winrate_prev>
+			<pickrate_prev>21.45</pickrate_prev>
+			<banrate_prev>0.40</banrate_prev>
+			<winrate_change>-4.00</winrate_change>
+			<pickrate_change>129.00</pickrate_change>
+			<banrate_change>168.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>17.00</rank>
+			<mover_shaker>5.00</mover_shaker>
+			<rank_calc>3.96</rank_calc>
+			<mover_shaker_calc>1.47</mover_shaker_calc>
+			<ZScore>0.24</ZScore>
+			<winrate>49.78</winrate>
+			<pickrate>21.45</pickrate>
+			<banrate>0.40</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>48.22</winrate_prev>
+			<pickrate_prev>46.80</pickrate_prev>
+			<banrate_prev>1.10</banrate_prev>
+			<winrate_change>3.00</winrate_change>
+			<pickrate_change>-54.00</pickrate_change>
+			<banrate_change>-64.00</banrate_change>
+		</item>
+	</meta>
+</all>

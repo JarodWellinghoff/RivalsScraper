@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1028</id>
+	<name>Ultron</name>
+	<real_name>Ultron</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Ultron</name>
+			<health>250</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>The pinnacle of artificial lifeforms, Ultron is programmed to learn and adapt in ways far beyond human capability. He can summon an army of automated drones that obey his every command, raising his chances of victory exponentially.</description>
+	<team>
+		<item>Villains</item>
+	</team>
+	<difficulty>2</difficulty>
+	<attack_type>Hitscan Heroes</attack_type>
+	<role>STRATEGIST</role>
+	<abilities>
+		<item>
+			<id>102811</id>
+			<name>Algorithm Correction</name>
+			<type>Normal</type>
+			<description>HOLD {Jump} to fall slowly.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102812</id>
+			<name>Ultron Descends</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102831</id>
+			<name>Encephalo-ray</name>
+			<type>Weapon</type>
+			<description>Unleash a burning energy beam.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>6</Ammo>
+				<Damage>First beam 6 rounds in 0.5s, 12 per hit; second single-cast spell field 75 per hit</Damage>
+				<Casting>First constant beam; Second single-cast cylindrical spell field</Casting>
+				<Fire_Rate>1.58s per round</Fire_Rate>
+				<Damage_Falloff>Falloff begins at 20m, decreasing to 75% at 30m</Damage_Falloff>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102832</id>
+			<name>Nano Ray</name>
+			<type>Weapon</type>
+			<additional_fields>
+				<Key>C</Key>
+				<Ammo>Infinite</Ammo>
+				<Heal>85/s</Heal>
+				<Range>2.5m radius, infinite length cylindrical spell field</Range>
+				<Damage>70/s</Damage>
+				<Casting>Channeled</Casting>
+				<Cooldown>30s</Cooldown>
+				<Critical_Hit>No</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 20m, decreasing to 75% at 30m</Damage_Falloff>
+				<Spell_Field_Duration>8s</Spell_Field_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102841</id>
+			<name>Imperative: Firewall</name>
+			<type>Normal</type>
+			<description>Deploy drones to an ally marked by &lt;Orange&gt;Imperative: Patch&lt;/&gt;, granting them increased &lt;Buff&gt;Speed&lt;/&gt; and &lt;Buff&gt;Damage&lt;/&gt;. Additionally, all allies within range of you and the chosen teammate receive &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>8m spherical radius spell field</Range>
+				<Casting>Instant Cast</Casting>
+				<Cooldown>10s</Cooldown>
+				<Special_Effect>Grant bonus health to Ultron and Allies within range, centered around Ultron and the drones; the selected ally gains a 20% Movement Speed and 10% Damage boost</Special_Effect>
+				<Bonus_Health_to_Ultron>65</Bonus_Health_to_Ultron>
+				<Bonus_Health_Falloff_Speed>40/s</Bonus_Health_Falloff_Speed>
+				<Bonus_Health_Falloff_Begins_at>3s</Bonus_Health_Falloff_Begins_at>
+				<Bonus_Health_to_allies_near_Ultron_and_the_drones>50</Bonus_Health_to_allies_near_Ultron_and_the_drones>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102861</id>
+			<name>Dynamic Flight</name>
+			<type>Normal</type>
+			<description>Fly quickly in the direction of movement and then enter an &lt;Buff&gt;Accelerated&lt;/&gt; state.</description>
+			<additional_fields>
+				<Key>Shift</Key>
+				<Casting>Dash</Casting>
+				<Cooldown>8s</Cooldown>
+				<Dash_Distance>12m</Dash_Distance>
+				<Dash_Direction>Reticle direction combined with key input</Dash_Direction>
+				<Movement_Boost>40%</Movement_Boost>
+				<Special_Effect>Dynamic Flight can trigger a one-time dash followed by an constant accelerated effect.</Special_Effect>
+				<Accelerate_Duration>6s</Accelerate_Duration>
+				<Bonus_Health_Self>50</Bonus_Health_Self>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102871</id>
+			<name>Imperative: Patch</name>
+			<type>Normal</type>
+			<description>Command up to 2 giant drones to follow 2 allies, constantly healing allies within its radius, with more healing for the designated allies.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Targeted</Casting>
+				<Maximum_Vision>35m</Maximum_Vision>
+				<Special_Effect>Imperative: Patch can deploy up to 2 drones, allowing support for two allies at once</Special_Effect>
+				<Target_Distance>25m</Target_Distance>
+				<Drone_Healing_Range>8m spherical radius spell field</Drone_Healing_Range>
+				<Healing_Amount_to_the_Targeted_ally>35/s</Healing_Amount_to_the_Targeted_ally>
+				<Max_Tolerance_Duration_out_of_Sight>5s</Max_Tolerance_Duration_out_of_Sight>
+				<Healing_Amount_to_other_allies_within_range>30/s</Healing_Amount_to_other_allies_within_range>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102881</id>
+			<name>Rage Of Ultron</name>
+			<type>Ultimate</type>
+			<description>Summon Ultron Drones to fire Encephalo-Rays, damaging enemies or healing allies. Deals enhanced damage against &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Straight-line projectile that generates a spell field upon impact.</Casting>
+				<Duration>9s</Duration>
+				<Beam_Damage>8</Beam_Damage>
+				<Energy_Cost>4000</Energy_Cost>
+				<Special_Effect>Within the ultimate duration, Ultron grants an Unstoppable effect; Deals 125% damage to Bonus Health</Special_Effect>
+				<Projectile_Speed>120m/s</Projectile_Speed>
+				<Total_Ray_Amount>5</Total_Ray_Amount>
+				<Spell_Field_Range>3m spherical radius spell field</Spell_Field_Range>
+				<Beam_Healing_Amount>25</Beam_Healing_Amount>
+				<Ray_Amount_per_Shot>5</Ray_Amount_per_Shot>
+				<Ultimate_Self-healing>50/s</Ultimate_Self-healing>
+				<Ultimate_Total_Fire_Rounds>5 rounds</Ultimate_Total_Fire_Rounds>
+				<Fire_Interval_Between_Shots>0.2s</Fire_Interval_Between_Shots>
+				<Fire_Interval_Between_Rounds>0.5s</Fire_Interval_Between_Rounds>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102891</id>
+			<name>Nano Ray Activation</name>
+			<type>Normal</type>
+			<description>When Iron Man, Ultron, and Squirrel Girl team up, Ultron's &lt;Orange&gt;Encephalo-Ray&lt;/&gt; upgrades to &lt;Orange&gt;Nano-Ray&lt;/&gt;, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the &lt;Orange&gt;Squirrel Missile&lt;/&gt; ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!</description>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>5.00</rank>
+			<mover_shaker>28.00</mover_shaker>
+			<rank_calc>4.17</rank_calc>
+			<mover_shaker_calc>-0.36</mover_shaker_calc>
+			<ZScore>0.20</ZScore>
+			<winrate>52.17</winrate>
+			<pickrate>10.36</pickrate>
+			<banrate>0.30</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>52.26</winrate_prev>
+			<pickrate_prev>9.72</pickrate_prev>
+			<banrate_prev>0.26</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>7.00</pickrate_change>
+			<banrate_change>15.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>7.00</rank>
+			<mover_shaker>6.00</mover_shaker>
+			<rank_calc>4.18</rank_calc>
+			<mover_shaker_calc>0.83</mover_shaker_calc>
+			<ZScore>0.22</ZScore>
+			<winrate>52.26</winrate>
+			<pickrate>9.72</pickrate>
+			<banrate>0.26</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>52.43</winrate_prev>
+			<pickrate_prev>11.12</pickrate_prev>
+			<banrate_prev>0.42</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>-13.00</pickrate_change>
+			<banrate_change>-38.00</banrate_change>
+		</item>
+	</meta>
+</all>

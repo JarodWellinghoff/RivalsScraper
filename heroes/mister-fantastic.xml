@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1040</id>
+	<name>Mister Fantastic</name>
+	<real_name>Reed Richards</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Mister Fantastic</name>
+			<health>375</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Reed Richards believes that true strength comes from remaining flexible, both mentally and physically. Mister Fantastic's elastic body, which can twist and stretch into any form with ease, is almost as impressive as his brilliant mind.</description>
+	<team>
+		<item>Fantasticfour</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>104001</id>
+			<name>Elastic Strength</name>
+			<type>Normal</type>
+			<description>Using abilities generates &lt;Orange&gt;Elasticity&lt;/&gt;. Reaching full &lt;Orange&gt;Elasticity&lt;/&gt; triggers an Inflated state that increases Maximum Health, boosts damage, and enables the use of &lt;Orange&gt;Reflexive Rubber&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Damage>80</Damage>
+				<Max_Elasticity>100</Max_Elasticity>
+				<Movement_Boost>20%</Movement_Boost>
+				<Special_Effect>gain 350 Maximum Health and a one-time heal of 350, which is removed upon exiting the Inflated state</Special_Effect>
+				<Attack_Interval>0.92s per hit</Attack_Interval>
+				<Maximum_Distance>8m</Maximum_Distance>
+				<Inflated_Duration>6s</Inflated_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104004</id>
+			<name>Inflated-standard Shapeshift</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104006</id>
+			<name>Standard-distended Shapeshift</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104011</id>
+			<name>Stretch Punch</name>
+			<type>Weapon</type>
+			<description>Stretch out a forward punch to attack enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>Infinite</Ammo>
+				<Casting>Straight Spell Field</Casting>
+				<Critical_Hit>None</Critical_Hit>
+				<Attack_Interval>1.1s per hit</Attack_Interval>
+				<Special_Mechanic>Swinging your arms can attack multiple targets</Special_Mechanic>
+				<Gained_Elasticity>8</Gained_Elasticity>
+				<Spell_Field_Range>15m</Spell_Field_Range>
+				<Spell_Field_Damage>65</Spell_Field_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104013</id>
+			<name>Inflated State Elastic Strike</name>
+			<type>Weapon</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104031</id>
+			<name>Distended Grip</name>
+			<type>Normal</type>
+			<description>Extend arms forward to entangle an enemy, then press {PrimaryAttack} to pull the hit enemy toward you, or select and yank another enemy, &lt;Debuff&gt;knocking them airborne&lt;/&gt; against each other. Hit targets are &lt;Debuff&gt;Immobilized&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Casting>Projectile that fires in a straight trajectory</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>After successfully pulling an enemy with Distended Grip, the target is afflicted with a 1-second immobilize effect</Special_Effect>
+				<Projectile_Speed>60 m/s</Projectile_Speed>
+				<Gained_Elasticity>30</Gained_Elasticity>
+				<Dual-Target_Pull_Damage>30</Dual-Target_Pull_Damage>
+				<Initial_Projectile_Range>20m</Initial_Projectile_Range>
+				<Single-Target_Pull_Range>10m</Single-Target_Pull_Range>
+				<Initial_Projectile_Damage>20</Initial_Projectile_Damage>
+				<Single-Target_Pull_Damage>50</Single-Target_Pull_Damage>
+				<Secondary_Projectile_Damage>20</Secondary_Projectile_Damage>
+				<Secondary_Release_Maximum_Distance>25m</Secondary_Release_Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104032</id>
+			<name>Distended Grip Additionally Activates Left-hand Attack</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104041</id>
+			<name>Flexible Elongation</name>
+			<type>Normal</type>
+			<description>Gain a &lt;Buff&gt;Shield&lt;/&gt;, select a target, and dash towards them, dealing damage to enemies and granting a &lt;Buff&gt;Shield&lt;/&gt; to allies.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>30</Damage>
+				<Charges>2</Charges>
+				<Cooldown>8s</Cooldown>
+				<Slow_Rate>-35%</Slow_Rate>
+				<Slow_Duration>1.5s</Slow_Duration>
+				<Gained_Elasticity>20</Gained_Elasticity>
+				<Maximum_Select_Distance>15m</Maximum_Select_Distance>
+				<Bonus_Health_Ally>75</Bonus_Health_Ally>
+				<Bonus_Health_Self>75</Bonus_Health_Self>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104051</id>
+			<name>Reflexive Rubber</name>
+			<type>Normal</type>
+			<description>Stretch body to absorb damage before launching stored damage in the targeted direction.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Cooldown>12s</Cooldown>
+				<Shield_Value>300</Shield_Value>
+				<Self_Slow_Rate>-35%</Self_Slow_Rate>
+				<Maximum_Duration>3s</Maximum_Duration>
+				<Reflected_Projectile_Speed>80 m/s</Reflected_Projectile_Speed>
+				<Damage_Absorbed_-_Damage_Reflected_Conversion_Rate>60%</Damage_Absorbed_-_Damage_Reflected_Conversion_Rate>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104052</id>
+			<name>Reflexive Rubber: Standard Wall - Standard</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104061</id>
+			<name>Brainiac Bounce</name>
+			<type>Ultimate</type>
+			<description>Leap upward and smash the ground, &lt;Debuff&gt;slowing&lt;/&gt; enemies within range. Can leap again upon landing a hit.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>10m spherical radius</Range>
+				<Casting>Spherical Spell Field</Casting>
+				<Slow_Rate>Per Leap -10%, Can Stack, Max -60%</Slow_Rate>
+				<Energy_Cost>3400</Energy_Cost>
+				<Maximum_Leaps>6</Maximum_Leaps>
+				<Minimum_Leaps>3</Minimum_Leaps>
+				<Slow_Duration>3s</Slow_Duration>
+				<Damage_Falloff>Start at 3m, 71.4% falloff at 10m</Damage_Falloff>
+				<Special_Mechanic>When Mister Fantastic uses Brainiac Bounce (Ultimate Ability), immediately gain Bonus Health equal to that gained when entering inflated state</Special_Mechanic>
+				<Spell_Field_Damage>Initial 70, Each Additional Leap +14, Max 140</Spell_Field_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>17.00</rank>
+			<mover_shaker>13.00</mover_shaker>
+			<rank_calc>3.98</rank_calc>
+			<mover_shaker_calc>0.51</mover_shaker_calc>
+			<ZScore>0.26</ZScore>
+			<winrate>51.39</winrate>
+			<pickrate>7.34</pickrate>
+			<banrate>0.18</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>51.99</winrate_prev>
+			<pickrate_prev>7.72</pickrate_prev>
+			<banrate_prev>0.25</banrate_prev>
+			<winrate_change>-1.00</winrate_change>
+			<pickrate_change>-5.00</pickrate_change>
+			<banrate_change>-28.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>14.00</rank>
+			<mover_shaker>16.00</mover_shaker>
+			<rank_calc>4.03</rank_calc>
+			<mover_shaker_calc>0.21</mover_shaker_calc>
+			<ZScore>0.20</ZScore>
+			<winrate>51.99</winrate>
+			<pickrate>7.72</pickrate>
+			<banrate>0.25</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>52.06</winrate_prev>
+			<pickrate_prev>11.70</pickrate_prev>
+			<banrate_prev>0.36</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>-34.00</pickrate_change>
+			<banrate_change>-31.00</banrate_change>
+		</item>
+	</meta>
+</all>

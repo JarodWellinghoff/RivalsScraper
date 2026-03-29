@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1031</id>
+	<name>Luna Snow</name>
+	<real_name>Seol Hee</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Luna Snow</name>
+			<health>275</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Equal parts pop star and Super Hero, Luna Snow puts on a dazzling show with both her light and dark ice powers. The arena is her stage, where Seol Hee and her team orchestrate spectacular displays that earn her an ever-increasing number of fans and wins.</description>
+	<team>
+		<item>Agentsofatlas</item>
+	</team>
+	<difficulty>2</difficulty>
+	<attack_type>Hitscan Heroes</attack_type>
+	<role>STRATEGIST</role>
+	<abilities>
+		<item>
+			<id>103111</id>
+			<name>Smooth Skate</name>
+			<type>Normal</type>
+			<description>Keep moving forward to start ice skating and enable higher jumps.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Skating_Speed>9.6m/s</Skating_Speed>
+				<Time_Required_to_Start_Skating>0.5s</Time_Required_to_Start_Skating>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103121</id>
+			<name>Ice Blade</name>
+			<type>Melee</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103131</id>
+			<name>Light &amp; Dark Ice</name>
+			<type>Weapon</type>
+			<description>Fire ice shots that damage enemies or heal allies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>30</Ammo>
+				<Damage>22 damage per round, for a total of 66 damage</Damage>
+				<Casting>A triple shot that hits instantly</Casting>
+				<Fire_Rate>0.5s for three shots. The interval between the first two shots is 0.05s</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 20m, decreasing to 70% at 40m</Damage_Falloff>
+				<Healing_Amount>22 health per round, for a total of 66 health</Healing_Amount>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103141</id>
+			<name>Ice Arts</name>
+			<type>Normal</type>
+			<description>Fire ice shards for a short duration, damaging enemies or healing allies while restoring her own Health. Participating in a KO reduces the cooldown of &lt;Orange&gt;Ice Arts&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>A cylindrical spell field with a radius of 1m and a height of 40m</Range>
+				<Damage>50 damage per round</Damage>
+				<Casting>Single-cast spell field that pierces through enemies</Casting>
+				<Cooldown>15s</Cooldown>
+				<Duration>6s</Duration>
+				<Fire_Rate>1.43 rounds per second</Fire_Rate>
+				<Healing_Amount>75 health per round</Healing_Amount>
+				<Special_Effect>Replace the previous Light &amp; Dark Ice cast</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103142</id>
+			<name>Ice Shards</name>
+			<type>Weapon</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103151</id>
+			<name>Absolute Zero</name>
+			<type>Normal</type>
+			<description>Cast a clump of ice to &lt;Debuff&gt;Freeze&lt;/&gt; the hit enemy and restore Health. Landing a hit grants &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>50</Damage>
+				<Casting>Single-cast projectile with delayed impact</Casting>
+				<Cooldown>12s</Cooldown>
+				<Special_Effect>Freeze enemies for 2.7s. However, if they are attacked during the last 2.2s of the freeze, the effect will be canceled. Grants 50 Bonus Health per enemy hit</Special_Effect>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103161</id>
+			<name>Share The Stage</name>
+			<type>Normal</type>
+			<description>Attach &lt;Orange&gt;Idol Aura&lt;/&gt; to an ally. Allies with &lt;Orange&gt;Idol Aura&lt;/&gt; also restore Health when Luna Snow is healing others.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Targeted</Casting>
+				<Healing_Boost>35%</Healing_Boost>
+				<Special_Effect>Provide healing to allies marked with Idol Aura</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103162</id>
+			<name>Idol Aura</name>
+			<type>Normal</type>
+			<description>Automatically restore Health when casting &lt;Orange&gt;Ice Arts&lt;/&gt; or &lt;Orange&gt;Absolute Zero&lt;/&gt;.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103171</id>
+			<name>Fate Of Both Worlds</name>
+			<type>Ultimate</type>
+			<description>Take center stage and start dancing! Toggle between two performances: Heal allies or grant them &lt;Buff&gt;Damage Boost&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Persistent spell field that surrounds the caster</Casting>
+				<Duration>10s</Duration>
+				<Energy_Cost>5000</Energy_Cost>
+				<Damage_Boost>40%</Damage_Boost>
+				<Shield_Value>250</Shield_Value>
+				<Healing_Amount>250/s</Healing_Amount>
+				<Cast_to_heal_the_ally_once>200</Cast_to_heal_the_ally_once>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103193</id>
+			<name>Frozen Chi</name>
+			<type>Normal</type>
+			<description>Iron Fist channels the Chi of Shou-Lao into Luna Snow, transforming her ice power into a Chi-infused frosty ring that radiates from her. This ring can launch up enemies with chilling damage and applies a slowing effect, while simultaneously healing her allies.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103194</id>
+			<name>Winter's Chill</name>
+			<type>Normal</type>
+			<description>Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates &lt;Orange&gt;Harmony Recovery&lt;/&gt;, he can heal nearby allies with &lt;Orange&gt;Lunar Chi&lt;/&gt;. Emma Frost can project ice energy forward, dealing damage and &lt;Debuff&gt;slowing&lt;/&gt; enemies. She can also enhance her diamond form, condensing frost into an &lt;Orange&gt;Iced Out Diamond&lt;/&gt; barrier that blocks enemy attacks and movement.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103197</id>
+			<name>Spirit Fox Accord</name>
+			<type>Normal</type>
+			<description>White Fox grants Luna Snow a spirit fox for protection. Luna can activate it for a burst of &lt;Buff&gt;speed&lt;/&gt; and fire it forward, healing allies in its path while applying &lt;Debuff&gt;Charm&lt;/&gt; to enemies.</description>
+			<additional_fields>
+				<Key>C</Key>
+				<Damage>35</Damage>
+				<Cooldown>20s</Cooldown>
+				<Charm_Duration>0.4s</Charm_Duration>
+				<Healing_Amount>60</Healing_Amount>
+				<Projectile_Speed>60 m/s</Projectile_Speed>
+				<Charm_Area_Radius>0.8m</Charm_Area_Radius>
+				<Damage_Area_Radius>3m</Damage_Area_Radius>
+				<Movement_Boost_Self>30% for 4s</Movement_Boost_Self>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>15.00</rank>
+			<mover_shaker>15.00</mover_shaker>
+			<rank_calc>4.03</rank_calc>
+			<mover_shaker_calc>0.32</mover_shaker_calc>
+			<ZScore>0.25</ZScore>
+			<winrate>47.44</winrate>
+			<pickrate>39.49</pickrate>
+			<banrate>1.29</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>47.09</winrate_prev>
+			<pickrate_prev>38.26</pickrate_prev>
+			<banrate_prev>1.34</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>3.00</pickrate_change>
+			<banrate_change>-4.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>16.00</rank>
+			<mover_shaker>36.00</mover_shaker>
+			<rank_calc>3.99</rank_calc>
+			<mover_shaker_calc>-2.94</mover_shaker_calc>
+			<ZScore>0.11</ZScore>
+			<winrate>47.09</winrate>
+			<pickrate>38.26</pickrate>
+			<banrate>1.34</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>47.20</winrate_prev>
+			<pickrate_prev>37.97</pickrate_prev>
+			<banrate_prev>0.68</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>1.00</pickrate_change>
+			<banrate_change>97.00</banrate_change>
+		</item>
+	</meta>
+</all>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1059</id>
+	<name>Elsa Bloodstone</name>
+	<real_name>Elsa Bloodstone</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Elsa Bloodstone</name>
+			<health>275</health>
+			<movement_speed>600</movement_speed>
+		</item>
+	</transformations>
+	<description>Born into a line of legendary monster hunters, Elsa Bloodstone boasts incredible physical prowess and an innate talent for subduing the creepiest of creatures. The instinct to hunt is in her blood, and every foe she faces inevitably becomes prey ensnared in her traps!</description>
+	<team>
+		<item>Midnightsons</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Hitscan Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>105901</id>
+			<name>Inherited Instinct</name>
+			<type>Normal</type>
+			<description>Dealing damage increases hunting &lt;Orange&gt;Instinct&lt;/&gt;. Defeating enemies caught by &lt;Orange&gt;Smoky Snare&lt;/&gt; grants additional &lt;Orange&gt;Instinct&lt;/&gt;. Higher &lt;Orange&gt;Instinct&lt;/&gt; reduces the cooldown of &lt;Orange&gt;Helix Advance&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>PASSIVE</Key>
+				<Special_Effect_1>Instinct levels up when it reaches 100, up to 3 levels</Special_Effect_1>
+				<Special_Effect_2>For each Instinct level gained, reduce the cooldown of Helix Advance by 2s</Special_Effect_2>
+				<Instinct_from_KOs>100</Instinct_from_KOs>
+				<key name="Damage/Instinct Conversion Rate">0.06</key>
+				<Additional_Instinct_from_KOs_Caught_by_Smoky_Snare>200</Additional_Instinct_from_KOs_Caught_by_Smoky_Snare>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105911</id>
+			<name>Double-barrel Blaster</name>
+			<type>Weapon</type>
+			<description>Fire your shotgun forward.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>8</Ammo>
+				<Damage>4.5 per round</Damage>
+				<Casting>Shotgun projectiles that hit instantly</Casting>
+				<Fire_Rate>The firing interval between shots is 0.12s, with an interval of 0.8s between each round of shooting</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 20m, decreasing to 70% at 30m</Damage_Falloff>
+				<Bullets_Fired_Each_Cast>10</Bullets_Fired_Each_Cast>
+				<Crosshair_Spread_Radiusat_10m>0.13m</Crosshair_Spread_Radiusat_10m>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105912</id>
+			<name>Monster-piercer</name>
+			<type>Weapon</type>
+			<description>Unleash your elephant gun forward. Bullets pierce enemies and deal high damage.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>13+1.2% of enemy's maximum health</Damage>
+				<Casting>Shotgun projectiles that hit instantly</Casting>
+				<Critical_Hit>No</Critical_Hit>
+				<Bullets_Fired_Each_Cast>5</Bullets_Fired_Each_Cast>
+				<Crosshair_Spread_Radius_at_10m>6m</Crosshair_Spread_Radius_at_10m>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105921</id>
+			<name>Ruthless Pursuit</name>
+			<type>Normal</type>
+			<description>Dash forward, gaining &lt;Buff&gt;Bonus Health&lt;/&gt; and launching enemies hit. Follow up with a &lt;Orange&gt;Double-Barrel Blaster&lt;/&gt; shot that propels you backward and &lt;Debuff&gt;Slows&lt;/&gt; enemies. Using either stage empowers your next &lt;Orange&gt;Double-Barrel Blaster&lt;/&gt;, transforming it into &lt;Orange&gt;Monster-Piercer&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>30</Damage>
+				<Casting>Movement-based damage ability</Casting>
+				<Cooldown>8s</Cooldown>
+				<Follow_Up> </Follow_Up>
+				<Dash_Speed>15 m/s</Dash_Speed>
+				<Bonus_Health>Every unleash of Ruthless Pursuit and Helix Advance grants 40 bonus health. Max bonus health is 75</Bonus_Health>
+				<Max_Dash_Speed>40m/s</Max_Dash_Speed>
+				<Special_Effect_1>Launch up enemies hit, and activate the follow up in 5s</Special_Effect_1>
+				<Special_Effect_2>Using either stage empowers your next Double-Barrel Blaster, transforming it into Monster-Piercer</Special_Effect_2>
+				<Max_Dash_Duration>0.3s</Max_Dash_Duration>
+				<Max_Damage_Distance>8m</Max_Damage_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105923</id>
+			<name>Follow Up</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105931</id>
+			<name>Helix Advance</name>
+			<type>Normal</type>
+			<description>Dash in your movement direction. Your next &lt;Orange&gt;Double-Barrel Blaster&lt;/&gt; becomes &lt;Orange&gt;Monster-Piercer&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Shift</Key>
+				<Cooldown>8s</Cooldown>
+				<Max_Dash_Speed>27.5m/s</Max_Dash_Speed>
+				<Special_Effect>In 6s after unleashing Helix Advance, the next Double-Barrel Blaster becomes Monster-Piercer</Special_Effect>
+				<Special_Effect_2>Every unleash of Ruthless Pursuit and Helix Advance grants 40 bonus health. Max bonus health is 75</Special_Effect_2>
+				<Max_Dash_Duration>0.28s</Max_Dash_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105941</id>
+			<name>Living Bullet</name>
+			<type>Normal</type>
+			<description>Fire a Living Bullet round that splits upon impact, seeking nearby enemies and marking each with a &lt;Orange&gt;Spectral Sigil&lt;/&gt;. Hitting marked targets with &lt;Orange&gt;Double-Barrel Blaster&lt;/&gt; or &lt;Orange&gt;Monster-Piercer&lt;/&gt; grants Elsa a brief &lt;Buff&gt;Speed&lt;/&gt; boost. Living Bullets deal extra damage to shields and enemies with &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Cooldown>8s</Cooldown>
+				<Speed_Boost>Increase movement speed by 40% for 1s</Speed_Boost>
+				<Tracing_Range>8m radius spherical spell field</Tracing_Range>
+				<Maximum_Splits>3</Maximum_Splits>
+				<Projectile_Speed>60m/s</Projectile_Speed>
+				<Special_Effect_1>After hits an enemy, the projectile splits to several bullets to trace the enemies in range</Special_Effect_1>
+				<Special_Effect_2>Projectile deals 40 extra damage to shields and enemies with bonus health</Special_Effect_2>
+				<Projectile_Damage>60</Projectile_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105942</id>
+			<name>Bloodstone's Boombox Bullets</name>
+			<type>Normal</type>
+			<description>Deadpool hands Jeff the Land Shark a plushie. Jeff can spit it ahead where it'll continuously &lt;Debuff&gt;Taunt&lt;/&gt; nearby enemies and &lt;Debuff&gt;Block Vision&lt;/&gt;, while allies in range are healed! Elsa Bloodstone's &lt;Orange&gt;Living Bullet&lt;/&gt; changes to special rounds that &lt;Debuff&gt;Taunt&lt;/&gt; targets with Deadpool's chatter, while &lt;Debuff&gt;Slowing&lt;/&gt;, and damaging nearby enemies over time. Elsa can recall the rounds to heal based on damage dealt.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Slow_Effect>Reduce movement speed by 35% for 2s</Slow_Effect>
+				<Taunt_Duration>2s</Taunt_Duration>
+				<Projectile_Speed>60m/s</Projectile_Speed>
+				<Projectile_Damage>First hit: 60; second hit: 40</Projectile_Damage>
+				<Second_Hit_Damage_Over_Time>20/s for 2s</Second_Hit_Damage_Over_Time>
+				<key name="Damage/Healing Conversion Rate">30%</key>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105951</id>
+			<name>Smoky Snare</name>
+			<type>Normal</type>
+			<description>Launch a trap containing the monster Diablo. Once deployed, it becomes &lt;Buff&gt;Invisible&lt;/&gt; and &lt;Buff&gt;Invulnerable&lt;/&gt;. When an enemy triggers it, Diablo &lt;Debuff&gt;Immobilizes&lt;/&gt; and Damages them. Use {Interactive} to dash to the trapped enemy. Enemies can destroy Diablo to break free.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Cooldown>12s</Cooldown>
+				<Trap_Health>100</Trap_Health>
+				<key name="Summons&amp;apos; Health">50</key>
+				<Special_Effect_1>The trap becomes Invisible and Invulnerable after one-second deployment</Special_Effect_1>
+				<Special_Effect_2>Defeat the summon to end the Immobolized state early</Special_Effect_2>
+				<Special_Effect_3>Elsa can dash to the enemy who triggers the trap</Special_Effect_3>
+				<Maximum_Dash_Speed>60m/s</Maximum_Dash_Speed>
+				<Maximum_Dash_Duration>0.25s</Maximum_Dash_Duration>
+				<Triggered_Trap_Damage>Cause 5 damage every 0.2s, last 1.2s</Triggered_Trap_Damage>
+				<Maximum_Select_Distance>30m</Maximum_Select_Distance>
+				<Maximum_Immobilizing_Duration>1.2s</Maximum_Immobilizing_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105981</id>
+			<name>Apex Predator</name>
+			<type>Ultimate</type>
+			<description>Summon the Glartrox to charge forward. The Glartrox can be recalled to charge back toward Elsa. When colliding with terrain or upon return, it bites fiercely, dealing heavy damage.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Energy_Cost>3400</Energy_Cost>
+				<Special_Effect>Glartrox cannot be critical hit. Drag 8 targets at most</Special_Effect>
+				<Glartrox_Health>400</Glartrox_Health>
+				<Special_Effect_1>Enemies seized by Glartrox cannot use their abilities until it stops moving</Special_Effect_1>
+				<Special_Effect_2>Elsa can recall Glartrox at any time</Special_Effect_2>
+				<Special_Effect_3>When the Glartrox collides with terrain, returns, or reaches its maximum dash duration, it bites fiercely, dealing massive damage. If Glartrox is defeated, the bite will not be triggered</Special_Effect_3>
+				<Glartrox_Bite_Damage>125</Glartrox_Bite_Damage>
+				<Glartrox_Seize_Damage>75</Glartrox_Seize_Damage>
+				<Glartrox_Movement_Speed>15m/s</Glartrox_Movement_Speed>
+				<Glartrox_Maximum_Dash_Duration>Maximum durations for dashing and returning are 3.5s each</Glartrox_Maximum_Dash_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+</all>

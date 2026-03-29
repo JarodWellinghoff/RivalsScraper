@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1039</id>
+	<name>Thor</name>
+	<real_name>Thor Odinson</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Thor</name>
+			<health>600</health>
+			<movement_speed>6.5 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>The son of Odin taps into his divine power to call forth thunder and lightning, raining down relentless fury upon his enemies. With his mighty hammer Mjölnir in hand, Thor effortlessly asserts his dominance on the field of combat.</description>
+	<team>
+		<item>Avengers</item>
+		<item>Godsofasgard</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>VANGUARD</role>
+	<abilities>
+		<item>
+			<id>103901</id>
+			<name>Thorforce</name>
+			<type>Normal</type>
+			<description>Consume &lt;Orange&gt;Thorforce&lt;/&gt; to gain &lt;Buff&gt;Bonus Health&lt;/&gt;. Landing &lt;Orange&gt;Mjölnir Bash&lt;/&gt; on an enemy instantly recharges &lt;Orange&gt;Thorforce&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Bonus_Max_Health>150</Bonus_Max_Health>
+				<Maximum_Thorforce>3</Maximum_Thorforce>
+				<Thorforce_Recovery_Speed>5s per Thorforce</Thorforce_Recovery_Speed>
+				<Bonus_Health_Per_Thorforce>Each point of Thorforce consumed grants 50 Bonus Health, while abilities that consume 3 points of Thorforce grant 150 Bonus Health</Bonus_Health_Per_Thorforce>
+				<Thorforce_Consumption_Cooldown>1.5s</Thorforce_Consumption_Cooldown>
+				<Mjolnir_Bash_Energy_Recovery_Per_Thorforce>5s</Mjolnir_Bash_Energy_Recovery_Per_Thorforce>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103911</id>
+			<name>Mjölnir Bash</name>
+			<type>Weapon</type>
+			<description>Wield Mjölnir to strike enemies. When &lt;Orange&gt;Awakened&lt;/&gt;, Thor can launch lightning arc waves to deal damage.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103921</id>
+			<name>Hammer Throw</name>
+			<type>Normal</type>
+			<description>Throw Mjolnir forward, which then returns. Restore &lt;Orange&gt;Thorforce&lt;/&gt; upon hit and gain &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>Outward Projectile Damage: 45; Returning Projectile Damage: 20</Damage>
+				<Casting>Launch a single-target projectile that returns after a delayed hit</Casting>
+				<Cooldown>6s</Cooldown>
+				<Critical_Hit>No</Critical_Hit>
+				<Special_Effect>Hits grant 50 Bonus Health (only triggers once per throw, even if hitting multiple enemies)</Special_Effect>
+				<Maximum_Distance>24m</Maximum_Distance>
+				<Projectile_Speed>The projectile travels outward at a speed of 60m per second and returns at a speed of 80m per second</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103931</id>
+			<name>Lightning Realm</name>
+			<type>Normal</type>
+			<description>Summon lightning to restore &lt;Orange&gt;Thorforce&lt;/&gt; based on the number of hit enemies. Enemies leaving the Lightning Realm will suffer &lt;Debuff&gt;Slow&lt;/&gt; and &lt;Debuff&gt;Grounded&lt;/&gt; effects.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>5m spherical radius</Range>
+				<Damage>Deal 40 damage when enemies cross the boundaries</Damage>
+				<Casting>Persistent Spell Field</Casting>
+				<Cooldown>12s</Cooldown>
+				<Special_Effect>For each enemy within the spell area, 1 point of Thorforce is restored. Enemies that cross the boundary will be Slowed by 30%, Enemies that cross the boundary will receive an additional debuff that restricts aerial abilities for 2s.</Special_Effect>
+				<Maximum_Duration>4s</Maximum_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103941</id>
+			<name>Storm Surge</name>
+			<type>Normal</type>
+			<description>Hold to spin Mjölnir before dashing forward in the controlled direction, &lt;Debuff&gt;Knocking Back&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Damage>No Charge Damage: 40; Full Charge Damage: 60</Damage>
+				<Casting>Charged Dash</Casting>
+				<Dash_Distance>No charge: 10m; Full charge: 20m. When carrying an enemy, the ranges are 6m with no charge and 13m with full</Dash_Distance>
+				<Thorforce_Cost>1</Thorforce_Cost>
+				<Maximum_Charge_Time>2s</Maximum_Charge_Time>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103951</id>
+			<name>Awakening Rune</name>
+			<type>Normal</type>
+			<description>Consume &lt;Orange&gt;Thorforce&lt;/&gt; to enter the &lt;Orange&gt;Awakened&lt;/&gt; state, granting &lt;Buff&gt;Bonus Health&lt;/&gt; and enhancing Mjölnir Bash. Gain &lt;Orange&gt;Thorforce&lt;/&gt; upon exiting the state.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Range>3m spherical radius</Range>
+				<Damage>Projectile Damage: 70, Spell Field Damage: 15 per second</Damage>
+				<Casting>Ability Enhancement</Casting>
+				<Duration>5s</Duration>
+				<Special_Effect>Inflict damage over time on nearby enemies; After casting Awakening Rune, you can manually cancel the Awakened state after a brief delay. At the end of the Awakened state, Thor restores 1 point of Thunderforce.</Special_Effect>
+				<Thorforce_Cost>3</Thorforce_Cost>
+				<Attack_Interval>The first three stages last for 0.4s each, while the fourth stage lasts for 0.8s</Attack_Interval>
+				<Projectile_Speed>60 m/s</Projectile_Speed>
+				<Max_Shield_Duration>2.5s</Max_Shield_Duration>
+				<Key_Enhanced>Left Click</Key_Enhanced>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103961</id>
+			<name>God Of Thunder</name>
+			<type>Ultimate</type>
+			<description>Soar upwards and smite the ground after charging for a duration, inflicting damage and &lt;Debuff&gt;stunning&lt;/&gt; enemies within range.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>The sustained spell field is cylindrical, measuring 8m in radius and 20m in height, whereas the one-time spell field has an 8m spherical radius</Range>
+				<Damage>The sustained spell field lasts for 0.5s, dealing 40 damage, while the one-time spell field deals 220 damage</Damage>
+				<Height>9m</Height>
+				<Casting>A persistent spell field that generates a one-time spell field upon expiration</Casting>
+				<Duration>1.5s</Duration>
+				<Energy_Cost>3100</Energy_Cost>
+				<Special_Effect>After Ultimate Ability lands, Stun surrounding enemies for 1s</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>10.00</rank>
+			<mover_shaker>29.00</mover_shaker>
+			<rank_calc>4.11</rank_calc>
+			<mover_shaker_calc>-0.40</mover_shaker_calc>
+			<ZScore>0.20</ZScore>
+			<winrate>51.37</winrate>
+			<pickrate>15.32</pickrate>
+			<banrate>0.29</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>51.71</winrate_prev>
+			<pickrate_prev>14.76</pickrate_prev>
+			<banrate_prev>0.26</banrate_prev>
+			<winrate_change>-1.00</winrate_change>
+			<pickrate_change>4.00</pickrate_change>
+			<banrate_change>12.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>8.00</rank>
+			<mover_shaker>32.00</mover_shaker>
+			<rank_calc>4.16</rank_calc>
+			<mover_shaker_calc>-1.01</mover_shaker_calc>
+			<ZScore>0.17</ZScore>
+			<winrate>51.71</winrate>
+			<pickrate>14.76</pickrate>
+			<banrate>0.26</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>50.51</winrate_prev>
+			<pickrate_prev>12.35</pickrate_prev>
+			<banrate_prev>0.16</banrate_prev>
+			<winrate_change>2.00</winrate_change>
+			<pickrate_change>20.00</pickrate_change>
+			<banrate_change>63.00</banrate_change>
+		</item>
+	</meta>
+</all>

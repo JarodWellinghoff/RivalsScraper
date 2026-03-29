@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1046</id>
+	<name>Adam Warlock</name>
+	<real_name>Adam Warlock</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Adam Warlock</name>
+			<health>250</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>The genetically-engineered Adam Warlock wields powerful Quantum Magic, enabling him to connect and heal souls with a gentle touch. When the time comes for his allies to unite, Warlock stands as the unwavering epicenter of cosmic justice!</description>
+	<team>
+		<item>Guardiansofthegalaxy</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Hitscan Heroes</attack_type>
+	<role>STRATEGIST</role>
+	<abilities>
+		<item>
+			<id>104601</id>
+			<name>Regenerative Cocoon</name>
+			<type>Normal</type>
+			<description>Once his body perishes, Adam can freely move as a soul and reforge his body at a chosen spot.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Cooldown>105s</Cooldown>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104611</id>
+			<name>Quantum Magic</name>
+			<type>Weapon</type>
+			<description>Launch quantum energy to deal damage. Critical hits reduce the cooldown of &lt;Orange&gt;Avatar Life Stream&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>15</Ammo>
+				<Damage>60 damage per round</Damage>
+				<Casting>Single-cast direct hit</Casting>
+				<Fire_Rate>2 rounds per second</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 20m, decreasing to 60% at 40m</Damage_Falloff>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104621</id>
+			<name>Cosmic Cluster</name>
+			<type>Normal</type>
+			<description>Gather quantum energy into a cluster and then swiftly launch it at the enemy. Each hit reduces &lt;Orange&gt;Avatar Life Stream&lt;/&gt; charge time.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>38</Damage>
+				<Casting>Charged release, with multiple delayed projectiles</Casting>
+				<Fire_Rate>The firing interval for a single charged shot is 0.3s, while the interval for multiple shots is 0.07s</Fire_Rate>
+				<Special_Effect>Cosmic Cluster shares ammo with Quantum Magic, each hit reduces the cooldown of Avatar Life Stream by 0.3s.</Special_Effect>
+				<Projectile_Speed>100 m/s</Projectile_Speed>
+				<Maximum_Projectile_Count>5</Maximum_Projectile_Count>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104641</id>
+			<name>Avatar Life Stream</name>
+			<type>Normal</type>
+			<description>Target an ally for a bouncing stream of healing energy, which also heals himself upon casting; self-targets if no ally is selected.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>20m spherical radius</Range>
+				<Casting>Targeted</Casting>
+				<Cooldown>2 charges, with each charge taking 6s to recharge; when a critical hit lands on an enemy, reduce the cooldown time of Avatar Life Stream by 1s.</Cooldown>
+				<Healing_Amount>95</Healing_Amount>
+				<Special_Effect>Bouncing target does not include Adam Warlock</Special_Effect>
+				<Number_of_Bounces>2</Number_of_Bounces>
+				<Healing_Amount_Self>35</Healing_Amount_Self>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104651</id>
+			<name>Soul Bond</name>
+			<type>Normal</type>
+			<description>Forge a soul bond with allies, granting &lt;Buff&gt;Healing Over Time&lt;/&gt; and distributing damage taken across the bond. While the bond persists, Adam can fly freely.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>15m</Range>
+				<Casting>Instant Cast</Casting>
+				<Cooldown>40s</Cooldown>
+				<Duration>6s</Duration>
+				<Healing_Amount>15/s</Healing_Amount>
+				<Special_Effect_1>Adam Warlock will share a portion of the damage sustained by linked allies. If Adam Warlock sustains damage that would KO him due to the link, then the link will be broken, and he will retain 1 Health. The link will also break once enough damage is sustained, if Adam Warlock or the linked ally leave the link's range, or after a certain length of time has passed</Special_Effect_1>
+				<Special_Effect_2>Adam can hover and attack during the ability's duration</Special_Effect_2>
+				<Maximum_Damage_Shared_Per_Target>250</Maximum_Damage_Shared_Per_Target>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104661</id>
+			<name>Karmic Revival</name>
+			<type>Ultimate</type>
+			<description>Awaken the karma of allies to revive them. Allies revived have lower health but gain some &lt;Buff&gt;Bonus Health&lt;/&gt; and enjoy a brief period of invincibility.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<ENERGY_COST>30/s</ENERGY_COST>
+				<MAXIMUM_ENERGY>120</MAXIMUM_ENERGY>
+				<MOVEMENT_BOOST>40m/s</MOVEMENT_BOOST>
+				<ENERGY_RECOVERY_SPEED>8/s</ENERGY_RECOVERY_SPEED>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>29.00</rank>
+			<mover_shaker>2.00</mover_shaker>
+			<rank_calc>3.86</rank_calc>
+			<mover_shaker_calc>1.63</mover_shaker_calc>
+			<ZScore>0.35</ZScore>
+			<winrate>49.33</winrate>
+			<pickrate>8.38</pickrate>
+			<banrate>0.07</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>49.19</winrate_prev>
+			<pickrate_prev>10.94</pickrate_prev>
+			<banrate_prev>0.22</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>-23.00</pickrate_change>
+			<banrate_change>-68.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>27.00</rank>
+			<mover_shaker>38.00</mover_shaker>
+			<rank_calc>3.87</rank_calc>
+			<mover_shaker_calc>-5.68</mover_shaker_calc>
+			<ZScore>0.02</ZScore>
+			<winrate>49.19</winrate>
+			<pickrate>10.94</pickrate>
+			<banrate>0.22</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>48.64</winrate_prev>
+			<pickrate_prev>5.35</pickrate_prev>
+			<banrate_prev>0.06</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>104.00</pickrate_change>
+			<banrate_change>267.00</banrate_change>
+		</item>
+	</meta>
+</all>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1043</id>
+	<name>Star-lord</name>
+	<real_name>Peter Quill</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Star-lord</name>
+			<health>250</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Peter Quill lives to dazzle his foes on the battlefield with his signature swagger. As his element guns paint arcs of devastation, his acrobatic moves sail through the sky with unrivaled style. With performances this spectacular, it's no wonder that Star-Lord is so legendary!</description>
+	<team>
+		<item>Guardiansofthegalaxy</item>
+	</team>
+	<difficulty>2</difficulty>
+	<attack_type>Hitscan Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>104311</id>
+			<name>Element Guns</name>
+			<type>Weapon</type>
+			<description>Shoot enemies with dual Element Guns.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>40</Ammo>
+				<Damage>6.5 damage per round</Damage>
+				<Casting>Rapid-fire shots with spread.</Casting>
+				<Fire_Rate>40 rounds per second</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 10m, decreasing to 65% at 25m</Damage_Falloff>
+				<Crosshair_Spread_Radius_at_10m>After 2 consecutive shots, the spread increases to 0.15m; after 5 consecutive shots, the spread expands to 0.24m</Crosshair_Spread_Radius_at_10m>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104321</id>
+			<name>Stellar Shift</name>
+			<type>Normal</type>
+			<description>Dodge in the direction of movement and swiftly reload. Become &lt;Buff&gt;Unstoppable&lt;/&gt; and &lt;Buff&gt;Invincible&lt;/&gt; while dodging.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Charges>2</Charges>
+				<Bonus_Health>Unleashing Stellar Shift will grant Star-Lord 25 Bonus Health. Maximum Bonus Health is 25. Bonus Health falloff begins at 3s, decreasing to 0 in 1s.</Bonus_Health>
+				<Recharge_Speed>5s per charge</Recharge_Speed>
+				<Invincibility_Duration>0.37s</Invincibility_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104331</id>
+			<name>Rocket Propulsion</name>
+			<type>Normal</type>
+			<description>Consume energy to gain a &lt;Buff&gt;Movement Boost&lt;/&gt; and soar forward.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Energy_Cost>300/s</Energy_Cost>
+				<Maximum_Energy>1800</Maximum_Energy>
+				<Movement_Boost>100%</Movement_Boost>
+				<Energy_Recovery_Speed>100/s</Energy_Recovery_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104332</id>
+			<name>Blaster Barrage</name>
+			<type>Normal</type>
+			<description>Fire a frenzy of shots, causing damage to enemies within range.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>8m spherical radius</Range>
+				<Damage>7.5 damage per hit</Damage>
+				<Casting>Spherical Spell Field</Casting>
+				<Cooldown>8s</Cooldown>
+				<Duration>3s</Duration>
+				<Damage_Falloff>Falloff begins at 4m, decreasing to 80% at 8m</Damage_Falloff>
+				<Attack_Interval>0.1 per hit</Attack_Interval>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104341</id>
+			<name>Galactic Legend</name>
+			<type>Ultimate</type>
+			<description>Engage in free-flight and lock onto enemies in sight.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Ammo>40</Ammo>
+				<Damage>6.5 damage per round</Damage>
+				<Casting>Rapid-fire projectile.</Casting>
+				<Duration>8s</Duration>
+				<Fire_Rate>40 rounds per second</Fire_Rate>
+				<Energy_Cost>3100</Energy_Cost>
+				<Critical_Hit>No</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 25m, decreasing to 75% at 40m</Damage_Falloff>
+				<Movement_Boost>20%</Movement_Boost>
+				<Special_Mechanic>During this period, Star-Lord's Reload Speed increases significantly</Special_Mechanic>
+				<Reload_Time_Reduction>70%</Reload_Time_Reduction>
+				<Maximum_Locking_Distance>40m</Maximum_Locking_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104342</id>
+			<name>Galactic Legend Attack</name>
+			<type>Ultimate</type>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>16.00</rank>
+			<mover_shaker>24.00</mover_shaker>
+			<rank_calc>4.00</rank_calc>
+			<mover_shaker_calc>-0.09</mover_shaker_calc>
+			<ZScore>0.22</ZScore>
+			<winrate>49.40</winrate>
+			<pickrate>8.96</pickrate>
+			<banrate>0.27</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>50.14</winrate_prev>
+			<pickrate_prev>8.55</pickrate_prev>
+			<banrate_prev>0.28</banrate_prev>
+			<winrate_change>-1.00</winrate_change>
+			<pickrate_change>5.00</pickrate_change>
+			<banrate_change>-4.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>13.00</rank>
+			<mover_shaker>25.00</mover_shaker>
+			<rank_calc>4.03</rank_calc>
+			<mover_shaker_calc>-0.32</mover_shaker_calc>
+			<ZScore>0.19</ZScore>
+			<winrate>50.14</winrate>
+			<pickrate>8.55</pickrate>
+			<banrate>0.28</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>46.61</winrate_prev>
+			<pickrate_prev>7.09</pickrate_prev>
+			<banrate_prev>0.16</banrate_prev>
+			<winrate_change>8.00</winrate_change>
+			<pickrate_change>21.00</pickrate_change>
+			<banrate_change>75.00</banrate_change>
+		</item>
+	</meta>
+</all>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1018</id>
+	<name>Doctor Strange</name>
+	<real_name>Stephen Strange</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Doctor Strange</name>
+			<health>575</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>As the Sorcerer Supreme, Dr. Stephen Strange gracefully wields ancient spells to turn the tide of even the most impossible battle. However, magic always comes at a cost, and each use of his arcane abilities gradually awakens the darkness within him.</description>
+	<team>
+		<item>Avengers</item>
+		<item>Midnightsons</item>
+	</team>
+	<difficulty>2</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>VANGUARD</role>
+	<abilities>
+		<item>
+			<id>101811</id>
+			<name>Daggers Of Denak</name>
+			<type>Weapon</type>
+			<description>Cast Daggers of Denak forward.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>10 (1 dagger per release)</Ammo>
+				<Damage>16</Damage>
+				<Casting>Five-round delayed hit projectiles</Casting>
+				<Fire_Rate>5.56 rounds per second, with a 0.03-second interval between every two rounds</Fire_Rate>
+				<Critical_Hit>No</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 10m, decreasing to 80% at 20m</Damage_Falloff>
+				<Projectile_Speed>60 m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101841</id>
+			<name>Shield Of The Seraphim</name>
+			<type>Normal</type>
+			<description>Create a protective barrier against damage.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Casting>Channeled</Casting>
+				<Recovery_Speed>60/s</Recovery_Speed>
+				<Maximum_Shield_Value>800</Maximum_Shield_Value>
+				<Cooldown_After_Destroyed>3s</Cooldown_After_Destroyed>
+				<Delayed_Recovery_After_Release>1s</Delayed_Recovery_After_Release>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101851</id>
+			<name>Maelstrom Of Madness</name>
+			<type>Normal</type>
+			<description>Release &lt;Orange&gt;Dark Magic&lt;/&gt; to deal damage to nearby enemies.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>8m spherical radius</Range>
+				<Damage>Each point of Dark Magic deals 1.3 damage</Damage>
+				<Casting>Single-cast spell field that surrounds the caster</Casting>
+				<Cooldown>6s</Cooldown>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101852</id>
+			<name>Gamma Maelstrom</name>
+			<type>Normal</type>
+			<description>Hulk charges Black Panther and The Thing with gamma radiation. When Black Panther's health is low, he gains a gamma shield, becoming &lt;Buff&gt;Unstoppable&lt;/&gt; and blocking attacks. The Thing gains Gamma Gauntlets, boosting &lt;Buff&gt;Damage&lt;/&gt; and range of his &lt;Orange&gt;Rocky Jab&lt;/&gt; and &lt;Orange&gt;Stone Haymaker&lt;/&gt;. Dealing damage with these attacks grants &lt;Buff&gt;Bonus Health&lt;/&gt;, and maximum &lt;Buff&gt;Bonus Health&lt;/&gt; cap is increased.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101853</id>
+			<name>Psionic Vortex</name>
+			<type>Normal</type>
+			<description>Invisible Woman enhances Doctor Strange's &lt;Orange&gt;Maelstrom of Madness&lt;/&gt; with a psionic explosion. The explosion damages and pulls enemies toward Doctor Strange. Based on the explosion's damage, Doctor Strange and nearby allies gain &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>8m spherical radius spell field</Range>
+				<Damage>Each point of energy deals 1.3 damage.</Damage>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>The spell field pulls enemies in range toward Doctor Strange</Special_Effect>
+				<Bonus_Max_Health>75</Bonus_Max_Health>
+				<Ally_Bonus_Health_Conversion>0.2</Ally_Bonus_Health_Conversion>
+				<Self_Bonus_Health_Conversion>0.3</Self_Bonus_Health_Conversion>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101861</id>
+			<name>Pentagram Of Farallah</name>
+			<type>Normal</type>
+			<description>Open portals between two locations, enabling all units to travel through them.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Casting>Multi-segment release</Casting>
+				<Cooldown>180s</Cooldown>
+				<Duration>20s</Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101871</id>
+			<name>Eye Of Agamotto</name>
+			<type>Ultimate</type>
+			<description>Separate nearby enemies' &lt;Orange&gt;Souls&lt;/&gt; from their bodies. Damage dealt to these &lt;Orange&gt;Souls&lt;/&gt; is transferred to their physical bodies.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>10m spherical radius</Range>
+				<Damage>60</Damage>
+				<Casting>Single-cast spell field that surrounds the caster</Casting>
+				<Energy_Cost>3100</Energy_Cost>
+				<Soul_Separation_Duration>3s</Soul_Separation_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101881</id>
+			<name>Price Of Magic</name>
+			<type>Normal</type>
+			<description>&lt;Orange&gt;Dark Magic&lt;/&gt; accumulates with every hit on an enemy. If &lt;Orange&gt;Dark Magic&lt;/&gt; peaks for too long, Doctor Strange will be cursed with &lt;Debuff&gt;Anti-Heal&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Anti-Heal_Duration>2s</Anti-Heal_Duration>
+				<Generate_Dark_Magic>Daggers of Denak: Each hit generates 3.5 Dark Magic. When using the V key, every enemy hit generates 10 Dark Magic</Generate_Dark_Magic>
+				<Anti-Heal_Activation_Delay_at_Peak_Dark_Magic>3s</Anti-Heal_Activation_Delay_at_Peak_Dark_Magic>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101891</id>
+			<name>Cloak Of Levitation</name>
+			<type>Normal</type>
+			<description>Ascend and then enter a brief state of sustained flight.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Instant Cast</Casting>
+				<Cooldown>12s</Cooldown>
+				<Dash_Distance>8m</Dash_Distance>
+				<Free-Flight_Duration>6s</Free-Flight_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101892</id>
+			<name>Enchanted Enhancement</name>
+			<type>Normal</type>
+			<description>Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch's &lt;Orange&gt;Chthonian Burst&lt;/&gt; is replaced with &lt;Orange&gt;Mystic Burst&lt;/&gt; upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a &lt;Orange&gt;Chain of Cyttorak&lt;/&gt; that links two enemies and slows them; the farther they are apart, the greater the &lt;Debuff&gt;Slow&lt;/&gt; effect inflicted during the link.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Team-Up_Bonus>Doctor Strange gain 100 Max Health</Team-Up_Bonus>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>9.00</rank>
+			<mover_shaker>1.00</mover_shaker>
+			<rank_calc>4.11</rank_calc>
+			<mover_shaker_calc>3.49</mover_shaker_calc>
+			<ZScore>0.48</ZScore>
+			<winrate>49.99</winrate>
+			<pickrate>26.42</pickrate>
+			<banrate>0.58</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>49.15</winrate_prev>
+			<pickrate_prev>23.84</pickrate_prev>
+			<banrate_prev>24.68</banrate_prev>
+			<winrate_change>2.00</winrate_change>
+			<pickrate_change>11.00</pickrate_change>
+			<banrate_change>-98.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>24.00</rank>
+			<mover_shaker>41.00</mover_shaker>
+			<rank_calc>3.90</rank_calc>
+			<mover_shaker_calc>-208.07</mover_shaker_calc>
+			<ZScore>-6.13</ZScore>
+			<winrate>49.15</winrate>
+			<pickrate>23.84</pickrate>
+			<banrate>24.68</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>48.99</winrate_prev>
+			<pickrate_prev>19.83</pickrate_prev>
+			<banrate_prev>0.35</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>20.00</pickrate_change>
+			<banrate_change>6951.00</banrate_change>
+		</item>
+	</meta>
+</all>

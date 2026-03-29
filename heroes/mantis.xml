@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1020</id>
+	<name>Mantis</name>
+	<real_name>Mantis</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Mantis</name>
+			<health>250</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Mantis uses her impressive mental abilities and her penchant for plant control to anchor any team she fights alongside. Her powers tap into a limitless flow of life energy, gently nourishing everything she touches.</description>
+	<team>
+		<item>Guardiansofthegalaxy</item>
+	</team>
+	<difficulty>1</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>STRATEGIST</role>
+	<abilities>
+		<item>
+			<id>102011</id>
+			<name>Life Energy Blast</name>
+			<type>Weapon</type>
+			<description>Fire an energy thorn and regain one &lt;Orange&gt;Life Orb&lt;/&gt; after a critical hit.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>15</Ammo>
+				<Damage>55 damage per round</Damage>
+				<Casting>Single-cast projectile with delayed impact</Casting>
+				<Fire_Rate>2.5 rounds per second</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>No falloff</Damage_Falloff>
+				<Special_Effect>Critical hit generates 1 Life Orb</Special_Effect>
+				<Projectile_Speed>150m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102019</id>
+			<type>Normal</type>
+			<additional_fields>
+				<Health>250</Health>
+				<Movement_Speed>6m/s</Movement_Speed>
+				<Life_Orb_Cooldown>4 charges, with each charge taking 3s to recharge</Life_Orb_Cooldown>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102021</id>
+			<type>Melee</type>
+			<additional_fields>
+				<Health>250</Health>
+				<Movement_Speed>6m/s</Movement_Speed>
+				<Life_Orb_Cooldown>4 charges, with each charge taking 3s to recharge</Life_Orb_Cooldown>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102031</id>
+			<name>Nature's Favor</name>
+			<type>Normal</type>
+			<description>Receive a &lt;Buff&gt;Movement Boost&lt;/&gt; when not injured and &lt;Orange&gt;Healing Over Time&lt;/&gt; when consuming &lt;Buff&gt;Life Orbs&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Duration>8s</Duration>
+				<Healing_Amount>12.5 per second</Healing_Amount>
+				<Special_Effect>Consume Life Orbs to receive Healing Over Time</Special_Effect>
+				<Out-of-Combat_Movement_Speed>7.5m/s</Out-of-Combat_Movement_Speed>
+				<Time_Required_to_Leave_Combat>3s</Time_Required_to_Leave_Combat>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102041</id>
+			<name>Allied Inspiration</name>
+			<type>Normal</type>
+			<description>Consume &lt;Orange&gt;Life Orbs&lt;/&gt; to grant allies a &lt;Buff&gt;Damage Boost&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Targeted</Casting>
+				<Cooldown>Consume 1 Life Orb</Cooldown>
+				<Duration>8s (16s maximum duration)</Duration>
+				<Damage_Boost>12%</Damage_Boost>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102051</id>
+			<name>Spore Slumber</name>
+			<type>Normal</type>
+			<description>Throw a spore to &lt;Debuff&gt;Sedate&lt;/&gt; the nearest enemy.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>3m spherical radius</Range>
+				<Damage>10</Damage>
+				<Casting>Single-cast projectile with delayed impact that also generates a spell field</Casting>
+				<Cooldown>15s</Cooldown>
+				<Special_Effect>A Mantis illusions will manifest beside the sedated heroes. Allies can attack this illusion to awaken the affected hero</Special_Effect>
+				<Illusion_Health>100</Illusion_Health>
+				<Sedation_Duration>3.5s</Sedation_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102061</id>
+			<name>Healing Flower</name>
+			<type>Normal</type>
+			<description>Consume &lt;Orange&gt;Life Orbs&lt;/&gt; to grant allies &lt;Buff&gt;Healing Over Time&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Casting>Targeted</Casting>
+				<Cooldown>Consume 1 Life Orb</Cooldown>
+				<Duration>8s (16s maximum duration)</Duration>
+				<Special_Effect>Healing Flower provides two types of healing effects: One-time Healing and Healing Over Time</Special_Effect>
+				<One-time_Healing_Amount>55</One-time_Healing_Amount>
+				<Healing_Over_Time_Amount>
+						10 + 2.5% of the target's maximum Health per second
+						</Healing_Over_Time_Amount>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102071</id>
+			<name>Soul Resurgence</name>
+			<type>Ultimate</type>
+			<description>Release energy around her while moving, providing &lt;Buff&gt;Healing Over Time&lt;/&gt; and &lt;Buff&gt;Movement Boosts&lt;/&gt; for surrounding allies. Excess healing converts to &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>15m spherical radius</Range>
+				<Casting>Persistent spell field that surrounds the caster</Casting>
+				<Duration>8s</Duration>
+				<Energy_Cost>4300</Energy_Cost>
+				<Healing_Amount>150</Healing_Amount>
+				<Movement_Boost>3m/s</Movement_Boost>
+				<key name="Excess Healing/Max Health Conversion">150</key>
+				<key name="Caster &amp;amp; Ally One-time Healing Amount">200</key>
+				<key name="Excess Healing/Bonus Health Conversion">100%</key>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102091</id>
+			<name>Natural Anger</name>
+			<type>Normal</type>
+			<description>Consume &lt;Orange&gt;Life Orbs&lt;/&gt; to grant herself a &lt;Buff&gt;Damage Boost&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Casting>Instant Cast</Casting>
+				<Cooldown>Consume 1 Life Orb</Cooldown>
+				<Duration>8s (the duration cannot stack; repeatedly casting will only refresh the duration)</Duration>
+				<Damage_Boost>12%</Damage_Boost>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>3.00</rank>
+			<mover_shaker>3.00</mover_shaker>
+			<rank_calc>4.33</rank_calc>
+			<mover_shaker_calc>1.46</mover_shaker_calc>
+			<ZScore>0.33</ZScore>
+			<winrate>54.69</winrate>
+			<pickrate>9.17</pickrate>
+			<banrate>0.09</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>56.03</winrate_prev>
+			<pickrate_prev>11.74</pickrate_prev>
+			<banrate_prev>0.43</banrate_prev>
+			<winrate_change>-2.00</winrate_change>
+			<pickrate_change>-22.00</pickrate_change>
+			<banrate_change>-79.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>1.00</rank>
+			<mover_shaker>39.00</mover_shaker>
+			<rank_calc>4.45</rank_calc>
+			<mover_shaker_calc>-20.29</mover_shaker_calc>
+			<ZScore>-0.42</ZScore>
+			<winrate>56.03</winrate>
+			<pickrate>11.74</pickrate>
+			<banrate>0.43</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>53.05</winrate_prev>
+			<pickrate_prev>6.93</pickrate_prev>
+			<banrate_prev>0.05</banrate_prev>
+			<winrate_change>6.00</winrate_change>
+			<pickrate_change>69.00</pickrate_change>
+			<banrate_change>760.00</banrate_change>
+		</item>
+	</meta>
+</all>

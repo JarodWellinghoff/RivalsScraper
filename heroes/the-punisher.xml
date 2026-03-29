@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1014</id>
+	<name>The Punisher</name>
+	<real_name>Frank Castle</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>The Punisher</name>
+			<health>300</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Expertly wielding a full arsenal of futuristic weapons, Frank Castle is a formidable one-man army. With a steadfast resolve to deliver justice to his enemies, The Punisher won't cease in his mission until every last round is fired!</description>
+	<team>
+		<item>Marvelknights</item>
+	</team>
+	<difficulty>1</difficulty>
+	<attack_type>Hitscan Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>101401</id>
+			<name>The Punisher Switches Main Weapon</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101403</id>
+			<name>The Punisher Reloads</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101411</id>
+			<name>Warrior's Gaze</name>
+			<type>Normal</type>
+			<description>Retain vision of enemies that disappear from view for a short duration.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Range>30m spherical radius</Range>
+				<Duration>3s</Duration>
+				<Special_Effect>Retain vision of enemies that disappear from view for a short duration</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101421</id>
+			<name>Unyielding Resolve</name>
+			<type>Normal</type>
+			<description>Attack nearby enemies to restore health.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101431</id>
+			<name>Adjudication</name>
+			<type>Weapon</type>
+			<description>Fire at enemies with Adjudication, his Automatic Rifle.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>40</Ammo>
+				<Damage>20 damage per round</Damage>
+				<Casting>Rapid-fire projectile</Casting>
+				<Fire_Rate>10 rounds per second</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 20m, decreasing to 85% at 40m</Damage_Falloff>
+				<Crosshair_Spread_Radius_at_10m>Up to a 0.075m radius.</Crosshair_Spread_Radius_at_10m>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101433</id>
+			<name>Scourge Grenade</name>
+			<type>Normal</type>
+			<description>Throw a smoke grenade forward to &lt;Debuff&gt;Block Enemies' Vision&lt;/&gt; and leap backward.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>5m spherical radius</Range>
+				<Damage>45</Damage>
+				<Casting>Projectile with an arced trajectory</Casting>
+				<Cooldown>8s</Cooldown>
+				<Special_Effect>Create a temporary smokescreen that obstructs vision</Special_Effect>
+				<Projectile_Speed>40 m/s</Projectile_Speed>
+				<Backward_Jump_Distance>9m</Backward_Jump_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101441</id>
+			<name>Deliverance</name>
+			<type>Weapon</type>
+			<description>Fire at enemies with Deliverance, his Shotgun.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>8</Ammo>
+				<Damage>10 damage per round</Damage>
+				<Casting>Shotgun projectiles that hit instantly</Casting>
+				<Fire_Rate>1.43 rounds per second</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 8m, decreasing to 40% at 15m</Damage_Falloff>
+				<Bullets_Fired_Each_Cast>16</Bullets_Fired_Each_Cast>
+				<Crosshair_Spread_Radius_at_10m>0.6m</Crosshair_Spread_Radius_at_10m>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101451</id>
+			<name>Vantage Connection</name>
+			<type>Normal</type>
+			<description>Launch a hook to generate a cable that enables Punisher to move rapidly by pressing {Interactive}.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Dash</Casting>
+				<Cooldown>20s</Cooldown>
+				<Dash_Speed>25 m/s</Dash_Speed>
+				<Cable_Length>5m - 35m</Cable_Length>
+				<Cable_Attachment_Angle>20° - 160°</Cable_Attachment_Angle>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101452</id>
+			<name>Connection Glide</name>
+			<type>Normal</type>
+			<description>(Press F key for swift movement.)</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101461</id>
+			<name>Culling Turret</name>
+			<type>Normal</type>
+			<description>Deploy a Culling Turret that grounds Punisher and blocks damage from the front while dealing massive damage.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Ammo>200</Ammo>
+				<Damage>10 damage per round</Damage>
+				<Casting>Rapid-fire projectiles that create a spell field upon impact</Casting>
+				<Cooldown>20s</Cooldown>
+				<Fire_Rate>12.5 rounds per second</Fire_Rate>
+				<Turret_Health>600</Turret_Health>
+				<Explosion_Range>3m spherical radius</Explosion_Range>
+				<Explosion_Damage>10 damage per round</Explosion_Damage>
+				<Crosshair_Spread_Radius_at_10m>Start with a spread radius of 0.2m, which reduces to 0.1m after 10 shots, and further decreases to 0.05m after 20 shots</Crosshair_Spread_Radius_at_10m>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101462</id>
+			<name>Culling Turret Fire</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101481</id>
+			<name>Final Judgement</name>
+			<type>Ultimate</type>
+			<description>Unleash two gatling guns and missiles to attack enemies.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Ammo>Infinite</Ammo>
+				<Damage>50</Damage>
+				<Casting>Rapid-fire projectiles that hit instantly and have a tracking trajectory</Casting>
+				<Duration>10s</Duration>
+				<Fire_Rate>33.33 rounds per second</Fire_Rate>
+				<Energy_Cost>3400</Energy_Cost>
+				<Gatling_Gun> </Gatling_Gun>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 20m, decreasing to 70% at 40m</Damage_Falloff>
+				<Projectile_Speed>60 m/s</Projectile_Speed>
+				<Slow_Rate_While_Idling>-10%</Slow_Rate_While_Idling>
+				<Interval_Between_Volleys>3s</Interval_Between_Volleys>
+				<Maximum_Locking_Distance>40m</Maximum_Locking_Distance>
+				<Slow_Rate_While_Shooting>-30%</Slow_Rate_While_Shooting>
+				<Interval_Between_Missiles>0.3s</Interval_Between_Missiles>
+				<Shoulder-mounted_Missiles> </Shoulder-mounted_Missiles>
+				<Maximum_Number_of_Missiles_Per_Volley>8</Maximum_Number_of_Missiles_Per_Volley>
+				<Maximum_Number_of_Locked-on_Missiles_Per_Target>3</Maximum_Number_of_Locked-on_Missiles_Per_Target>
+				<Crosshair_Spread_Radius_at_10m>Start with a spread radius of 0.6m, which reduces to 0.3m after 50 shots, and further decreases to 0.15m after 100 shots</Crosshair_Spread_Radius_at_10m>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101482</id>
+			<name>Final Judgement Fire</name>
+			<type>Ultimate</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101483</id>
+			<name>The Punisher Back-mounted Missiles</name>
+			<type>Ultimate</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101491</id>
+			<name>The Punisher Rifle - Melee Basic Attack</name>
+			<type>Melee</type>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>40.00</rank>
+			<mover_shaker>7.00</mover_shaker>
+			<rank_calc>3.52</rank_calc>
+			<mover_shaker_calc>1.22</mover_shaker_calc>
+			<ZScore>0.31</ZScore>
+			<winrate>44.73</winrate>
+			<pickrate>10.83</pickrate>
+			<banrate>0.86</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>44.15</winrate_prev>
+			<pickrate_prev>9.60</pickrate_prev>
+			<banrate_prev>1.12</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>13.00</pickrate_change>
+			<banrate_change>-23.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>40.00</rank>
+			<mover_shaker>7.00</mover_shaker>
+			<rank_calc>3.49</rank_calc>
+			<mover_shaker_calc>0.70</mover_shaker_calc>
+			<ZScore>0.22</ZScore>
+			<winrate>44.15</winrate>
+			<pickrate>9.60</pickrate>
+			<banrate>1.12</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>44.63</winrate_prev>
+			<pickrate_prev>11.50</pickrate_prev>
+			<banrate_prev>1.91</banrate_prev>
+			<winrate_change>-1.00</winrate_change>
+			<pickrate_change>-17.00</pickrate_change>
+			<banrate_change>-41.00</banrate_change>
+		</item>
+	</meta>
+</all>

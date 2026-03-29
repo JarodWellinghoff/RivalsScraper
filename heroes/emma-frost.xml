@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1053</id>
+	<name>Emma Frost</name>
+	<real_name>Emma Frost</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Emma Frost</name>
+			<health>600</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>For Emma Frost, war is the purest form of art. With her formidable telepathic abilities, she intricately weaves a deadly mental web that ensnares her foes, while her indestructible diamond form lets her lead her teammates fearlessly into the fray. Forever elegant and composed, Emma reigns as the one true queen of the battlefield!</description>
+	<team>
+		<item>X_men</item>
+		<item>Mutants</item>
+		<item>Villains</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Hitscan Heroes</attack_type>
+	<role>VANGUARD</role>
+	<abilities>
+		<item>
+			<id>105311</id>
+			<name>Psionic Surge</name>
+			<type>Melee</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105321</id>
+			<name>Telepathic Pulse</name>
+			<type>Weapon</type>
+			<description>Fire a psionic beam to deal damage; the longer the beam hits, the higher the damage.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>70</Ammo>
+				<Damage>Damage increases with energy: 0 - 70/s, 99 - 110/s, full energy - 140/s</Damage>
+				<Casting>Channeled</Casting>
+				<Attack_Range>18m</Attack_Range>
+				<Special_Effect>Energy gain: Hero hit: 12/s; Sentience hit: 18/s; Common summons hit: 5/s; Shield hit: 6/s. Falloff begins 3s after not hitting an enemy, at a rate of 30/s</Special_Effect>
+				<Ammo_Consumption>10/s</Ammo_Consumption>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105331</id>
+			<name>Mind's Aegis</name>
+			<type>Normal</type>
+			<description>Create a levitating barrier at the designated location.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Casting>Deployable Shield</Casting>
+				<Recovery_Speed>70/s</Recovery_Speed>
+				<Reposition_Cooldown>3s</Reposition_Cooldown>
+				<Maximum_Shield_Value>400</Maximum_Shield_Value>
+				<Cooldown_After_Destroyed>4s</Cooldown_After_Destroyed>
+				<Delayed_Recovery_After_Release>2s</Delayed_Recovery_After_Release>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105332</id>
+			<name>Retract Psionic Barrier</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105341</id>
+			<name>Diamond Form</name>
+			<type>Normal</type>
+			<description>Activate &lt;Orange&gt;Diamond Form&lt;/&gt; to transform your attack style while gaining &lt;Buff&gt;Damage Reduction&lt;/&gt; and becoming &lt;Buff&gt;Unstoppable&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Switch Form</Casting>
+				<Cooldown>18s</Cooldown>
+				<Duration>8s</Duration>
+				<Special_Effect>25% Damage Reduction in Diamond form</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105342</id>
+			<name>Faceted Fury</name>
+			<type>Weapon</type>
+			<description>In &lt;Orange&gt;Diamond Form&lt;/&gt;, deliver a crushing double-fisted strike to enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>First &amp; second hit: 50; third hit: 70; fourth hit: 80</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+				<Attack_Range>4m</Attack_Range>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105343</id>
+			<name>Crystal Kick</name>
+			<type>Normal</type>
+			<description>In &lt;Orange&gt;Diamond Form&lt;/&gt;, unleash a flying kick forward and &lt;Debuff&gt;knock back&lt;/&gt; enemies; extra damage is dealt if they're propelled into a wall.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>Hit damage: 40; damage increases to 90 when the target is knocked into walls</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+				<Cooldown>2s</Cooldown>
+				<Hit_Range>5m</Hit_Range>
+				<Special_Effect>Maximum knockback distance: 10m</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105344</id>
+			<name>Carbon Crush</name>
+			<type>Normal</type>
+			<description>In &lt;Orange&gt;Diamond Form&lt;/&gt;, lunge forward to grab an enemy, then execute a back slam to inflict damage.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>30</Damage>
+				<Casting>Dash Based Control</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>Control effect duration: 1.6s</Special_Effect>
+				<Maximum_Distance>7m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105351</id>
+			<name>Psychic Spear</name>
+			<type>Normal</type>
+			<description>Seize control of an enemy's sentience—damage dealt to the &lt;Orange&gt;sentience&lt;/&gt; cascades to the physical form and can be pierced by &lt;Orange&gt;Telepathic Pulse&lt;/&gt;. When the sentience shatters, it unleashes extra damage on its owner.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>Deal 5 damage per direct hit. When the sentience shatters, it deals damage to the target, which is equal to 25% of the target's maximum health</Damage>
+				<Casting>Single-cast delayed projectile</Casting>
+				<Special_Effect>When the distance between the target and its sentience is more than 15m, their linkage can be broken</Special_Effect>
+				<Maximum_Distance>24m</Maximum_Distance>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+				<Sentience_Health>Target's 25% Current Health</Sentience_Health>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105361</id>
+			<name>Psionic Seduction</name>
+			<type>Ultimate</type>
+			<description>Project a forward psychic assault that stuns foes and prevents them from unleashing their Ultimate Abilities; if the effect lingers, it gradually commandeers their mind, forcing them to move toward Emma Frost.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>Cone shape spell field, angle range: 80°, length: 30m</Range>
+				<Damage>Basic damage 80/s; distance falloff: falloff begins at 10m, decreasing to 50% at 30m; angle falloff: falloff begins at 7° from the center of view, decreasing to 80% at 20°</Damage>
+				<Casting>Large-ranged Persistent Spell Field</Casting>
+				<Duration>6s</Duration>
+				<Energy_Cost>3400</Energy_Cost>
+				<Special_Effect>When exposed to the ability, enemies accumulate 10 stacks per second, and the stacks decrease by 10 stacks per second when they leave the exposure. At 15 stacks, a control effect is triggered. Each enemy can only be controlled once per ultimate activation</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105381</id>
+			<name>Mind Link</name>
+			<type>Normal</type>
+			<description>Emma Frost can form a mental link with Psylocke, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Psylocke, forming a Duplicate Illusion in the enemy's perspective that confuses foes by moving and casting abilities on its own.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105392</id>
+			<name>Iced Out Diamond</name>
+			<type>Normal</type>
+			<description>Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates &lt;Orange&gt;Harmony Recovery&lt;/&gt;, he can heal nearby allies with &lt;Orange&gt;Lunar Chi&lt;/&gt;. Emma Frost can project ice energy forward, dealing damage and &lt;Debuff&gt;slowing&lt;/&gt; enemies. She can also enhance her diamond form, condensing frost into an &lt;Orange&gt;Iced Out Diamond&lt;/&gt; barrier that blocks enemy attacks and movement.</description>
+			<additional_fields>
+				<Key>C</Key>
+				<Cooldown>20s</Cooldown>
+				<Slow_Rate>45%</Slow_Rate>
+				<Slow_Duration>3s</Slow_Duration>
+				<key name="Summons&amp;apos; Health">250</key>
+				<Spell_Field_Range>A fan-shaped spell field with a radius of 8m, a height of 3m, and an angle of 60°</Spell_Field_Range>
+				<Spell_Field_Damage>60</Spell_Field_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>32.00</rank>
+			<mover_shaker>39.00</mover_shaker>
+			<rank_calc>3.80</rank_calc>
+			<mover_shaker_calc>-18.00</mover_shaker_calc>
+			<ZScore>-1.10</ZScore>
+			<winrate>48.91</winrate>
+			<pickrate>22.06</pickrate>
+			<banrate>29.42</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>50.80</winrate_prev>
+			<pickrate_prev>11.42</pickrate_prev>
+			<banrate_prev>3.99</banrate_prev>
+			<winrate_change>-4.00</winrate_change>
+			<pickrate_change>93.00</pickrate_change>
+			<banrate_change>637.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>19.00</rank>
+			<mover_shaker>3.00</mover_shaker>
+			<rank_calc>3.95</rank_calc>
+			<mover_shaker_calc>1.79</mover_shaker_calc>
+			<ZScore>0.25</ZScore>
+			<winrate>50.80</winrate>
+			<pickrate>11.42</pickrate>
+			<banrate>3.99</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>49.38</winrate_prev>
+			<pickrate_prev>27.01</pickrate_prev>
+			<banrate_prev>18.88</banrate_prev>
+			<winrate_change>3.00</winrate_change>
+			<pickrate_change>-58.00</pickrate_change>
+			<banrate_change>-79.00</banrate_change>
+		</item>
+	</meta>
+</all>

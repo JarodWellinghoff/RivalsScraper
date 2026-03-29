@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1034</id>
+	<name>Iron Man</name>
+	<real_name>Anthony "tony" Stark</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Iron Man</name>
+			<health>250</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Armed with superior intellect and a nanotech battlesuit of his own design, Tony Stark stands alongside gods as the Invincible Iron Man. His state of the art armor turns any battlefield into his personal playground, allowing him to steal the spotlight he so desperately desires.</description>
+	<team>
+		<item>Avengers</item>
+	</team>
+	<difficulty>2</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>103401</id>
+			<name>Fusion Boost</name>
+			<type>Normal</type>
+			<description>Hold {Jump} or {Crouch} to fly vertically. Use direction keys to fly freely.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103411</id>
+			<name>Repulsor Blast</name>
+			<type>Weapon</type>
+			<description>Fire nano pulse cannons forward.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>100</Ammo>
+				<Range>5m spherical radius</Range>
+				<Damage>50</Damage>
+				<Casting>Straight-line projectile that generates a spell field upon impact</Casting>
+				<Fire_Rate>1.39 rounds per second</Fire_Rate>
+				<Critical_Hit>No</Critical_Hit>
+				<Ammo_Consumption>16 damage per round</Ammo_Consumption>
+				<Projectile_Speed>80 m/s</Projectile_Speed>
+				<Special_Mechanic_1>After firing the one-handed repulsor twice in a row, the next attack will fire two repulsors at once</Special_Mechanic_1>
+				<Special_Mechanic_2>Repulsor Blast and Unibeam share the same ammo count</Special_Mechanic_2>
+				<Spell_Field_Damage>65</Spell_Field_Damage>
+				<Two-handed_Repulsors> </Two-handed_Repulsors>
+				<Spell_Field_Damage_Falloff>40% falloff at 5m</Spell_Field_Damage_Falloff>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103418</id>
+			<name>Gamma Repulsor Blast</name>
+			<type>Weapon</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103419</id>
+			<name>Repulsor Blast Fire</name>
+			<type>Weapon</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103421</id>
+			<name>Unibeam</name>
+			<type>Weapon</type>
+			<description>Fire a unibeam forward.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Ammo>100</Ammo>
+				<Damage>140 damage per second</Damage>
+				<Casting>Channeled</Casting>
+				<Beam_Length>25m</Beam_Length>
+				<Critical_Hit>No</Critical_Hit>
+				<Ammo_Consumption>10/s</Ammo_Consumption>
+				<Special_Mechanic>Repulsor Blast and Unibeam share the same ammo count</Special_Mechanic>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103428</id>
+			<name>Gamma Unibeam</name>
+			<type>Weapon</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103429</id>
+			<name>Unibeam Fire</name>
+			<type>Weapon</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103431</id>
+			<name>Hyper-velocity</name>
+			<type>Normal</type>
+			<description>Activate &lt;Orange&gt;Hyper-Velocity&lt;/&gt; state for swift forward flight.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Energy_Cost>15/s</Energy_Cost>
+				<Maximum_Energy>120</Maximum_Energy>
+				<Movement_Boost>100%</Movement_Boost>
+				<Energy_Recovery_Speed>10/s</Energy_Recovery_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103439</id>
+			<name>Overdrive - Hyper-velocity</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103441</id>
+			<name>Micro-missile Barrage</name>
+			<type>Normal</type>
+			<description>When &lt;Orange&gt;Hyper-Velocity&lt;/&gt; or &lt;Orange&gt;Armor Overdrive&lt;/&gt; is used, Iron Man can launch a missile bombardment.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Range>2m spherical radius</Range>
+				<Casting>Scatter-type projectile that generates a spell area upon impact</Casting>
+				<Cooldown>8s</Cooldown>
+				<Missiles>16</Missiles>
+				<Projectile_Speed>15 m/s</Projectile_Speed>
+				<Special_Mechanic>Launch missiles directly beneath Iron Man</Special_Mechanic>
+				<Spell_Field_Damage>20 damage per round</Spell_Field_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103449</id>
+			<name>Overdrive - Micro-missile Barrage</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103451</id>
+			<name>Armor Overdrive</name>
+			<type>Normal</type>
+			<description>Activate &lt;Orange&gt;Armor Overdrive&lt;/&gt; state, enhancing damage of &lt;Orange&gt;Repulsor Blast&lt;/&gt; and &lt;Orange&gt;Unibeam&lt;/&gt;, while also granting &lt;Buff&gt;Bonus Health&lt;/&gt;. Participating in a KO increases the active time of &lt;Orange&gt;Armor Overdrive&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>20s</Cooldown>
+				<Duration>10s</Duration>
+				<Bonus_Health>100</Bonus_Health>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103452</id>
+			<name>Armor Overdrive</name>
+			<type>Normal</type>
+			<description>Activate &lt;Orange&gt;Armor Overdrive&lt;/&gt; state, enhancing damage of &lt;Orange&gt;Repulsor Blast&lt;/&gt; and &lt;Orange&gt;Unibeam&lt;/&gt;, while also granting &lt;Buff&gt;Bonus Health&lt;/&gt;. Participating in a KO increases the active time of &lt;Orange&gt;Armor Overdrive&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>20s</Cooldown>
+				<Duration>10s</Duration>
+				<Bonus_Health>100</Bonus_Health>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103454</id>
+			<name>Gamma Overdrive</name>
+			<type>Normal</type>
+			<description>Hulk charges Black Panther and The Thing with gamma radiation. When Black Panther's health is low, he gains a gamma shield, becoming &lt;Buff&gt;Unstoppable&lt;/&gt; and blocking attacks. The Thing gains Gamma Gauntlets, boosting &lt;Buff&gt;Damage&lt;/&gt; and range of his &lt;Orange&gt;Rocky Jab&lt;/&gt; and &lt;Orange&gt;Stone Haymaker&lt;/&gt;. Dealing damage with these attacks grants &lt;Buff&gt;Bonus Health&lt;/&gt;, and maximum &lt;Buff&gt;Bonus Health&lt;/&gt; cap is increased.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103461</id>
+			<name>Invincible Pulse Cannon</name>
+			<type>Ultimate</type>
+			<description>Fire a devastating pulse cannon in the targeted direction, delivering catastrophic damage to the targeted area upon impact.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Straight-line projectile that generates a spell field upon impact</Casting>
+				<Energy_Cost>3400</Energy_Cost>
+				<Explosion_Range>10m spherical radius</Explosion_Range>
+				<Damage_Over_Time>300/s</Damage_Over_Time>
+				<Explosion_Damage>1000</Explosion_Damage>
+				<Projectile_Speed>25 m/s</Projectile_Speed>
+				<Special_Mechanic>As the projectile travels, it creates a dispersive spell field that deals Damage Over Time to nearby enemies</Special_Mechanic>
+				<Dispersive_Spell_Field>Length: 15m, Width: 5m, Height: 5m</Dispersive_Spell_Field>
+				<Spell_Field_Damage_Falloff>5% falloff at 10m</Spell_Field_Damage_Falloff>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103492</id>
+			<name>Nano Tech</name>
+			<type>Normal</type>
+			<description>When Iron Man, Ultron, and Squirrel Girl team up, Ultron's &lt;Orange&gt;Encephalo-Ray&lt;/&gt; upgrades to &lt;Orange&gt;Nano-Ray&lt;/&gt;, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the &lt;Orange&gt;Squirrel Missile&lt;/&gt; ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Team-Up_Bonus>5% Damage Boost</Team-Up_Bonus>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>13.00</rank>
+			<mover_shaker>19.00</mover_shaker>
+			<rank_calc>4.04</rank_calc>
+			<mover_shaker_calc>0.14</mover_shaker_calc>
+			<ZScore>0.24</ZScore>
+			<winrate>51.10</winrate>
+			<pickrate>13.07</pickrate>
+			<banrate>7.81</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>51.11</winrate_prev>
+			<pickrate_prev>11.89</pickrate_prev>
+			<banrate_prev>7.66</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>10.00</pickrate_change>
+			<banrate_change>2.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>12.00</rank>
+			<mover_shaker>18.00</mover_shaker>
+			<rank_calc>4.04</rank_calc>
+			<mover_shaker_calc>0.10</mover_shaker_calc>
+			<ZScore>0.20</ZScore>
+			<winrate>51.11</winrate>
+			<pickrate>11.89</pickrate>
+			<banrate>7.66</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>51.18</winrate_prev>
+			<pickrate_prev>14.07</pickrate_prev>
+			<banrate_prev>8.97</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>-15.00</pickrate_change>
+			<banrate_change>-15.00</banrate_change>
+		</item>
+	</meta>
+</all>

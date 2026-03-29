@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1011</id>
+	<name>Bruce Banner</name>
+	<real_name>Bruce Banner</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Bruce Banner</name>
+			<health>200</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+		<item>
+			<id>1</id>
+			<name>Hero Hulk</name>
+		</item>
+		<item>
+			<id>2</id>
+			<name>Monster Hulk</name>
+		</item>
+		<item>
+			<id>3</id>
+			<name>Bruce Banner</name>
+		</item>
+	</transformations>
+	<description>Brilliant scientist Dr. Bruce Banner has finally found a way to coexist with his monstrous alter ego, the Hulk. By accumulating gamma energy over transformations, he can become a wise and strong Hero Hulk or a fierce and destructive Monster Hulk – a true force of fury on the battlefield!</description>
+	<team>
+		<item>Avengers</item>
+	</team>
+	<difficulty>4</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>VANGUARD</role>
+	<abilities>
+		<item>
+			<id>101111</id>
+			<name>Gamma Ray Gun</name>
+			<type>Weapon</type>
+			<description>Fire with a Gamma Ray Gun.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>25</Ammo>
+				<Damage>16</Damage>
+				<Casting>Single-cast projectile with delayed impact</Casting>
+				<Fire_Rate>5 rounds per second</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101113</id>
+			<name>Heavy Blow</name>
+			<type>Weapon</type>
+			<description>Swing fists forward to punch enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>4.5m</Range>
+				<Damage>40</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+				<Attack_Interval>0.467s</Attack_Interval>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101114</id>
+			<name>Heavy Blow</name>
+			<type>Weapon</type>
+			<description>Swing fists forward to punch and &lt;Debuff&gt;launch up&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>4.5m</Range>
+				<Damage>40</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+				<Attack_Interval>0.467s</Attack_Interval>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101121</id>
+			<name>Gamma Grenade</name>
+			<type>Normal</type>
+			<description>Launch a Gamma Grenade to inflict damage and &lt;Debuff&gt;Launch Up&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>3m spherical radius</Range>
+				<Damage>40</Damage>
+				<Casting>Single-cast projectile with a downward delay that creates a spell field upon impact</Casting>
+				<Cooldown>8s</Cooldown>
+				<Special_Effect>When the caster enters the spell field, it restores 50 gamma energy</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101122</id>
+			<name>Gamma Burst</name>
+			<type>Normal</type>
+			<description>Emit gamma-ray bursts to inflict damage. Reduce &lt;Orange&gt;Indestructible Guard&lt;/&gt; cooldown upon hit.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>75</Damage>
+				<Casting>Single-cast projectile that can pierce through enemies</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>Each direct hit reduces Indestructible Guard cooldown by 1s</Special_Effect>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101123</id>
+			<name>Gamma Burst</name>
+			<type>Normal</type>
+			<description>Emit gamma-ray bursts to inflict damage. Reduce &lt;Orange&gt;Indestructible Guard&lt;/&gt; cooldown upon hit.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>75</Damage>
+				<Casting>Single-cast projectile that can pierce through enemies</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>Each direct hit reduces Indestructible Guard cooldown by 1s</Special_Effect>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101131</id>
+			<name>Puny Banner</name>
+			<type>Ultimate</type>
+			<description>Transform from Bruce Banner into Hero Hulk.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Transformation</Casting>
+				<Energy_Cost>600</Energy_Cost>
+				<Special_Effect>The caster is immobilized during the transformation process and gains Invincibility</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101132</id>
+			<name>Hulk Smash!</name>
+			<type>Ultimate</type>
+			<description>Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period. Gain immunity to &lt;Debuff&gt;Launch&lt;/&gt; and &lt;Debuff&gt;Knockback&lt;/&gt; effects.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Transformation</Casting>
+				<Duration>12s</Duration>
+				<Energy_Cost>3400</Energy_Cost>
+				<Special_Effect>The caster is immobilized during the transformation process and gains Invincibility</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101141</id>
+			<name>Indestructible Guard</name>
+			<type>Normal</type>
+			<description>Generate gamma shields for Hero Hulk and nearby allies, absorbing and converting damage into energy for &lt;Orange&gt;HULK SMASH!&lt;/&gt;</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>5m spherical radius</Range>
+				<Casting>Single-cast spell field that surrounds the caster</Casting>
+				<Cooldown>10s</Cooldown>
+				<Special_Effect>When the caster's shield takes damage, 100% of the damage is converted into gamma energy. When an ally's shield takes damage, 10% of the damage is converted into gamma energy</Special_Effect>
+				<key name="Ally&amp;apos;s Shield Value">100</key>
+				<Max_Shield_Duration>2.5s</Max_Shield_Duration>
+				<key name="Caster&amp;apos;s Shield Value">200</key>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101151</id>
+			<name>Radioactive Lockdown</name>
+			<type>Normal</type>
+			<description>Emit gamma energy to render enemies immobilized and immune to all ability effects. Using &lt;Orange&gt;Heavy Blow&lt;/&gt; or &lt;Orange&gt;Gamma Burst&lt;/&gt; will prematurely remove this status.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>5</Damage>
+				<Casting>Single-cast projectile.</Casting>
+				<Cooldown>15s</Cooldown>
+				<Max_Duration>2s</Max_Duration>
+				<Special_Effect>Heavy Blow and Gamma Burst can detect and damage irradiated enemies, and prematurely remove the status</Special_Effect>
+				<Projectile_Speed>100m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101152</id>
+			<name>Radioactive Lockdown</name>
+			<type>Normal</type>
+			<description>Emit gamma energy to render enemies immobilized and immune to all ability effects. Using &lt;Orange&gt;Heavy Blow&lt;/&gt; or &lt;Orange&gt;Gamma Burst&lt;/&gt; will prematurely remove this status.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>5</Damage>
+				<Casting>Single-cast projectile.</Casting>
+				<Cooldown>15s</Cooldown>
+				<Max_Duration>2s</Max_Duration>
+				<Special_Effect>Heavy Blow and Gamma Burst can detect and damage irradiated enemies, and prematurely remove the status</Special_Effect>
+				<Projectile_Speed>100m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101171</id>
+			<name>World Breaker</name>
+			<type>Ultimate</type>
+			<description> Grab and smash the enemy in front.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>5m</Range>
+				<Damage>Delivers 5 hits, each dealing 40 damage</Damage>
+				<Casting>Targeted</Casting>
+				<Duration>5s</Duration>
+				<Special_Effect>While performing the smash, Hulk gains a 30% Damage Reduction</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101181</id>
+			<name>Savage Toss</name>
+			<type>Normal</type>
+			<description>Press {Interactive} to grab a large broken object; press {PrimaryAttack} to fling it forward.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101183</id>
+			<name>Brute Strength</name>
+			<type>Normal</type>
+			<description>Press {Interactive} to pick up a shield-like broken object and deploy a frontal shield; press {PrimaryAttack} to fling it forward.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101191</id>
+			<name>Incredible Leap</name>
+			<type>Normal</type>
+			<description>Hold {Jump} to perform a charged leap that allows Hero Hulk to &lt;Debuff&gt;Knock Down&lt;/&gt; flying enemies.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Casting>Charged Dash</Casting>
+				<Special_Effect>Press Space during the Incredible Leap to cling to the wall you encounter</Special_Effect>
+				<Maximum_Charge_Time>1.7s</Maximum_Charge_Time>
+				<Minimum_Charge_Time>0.4s</Minimum_Charge_Time>
+				<Speed_at_Maximum_Charge_Time>25m/s</Speed_at_Maximum_Charge_Time>
+				<Speed_at_Minimum_Charge_Time>19m/s</Speed_at_Minimum_Charge_Time>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101193</id>
+			<name>Incredible Leap</name>
+			<type>Normal</type>
+			<description>Hold {Jump} to perform a charged leap that allows Monster Hulk to &lt;Debuff&gt;Knock Down&lt;/&gt; flying enemies.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Casting>Charged Dash</Casting>
+				<Special_Effect>Press Space during the Incredible Leap to cling to the wall you encounter</Special_Effect>
+				<Maximum_Charge_Time>1.7s</Maximum_Charge_Time>
+				<Minimum_Charge_Time>0.4s</Minimum_Charge_Time>
+				<Speed_at_Maximum_Charge_Time>25m/s</Speed_at_Maximum_Charge_Time>
+				<Speed_at_Minimum_Charge_Time>19m/s</Speed_at_Minimum_Charge_Time>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101111</id>
+			<name>Gamma Ray Gun</name>
+			<type>Weapon</type>
+			<description>Fire with a Gamma Ray Gun.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>25</Ammo>
+				<Damage>16</Damage>
+				<Casting>Single-cast projectile with delayed impact</Casting>
+				<Fire_Rate>5 rounds per second</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101113</id>
+			<name>Heavy Blow</name>
+			<type>Weapon</type>
+			<description>Swing fists forward to punch enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>4.5m</Range>
+				<Damage>40</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+				<Attack_Interval>0.467s</Attack_Interval>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101114</id>
+			<name>Heavy Blow</name>
+			<type>Weapon</type>
+			<description>Swing fists forward to punch and &lt;Debuff&gt;launch up&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>4.5m</Range>
+				<Damage>40</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+				<Attack_Interval>0.467s</Attack_Interval>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101121</id>
+			<name>Gamma Grenade</name>
+			<type>Normal</type>
+			<description>Launch a Gamma Grenade to inflict damage and &lt;Debuff&gt;Launch Up&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>3m spherical radius</Range>
+				<Damage>40</Damage>
+				<Casting>Single-cast projectile with a downward delay that creates a spell field upon impact</Casting>
+				<Cooldown>8s</Cooldown>
+				<Special_Effect>When the caster enters the spell field, it restores 50 gamma energy</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101122</id>
+			<name>Gamma Burst</name>
+			<type>Normal</type>
+			<description>Emit gamma-ray bursts to inflict damage. Reduce &lt;Orange&gt;Indestructible Guard&lt;/&gt; cooldown upon hit.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>75</Damage>
+				<Casting>Single-cast projectile that can pierce through enemies</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>Each direct hit reduces Indestructible Guard cooldown by 1s</Special_Effect>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101123</id>
+			<name>Gamma Burst</name>
+			<type>Normal</type>
+			<description>Emit gamma-ray bursts to inflict damage. Reduce &lt;Orange&gt;Indestructible Guard&lt;/&gt; cooldown upon hit.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>75</Damage>
+				<Casting>Single-cast projectile that can pierce through enemies</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>Each direct hit reduces Indestructible Guard cooldown by 1s</Special_Effect>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101131</id>
+			<name>Puny Banner</name>
+			<type>Ultimate</type>
+			<description>Transform from Bruce Banner into Hero Hulk.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Transformation</Casting>
+				<Energy_Cost>600</Energy_Cost>
+				<Special_Effect>The caster is immobilized during the transformation process and gains Invincibility</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101132</id>
+			<name>Hulk Smash!</name>
+			<type>Ultimate</type>
+			<description>Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period. Gain immunity to &lt;Debuff&gt;Launch&lt;/&gt; and &lt;Debuff&gt;Knockback&lt;/&gt; effects.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Transformation</Casting>
+				<Duration>12s</Duration>
+				<Energy_Cost>3400</Energy_Cost>
+				<Special_Effect>The caster is immobilized during the transformation process and gains Invincibility</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101141</id>
+			<name>Indestructible Guard</name>
+			<type>Normal</type>
+			<description>Generate gamma shields for Hero Hulk and nearby allies, absorbing and converting damage into energy for &lt;Orange&gt;HULK SMASH!&lt;/&gt;</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>5m spherical radius</Range>
+				<Casting>Single-cast spell field that surrounds the caster</Casting>
+				<Cooldown>10s</Cooldown>
+				<Special_Effect>When the caster's shield takes damage, 100% of the damage is converted into gamma energy. When an ally's shield takes damage, 10% of the damage is converted into gamma energy</Special_Effect>
+				<key name="Ally&amp;apos;s Shield Value">100</key>
+				<Max_Shield_Duration>2.5s</Max_Shield_Duration>
+				<key name="Caster&amp;apos;s Shield Value">200</key>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101151</id>
+			<name>Radioactive Lockdown</name>
+			<type>Normal</type>
+			<description>Emit gamma energy to render enemies immobilized and immune to all ability effects. Using &lt;Orange&gt;Heavy Blow&lt;/&gt; or &lt;Orange&gt;Gamma Burst&lt;/&gt; will prematurely remove this status.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>5</Damage>
+				<Casting>Single-cast projectile.</Casting>
+				<Cooldown>15s</Cooldown>
+				<Max_Duration>2s</Max_Duration>
+				<Special_Effect>Heavy Blow and Gamma Burst can detect and damage irradiated enemies, and prematurely remove the status</Special_Effect>
+				<Projectile_Speed>100m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101152</id>
+			<name>Radioactive Lockdown</name>
+			<type>Normal</type>
+			<description>Emit gamma energy to render enemies immobilized and immune to all ability effects. Using &lt;Orange&gt;Heavy Blow&lt;/&gt; or &lt;Orange&gt;Gamma Burst&lt;/&gt; will prematurely remove this status.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>5</Damage>
+				<Casting>Single-cast projectile.</Casting>
+				<Cooldown>15s</Cooldown>
+				<Max_Duration>2s</Max_Duration>
+				<Special_Effect>Heavy Blow and Gamma Burst can detect and damage irradiated enemies, and prematurely remove the status</Special_Effect>
+				<Projectile_Speed>100m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101171</id>
+			<name>World Breaker</name>
+			<type>Ultimate</type>
+			<description> Grab and smash the enemy in front.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>5m</Range>
+				<Damage>Delivers 5 hits, each dealing 40 damage</Damage>
+				<Casting>Targeted</Casting>
+				<Duration>5s</Duration>
+				<Special_Effect>While performing the smash, Hulk gains a 30% Damage Reduction</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101181</id>
+			<name>Savage Toss</name>
+			<type>Normal</type>
+			<description>Press {Interactive} to grab a large broken object; press {PrimaryAttack} to fling it forward.</description>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101183</id>
+			<name>Brute Strength</name>
+			<type>Normal</type>
+			<description>Press {Interactive} to pick up a shield-like broken object and deploy a frontal shield; press {PrimaryAttack} to fling it forward.</description>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101191</id>
+			<name>Incredible Leap</name>
+			<type>Normal</type>
+			<description>Hold {Jump} to perform a charged leap that allows Hero Hulk to &lt;Debuff&gt;Knock Down&lt;/&gt; flying enemies.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Casting>Charged Dash</Casting>
+				<Special_Effect>Press Space during the Incredible Leap to cling to the wall you encounter</Special_Effect>
+				<Maximum_Charge_Time>1.7s</Maximum_Charge_Time>
+				<Minimum_Charge_Time>0.4s</Minimum_Charge_Time>
+				<Speed_at_Maximum_Charge_Time>25m/s</Speed_at_Maximum_Charge_Time>
+				<Speed_at_Minimum_Charge_Time>19m/s</Speed_at_Minimum_Charge_Time>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101193</id>
+			<name>Incredible Leap</name>
+			<type>Normal</type>
+			<description>Hold {Jump} to perform a charged leap that allows Monster Hulk to &lt;Debuff&gt;Knock Down&lt;/&gt; flying enemies.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Casting>Charged Dash</Casting>
+				<Special_Effect>Press Space during the Incredible Leap to cling to the wall you encounter</Special_Effect>
+				<Maximum_Charge_Time>1.7s</Maximum_Charge_Time>
+				<Minimum_Charge_Time>0.4s</Minimum_Charge_Time>
+				<Speed_at_Maximum_Charge_Time>25m/s</Speed_at_Maximum_Charge_Time>
+				<Speed_at_Minimum_Charge_Time>19m/s</Speed_at_Minimum_Charge_Time>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101111</id>
+			<name>Gamma Ray Gun</name>
+			<type>Weapon</type>
+			<description>Fire with a Gamma Ray Gun.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>25</Ammo>
+				<Damage>16</Damage>
+				<Casting>Single-cast projectile with delayed impact</Casting>
+				<Fire_Rate>5 rounds per second</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101113</id>
+			<name>Heavy Blow</name>
+			<type>Weapon</type>
+			<description>Swing fists forward to punch enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>4.5m</Range>
+				<Damage>40</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+				<Attack_Interval>0.467s</Attack_Interval>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101114</id>
+			<name>Heavy Blow</name>
+			<type>Weapon</type>
+			<description>Swing fists forward to punch and &lt;Debuff&gt;launch up&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>4.5m</Range>
+				<Damage>40</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+				<Attack_Interval>0.467s</Attack_Interval>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101121</id>
+			<name>Gamma Grenade</name>
+			<type>Normal</type>
+			<description>Launch a Gamma Grenade to inflict damage and &lt;Debuff&gt;Launch Up&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>3m spherical radius</Range>
+				<Damage>40</Damage>
+				<Casting>Single-cast projectile with a downward delay that creates a spell field upon impact</Casting>
+				<Cooldown>8s</Cooldown>
+				<Special_Effect>When the caster enters the spell field, it restores 50 gamma energy</Special_Effect>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101122</id>
+			<name>Gamma Burst</name>
+			<type>Normal</type>
+			<description>Emit gamma-ray bursts to inflict damage. Reduce &lt;Orange&gt;Indestructible Guard&lt;/&gt; cooldown upon hit.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>75</Damage>
+				<Casting>Single-cast projectile that can pierce through enemies</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>Each direct hit reduces Indestructible Guard cooldown by 1s</Special_Effect>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101123</id>
+			<name>Gamma Burst</name>
+			<type>Normal</type>
+			<description>Emit gamma-ray bursts to inflict damage. Reduce &lt;Orange&gt;Indestructible Guard&lt;/&gt; cooldown upon hit.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>75</Damage>
+				<Casting>Single-cast projectile that can pierce through enemies</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>Each direct hit reduces Indestructible Guard cooldown by 1s</Special_Effect>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101131</id>
+			<name>Puny Banner</name>
+			<type>Ultimate</type>
+			<description>Transform from Bruce Banner into Hero Hulk.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Transformation</Casting>
+				<Energy_Cost>600</Energy_Cost>
+				<Special_Effect>The caster is immobilized during the transformation process and gains Invincibility</Special_Effect>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101132</id>
+			<name>Hulk Smash!</name>
+			<type>Ultimate</type>
+			<description>Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period. Gain immunity to &lt;Debuff&gt;Launch&lt;/&gt; and &lt;Debuff&gt;Knockback&lt;/&gt; effects.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Transformation</Casting>
+				<Duration>12s</Duration>
+				<Energy_Cost>3400</Energy_Cost>
+				<Special_Effect>The caster is immobilized during the transformation process and gains Invincibility</Special_Effect>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101141</id>
+			<name>Indestructible Guard</name>
+			<type>Normal</type>
+			<description>Generate gamma shields for Hero Hulk and nearby allies, absorbing and converting damage into energy for &lt;Orange&gt;HULK SMASH!&lt;/&gt;</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>5m spherical radius</Range>
+				<Casting>Single-cast spell field that surrounds the caster</Casting>
+				<Cooldown>10s</Cooldown>
+				<Special_Effect>When the caster's shield takes damage, 100% of the damage is converted into gamma energy. When an ally's shield takes damage, 10% of the damage is converted into gamma energy</Special_Effect>
+				<key name="Ally&amp;apos;s Shield Value">100</key>
+				<Max_Shield_Duration>2.5s</Max_Shield_Duration>
+				<key name="Caster&amp;apos;s Shield Value">200</key>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101151</id>
+			<name>Radioactive Lockdown</name>
+			<type>Normal</type>
+			<description>Emit gamma energy to render enemies immobilized and immune to all ability effects. Using &lt;Orange&gt;Heavy Blow&lt;/&gt; or &lt;Orange&gt;Gamma Burst&lt;/&gt; will prematurely remove this status.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>5</Damage>
+				<Casting>Single-cast projectile.</Casting>
+				<Cooldown>15s</Cooldown>
+				<Max_Duration>2s</Max_Duration>
+				<Special_Effect>Heavy Blow and Gamma Burst can detect and damage irradiated enemies, and prematurely remove the status</Special_Effect>
+				<Projectile_Speed>100m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101152</id>
+			<name>Radioactive Lockdown</name>
+			<type>Normal</type>
+			<description>Emit gamma energy to render enemies immobilized and immune to all ability effects. Using &lt;Orange&gt;Heavy Blow&lt;/&gt; or &lt;Orange&gt;Gamma Burst&lt;/&gt; will prematurely remove this status.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>5</Damage>
+				<Casting>Single-cast projectile.</Casting>
+				<Cooldown>15s</Cooldown>
+				<Max_Duration>2s</Max_Duration>
+				<Special_Effect>Heavy Blow and Gamma Burst can detect and damage irradiated enemies, and prematurely remove the status</Special_Effect>
+				<Projectile_Speed>100m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101171</id>
+			<name>World Breaker</name>
+			<type>Ultimate</type>
+			<description> Grab and smash the enemy in front.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>5m</Range>
+				<Damage>Delivers 5 hits, each dealing 40 damage</Damage>
+				<Casting>Targeted</Casting>
+				<Duration>5s</Duration>
+				<Special_Effect>While performing the smash, Hulk gains a 30% Damage Reduction</Special_Effect>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101181</id>
+			<name>Savage Toss</name>
+			<type>Normal</type>
+			<description>Press {Interactive} to grab a large broken object; press {PrimaryAttack} to fling it forward.</description>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101183</id>
+			<name>Brute Strength</name>
+			<type>Normal</type>
+			<description>Press {Interactive} to pick up a shield-like broken object and deploy a frontal shield; press {PrimaryAttack} to fling it forward.</description>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101191</id>
+			<name>Incredible Leap</name>
+			<type>Normal</type>
+			<description>Hold {Jump} to perform a charged leap that allows Hero Hulk to &lt;Debuff&gt;Knock Down&lt;/&gt; flying enemies.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Casting>Charged Dash</Casting>
+				<Special_Effect>Press Space during the Incredible Leap to cling to the wall you encounter</Special_Effect>
+				<Maximum_Charge_Time>1.7s</Maximum_Charge_Time>
+				<Minimum_Charge_Time>0.4s</Minimum_Charge_Time>
+				<Speed_at_Maximum_Charge_Time>25m/s</Speed_at_Maximum_Charge_Time>
+				<Speed_at_Minimum_Charge_Time>19m/s</Speed_at_Minimum_Charge_Time>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101193</id>
+			<name>Incredible Leap</name>
+			<type>Normal</type>
+			<description>Hold {Jump} to perform a charged leap that allows Monster Hulk to &lt;Debuff&gt;Knock Down&lt;/&gt; flying enemies.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Casting>Charged Dash</Casting>
+				<Special_Effect>Press Space during the Incredible Leap to cling to the wall you encounter</Special_Effect>
+				<Maximum_Charge_Time>1.7s</Maximum_Charge_Time>
+				<Minimum_Charge_Time>0.4s</Minimum_Charge_Time>
+				<Speed_at_Maximum_Charge_Time>25m/s</Speed_at_Maximum_Charge_Time>
+				<Speed_at_Minimum_Charge_Time>19m/s</Speed_at_Minimum_Charge_Time>
+			</additional_fields>
+			<transformation_id>2</transformation_id>
+		</item>
+		<item>
+			<id>101111</id>
+			<name>Gamma Ray Gun</name>
+			<type>Weapon</type>
+			<description>Fire with a Gamma Ray Gun.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>25</Ammo>
+				<Damage>16</Damage>
+				<Casting>Single-cast projectile with delayed impact</Casting>
+				<Fire_Rate>5 rounds per second</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101113</id>
+			<name>Heavy Blow</name>
+			<type>Weapon</type>
+			<description>Swing fists forward to punch enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>4.5m</Range>
+				<Damage>40</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+				<Attack_Interval>0.467s</Attack_Interval>
+			</additional_fields>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101114</id>
+			<name>Heavy Blow</name>
+			<type>Weapon</type>
+			<description>Swing fists forward to punch and &lt;Debuff&gt;launch up&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>4.5m</Range>
+				<Damage>40</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+				<Attack_Interval>0.467s</Attack_Interval>
+			</additional_fields>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101121</id>
+			<name>Gamma Grenade</name>
+			<type>Normal</type>
+			<description>Launch a Gamma Grenade to inflict damage and &lt;Debuff&gt;Launch Up&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>3m spherical radius</Range>
+				<Damage>40</Damage>
+				<Casting>Single-cast projectile with a downward delay that creates a spell field upon impact</Casting>
+				<Cooldown>8s</Cooldown>
+				<Special_Effect>When the caster enters the spell field, it restores 50 gamma energy</Special_Effect>
+			</additional_fields>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101122</id>
+			<name>Gamma Burst</name>
+			<type>Normal</type>
+			<description>Emit gamma-ray bursts to inflict damage. Reduce &lt;Orange&gt;Indestructible Guard&lt;/&gt; cooldown upon hit.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>75</Damage>
+				<Casting>Single-cast projectile that can pierce through enemies</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>Each direct hit reduces Indestructible Guard cooldown by 1s</Special_Effect>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101123</id>
+			<name>Gamma Burst</name>
+			<type>Normal</type>
+			<description>Emit gamma-ray bursts to inflict damage. Reduce &lt;Orange&gt;Indestructible Guard&lt;/&gt; cooldown upon hit.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>75</Damage>
+				<Casting>Single-cast projectile that can pierce through enemies</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>Each direct hit reduces Indestructible Guard cooldown by 1s</Special_Effect>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101131</id>
+			<name>Puny Banner</name>
+			<type>Ultimate</type>
+			<description>Transform from Bruce Banner into Hero Hulk.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Transformation</Casting>
+				<Energy_Cost>600</Energy_Cost>
+				<Special_Effect>The caster is immobilized during the transformation process and gains Invincibility</Special_Effect>
+			</additional_fields>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101132</id>
+			<name>Hulk Smash!</name>
+			<type>Ultimate</type>
+			<description>Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period. Gain immunity to &lt;Debuff&gt;Launch&lt;/&gt; and &lt;Debuff&gt;Knockback&lt;/&gt; effects.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Transformation</Casting>
+				<Duration>12s</Duration>
+				<Energy_Cost>3400</Energy_Cost>
+				<Special_Effect>The caster is immobilized during the transformation process and gains Invincibility</Special_Effect>
+			</additional_fields>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101141</id>
+			<name>Indestructible Guard</name>
+			<type>Normal</type>
+			<description>Generate gamma shields for Hero Hulk and nearby allies, absorbing and converting damage into energy for &lt;Orange&gt;HULK SMASH!&lt;/&gt;</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>5m spherical radius</Range>
+				<Casting>Single-cast spell field that surrounds the caster</Casting>
+				<Cooldown>10s</Cooldown>
+				<Special_Effect>When the caster's shield takes damage, 100% of the damage is converted into gamma energy. When an ally's shield takes damage, 10% of the damage is converted into gamma energy</Special_Effect>
+				<key name="Ally&amp;apos;s Shield Value">100</key>
+				<Max_Shield_Duration>2.5s</Max_Shield_Duration>
+				<key name="Caster&amp;apos;s Shield Value">200</key>
+			</additional_fields>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101151</id>
+			<name>Radioactive Lockdown</name>
+			<type>Normal</type>
+			<description>Emit gamma energy to render enemies immobilized and immune to all ability effects. Using &lt;Orange&gt;Heavy Blow&lt;/&gt; or &lt;Orange&gt;Gamma Burst&lt;/&gt; will prematurely remove this status.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>5</Damage>
+				<Casting>Single-cast projectile.</Casting>
+				<Cooldown>15s</Cooldown>
+				<Max_Duration>2s</Max_Duration>
+				<Special_Effect>Heavy Blow and Gamma Burst can detect and damage irradiated enemies, and prematurely remove the status</Special_Effect>
+				<Projectile_Speed>100m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101152</id>
+			<name>Radioactive Lockdown</name>
+			<type>Normal</type>
+			<description>Emit gamma energy to render enemies immobilized and immune to all ability effects. Using &lt;Orange&gt;Heavy Blow&lt;/&gt; or &lt;Orange&gt;Gamma Burst&lt;/&gt; will prematurely remove this status.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>5</Damage>
+				<Casting>Single-cast projectile.</Casting>
+				<Cooldown>15s</Cooldown>
+				<Max_Duration>2s</Max_Duration>
+				<Special_Effect>Heavy Blow and Gamma Burst can detect and damage irradiated enemies, and prematurely remove the status</Special_Effect>
+				<Projectile_Speed>100m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101171</id>
+			<name>World Breaker</name>
+			<type>Ultimate</type>
+			<description> Grab and smash the enemy in front.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>5m</Range>
+				<Damage>Delivers 5 hits, each dealing 40 damage</Damage>
+				<Casting>Targeted</Casting>
+				<Duration>5s</Duration>
+				<Special_Effect>While performing the smash, Hulk gains a 30% Damage Reduction</Special_Effect>
+			</additional_fields>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101181</id>
+			<name>Savage Toss</name>
+			<type>Normal</type>
+			<description>Press {Interactive} to grab a large broken object; press {PrimaryAttack} to fling it forward.</description>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101183</id>
+			<name>Brute Strength</name>
+			<type>Normal</type>
+			<description>Press {Interactive} to pick up a shield-like broken object and deploy a frontal shield; press {PrimaryAttack} to fling it forward.</description>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101191</id>
+			<name>Incredible Leap</name>
+			<type>Normal</type>
+			<description>Hold {Jump} to perform a charged leap that allows Hero Hulk to &lt;Debuff&gt;Knock Down&lt;/&gt; flying enemies.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Casting>Charged Dash</Casting>
+				<Special_Effect>Press Space during the Incredible Leap to cling to the wall you encounter</Special_Effect>
+				<Maximum_Charge_Time>1.7s</Maximum_Charge_Time>
+				<Minimum_Charge_Time>0.4s</Minimum_Charge_Time>
+				<Speed_at_Maximum_Charge_Time>25m/s</Speed_at_Maximum_Charge_Time>
+				<Speed_at_Minimum_Charge_Time>19m/s</Speed_at_Minimum_Charge_Time>
+			</additional_fields>
+			<transformation_id>3</transformation_id>
+		</item>
+		<item>
+			<id>101193</id>
+			<name>Incredible Leap</name>
+			<type>Normal</type>
+			<description>Hold {Jump} to perform a charged leap that allows Monster Hulk to &lt;Debuff&gt;Knock Down&lt;/&gt; flying enemies.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Casting>Charged Dash</Casting>
+				<Special_Effect>Press Space during the Incredible Leap to cling to the wall you encounter</Special_Effect>
+				<Maximum_Charge_Time>1.7s</Maximum_Charge_Time>
+				<Minimum_Charge_Time>0.4s</Minimum_Charge_Time>
+				<Speed_at_Maximum_Charge_Time>25m/s</Speed_at_Maximum_Charge_Time>
+				<Speed_at_Minimum_Charge_Time>19m/s</Speed_at_Minimum_Charge_Time>
+			</additional_fields>
+			<transformation_id>3</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>12.00</rank>
+			<mover_shaker>41.00</mover_shaker>
+			<rank_calc>4.10</rank_calc>
+			<mover_shaker_calc>-79.35</mover_shaker_calc>
+			<ZScore>-5.61</ZScore>
+			<winrate>53.09</winrate>
+			<pickrate>14.00</pickrate>
+			<banrate>20.88</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>53.27</winrate_prev>
+			<pickrate_prev>8.65</pickrate_prev>
+			<banrate_prev>0.75</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>62.00</pickrate_change>
+			<banrate_change>2684.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>9.00</rank>
+			<mover_shaker>2.00</mover_shaker>
+			<rank_calc>4.14</rank_calc>
+			<mover_shaker_calc>2.31</mover_shaker_calc>
+			<ZScore>0.27</ZScore>
+			<winrate>53.27</winrate>
+			<pickrate>8.65</pickrate>
+			<banrate>0.75</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>52.71</winrate_prev>
+			<pickrate_prev>14.05</pickrate_prev>
+			<banrate_prev>17.06</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>-38.00</pickrate_change>
+			<banrate_change>-96.00</banrate_change>
+		</item>
+	</meta>
+</all>

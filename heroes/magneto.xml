@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1037</id>
+	<name>Magneto</name>
+	<real_name>Max Eisenhardt</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Magneto</name>
+			<health>650</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>The Master of Magnetism bends even the strongest metal to his whims, shielding his allies and striking at his foes. Whether he calls himself Max Eisenhardt, Erik Lehnsherr, or simply Magneto, the hardships this warrior has endured have made him as unbreakable as the steel he brandishes. </description>
+	<team>
+		<item>X_men</item>
+		<item>Mutants</item>
+		<item>Villains</item>
+	</team>
+	<difficulty>2</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>VANGUARD</role>
+	<abilities>
+		<item>
+			<id>103701</id>
+			<type>Normal</type>
+			<description>Wield iron elements to conjure iron rings floating behind.</description>
+			<additional_fields>
+				<Health>650</Health>
+				<Movement_Speed>6m/s</Movement_Speed>
+				<Iron_Ring_Charging_Speed>3s per charge</Iron_Ring_Charging_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103702</id>
+			<name>Magnetic Descent</name>
+			<type>Normal</type>
+			<description>Hold {Jump} to fall slowly.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Descending_Speed>3.5m/s</Descending_Speed>
+				<Horizontal_Movement_Speed>6m/s</Horizontal_Movement_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103711</id>
+			<name>Iron Volley</name>
+			<type>Weapon</type>
+			<description>Fire a volley of magnetic orbs forward. The range of the resulting explosion increases based on distance flown.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>Initially, it produces a spell field with a 1m spherical radius; when the projectile reaches maximum distance, the explosion radius expands to a spell field with a 3m spherical radius</Range>
+				<Damage>Projectile Damage: 40. The spell field deals 40 damage at its center, reducing to 50% within a 3m radius from the center</Damage>
+				<Casting>Single-cast projectile with delayed impact that also generates a spell field</Casting>
+				<Charges>10</Charges>
+				<Attack_Interval>0.8s</Attack_Interval>
+				<Maximum_Distance>25m</Maximum_Distance>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103719</id>
+			<type>Normal</type>
+			<additional_fields>
+				<Health>650</Health>
+				<Movement_Speed>6m/s</Movement_Speed>
+				<Iron_Ring_Charging_Speed>3s per charge</Iron_Ring_Charging_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103721</id>
+			<name>Mag-cannon</name>
+			<type>Normal</type>
+			<description>Convert the iron rings on Magneto's back into a Mag-Cannon and launch a metallic mass forward. Higher stacks of rings increase damage, and full stacks &lt;Debuff&gt;Knock Back&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>Iron Rings' first charge deals 40 damage, the second charge deals 65 damage, and the third charge deals 90 damage</Damage>
+				<Casting>Single-cast projectile with delayed impact</Casting>
+				<Cooldown>No cooldown, but the ability can only be activated when the Iron Ring has at least one charge</Cooldown>
+				<Critical_Hit>No</Critical_Hit>
+				<Special_Effect>When fully charged, the Iron Ring has a 6m knockback distance</Special_Effect>
+				<Projectile_Speed>120m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103731</id>
+			<name>Metallic Curtain</name>
+			<type>Normal</type>
+			<description>Change the magnetic field around to form a metallic curtain, blocking all incoming &lt;Orange&gt;Projectiles&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Shield</Casting>
+				<Cooldown>3s</Cooldown>
+				<Energy_Cost>65/s</Energy_Cost>
+				<Maximum_Energy>100</Maximum_Energy>
+				<Energy_Recovery_Delay>1s</Energy_Recovery_Delay>
+				<Energy_Recovery_Speed>11/s</Energy_Recovery_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103741</id>
+			<name>Metal Bulwark</name>
+			<type>Normal</type>
+			<description>Conjure a metal shield around a chosen ally. Damage taken will transform into rings on Magneto's back.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Targeted</Casting>
+				<Cooldown>12s</Cooldown>
+				<Shield_Value>200</Shield_Value>
+				<Special_Effect>The shield grants one charge of Iron Ring for every 100 damage it absorbs</Special_Effect>
+				<Maximum_Distance>20m</Maximum_Distance>
+				<Max_Shield_Duration>2.5s</Max_Shield_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103751</id>
+			<type>Normal</type>
+			<additional_fields>
+				<Health>650</Health>
+				<Movement_Speed>6m/s</Movement_Speed>
+				<Iron_Ring_Charging_Speed>3s per charge</Iron_Ring_Charging_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103761</id>
+			<name>Meteor M</name>
+			<type>Ultimate</type>
+			<description>Draw in all materials around to forge an iron meteor that deals massive damage upon impact. Absorbing enemy &lt;Orange&gt;Projectiles&lt;/&gt; can enhance the meteor's power, yet overloading will cause it to self-destruct.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Damage>The projectile deals no damage. The base damage at the center of the spell field starts at 100 and increases to 300 when fully charged. Each point of Energy adds an extra 3 points of damage to the spell field, with damage reducing to 50% at a distance of 6m from the center</Damage>
+				<Casting>Create a persistent spell field that launches a projectile upon completion, which generates another spell field on impact</Casting>
+				<Energy_Cost>3400</Energy_Cost>
+				<Special_Effect>For each point of projectile damage absorbed, the power increases by 0.125, with a maximum absorption of 800 projectile damage</Special_Effect>
+				<Explosion_Range>Initially, the ability has a spherical range with a radius of 5m. After charging for 4s, it expands to an 8m radius</Explosion_Range>
+				<Maximum_Duration>4s</Maximum_Duration>
+				<Projectile_Speed>30m/s</Projectile_Speed>
+				<Projectile_Absorption_Range>15m spherical radius</Projectile_Absorption_Range>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103771</id>
+			<name>Sword Of The King</name>
+			<type>Melee</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103773</id>
+			<type>Normal</type>
+			<additional_fields>
+				<Health>650</Health>
+				<Movement_Speed>6m/s</Movement_Speed>
+				<Iron_Ring_Charging_Speed>3s per charge</Iron_Ring_Charging_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103791</id>
+			<name>Metallic Fusion</name>
+			<type>Normal</type>
+			<description>Scarlet Witch can infuse Chaos Energy into Magneto to enchant his greatsword. Upon receiving the Chaos Energy, Magneto can unleash its full force, striking down enemies with his enchanted greatsword.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103792</id>
+			<name>Magnetic Resonance</name>
+			<type>Normal</type>
+			<description>Emma Frost can form a mental link with Magneto and Psylocke, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Magneto and Psylocke, forming a Duplicate Illusion in the enemy's perspective that confuses foes by moving and casting abilities on its own.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103794</id>
+			<name>Royal Blade</name>
+			<type>Normal</type>
+			<description>Gambit shares kinetic energy with Magneto and Rogue. When Magneto activates this ability, &lt;Orange&gt;Iron Volley&lt;/&gt; is replaced with &lt;Orange&gt;Ace Greatsword&lt;/&gt;, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay. When Rogue activates the ability, each of her attacks causes a kinetic explosion that damages nearby enemies and heals nearby allies.</description>
+			<additional_fields>
+				<Key>C</Key>
+				<Cooldown>30s</Cooldown>
+				<Duration>10s</Duration>
+				<Shoot_Interval>First hit 0.6s, second hit 1s</Shoot_Interval>
+				<Explosion_Delay>0.5s</Explosion_Delay>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+				<Projectile_Damage>40</Projectile_Damage>
+				<Spell_Field_Range>3m spherical radius spell field</Spell_Field_Range>
+				<Spell_Field_Damage>30</Spell_Field_Damage>
+				<Delay_Explosion_Damage>25</Delay_Explosion_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103795</id>
+			<name>Ace Greatswords Fired</name>
+			<type>Normal</type>
+			<description>Gambit shares kinetic energy with Magneto and Rogue. When Magneto activates this ability, &lt;Orange&gt;Iron Volley&lt;/&gt; is replaced with &lt;Orange&gt;Ace Greatsword&lt;/&gt;, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay. When Rogue activates the ability, each of her attacks causes a kinetic explosion that damages nearby enemies and heals nearby allies.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>23.00</rank>
+			<mover_shaker>20.00</mover_shaker>
+			<rank_calc>3.90</rank_calc>
+			<mover_shaker_calc>0.03</mover_shaker_calc>
+			<ZScore>0.23</ZScore>
+			<winrate>47.83</winrate>
+			<pickrate>27.89</pickrate>
+			<banrate>1.54</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>47.76</winrate_prev>
+			<pickrate_prev>27.35</pickrate_prev>
+			<banrate_prev>1.52</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>2.00</pickrate_change>
+			<banrate_change>1.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>23.00</rank>
+			<mover_shaker>24.00</mover_shaker>
+			<rank_calc>3.91</rank_calc>
+			<mover_shaker_calc>-0.30</mover_shaker_calc>
+			<ZScore>0.19</ZScore>
+			<winrate>47.76</winrate>
+			<pickrate>27.35</pickrate>
+			<banrate>1.52</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>48.41</winrate_prev>
+			<pickrate_prev>29.16</pickrate_prev>
+			<banrate_prev>1.57</banrate_prev>
+			<winrate_change>-1.00</winrate_change>
+			<pickrate_change>-6.00</pickrate_change>
+			<banrate_change>-3.00</banrate_change>
+		</item>
+	</meta>
+</all>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1044</id>
+	<name>Blade</name>
+	<real_name>Eric Brooks</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Blade</name>
+			<health>350</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Half-human and half-vampire, Eric Brooks walks between worlds, craving the very life force of his enemies. As night falls, Blade's hunt begins as he wields the Sword of Dracula to become the nightmare of any foe who dares to bare their fangs.</description>
+	<team>
+		<item>Marvelknights</item>
+		<item>Avengers</item>
+		<item>Midnightsons</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>104411</id>
+			<name>Ancestral Sword</name>
+			<type>Weapon</type>
+			<description>Slash forward with Blade's Ancestral Sword.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>Cause 26 damage per single slash; double strike cause 13 damage per hit</Damage>
+				<Casting>Melee</Casting>
+				<Attack_Interval>2 strikes per second</Attack_Interval>
+				<Maximum_Distance>4.5m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104421</id>
+			<name>Hunter's Shotgun</name>
+			<type>Weapon</type>
+			<description>Fire at enemies using your Shotgun.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Casting>Projectile that fires in a straight trajectory, which breaks into shrapnel after reaching a certain distance</Casting>
+				<Shrapnel_Amount>11</Shrapnel_Amount>
+				<Damage_per_Shrapnel_Hit>8</Damage_per_Shrapnel_Hit>
+				<Shrapnel_Damage_Falloff>Falloff begins at 15m, decreasing to 50% at 30m</Shrapnel_Damage_Falloff>
+				<Initial_Projectile_Speed>150 m/s</Initial_Projectile_Speed>
+				<Initial_Projectile_Damage>45</Initial_Projectile_Damage>
+				<Shrapnel_Projectile_Speed>150 m/s</Shrapnel_Projectile_Speed>
+				<Initial_Projectile_Maximum_Distance>8m</Initial_Projectile_Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104431</id>
+			<name>Daywalker Dash</name>
+			<type>Normal</type>
+			<description>Dash forward. If wielding your gun, shoot at enemies upon impact, applying a &lt;Debuff&gt;Slow&lt;/&gt; effect. If wielding your sword, deliver a cleaving strike that inflicts &lt;Debuff&gt;Healing Reduction&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Shift</Key>
+				<Damage>20</Damage>
+				<Casting>Dash. Cause damage and special effects to the enemies hit</Casting>
+				<Slow_Rate>40%</Slow_Rate>
+				<Dash_Distance>15m</Dash_Distance>
+				<Slow_Duration>1.5s</Slow_Duration>
+				<Special_Effect>Hit while wielding the gun, inflict Slow effect to the enemy; hit while wielding the sword,  deal Healing Reduction to the enemy</Special_Effect>
+				<Gun_Second_Hit_Damage>50</Gun_Second_Hit_Damage>
+				<Second_Hit_Damage_Range>6.5m</Second_Hit_Damage_Range>
+				<Sword_Second_Hit_Damage>8 per hit, 4 hits in total</Sword_Second_Hit_Damage>
+				<Healing_Reduction_Duration>4s</Healing_Reduction_Duration>
+				<Healing_Reduction_Proportion>apply 8% Healing Reduction per strike (32% total if all hit)</Healing_Reduction_Proportion>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104432</id>
+			<name>Stepping Heavy Slash (sword Form)</name>
+			<type>Normal</type>
+			<description>Dash forward and slash hit enemies, dealing damage and reducing their movement speed.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104441</id>
+			<name>Bloodline Awakening</name>
+			<type>Normal</type>
+			<description>Awaken the Dhampir bloodline, enhancing slash speed during continuous attacks and triggering &lt;Orange&gt;Whirlwind Slash&lt;/&gt;. If all &lt;Orange&gt;Whirlwind Slash&lt;/&gt; strikes hit, your &lt;Buff&gt;Attack Speed&lt;/&gt; will further increase. While under this state, you suffer &lt;Debuff&gt;Reduced Healing&lt;/&gt;, but attacks gain &lt;Buff&gt;Lifesteal&lt;/&gt;. Excess lifesteal converts to &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Special_Effect>Landing all four hits of Whirlwind Slash grants 1 slash speed stack</Special_Effect>
+				<Lifesteal_Proportion>65%, Affected by Healing Reduction</Lifesteal_Proportion>
+				<Movement_Speed_Boost>1.5 m/s</Movement_Speed_Boost>
+				<Shift_Hit_Buff_Stack>5</Shift_Hit_Buff_Stack>
+				<Whirlwind_Slash_Damage>64</Whirlwind_Slash_Damage>
+				<Left_Click_Hit_Buff_Stack>1</Left_Click_Hit_Buff_Stack>
+				<Duration_of_Each_Buff_Stack>1s</Duration_of_Each_Buff_Stack>
+				<Self_Reduce_Healing_Proportion>25%</Self_Reduce_Healing_Proportion>
+				<Max_Attack_Speed_Boost_Buff_Stack>10</Max_Attack_Speed_Boost_Buff_Stack>
+				<Hits_to_Trigger_the_Whirlwind_Slash>5</Hits_to_Trigger_the_Whirlwind_Slash>
+				<Attack_Speed_Boost_Proportion_from_Each_Buff_Stack>10%</Attack_Speed_Boost_Proportion_from_Each_Buff_Stack>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104442</id>
+			<name>Spinning Slash</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104451</id>
+			<name>Thousand-fold Slash</name>
+			<type>Ultimate</type>
+			<description>Charge power and swiftly draw the Sword of Dracula, executing a powerful Iaido strike as you dash forward, leaving behind a slashing zone where the sword automatically strikes enemies. Enemies hit suffer &lt;Debuff&gt;Reduced Healing&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Self_Slow>25%</Self_Slow>
+				<Energy_Cost>2800</Energy_Cost>
+				<Dash_Distance>10m, maximum distance 24m after fully charged.</Dash_Distance>
+				<Direct_Hit_Damage>100</Direct_Hit_Damage>
+				<Spell_Field_Range>Length: Maximum dash distance; Width: 6m; Height: 4.5m</Spell_Field_Range>
+				<Maximum_Charge_Time>3s</Maximum_Charge_Time>
+				<Spell_Field_Duration>2s</Spell_Field_Duration>
+				<Healing_Reduction_Duration>4s</Healing_Reduction_Duration>
+				<Charge_time_for_max_distance>1s</Charge_time_for_max_distance>
+				<Healing_Reduction_Proportion>20%</Healing_Reduction_Proportion>
+				<Spell_Field_Damage_Over_Time>225/s</Spell_Field_Damage_Over_Time>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104461</id>
+			<name>Scarlet Shroud</name>
+			<type>Normal</type>
+			<description>Parry with Ancestral Sword to become &lt;Buff&gt;Unstoppable&lt;/&gt; for a brief period, reducing damage taken from the front and decreasing the cooldown of &lt;Orange&gt;Daywalker Dash&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Cooldown>3s</Cooldown>
+				<Energy_Cost>60/s</Energy_Cost>
+				<Maximum_Energy>120</Maximum_Energy>
+				<Special_Effect>Every 200 damage resisted grants 1 charge for Daywalker Dash</Special_Effect>
+				<key name="Activation Cost">15</key>
+				<Damage_Reduction>80%</Damage_Reduction>
+				<Unstoppable_Duration>0.4s after activation</Unstoppable_Duration>
+				<Energy_Recovery_Speed>15/s</Energy_Recovery_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104492</id>
+			<name>New Moon</name>
+			<type>Normal</type>
+			<description>Cloak &amp; Dagger share light and dark energy with Hawkeye and Psylocke. When Hawkeye uses &lt;Orange&gt;Crescent Slash&lt;/&gt;, he also releases a blade wave that heals and &lt;Buff&gt;boosts healing&lt;/&gt; for teammates, while inflicting damage and &lt;Debuff&gt;Vulnerability&lt;/&gt; on enemies. Psylocke can launch a Light Boomerang Dart that heals allies, harms enemies, and provides her with temporary healing upon return. She can also unleash a ring of Dark Darts that slow enemies while she briefly enters a &lt;Buff&gt;Phased&lt;/&gt; state.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104493</id>
+			<name>Light &amp; Dark Realm</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104494</id>
+			<name>Eclipse Edge</name>
+			<type>Normal</type>
+			<description>Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his &lt;Orange&gt;Ancestral Sword&lt;/&gt; in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a &lt;Orange&gt;Darkmoon Blade&lt;/&gt; forward. When a &lt;Orange&gt;Darkmoon Blade&lt;/&gt; hits an enemy, it bounces to nearby targets.</description>
+			<additional_fields>
+				<Key>C</Key>
+				<Damage>40</Damage>
+				<Cooldown>20s</Cooldown>
+				<Dash_Damage>30</Dash_Damage>
+				<Bounce_Range>8m</Bounce_Range>
+				<Dash_Duration>8m</Dash_Duration>
+				<Projectile_Speed>150m/s</Projectile_Speed>
+				<Number_of_Projectiles>4</Number_of_Projectiles>
+				<Maximum_Times_of_Bounce>3</Maximum_Times_of_Bounce>
+				<Damage_Falloff_Per_Bounce>20% per bounce</Damage_Falloff_Per_Bounce>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104495</id>
+			<name>Darkmoon Blades Fired</name>
+			<type>Normal</type>
+			<description>Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his &lt;Orange&gt;Ancestral Sword&lt;/&gt; in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a &lt;Orange&gt;Darkmoon Blade&lt;/&gt; forward. When a &lt;Orange&gt;Darkmoon Blade&lt;/&gt; hits an enemy, it bounces to nearby targets.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>34.00</rank>
+			<mover_shaker>4.00</mover_shaker>
+			<rank_calc>3.72</rank_calc>
+			<mover_shaker_calc>1.34</mover_shaker_calc>
+			<ZScore>0.32</ZScore>
+			<winrate>46.60</winrate>
+			<pickrate>12.06</pickrate>
+			<banrate>0.24</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>46.37</winrate_prev>
+			<pickrate_prev>31.93</pickrate_prev>
+			<banrate_prev>1.39</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>-62.00</pickrate_change>
+			<banrate_change>-83.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>25.00</rank>
+			<mover_shaker>20.00</mover_shaker>
+			<rank_calc>3.90</rank_calc>
+			<mover_shaker_calc>0.00</mover_shaker_calc>
+			<ZScore>0.20</ZScore>
+			<winrate>46.37</winrate>
+			<pickrate>31.93</pickrate>
+			<banrate>1.39</banrate>
+			<usage_trend/>
+			<winrate_prev>46.37</winrate_prev>
+			<pickrate_prev>31.93</pickrate_prev>
+			<banrate_prev>1.39</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>0.00</pickrate_change>
+			<banrate_change>0.00</banrate_change>
+		</item>
+	</meta>
+</all>

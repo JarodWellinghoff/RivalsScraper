@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1041</id>
+	<name>Winter Soldier</name>
+	<real_name>James "bucky" Barnes</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Winter Soldier</name>
+			<health>275</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Terrifying experiments turned him into a brainwashed assassin, but now James "Bucky" Barnes is in control of his own fate once again. With his enhanced mechanical arm, the Winter Soldier is primed to deliver earth-shattering blows to any foe in his path!</description>
+	<team>
+		<item>Avengers</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>104101</id>
+			<name>Ceaseless Charge</name>
+			<type>Normal</type>
+			<description>Roterstern reloads automatically while the bionic arm is in action, granting the Winter Soldier &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Bonus_Health_Self>40 (Bionic Hook &amp; Tainted Voltage), 50 (Trooper's Fist, Kraken Impact)</Bonus_Health_Self>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104121</id>
+			<name>Roterstern</name>
+			<type>Weapon</type>
+			<description>Fire explosive rounds with his blaster, Roterstern, damaging the target hit and enemies behind them.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>3</Ammo>
+				<Range>Cone-shaped spell field with a 5m radius and an apex angle of 90°</Range>
+				<Casting>Straight-line projectile that generates a spell field upon impact</Casting>
+				<Fire_Rate>2.5 rounds per second</Fire_Rate>
+				<Critical_Hit>Projectile: Yes; Spell Field: No</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 20m, decreasing to 70% at 40m</Damage_Falloff>
+				<Projectile_Speed>180 m/s</Projectile_Speed>
+				<Special_Mechanic>Enemies that take damage from the projectile will no longer receive damage from the spell field</Special_Mechanic>
+				<Projectile_Damage>75</Projectile_Damage>
+				<Spell_Field_Damage>65</Spell_Field_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104131</id>
+			<name>Bionic Hook</name>
+			<type>Normal</type>
+			<description>Charge up and launch a hook with his bionic arm, reeling in the first target hit and enemies lurking behind.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>Cone-shaped spell field with a 4.5m radius and an apex angle of 80°</Range>
+				<Casting>Straight-line projectile that generates a spell field upon impact</Casting>
+				<Cooldown>12s</Cooldown>
+				<Charge_Time>0.5s - 4s</Charge_Time>
+				<Projectile_Speed>80 m/s</Projectile_Speed>
+				<Projectile_Damage>15</Projectile_Damage>
+				<Spell_Field_Damage>20</Spell_Field_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104141</id>
+			<name>Trooper's Fist</name>
+			<type>Normal</type>
+			<description>Dash forward, seizing enemies along the path, and &lt;Debuff&gt;Launch Up&lt;/&gt; enemies in front at the end of the dash.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>Length: 4.5m, Width: 4.5m, Height: 2m</Range>
+				<Casting>Movement-based damage ability</Casting>
+				<Cooldown>12s</Cooldown>
+				<Seize_Damage>25</Seize_Damage>
+				<Average_Speed>30 m/s</Average_Speed>
+				<Special_Effect>Second strike applies a 1s debuff to enemies hit, preventing them from using mobility abilities</Special_Effect>
+				<Knockback_Damage>65</Knockback_Damage>
+				<Maximum_Distance>9m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104151</id>
+			<name>Tainted Voltage</name>
+			<type>Normal</type>
+			<description>Charge up and launch a powerful electrical punch with the bionic arm in the target direction, dealing damage to enemies within range and &lt;Debuff&gt;Slowing&lt;/&gt; them. This ability can &lt;Debuff&gt;Knock Down&lt;/&gt; flying heroes.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>55</Damage>
+				<Casting>Projectile that fires in a straight trajectory</Casting>
+				<Cooldown>6s</Cooldown>
+				<Slow_Rate>-35%</Slow_Rate>
+				<Slow_Duration>2s</Slow_Duration>
+				<Projectile_Speed>100 m/s</Projectile_Speed>
+				<Special_Mechanic>Projectiles pierce through enemies</Special_Mechanic>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104161</id>
+			<name>Kraken Impact</name>
+			<type>Ultimate</type>
+			<description>Leap high, then dash forward and slam down with the bionic arm, dealing damage to enemies in range, marking them for &lt;Orange&gt;Culling&lt;/&gt;. Marked enemies will perish instantly if their health falls below a certain threshold, recharging the bionic arm for another &lt;Orange&gt;Kraken Impact&lt;/&gt; within a short period.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>5m spherical radius</Range>
+				<Casting>Spherical Spell Field</Casting>
+				<Energy_Cost>3100</Energy_Cost>
+				<Culling_Duration>5s</Culling_Duration>
+				<Culling_Threshold>15% Health</Culling_Threshold>
+				<Spell_Field_Damage>80</Spell_Field_Damage>
+				<Next_Kraken_Impact_After_A_Culling>8s</Next_Kraken_Impact_After_A_Culling>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>25.00</rank>
+			<mover_shaker>26.00</mover_shaker>
+			<rank_calc>3.89</rank_calc>
+			<mover_shaker_calc>-0.35</mover_shaker_calc>
+			<ZScore>0.20</ZScore>
+			<winrate>47.00</winrate>
+			<pickrate>17.46</pickrate>
+			<banrate>0.44</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>47.46</winrate_prev>
+			<pickrate_prev>16.30</pickrate_prev>
+			<banrate_prev>0.40</banrate_prev>
+			<winrate_change>-1.00</winrate_change>
+			<pickrate_change>7.00</pickrate_change>
+			<banrate_change>10.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>22.00</rank>
+			<mover_shaker>23.00</mover_shaker>
+			<rank_calc>3.92</rank_calc>
+			<mover_shaker_calc>-0.25</mover_shaker_calc>
+			<ZScore>0.19</ZScore>
+			<winrate>47.46</winrate>
+			<pickrate>16.30</pickrate>
+			<banrate>0.40</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>46.27</winrate_prev>
+			<pickrate_prev>15.44</pickrate_prev>
+			<banrate_prev>0.31</banrate_prev>
+			<winrate_change>3.00</winrate_change>
+			<pickrate_change>6.00</pickrate_change>
+			<banrate_change>29.00</banrate_change>
+		</item>
+	</meta>
+</all>

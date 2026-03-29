@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1048</id>
+	<name>Psylocke</name>
+	<real_name>Sai</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Psylocke</name>
+			<health>250</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>The psychic warrior known as Sai has the Mutant ability to conjure a variety of weapons with the power of her mind. Gracefully gliding across the battlefield, this trained ninja can shatter the enemy's defenses with a single thought.</description>
+	<team>
+		<item>X_men</item>
+		<item>Mutants</item>
+	</team>
+	<difficulty>5</difficulty>
+	<attack_type>Hitscan Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>104811</id>
+			<name>Psionic Blades</name>
+			<type>Melee</type>
+			<description>Conjure and slash a pair of psionic blades to inflict damage on enemies. </description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104821</id>
+			<name>Psionic Crossbow</name>
+			<type>Weapon</type>
+			<description>Unleash bolts with psionic crossbows to damage enemies and reduce the cooldowns of all her abilities.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>16</Ammo>
+				<Damage>12 damage per round</Damage>
+				<Casting>Double projectile with spread</Casting>
+				<Fire_Rate>The firing interval between shots is 0.2s, with an interval of 0.6s between each round of shooting</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 15m, decreasing to 70% at 30m</Damage_Falloff>
+				<Critical_Damage>150%</Critical_Damage>
+				<Bullets_Fired_Each_Cast>4</Bullets_Fired_Each_Cast>
+				<Cooldown_Reduction_On_Hit>0.25s per hit</Cooldown_Reduction_On_Hit>
+				<Crosshair_Spread_Radius_at_10m>0.2m</Crosshair_Spread_Radius_at_10m>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104831</id>
+			<name>Wing Shurikens</name>
+			<type>Normal</type>
+			<description>Launch a volley of psionic shurikens that stick to enemies, dealing damage and granting herself &lt;Buff&gt;Bonus Health&lt;/&gt;. Press again to recall the shurikens.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>8 per hit</Damage>
+				<Casting>Projectile that fires in a straight trajectory.</Casting>
+				<Cooldown>8s</Cooldown>
+				<Bonus_Health>10 bonus health per round</Bonus_Health>
+				<Firing_Phase> </Firing_Phase>
+				<Recall_Phase> </Recall_Phase>
+				<Spread_Angle>0.86°</Spread_Angle>
+				<Recall_Window>3s</Recall_Window>
+				<Damage_Falloff>Falloff begins at 15m, decreasing to 80% at 25m</Damage_Falloff>
+				<Maximum_Distance>25m</Maximum_Distance>
+				<Projectile_Speed>120 m/s</Projectile_Speed>
+				<Special_Mechanic>When the projectile is recalled, it will move 20s toward the crosshair before returning to Psylocke</Special_Mechanic>
+				<Number_of_Projectiles>5</Number_of_Projectiles>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104841</id>
+			<name>Psi-blade Dash</name>
+			<type>Normal</type>
+			<description>Dash forward and slice through enemies along the path with psionic blades.</description>
+			<additional_fields>
+				<Key>Shift</Key>
+				<Damage>50</Damage>
+				<Charges>2</Charges>
+				<Cooldown>12s</Cooldown>
+				<Average_Speed>43 m/s</Average_Speed>
+				<Maximum_Distance>12m</Maximum_Distance>
+				<Special_Mechanic>Casting this ability will automatically recall the Wing Shurikens. The shurikens will first travel to Psylocke's starting position before returning to her</Special_Mechanic>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104851</id>
+			<name>Psychic Stealth</name>
+			<type>Normal</type>
+			<description>Enter stealth and gain a &lt;Buff&gt;Movement Boost&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>15s</Cooldown>
+				<Duration>2s</Duration>
+				<Movement_Boost>50%</Movement_Boost>
+				<Special_Mechanic>When attacked while in stealth, Psylocke will remain in stealth but will briefly become visible for a short duration</Special_Mechanic>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104861</id>
+			<name>Dance Of The Butterfly</name>
+			<type>Ultimate</type>
+			<description>Slash nearby enemies with a psionic katana, dealing massive damage.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>10m spherical radius</Range>
+				<Damage>160 damage per hit</Damage>
+				<Duration>4s</Duration>
+				<Slow_Rate>-15%</Slow_Rate>
+				<Energy_Cost>3400</Energy_Cost>
+				<Attack_Interval>2 hits per second</Attack_Interval>
+				<Special_Mechanic>Psylocke will slash a random enemy, giving priority to the one who has been hit the least</Special_Mechanic>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104882</id>
+			<name>Light Boomerang Dart</name>
+			<type>Normal</type>
+			<description>Psylocke launches a Light Boomerang Dart that heals allies, harms enemies, and provides her with continuous healing upon return based on the number of targets hit.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104883</id>
+			<name>Dark Dagger</name>
+			<type>Normal</type>
+			<description>Psylocke unleashes a ring of Dark Darts that slow enemies while she briefly enters a Phased state.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104892</id>
+			<name>Psychic Echoes</name>
+			<type>Normal</type>
+			<description>Emma Frost can form a mental link with Psylocke, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Psylocke, forming a Duplicate Illusion in the enemy's perspective that confuses foes by moving and casting abilities on its own.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104895</id>
+			<name>Psionic Disc</name>
+			<type>Normal</type>
+			<description>When Magik is on the field, {102600} can tap into Limbo to rewind a few seconds back to a previous position; after passing through Limbo, {102600} will gain &lt;Buff&gt;Bonus Health&lt;/&gt; based on missing health.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>22.00</rank>
+			<mover_shaker>35.00</mover_shaker>
+			<rank_calc>3.91</rank_calc>
+			<mover_shaker_calc>-1.27</mover_shaker_calc>
+			<ZScore>0.13</ZScore>
+			<winrate>49.52</winrate>
+			<pickrate>11.01</pickrate>
+			<banrate>1.74</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>49.91</winrate_prev>
+			<pickrate_prev>10.50</pickrate_prev>
+			<banrate_prev>1.24</banrate_prev>
+			<winrate_change>-1.00</winrate_change>
+			<pickrate_change>5.00</pickrate_change>
+			<banrate_change>40.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>18.00</rank>
+			<mover_shaker>21.00</mover_shaker>
+			<rank_calc>3.95</rank_calc>
+			<mover_shaker_calc>-0.01</mover_shaker_calc>
+			<ZScore>0.20</ZScore>
+			<winrate>49.91</winrate>
+			<pickrate>10.50</pickrate>
+			<banrate>1.24</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>48.99</winrate_prev>
+			<pickrate_prev>12.85</pickrate_prev>
+			<banrate_prev>1.23</banrate_prev>
+			<winrate_change>2.00</winrate_change>
+			<pickrate_change>-18.00</pickrate_change>
+			<banrate_change>1.00</banrate_change>
+		</item>
+	</meta>
+</all>

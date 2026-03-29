@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1030</id>
+	<name>Moon Knight</name>
+	<real_name>Marc Spector</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Moon Knight</name>
+			<health>275</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>As the avatar of the Egyptian God of Vengeance, Marc Spector's body has been enhanced by Khonshu himself. Bathed in a luminous aura that pierces the darkness, Moon Knight glides through the night, ready to sear his enemies with his master's sacred Ankhs.</description>
+	<team>
+		<item>Marvelknights</item>
+		<item>Midnightsons</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>103001</id>
+			<name>Triple Eclipse</name>
+			<type>Melee</type>
+			<description>Perform a combo with his truncheon, and the third strike will slightly &lt;Debuff&gt;Launch Up&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>V</Key>
+				<Casting>Melee</Casting>
+				<Maximum_Distance>3m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103021</id>
+			<name>Crescent Dart</name>
+			<type>Weapon</type>
+			<description>Unleash Crescent Darts forward that can bounce between enemies and &lt;Orange&gt;Ankhs&lt;/&gt;, dealing damage to enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>30</Ammo>
+				<Damage>25 damage per round</Damage>
+				<Casting>Triple shot that fires in a straight trajectory</Casting>
+				<Fire_Rate>The firing interval between shots is 0.05s, with an interval of 0.57s between each round of shooting</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 30m, decreasing to 50% at 50m</Damage_Falloff>
+				<Projectile_Speed>150m/s</Projectile_Speed>
+				<Maximum_Bounce_Distance>7m</Maximum_Bounce_Distance>
+				<Damage_Falloff_Per_Bounce>-20%</Damage_Falloff_Per_Bounce>
+				<Maximum_Number_of_Bounces>3</Maximum_Number_of_Bounces>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103023</id>
+			<name>Crescent Dart</name>
+			<type>Weapon</type>
+			<description>Unleash Crescent Darts forward that can bounce between enemies and &lt;Orange&gt;Ankhs&lt;/&gt;, dealing damage to enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>30</Ammo>
+				<Damage>25 damage per round</Damage>
+				<Casting>Triple shot that fires in a straight trajectory</Casting>
+				<Fire_Rate>The firing interval between shots is 0.05s, with an interval of 0.57s between each round of shooting</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 30m, decreasing to 50% at 50m</Damage_Falloff>
+				<Projectile_Speed>150m/s</Projectile_Speed>
+				<Maximum_Bounce_Distance>7m</Maximum_Bounce_Distance>
+				<Damage_Falloff_Per_Bounce>-20%</Damage_Falloff_Per_Bounce>
+				<Maximum_Number_of_Bounces>3</Maximum_Number_of_Bounces>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103031</id>
+			<name>Moon Blade</name>
+			<type>Normal</type>
+			<description>Launch forward a Moon Blade that can bounce between enemies and &lt;Orange&gt;Ankhs&lt;/&gt;, dealing damage to enemies while granting you &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>80</Damage>
+				<Casting>Projectile that fires in a straight trajectory</Casting>
+				<Charges>2</Charges>
+				<Cooldown>6s</Cooldown>
+				<Bonus_Health>25, up to a max of 76 Bonus Health</Bonus_Health>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 30m, decreasing to 50% at 50m</Damage_Falloff>
+				<Projectile_Speed>120m/s</Projectile_Speed>
+				<Maximum_Bounce_Distance>7m</Maximum_Bounce_Distance>
+				<Damage_Falloff_Per_Bounce>-20%</Damage_Falloff_Per_Bounce>
+				<Maximum_Number_of_Bounces>3</Maximum_Number_of_Bounces>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103041</id>
+			<name>Ancient Ankh</name>
+			<type>Normal</type>
+			<description>Fire an &lt;Orange&gt;Ankh&lt;/&gt; to &lt;Debuff&gt;Knock&lt;/&gt; enemies within its radius airborne towards the center.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Straight-line projectile that generates a spell field upon impact</Casting>
+				<Cooldown>12s</Cooldown>
+				<Pull-In_Range>5m spherical radius</Pull-In_Range>
+				<Bouncing_Range>7m spherical radius</Bouncing_Range>
+				<Pull-In_Damage>20</Pull-In_Damage>
+				<Projectile_Speed>60m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103051</id>
+			<name>Moonlight Hook</name>
+			<type>Normal</type>
+			<description>Launch a frontal grappling hook that pulls Moon Knight towards it.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Casting>Dash</Casting>
+				<Cooldown>15s</Cooldown>
+				<Maximum_Distance>21.5m/s</Maximum_Distance>
+				<Grappling_Hook_Speed>120m/s</Grappling_Hook_Speed>
+				<Grappling_Hook_Length>25m</Grappling_Hook_Length>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103052</id>
+			<name>Night Glider</name>
+			<type>Normal</type>
+			<description>Enter a gliding state.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Descending_Speed>1.5m/s</Descending_Speed>
+				<Horizontal_Movement_Speed>8.7m/s</Horizontal_Movement_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103061</id>
+			<name>Hand Of Khonshu</name>
+			<type>Ultimate</type>
+			<description>Open a portal that allows Khonshu to bombard enemies with his talons.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>5m spherical radius</Range>
+				<Damage>150 damage per hit</Damage>
+				<Casting>Delayed Spherical Spell Field</Casting>
+				<Duration>4.5s</Duration>
+				<Frequency>4 hits per second</Frequency>
+				<Energy_Cost>2800</Energy_Cost>
+				<Damage_Falloff>Start at 1.5m, 70% falloff at 5m</Damage_Falloff>
+				<Number_of_Hits>18</Number_of_Hits>
+				<Descending_Range>8m radius</Descending_Range>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103071</id>
+			<name>Rising Leap</name>
+			<type>Normal</type>
+			<description>Perform a double jump.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Cooldown>6s</Cooldown>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103092</id>
+			<name>Moon God's Chosen</name>
+			<type>Normal</type>
+			<description>Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his &lt;Orange&gt;Ancestral Sword&lt;/&gt; in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a &lt;Orange&gt;Darkmoon Blade&lt;/&gt; forward. When a &lt;Orange&gt;Darkmoon Blade&lt;/&gt; hits an enemy, it bounces to nearby targets.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Team-Up_Bonus>5% Damage Boost</Team-Up_Bonus>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>37.00</rank>
+			<mover_shaker>30.00</mover_shaker>
+			<rank_calc>3.68</rank_calc>
+			<mover_shaker_calc>-0.42</mover_shaker_calc>
+			<ZScore>0.19</ZScore>
+			<winrate>46.57</winrate>
+			<pickrate>13.36</pickrate>
+			<banrate>0.59</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>46.53</winrate_prev>
+			<pickrate_prev>12.27</pickrate_prev>
+			<banrate_prev>0.49</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>9.00</pickrate_change>
+			<banrate_change>20.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>38.00</rank>
+			<mover_shaker>33.00</mover_shaker>
+			<rank_calc>3.67</rank_calc>
+			<mover_shaker_calc>-1.02</mover_shaker_calc>
+			<ZScore>0.17</ZScore>
+			<winrate>46.53</winrate>
+			<pickrate>12.27</pickrate>
+			<banrate>0.49</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>46.28</winrate_prev>
+			<pickrate_prev>12.52</pickrate_prev>
+			<banrate_prev>0.36</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>-2.00</pickrate_change>
+			<banrate_change>36.00</banrate_change>
+		</item>
+	</meta>
+</all>

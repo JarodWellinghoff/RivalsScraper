@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1038</id>
+	<name>Scarlet Witch</name>
+	<real_name>Wanda Maximoff</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Scarlet Witch</name>
+			<health>250</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Wanda Maximoff is adept at harnessing formidable chaos magic, casting hexes with the power to twist and reshape reality itself. Energy, space, and matter are mere playthings in the hands of Scarlet Witch!</description>
+	<team>
+		<item>Avengers</item>
+	</team>
+	<difficulty>1</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>103811</id>
+			<name>Chaos Control</name>
+			<type>Weapon</type>
+			<description>Unleash Chaos Magic on enemies to deal damage and restore &lt;Orange&gt;Chaos Energy&lt;/&gt;</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>Infinite</Ammo>
+				<Range>A cylindrical spell field with a radius of 3m and a height of 20m</Range>
+				<Damage>8 per hit</Damage>
+				<Casting>Cylindrical Spell Field</Casting>
+				<Fire_Rate>0.1s per hit</Fire_Rate>
+				<Critical_Hit>No</Critical_Hit>
+				<Special_Effect_1>Attack the nearest enemy within range</Special_Effect_1>
+				<Special_Effect_2>Hitting with Chaos Control charges Chthonian Burst</Special_Effect_2>
+				<Chthonian_Burst_Recharge_Per_Hit>0.1 per hit</Chthonian_Burst_Recharge_Per_Hit>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103821</id>
+			<name>Chthonian Burst</name>
+			<type>Normal</type>
+			<description>Consume &lt;Orange&gt;Chaos Energy&lt;/&gt; to fire explosive magic missiles, damaging enemies.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>3m spherical radius</Range>
+				<Casting>Straight-line projectile that generates a spell field upon impact</Casting>
+				<Charges>4</Charges>
+				<Projectile_Speed>120 m/s</Projectile_Speed>
+				<Projectile_Damage>40</Projectile_Damage>
+				<Spell_Field_Damage>40</Spell_Field_Damage>
+				<Default_Charging_Speed>0.2/s</Default_Charging_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103831</id>
+			<name>Dark Seal</name>
+			<type>Normal</type>
+			<description>Land a hit on a target or the scene, or press again to generate a Force Field that periodically &lt;Debuff&gt;Stuns&lt;/&gt; enemies within range.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>3m spherical radius</Range>
+				<Casting>Straight-line projectile that generates a spell field upon impact</Casting>
+				<Cooldown>12s</Cooldown>
+				<Projectile_Speed>60 m/s</Projectile_Speed>
+				<Detection_Interval>1.25s</Detection_Interval>
+				<Spell_Field_Duration>4.5s</Spell_Field_Duration>
+				<Stun_Duration_Per_Detection>0.5s</Stun_Duration_Per_Detection>
+				<Spell_Field_Generation_Delay>0.8s</Spell_Field_Generation_Delay>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103841</id>
+			<name>Mystic Projection</name>
+			<type>Normal</type>
+			<description>Enter the &lt;Orange&gt;Phased&lt;/&gt; state for free-flight. Press {Ability2} to exit early.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Dash</Casting>
+				<Charges>2</Charges>
+				<Duration>1.5s</Duration>
+				<Movement_Boost>50%</Movement_Boost>
+				<Recharge_Speed>10s per charge</Recharge_Speed>
+				<Special_Effect>During this period, Scarlet Witch enters the Projection state, can be healed by teammates</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103842</id>
+			<name>Teleportation Flight</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103851</id>
+			<name>Reality Erasure</name>
+			<type>Ultimate</type>
+			<description>Engage in free-flight while gaining &lt;Buff&gt;Bonus Health&lt;/&gt; and charging energy. While flying, continuously &lt;Debuff&gt;pull in&lt;/&gt; nearby enemies, then unleash charged energy to deal massive area damage.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>15m spherical radius</Range>
+				<Damage>9999</Damage>
+				<Casting>Spherical Spell Field</Casting>
+				<Slow_Rate>Begin to slow down by 1.5s, with the effect gradually increasing to -25% by 3.5s</Slow_Rate>
+				<Charge_Time>4s</Charge_Time>
+				<Energy_Cost>3400</Energy_Cost>
+				<Special_Effect>During this period, Scarlet Witch enters a Free-flight state, pulls in nearby enemies (within 15m radius) during cast charge. Max pull speed up to 3m/s</Special_Effect>
+				<Bonus_Health_Self>100</Bonus_Health_Self>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103871</id>
+			<name>Telekinesis</name>
+			<type>Normal</type>
+			<description>HOLD {Jump} to fall slowly.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Descending_Speed>3.5 m/s</Descending_Speed>
+				<Horizontal_Movement_Speed>6 m/s</Horizontal_Movement_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103892</id>
+			<name>Arcane Order</name>
+			<type>Normal</type>
+			<description>Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch's &lt;Orange&gt;Chthonian Burst&lt;/&gt; is replaced with &lt;Orange&gt;Mystic Burst&lt;/&gt; upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a &lt;Orange&gt;Chain of Cyttorak&lt;/&gt; that links two enemies and slows them; the farther they are apart, the greater the &lt;Debuff&gt;Slow&lt;/&gt; effect inflicted during the link.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>19.00</rank>
+			<mover_shaker>33.00</mover_shaker>
+			<rank_calc>3.93</rank_calc>
+			<mover_shaker_calc>-0.70</mover_shaker_calc>
+			<ZScore>0.17</ZScore>
+			<winrate>48.79</winrate>
+			<pickrate>14.00</pickrate>
+			<banrate>0.44</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>47.99</winrate_prev>
+			<pickrate_prev>9.82</pickrate_prev>
+			<banrate_prev>0.27</banrate_prev>
+			<winrate_change>2.00</winrate_change>
+			<pickrate_change>43.00</pickrate_change>
+			<banrate_change>63.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>31.00</rank>
+			<mover_shaker>13.00</mover_shaker>
+			<rank_calc>3.82</rank_calc>
+			<mover_shaker_calc>0.44</mover_shaker_calc>
+			<ZScore>0.21</ZScore>
+			<winrate>47.99</winrate>
+			<pickrate>9.82</pickrate>
+			<banrate>0.27</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>46.75</winrate_prev>
+			<pickrate_prev>10.87</pickrate_prev>
+			<banrate_prev>0.28</banrate_prev>
+			<winrate_change>3.00</winrate_change>
+			<pickrate_change>-10.00</pickrate_change>
+			<banrate_change>-4.00</banrate_change>
+		</item>
+	</meta>
+</all>

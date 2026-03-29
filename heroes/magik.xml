@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1029</id>
+	<name>Magik</name>
+	<real_name>Illyana Rasputin</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Magik</name>
+			<health>250</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+		<item>
+			<id>1</id>
+			<name>Magik</name>
+		</item>
+	</transformations>
+	<description>Trained in dark arts and wielding her mighty Soulsword, Magik leaps through portals to navigate the arena with ease. Once Illyana transforms into the demonic Darkchild, all those who dare stand against her will fall before her merciless blade.</description>
+	<team>
+		<item>X_men</item>
+		<item>Mutants</item>
+		<item>Midnightsons</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>102901</id>
+			<name>Demonic Cleave</name>
+			<type>Melee</type>
+			<description>Swipe across the frontal area with Soulsword to inflict damage on enemies.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102911</id>
+			<name>Soulsword</name>
+			<type>Weapon</type>
+			<description>Slash forward with the Soulsword.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>75</Damage>
+				<Casting>Melee</Casting>
+				<Damage_Falloff>Falloff begins at 4.5m, decreasing to 50% at 6.5m</Damage_Falloff>
+				<Attack_Interval>0.83s per hit</Attack_Interval>
+				<Maximum_Distance>6.5m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102915</id>
+			<name>Soulsword</name>
+			<type>Weapon</type>
+			<description>Slash forward with the Soulsword.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>75</Damage>
+				<Casting>Melee</Casting>
+				<Damage_Falloff>Falloff begins at 4.5m, decreasing to 50% at 6.5m</Damage_Falloff>
+				<Attack_Interval>0.83s per hit</Attack_Interval>
+				<Maximum_Distance>6.5m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102921</id>
+			<name>Magik Slash</name>
+			<type>Normal</type>
+			<description>Strike forward an air slash. Each enemy hit reduces the cooldown of &lt;Orange&gt;Stepping Discs&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>45 - 90 (Maximum damage is achieved after 1.2s of charging)</Damage>
+				<Casting>Charged projectile that travels in a straight trajectory</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>Projectile pierces enemies and reduces Stepping Discs cooldown by 1s per enemy pierced</Special_Effect>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+				<Maximum_Charge_Time>2s</Maximum_Charge_Time>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102922</id>
+			<name>Magik Slash</name>
+			<type>Normal</type>
+			<description>Strike forward an air slash. Each enemy hit reduces the cooldown of &lt;Orange&gt;Stepping Discs&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>45 - 90 (Maximum damage is achieved after 1.2s of charging)</Damage>
+				<Casting>Charged projectile that travels in a straight trajectory</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>Projectile pierces enemies and reduces Stepping Discs cooldown by 1s per enemy pierced</Special_Effect>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+				<Maximum_Charge_Time>2s</Maximum_Charge_Time>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102931</id>
+			<name>Limbo's Might</name>
+			<type>Normal</type>
+			<description>Convert damage inflicted on enemies into &lt;Buff&gt;Bonus Health&lt;/&gt; to herself.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Conversion_Rate>30%</Conversion_Rate>
+				<Bonus_Max_Health>150</Bonus_Max_Health>
+				<Energy_Cost_Special_Effect>Convert damage taken into Bonus Health</Energy_Cost_Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102941</id>
+			<name>Stepping Discs</name>
+			<type>Normal</type>
+			<description>Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become &lt;Buff&gt;Invincible&lt;/&gt; while teleporting.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Dash</Casting>
+				<Charges>2</Charges>
+				<Cooldown>6s</Cooldown>
+				<Average_Speed>12m/s</Average_Speed>
+				<Maximum_Distance>10m</Maximum_Distance>
+				<Special_Effect_1>Magik is invincible while moving</Special_Effect_1>
+				<Special_Effect_2>Magik can perform a combo ability within a certain time frame, choosing between Eldritch Whirl or Demon's Rage</Special_Effect_2>
+				<Combo_Ability_Casting_Window>3s</Combo_Ability_Casting_Window>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102942</id>
+			<name>Stepping Discs</name>
+			<type>Normal</type>
+			<description>Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become &lt;Buff&gt;Invincible&lt;/&gt; while teleporting.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Dash</Casting>
+				<Charges>2</Charges>
+				<Cooldown>6s</Cooldown>
+				<Average_Speed>12m/s</Average_Speed>
+				<Maximum_Distance>10m</Maximum_Distance>
+				<Special_Effect_1>Magik is invincible while moving</Special_Effect_1>
+				<Special_Effect_2>Magik can perform a combo ability within a certain time frame, choosing between Eldritch Whirl or Demon's Rage</Special_Effect_2>
+				<Combo_Ability_Casting_Window>3s</Combo_Ability_Casting_Window>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102951</id>
+			<name>Eldritch Whirl</name>
+			<type>Weapon</type>
+			<description>Spin while swinging the Soulsword after exiting a &lt;Orange&gt;Stepping Disc&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>A cylindrical spell field with a radius of 6m and a height of 5m</Range>
+				<Damage>50</Damage>
+				<Casting>A cylindrical spell field in melee range</Casting>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102952</id>
+			<name>Eldritch Whirl</name>
+			<type>Weapon</type>
+			<description>Spin while swinging the Soulsword after exiting a &lt;Orange&gt;Stepping Disc&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>A cylindrical spell field with a radius of 6m and a height of 5m</Range>
+				<Damage>50</Damage>
+				<Casting>A cylindrical spell field in melee range</Casting>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102961</id>
+			<name>Demon's Rage</name>
+			<type>Normal</type>
+			<description>Summon a Limbo demon that attacks enemies after exiting a &lt;Orange&gt;Stepping Disc&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>Length: 6.5m, Width: 3m, Height: 3m</Range>
+				<Damage>20 damage per hit</Damage>
+				<Casting>A cuboid spell field in melee range</Casting>
+				<Attack_Speed>0.25s per hit</Attack_Speed>
+				<key name="Summons&amp;apos; Health">100</key>
+				<Maximum_Duration_for_Summons>4s</Maximum_Duration_for_Summons>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102962</id>
+			<name>Demon's Rage</name>
+			<type>Normal</type>
+			<description>Summon a Limbo demon that attacks enemies after exiting a &lt;Orange&gt;Stepping Disc&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>Length: 6.5m, Width: 3m, Height: 3m</Range>
+				<Damage>20 damage per hit</Damage>
+				<Casting>A cuboid spell field in melee range</Casting>
+				<Attack_Speed>0.25s per hit</Attack_Speed>
+				<key name="Summons&amp;apos; Health">100</key>
+				<Maximum_Duration_for_Summons>4s</Maximum_Duration_for_Summons>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102971</id>
+			<name>Umbral Incursion</name>
+			<type>Normal</type>
+			<description>Dash forward and &lt;Debuff&gt;Launch Up&lt;/&gt; enemies airborne.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Movement-based damage ability</Casting>
+				<Cooldown>8s</Cooldown>
+				<Average_Speed>46m/s</Average_Speed>
+				<Maximum_Distance>16m</Maximum_Distance>
+				<Upward_Slash_Damage>85</Upward_Slash_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102973</id>
+			<name>Umbral Incursion</name>
+			<type>Normal</type>
+			<description>Dash forward and &lt;Debuff&gt;Launch Up&lt;/&gt; enemies airborne.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Movement-based damage ability</Casting>
+				<Cooldown>8s</Cooldown>
+				<Average_Speed>46m/s</Average_Speed>
+				<Maximum_Distance>16m</Maximum_Distance>
+				<Upward_Slash_Damage>85</Upward_Slash_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102981</id>
+			<name>Darkchild</name>
+			<type>Ultimate</type>
+			<description>Transform into Darkchild, gaining enhancements to all her abilities.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Transformation</Casting>
+				<Duration>12s</Duration>
+				<Energy_Cost>3400</Energy_Cost>
+				<Special_Effect>When in the Darkchild state, all of Magik's abilities are enhanced</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102901</id>
+			<name>Demonic Cleave</name>
+			<type>Melee</type>
+			<description>Swipe across the frontal area with Soulsword to inflict damage on enemies.</description>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102911</id>
+			<name>Soulsword</name>
+			<type>Weapon</type>
+			<description>Slash forward with the Soulsword.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>75</Damage>
+				<Casting>Melee</Casting>
+				<Damage_Falloff>Falloff begins at 4.5m, decreasing to 50% at 6.5m</Damage_Falloff>
+				<Attack_Interval>0.83s per hit</Attack_Interval>
+				<Maximum_Distance>6.5m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102915</id>
+			<name>Soulsword</name>
+			<type>Weapon</type>
+			<description>Slash forward with the Soulsword.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>75</Damage>
+				<Casting>Melee</Casting>
+				<Damage_Falloff>Falloff begins at 4.5m, decreasing to 50% at 6.5m</Damage_Falloff>
+				<Attack_Interval>0.83s per hit</Attack_Interval>
+				<Maximum_Distance>6.5m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102921</id>
+			<name>Magik Slash</name>
+			<type>Normal</type>
+			<description>Strike forward an air slash. Each enemy hit reduces the cooldown of &lt;Orange&gt;Stepping Discs&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>45 - 90 (Maximum damage is achieved after 1.2s of charging)</Damage>
+				<Casting>Charged projectile that travels in a straight trajectory</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>Projectile pierces enemies and reduces Stepping Discs cooldown by 1s per enemy pierced</Special_Effect>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+				<Maximum_Charge_Time>2s</Maximum_Charge_Time>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102922</id>
+			<name>Magik Slash</name>
+			<type>Normal</type>
+			<description>Strike forward an air slash. Each enemy hit reduces the cooldown of &lt;Orange&gt;Stepping Discs&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>45 - 90 (Maximum damage is achieved after 1.2s of charging)</Damage>
+				<Casting>Charged projectile that travels in a straight trajectory</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>Projectile pierces enemies and reduces Stepping Discs cooldown by 1s per enemy pierced</Special_Effect>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+				<Maximum_Charge_Time>2s</Maximum_Charge_Time>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102931</id>
+			<name>Limbo's Might</name>
+			<type>Normal</type>
+			<description>Convert damage inflicted on enemies into &lt;Buff&gt;Bonus Health&lt;/&gt; to herself.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Conversion_Rate>30%</Conversion_Rate>
+				<Bonus_Max_Health>150</Bonus_Max_Health>
+				<Energy_Cost_Special_Effect>Convert damage taken into Bonus Health</Energy_Cost_Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102941</id>
+			<name>Stepping Discs</name>
+			<type>Normal</type>
+			<description>Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become &lt;Buff&gt;Invincible&lt;/&gt; while teleporting.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Dash</Casting>
+				<Charges>2</Charges>
+				<Cooldown>6s</Cooldown>
+				<Average_Speed>12m/s</Average_Speed>
+				<Maximum_Distance>10m</Maximum_Distance>
+				<Special_Effect_1>Magik is invincible while moving</Special_Effect_1>
+				<Special_Effect_2>Magik can perform a combo ability within a certain time frame, choosing between Eldritch Whirl or Demon's Rage</Special_Effect_2>
+				<Combo_Ability_Casting_Window>3s</Combo_Ability_Casting_Window>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102942</id>
+			<name>Stepping Discs</name>
+			<type>Normal</type>
+			<description>Jump through a Stepping Disc, teleporting a short distance in the direction of movement. Become &lt;Buff&gt;Invincible&lt;/&gt; while teleporting.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Dash</Casting>
+				<Charges>2</Charges>
+				<Cooldown>6s</Cooldown>
+				<Average_Speed>12m/s</Average_Speed>
+				<Maximum_Distance>10m</Maximum_Distance>
+				<Special_Effect_1>Magik is invincible while moving</Special_Effect_1>
+				<Special_Effect_2>Magik can perform a combo ability within a certain time frame, choosing between Eldritch Whirl or Demon's Rage</Special_Effect_2>
+				<Combo_Ability_Casting_Window>3s</Combo_Ability_Casting_Window>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102951</id>
+			<name>Eldritch Whirl</name>
+			<type>Weapon</type>
+			<description>Spin while swinging the Soulsword after exiting a &lt;Orange&gt;Stepping Disc&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>A cylindrical spell field with a radius of 6m and a height of 5m</Range>
+				<Damage>50</Damage>
+				<Casting>A cylindrical spell field in melee range</Casting>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102952</id>
+			<name>Eldritch Whirl</name>
+			<type>Weapon</type>
+			<description>Spin while swinging the Soulsword after exiting a &lt;Orange&gt;Stepping Disc&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>A cylindrical spell field with a radius of 6m and a height of 5m</Range>
+				<Damage>50</Damage>
+				<Casting>A cylindrical spell field in melee range</Casting>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102961</id>
+			<name>Demon's Rage</name>
+			<type>Normal</type>
+			<description>Summon a Limbo demon that attacks enemies after exiting a &lt;Orange&gt;Stepping Disc&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>Length: 6.5m, Width: 3m, Height: 3m</Range>
+				<Damage>20 damage per hit</Damage>
+				<Casting>A cuboid spell field in melee range</Casting>
+				<Attack_Speed>0.25s per hit</Attack_Speed>
+				<key name="Summons&amp;apos; Health">100</key>
+				<Maximum_Duration_for_Summons>4s</Maximum_Duration_for_Summons>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102962</id>
+			<name>Demon's Rage</name>
+			<type>Normal</type>
+			<description>Summon a Limbo demon that attacks enemies after exiting a &lt;Orange&gt;Stepping Disc&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>Length: 6.5m, Width: 3m, Height: 3m</Range>
+				<Damage>20 damage per hit</Damage>
+				<Casting>A cuboid spell field in melee range</Casting>
+				<Attack_Speed>0.25s per hit</Attack_Speed>
+				<key name="Summons&amp;apos; Health">100</key>
+				<Maximum_Duration_for_Summons>4s</Maximum_Duration_for_Summons>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102971</id>
+			<name>Umbral Incursion</name>
+			<type>Normal</type>
+			<description>Dash forward and &lt;Debuff&gt;Launch Up&lt;/&gt; enemies airborne.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Movement-based damage ability</Casting>
+				<Cooldown>8s</Cooldown>
+				<Average_Speed>46m/s</Average_Speed>
+				<Maximum_Distance>16m</Maximum_Distance>
+				<Upward_Slash_Damage>85</Upward_Slash_Damage>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102973</id>
+			<name>Umbral Incursion</name>
+			<type>Normal</type>
+			<description>Dash forward and &lt;Debuff&gt;Launch Up&lt;/&gt; enemies airborne.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Movement-based damage ability</Casting>
+				<Cooldown>8s</Cooldown>
+				<Average_Speed>46m/s</Average_Speed>
+				<Maximum_Distance>16m</Maximum_Distance>
+				<Upward_Slash_Damage>85</Upward_Slash_Damage>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>102981</id>
+			<name>Darkchild</name>
+			<type>Ultimate</type>
+			<description>Transform into Darkchild, gaining enhancements to all her abilities.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Transformation</Casting>
+				<Duration>12s</Duration>
+				<Energy_Cost>3400</Energy_Cost>
+				<Special_Effect>When in the Darkchild state, all of Magik's abilities are enhanced</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>2.00</rank>
+			<mover_shaker>18.00</mover_shaker>
+			<rank_calc>4.33</rank_calc>
+			<mover_shaker_calc>0.17</mover_shaker_calc>
+			<ZScore>0.24</ZScore>
+			<winrate>54.09</winrate>
+			<pickrate>12.67</pickrate>
+			<banrate>1.38</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>54.22</winrate_prev>
+			<pickrate_prev>12.34</pickrate_prev>
+			<banrate_prev>1.46</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>3.00</pickrate_change>
+			<banrate_change>-5.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>4.00</rank>
+			<mover_shaker>22.00</mover_shaker>
+			<rank_calc>4.33</rank_calc>
+			<mover_shaker_calc>-0.18</mover_shaker_calc>
+			<ZScore>0.19</ZScore>
+			<winrate>54.22</winrate>
+			<pickrate>12.34</pickrate>
+			<banrate>1.46</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>53.64</winrate_prev>
+			<pickrate_prev>15.42</pickrate_prev>
+			<banrate_prev>1.46</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>-20.00</pickrate_change>
+			<banrate_change>0.00</banrate_change>
+		</item>
+	</meta>
+</all>

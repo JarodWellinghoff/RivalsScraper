@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1027</id>
+	<name>Groot</name>
+	<real_name>Groot</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Groot</name>
+			<health>700</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>A flora colossus from Planet X, the alien known as Groot exhibits enhanced vitality and the ability to manipulate all forms of vegetation. As sturdy as a towering tree, Groot forges his own way, serving as the team's silent but reliable pathfinder.</description>
+	<team>
+		<item>Guardiansofthegalaxy</item>
+	</team>
+	<difficulty>2</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>VANGUARD</role>
+	<abilities>
+		<item>
+			<id>102711</id>
+			<name>Vine Strike</name>
+			<type>Weapon</type>
+			<description>Launch vines to attack enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>65</Damage>
+				<Casting>Single-cast projectile with delayed impact</Casting>
+				<Critical_Hit>No</Critical_Hit>
+				<Attack_Interval>0.7s</Attack_Interval>
+				<Maximum_Distance>22m</Maximum_Distance>
+				<Projectile_Speed>120m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102721</id>
+			<name>Furious Flora</name>
+			<type>Melee</type>
+			<description>Perform a combo with his arms, and the third strike will slightly &lt;Debuff&gt;Launch Up&lt;/&gt; the hit enemy airborne.</description>
+			<additional_fields>
+				<Key>V</Key>
+				<Range>The first two strikes can reach 3m, while the third strike can reach 4m</Range>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102731</id>
+			<name>Spore Bomb</name>
+			<type>Normal</type>
+			<description>Throw an explosive Spore Bomb that splits into multiple small explosive spores.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>Spore Bomb generates a spell field with a 5m spherical radius, while small explosive spores create a spell field with a 1.5m spherical radius</Range>
+				<Damage>The projectile itself deals no damage, while Spore Bomb deals 55 damage and explosive spores deal 10 damage</Damage>
+				<Casting>Single-cast projectile with a downward delay that creates a spell field upon impact</Casting>
+				<Cooldown>6s</Cooldown>
+				<Special_Effect>Spore Bomb explodes into 6 explosive spores</Special_Effect>
+				<Projectile_Speed>60m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102741</id>
+			<name>Thornlash Wall</name>
+			<type>Normal</type>
+			<description>Target a location and grow a Thornlash Wall. When &lt;Orange&gt;Awakened&lt;/&gt;, it strikes nearby enemies attacked by Groot and his allies.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Targeted</Casting>
+				<Cooldown>2 charges, with each charge taking 6s to recharge</Cooldown>
+				<Special_Effect>Thornlash Wall deals 60 damage every 0.5s</Special_Effect>
+				<Maximum_Distance>18m</Maximum_Distance>
+				<Thornlash_Wall_Health>250</Thornlash_Wall_Health>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102742</id>
+			<name>Return To Nature</name>
+			<type>Normal</type>
+			<description>Recall Wooden Walls.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102743</id>
+			<name>Flora Colossus</name>
+			<type>Normal</type>
+			<description>Wooden walls near Groot will &lt;Orange&gt;Awaken&lt;/&gt;, activating an extra effect. Press {PrimaryAttack} while building a wooden wall to continue building additional walls.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Range>A cylindrical spell field with a 24m radius and a height of 40m</Range>
+				<Casting>Persistent spell field that surrounds the caster</Casting>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102751</id>
+			<name>Ironwood Wall</name>
+			<type>Normal</type>
+			<description>Target a location and grow an Ironwood Wall. When the wall is &lt;Orange&gt;Awakened&lt;/&gt;, damage dealt by Groot and nearby allies grants Groot &lt;Buff&gt;Bonus Health&lt;/&gt;. Groot gains &lt;Buff&gt;Unstoppable&lt;/&gt; while near Ironwood Walls.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Targeted</Casting>
+				<Cooldown>12s</Cooldown>
+				<Special_Effect>Ironwood Wall heals 40 Bonus Health per second, up to 250 Bonus Health; gain Unstoppable status when within 15m of Awakened Ironwood Walls</Special_Effect>
+				<Maximum_Distance>10m</Maximum_Distance>
+				<Thornlash_Wall_Health>600</Thornlash_Wall_Health>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102761</id>
+			<name>Strangling Prison</name>
+			<type>Ultimate</type>
+			<description>Fire a massive vine cluster that pulls nearby enemies to its center and &lt;Debuff&gt;Imprisons&lt;/&gt; them.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>8m spherical radius</Range>
+				<Damage>The projectile deals 10 damage, while the spell field deals 70 damage. While imprisoning enemies, it deals 20 damage every 0.5s</Damage>
+				<Casting>Single-cast projectile with a downward delay that creates a spell field upon impact</Casting>
+				<Energy_Cost>2800</Energy_Cost>
+				<Special_Effect>Imprison enemies for 3.5s</Special_Effect>
+				<Projectile_Speed>60m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102781</id>
+			<name>Wild Wall</name>
+			<type>Normal</type>
+			<description>Mantis enhances Groot's wooden walls and Loki's Rune Stones with life energy. Groot can additionally unleash a Wild Wall, which, when in &lt;Orange&gt;Flora Colossus&lt;/&gt; state, restores health to random nearby allies. Loki's Rune Stones grant allies within &lt;Orange&gt;Regeneration Domain&lt;/&gt; a &lt;Buff&gt;Damage Boost&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>C</Key>
+				<Range>10m spherical radius spell field</Range>
+				<Casting>Targeted</Casting>
+				<Cooldown>10s</Cooldown>
+				<Healing_Amount>40/s</Healing_Amount>
+				<Flower_Wall_Health>150</Flower_Wall_Health>
+				<Maximum_Unleash_Distance>7m</Maximum_Unleash_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>18.00</rank>
+			<mover_shaker>40.00</mover_shaker>
+			<rank_calc>3.97</rank_calc>
+			<mover_shaker_calc>-33.15</mover_shaker_calc>
+			<ZScore>-2.21</ZScore>
+			<winrate>49.55</winrate>
+			<pickrate>9.58</pickrate>
+			<banrate>3.83</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>45.10</winrate_prev>
+			<pickrate_prev>3.90</pickrate_prev>
+			<banrate_prev>0.28</banrate_prev>
+			<winrate_change>10.00</winrate_change>
+			<pickrate_change>146.00</pickrate_change>
+			<banrate_change>1268.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>37.00</rank>
+			<mover_shaker>8.00</mover_shaker>
+			<rank_calc>3.73</rank_calc>
+			<mover_shaker_calc>0.69</mover_shaker_calc>
+			<ZScore>0.22</ZScore>
+			<winrate>45.10</winrate>
+			<pickrate>3.90</pickrate>
+			<banrate>0.28</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>47.16</winrate_prev>
+			<pickrate_prev>7.32</pickrate_prev>
+			<banrate_prev>1.67</banrate_prev>
+			<winrate_change>-4.00</winrate_change>
+			<pickrate_change>-47.00</pickrate_change>
+			<banrate_change>-83.00</banrate_change>
+		</item>
+	</meta>
+</all>

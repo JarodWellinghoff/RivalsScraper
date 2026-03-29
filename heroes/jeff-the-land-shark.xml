@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1047</id>
+	<name>Jeff The Land Shark</name>
+	<real_name>Jeff</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Jeff The Land Shark</name>
+			<health>250</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Most land sharks are vicious creatures of the deep... but not Jeff! This adorable and mischievous little guy brings joy and healing to every battle. But if the tide turns, Jeff can morph into a voracious beast, capable of swallowing an army of foes in a single gulp!</description>
+	<team>
+		<item>Avengers</item>
+	</team>
+	<difficulty>1</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>STRATEGIST</role>
+	<abilities>
+		<item>
+			<id>104711</id>
+			<name>Joyful Splash</name>
+			<type>Weapon</type>
+			<description>Unleash a splash that damages enemies and heals allies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>100</Ammo>
+				<Damage>70/s</Damage>
+				<Casting>Rapid-fire, delayed projectile</Casting>
+				<Fire_Rate>20 rounds per second</Fire_Rate>
+				<Damage_Falloff>
+						Damage falloff starts at 20m to a maximum of 65% at 40m
+						</Damage_Falloff>
+				<Healing_Amount>130/s</Healing_Amount>
+				<Projectile_Speed>100m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104721</id>
+			<name>Aqua Burst</name>
+			<type>Normal</type>
+			<description>Launch a high-speed water sphere that bursts upon impact, dealing damage to enemies within range. Direct hits &lt;Debuff&gt;Launch Up&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>3m spherical radius</Range>
+				<Damage>Projectile Damage: 25 damage per round, Spell Field Damage: 45 damage per cast</Damage>
+				<Casting>Single-cast projectile with delayed impact that also generates a spell field</Casting>
+				<Cooldown>3 charges, with each charge taking 3s to recharge</Cooldown>
+				<Fire_Rate>1.75 rounds per second</Fire_Rate>
+				<Critical_Hit>No</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 1m, decreasing to 50% at 3m (projectile damage has no falloff)</Damage_Falloff>
+				<Special_Effect>
+						Direct hits can launch enemies up
+						</Special_Effect>
+				<Projectile_Speed>100m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104722</id>
+			<name>Frozen Spitball</name>
+			<type>Weapon</type>
+			<description>Launch a high-speed water sphere that bursts upon impact, dealing damage to enemies within range. Direct hits &lt;Debuff&gt;Launch Up&lt;/&gt; enemies.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104751</id>
+			<name>Healing Bubble</name>
+			<type>Normal</type>
+			<description>Spit a bubble that heals the ally who collects it, granting them &lt;Buff&gt;Healing&lt;/&gt; and &lt;Buff&gt;Movement Boost&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Summons</Casting>
+				<Cooldown>3 charges, with each charge taking 6s to recharge</Cooldown>
+				<Duration>180s</Duration>
+				<Buff_Duration>4s</Buff_Duration>
+				<Healing_Boost>15%</Healing_Boost>
+				<Healing_Amount>30/s</Healing_Amount>
+				<Movement_Boost>60%</Movement_Boost>
+				<Special_Effect>Touching the bubble will immediately activate its effect</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104761</id>
+			<name>Hide And Seek</name>
+			<type>Normal</type>
+			<description>Dive into the scene with only his dorsal fin exposed, granting himself a &lt;Buff&gt;Movement Boost&lt;/&gt;. Jeff can heal while submerged and gains the wall-crawl ability.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Instant Cast</Casting>
+				<Energy_Cost>20/s</Energy_Cost>
+				<Healing_Amount>35/s</Healing_Amount>
+				<Maximum_Energy>120</Maximum_Energy>
+				<Movement_Boost>60%</Movement_Boost>
+				<Special_Effect>During the dive, gain Unstoppable, healing over time, and a Movement Boost, while Jeff's hitbox is reduced</Special_Effect>
+				<Energy_Recovery_Speed>15/s</Energy_Recovery_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104771</id>
+			<name>It's Jeff!</name>
+			<type>Ultimate</type>
+			<description>Deep dive into the scene and leave behind a healing water zone for allies. Upon resurfacing, swallow both enemies and allies within range, activating &lt;Orange&gt;Hide and Seek&lt;/&gt; for a brief duration before ejecting the swallowed heroes forward. Excess healing converts to &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>10m radius,5m high cylindrical spell field</Range>
+				<Damage>25/s</Damage>
+				<Casting>Targeted</Casting>
+				<Duration>6s</Duration>
+				<Energy_Cost>4500</Energy_Cost>
+				<Healing_Amount>225/s</Healing_Amount>
+				<Special_Effect1>After swallowing allies and enemies, Jeff will deal damage to enemies and heal allies for the duration of the effect, during which they will also benefit from Hide and Seek</Special_Effect1>
+				<Special_Effect2>It's Jeff! (Ultimate Ability) leaves an 8m radius Healing Pool at the point of activation that heals allies within range by 100/s. Healing Pool lasts for 8s</Special_Effect2>
+				<Bonus_Health_Ally>
+						Overflow healing on swallowed allies grants 45 Health per second as Bonus Health, up to 150
+						</Bonus_Health_Ally>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>21.00</rank>
+			<mover_shaker>14.00</mover_shaker>
+			<rank_calc>3.92</rank_calc>
+			<mover_shaker_calc>0.51</mover_shaker_calc>
+			<ZScore>0.26</ZScore>
+			<winrate>46.81</winrate>
+			<pickrate>21.75</pickrate>
+			<banrate>0.39</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>46.18</winrate_prev>
+			<pickrate_prev>19.46</pickrate_prev>
+			<banrate_prev>0.39</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>12.00</pickrate_change>
+			<banrate_change>0.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>30.00</rank>
+			<mover_shaker>28.00</mover_shaker>
+			<rank_calc>3.84</rank_calc>
+			<mover_shaker_calc>-0.57</mover_shaker_calc>
+			<ZScore>0.18</ZScore>
+			<winrate>46.18</winrate>
+			<pickrate>19.46</pickrate>
+			<banrate>0.39</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>45.86</winrate_prev>
+			<pickrate_prev>19.96</pickrate_prev>
+			<banrate_prev>0.32</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>-3.00</pickrate_change>
+			<banrate_change>22.00</banrate_change>
+		</item>
+	</meta>
+</all>

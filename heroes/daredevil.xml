@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1055</id>
+	<name>Daredevil</name>
+	<real_name>Matt Murdock</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Daredevil</name>
+			<health>300</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>A tragic accident transformed Matt Murdock, blinding him, but awakening his incredible Radar Sense. When darkness falls, Daredevil wields his billy clubs in place of a gavel, doling out justice and purging the world of evil!</description>
+	<team>
+		<item>Marvelknights</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>105511</id>
+			<name>Devil Strike</name>
+			<type>Melee</type>
+			<description>Rapidly strike enemies using boxing techniques. Gain Fury on hit.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105521</id>
+			<name>Justice Jab</name>
+			<type>Weapon</type>
+			<description>Swing Billy Clubs forward. Gain &lt;Orange&gt;Fury&lt;/&gt; on hit.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>35</Damage>
+				<Casting>Melee</Casting>
+				<Special_Effect>Gain 15 Fury on hit</Special_Effect>
+				<Maximum_Distance>4.5m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105531</id>
+			<name>Objection!</name>
+			<type>Normal</type>
+			<description>Whirl billy clubs in a tight guard to block frontal damage and reflect &lt;Orange&gt;projectiles&lt;/&gt;, becoming immune to all incoming harm during this stance and gain &lt;Orange&gt;Fury&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Cooldown>12s</Cooldown>
+				<Duration>1.5s</Duration>
+				<Special_Effect>Block frontal damage and reflect projectiles, becoming immune to all incoming harm during this stance. Gain 60 Fury when successfully blocking an attack.</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105541</id>
+			<name>Devil's Latch</name>
+			<type>Normal</type>
+			<description>Fire a grappling line that reels Daredevil and his target toward each other. On completion, gain &lt;Orange&gt;Fury&lt;/&gt; and temporarily enables &lt;Orange&gt;Righteous Cross&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Cooldown>12</Cooldown>
+				<Special_Effect>Enable Righteous Cross within 5 seconds after using this ability. Gain 30 Fury</Special_Effect>
+				<Maximum_Distance>25m</Maximum_Distance>
+				<Projectile_Speed>180m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105542</id>
+			<name>Righteous Cross</name>
+			<type>Weapon</type>
+			<description>Cross Billy Clubs and surge forward. Gain &lt;Orange&gt;Fury&lt;/&gt; on hit.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Special_Effect>Gain 15 Fury on hit</Special_Effect>
+				<Spell_Field_Damage>50</Spell_Field_Damage>
+				<Maximum_Dash_Distance>6m</Maximum_Dash_Distance>
+				<Spell_Field_Maximum_Distance>6m</Spell_Field_Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105551</id>
+			<name>Infernal Fury</name>
+			<type>Normal</type>
+			<description>Consume &lt;Orange&gt;Fury&lt;/&gt; to unleash either &lt;Orange&gt;Devil's Chain&lt;/&gt; or &lt;Orange&gt;Devil's Throw&lt;/&gt;. &lt;Orange&gt;Devil's Chain&lt;/&gt; converts damage dealt into &lt;Buff&gt;Bonus Health&lt;/&gt;; &lt;Orange&gt;Devil's Throw&lt;/&gt; &lt;Debuff&gt;Slows&lt;/&gt; hit targets. Both temporarily enable &lt;Orange&gt;Righteous Cross&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>40. Cause 75 damage when the target caught in the high damage range</Damage>
+				<Slow_Rate>20%</Slow_Rate>
+				<key name="DEVIL&amp;apos;S CHAIN"> </key>
+				<key name="DEVIL&amp;apos;S THROW"> </key>
+				<Special_Effect>Devil's Throw slows enemies on hit</Special_Effect>
+				<Bonus_Max_Health>125</Bonus_Max_Health>
+				<Projectile_Speed>150m/s</Projectile_Speed>
+				<Projectile_Damage>30</Projectile_Damage>
+				<Spell_Field_Range>Box shaped spell field. Length: 8m; Width: 4m; Height: 4m</Spell_Field_Range>
+				<Bonus_Health_Gained>50</Bonus_Health_Gained>
+				<Bonus_Health_Falloff>Falloff begins at 5s and decreases by 30/s</Bonus_Health_Falloff>
+				<Max_Number_of_Ricochets>4. Up to 2 ricochets if there are no targets</Max_Number_of_Ricochets>
+				<Fury_Required_for_Activation>60</Fury_Required_for_Activation>
+				<High_Damage_Spell_Field_Range>2m spherical radius spell field at the end</High_Damage_Spell_Field_Range>
+				<key name="Damage/Bonus Health Conversion">0.7</key>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105552</id>
+			<name>Devil's Chain</name>
+			<type>Normal</type>
+			<description>Swing both Billy Clubs while grappling, then slam downward to deal damage. Hitting enemies grants a larger amount of Bonus Health.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105553</id>
+			<name>Devil's Throw</name>
+			<type>Normal</type>
+			<description>Retract the grappling cord, then throw both Billy Clubs in succession. Billy Clubs ricochet between enemies, granting a small amount of Bonus Health with each hit.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105561</id>
+			<name>Let The Devil Out</name>
+			<type>Ultimate</type>
+			<description>Embrace the Beast within. Enemies with Daredevil in their line of sight take damage and suffer a ramping &lt;Debuff&gt;Blind&lt;/&gt; effect. Continually gain &lt;Orange&gt;Fury&lt;/&gt; while active.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Damage>50/s. Cause 85 damage per second when reaching the max damage</Damage>
+				<Energy_Cost>3400</Energy_Cost>
+				<Blind_Effect>Visual range 35m, decreasing to 10m when the Blind effect reaches its maximum</Blind_Effect>
+				<Maximum_Distance>15m</Maximum_Distance>
+				<Fury_Recovery_Speed>30/s</Fury_Recovery_Speed>
+				<Spell_Field_Duration>8s</Spell_Field_Duration>
+				<Time_Required_to_Reach_the_Maximum_Blind_Range_and_Damage>3s</Time_Required_to_Reach_the_Maximum_Blind_Range_and_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105591</id>
+			<name>Blind Verdict</name>
+			<type>Normal</type>
+			<description>Daredevil shares the location of his &lt;Orange&gt;Sonic Pursuit&lt;/&gt; target with The Punisher. At the same time, The Punisher can launch a devil-infused shock grenade to damage and &lt;Debuff&gt;Blind&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Team-Up_Bonus>5% damage boost</Team-Up_Bonus>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+</all>

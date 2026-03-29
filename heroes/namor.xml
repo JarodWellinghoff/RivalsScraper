@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1045</id>
+	<name>Namor</name>
+	<real_name>Namor Mckenzie</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Namor</name>
+			<health>275</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>The unrivaled King of the Seas, Namor surfs into battle on a mighty wave with an army of fierce aquatic creatures in his wake. When ancient horns of war blare, devastation soon follows as deadly waters engulf the arena.</description>
+	<team>
+		<item>Avengers</item>
+		<item>Mutants</item>
+		<item>Villains</item>
+	</team>
+	<difficulty>2</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>104521</id>
+			<name>Trident Of Neptune</name>
+			<type>Weapon</type>
+			<description>Throw the trident forward, reducing &lt;Orange&gt;Aquatic Dominion's&lt;/&gt; cooldown upon enemy impact. Critical hits cause &lt;Orange&gt;Monstro Spawn&lt;/&gt; to enter a berserk state, gaining increased Attack Speed.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>Infinite</Ammo>
+				<Damage>75</Damage>
+				<Casting>Projectile with an arced trajectory</Casting>
+				<Fire_Rate>1.09 rounds per second</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Projectile_Speed>150 m/s</Projectile_Speed>
+				<Aquatic_Dominion_Charge_Per_Hit>0.084</Aquatic_Dominion_Charge_Per_Hit>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104531</id>
+			<name>Wrath Of The Seven Seas</name>
+			<type>Normal</type>
+			<description>Launch the trident forward to damage nearby enemies, then direct all &lt;Orange&gt;Monstro Spawn&lt;/&gt; to perform an enhanced attack on the nearest hit enemy. When the trident hits an enemy, &lt;Orange&gt;Monstro Spawn&lt;/&gt; to enter a berserk state, gaining increased Attack Speed.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>3m spherical radius</Range>
+				<Casting>Arced projectile that generates a spell field upon impact</Casting>
+				<Cooldown>6s</Cooldown>
+				<Projectile_Speed>150 m/s</Projectile_Speed>
+				<Projectile_Damage>40</Projectile_Damage>
+				<Spell_Field_Damage>60</Spell_Field_Damage>
+				<Spell_Field_Damage_Falloff>50% falloff at 3m</Spell_Field_Damage_Falloff>
+				<Enhanced_Monstro_Spawn_Projectile_Speed>120 m/s</Enhanced_Monstro_Spawn_Projectile_Speed>
+				<Enhanced_Monstro_Spawn_Projectile_Damage>60</Enhanced_Monstro_Spawn_Projectile_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104541</id>
+			<name>Blessing Of The Deep</name>
+			<type>Normal</type>
+			<description>Summon a protective barrier while flying upwards.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Cooldown>20s</Cooldown>
+				<Maximum_Duration>3s</Maximum_Duration>
+				<Vertical_Moving_Distance>7m</Vertical_Moving_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104542</id>
+			<name>Tide Fall</name>
+			<type>Normal</type>
+			<description>HOLD {Jump} to fall slowly.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104551</id>
+			<name>Aquatic Dominion</name>
+			<type>Normal</type>
+			<description>Summon a &lt;Orange&gt;Monstro Spawn&lt;/&gt; that can autonomously attack enemies.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Arced Trajectory (Summon Monstro Spawn), Direct Hit (Monstro Spawn)</Casting>
+				<Charges>2</Charges>
+				<Default> </Default>
+				<Duration>2s</Duration>
+				<Enhanced> </Enhanced>
+				<Monstro_Spawn_Damage>12</Monstro_Spawn_Damage>
+				<Monstro_Spawn_Health>125</Monstro_Spawn_Health>
+				<Default_Charging_Speed>0.1/s</Default_Charging_Speed>
+				<Monstro_Spawn_Fire_Rate>5 rounds per second</Monstro_Spawn_Fire_Rate>
+				<Monstro_Spawn_Attack_Range>40m</Monstro_Spawn_Attack_Range>
+				<Monstro_Spawn_Damage_Falloff>Falloff begins at 20m, decreasing to 30% at 40m</Monstro_Spawn_Damage_Falloff>
+				<Monstro_Spawn_Maximum_Duration>8s</Monstro_Spawn_Maximum_Duration>
+				<Monstro_Spawn_Maximum_Quantity>2</Monstro_Spawn_Maximum_Quantity>
+				<Projectile_Speed_Summon_Monstro_Spawn>30 m/s</Projectile_Speed_Summon_Monstro_Spawn>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104553</id>
+			<name>Monstro Spawn - Normal Attack</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104554</id>
+			<name>Monstro Spawn - Enhanced Water Blast</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104555</id>
+			<name>Frozen Spawn</name>
+			<type>Normal</type>
+			<description>Luna Snow infuses ice energy into {104700}, who then can tap into the ice energy to power up abilities at will.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104556</id>
+			<name>Ice Monstro Spawn - Normal Attack</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104557</id>
+			<name>Ice Monstro Spawn - Enhanced Water Blast</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104558</id>
+			<name>Gamma Ray</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104559</id>
+			<name>Ultra Beam</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104561</id>
+			<name>Horn Of Proteus</name>
+			<type>Ultimate</type>
+			<description>Summon Giganto to leap atop enemies within range, disabling their mobility abilities.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>A cylindrical spell field with an inner circle radius of 3.5m, an outer circle radius of 9m, and a height of 3m</Range>
+				<Damage>Inner Circle Damage: 500; Outer Circle Damage: 180</Damage>
+				<Casting>Cylindrical Spell Field</Casting>
+				<Hit_Delay>1.5s</Hit_Delay>
+				<Energy_Cost>3100</Energy_Cost>
+				<Maximum_Distance>30m</Maximum_Distance>
+				<Immobilize_Duration>1.5s</Immobilize_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104591</id>
+			<name>Gamma Charge</name>
+			<type>Normal</type>
+			<description>Hulk charges Black Panther and The Thing with gamma radiation. When Black Panther's health is low, he gains a gamma shield, becoming &lt;Buff&gt;Unstoppable&lt;/&gt; and blocking attacks. The Thing gains Gamma Gauntlets, boosting &lt;Buff&gt;Damage&lt;/&gt; and range of his &lt;Orange&gt;Rocky Jab&lt;/&gt; and &lt;Orange&gt;Stone Haymaker&lt;/&gt;. Dealing damage with these attacks grants &lt;Buff&gt;Bonus Health&lt;/&gt;, and maximum &lt;Buff&gt;Bonus Health&lt;/&gt; cap is increased.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>14.00</rank>
+			<mover_shaker>23.00</mover_shaker>
+			<rank_calc>4.04</rank_calc>
+			<mover_shaker_calc>-0.02</mover_shaker_calc>
+			<ZScore>0.22</ZScore>
+			<winrate>50.32</winrate>
+			<pickrate>12.66</pickrate>
+			<banrate>5.09</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>50.31</winrate_prev>
+			<pickrate_prev>11.07</pickrate_prev>
+			<banrate_prev>4.61</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>14.00</pickrate_change>
+			<banrate_change>10.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>15.00</rank>
+			<mover_shaker>15.00</mover_shaker>
+			<rank_calc>4.01</rank_calc>
+			<mover_shaker_calc>0.29</mover_shaker_calc>
+			<ZScore>0.21</ZScore>
+			<winrate>50.31</winrate>
+			<pickrate>11.07</pickrate>
+			<banrate>4.61</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>49.66</winrate_prev>
+			<pickrate_prev>13.45</pickrate_prev>
+			<banrate_prev>5.28</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>-18.00</pickrate_change>
+			<banrate_change>-13.00</banrate_change>
+		</item>
+	</meta>
+</all>

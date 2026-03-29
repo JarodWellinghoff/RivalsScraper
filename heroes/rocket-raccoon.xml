@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1023</id>
+	<name>Rocket Raccoon</name>
+	<real_name>Rocket Raccoon</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Rocket Raccoon</name>
+			<health>250</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Rocket may not look like a tech genius or an expert tactician, but anyone who's ever made his hit list has quickly regretted underestimating him. This savvy space soldier is equally eager to boost his teammates and to collect bounties on his foes.</description>
+	<team>
+		<item>Guardiansofthegalaxy</item>
+	</team>
+	<difficulty>1</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>STRATEGIST</role>
+	<abilities>
+		<item>
+			<id>102301</id>
+			<name>Wild Crawl</name>
+			<type>Normal</type>
+			<description>Hold {Jump} to run on a wall.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Wall-Crawling_Speed>8m/s</Wall-Crawling_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102321</id>
+			<name>Bombard Mode</name>
+			<type>Weapon</type>
+			<description>Fire energy projectiles that deal damage.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>45</Ammo>
+				<Damage>16 damage per round</Damage>
+				<Casting>Rapid-fire, delayed projectile</Casting>
+				<Fire_Rate>12.05 rounds per second</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 10m, decreasing to 40% at 20m</Damage_Falloff>
+				<Projectile_Speed>180 m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102322</id>
+			<name>Repair Mode</name>
+			<type>Weapon</type>
+			<description>Shoot bouncing spheres to heal allies. Directly hitting an ally provides extra healing.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Ammo>8</Ammo>
+				<Range>5m spherical radius</Range>
+				<Casting>Single-cast projectile with delayed impact that also generates a spell field</Casting>
+				<Duration>5s</Duration>
+				<Fire_Rate>2 rounds per second</Fire_Rate>
+				<Special_Effect>One-time healing for allies when projectile hits them，Bouncing Spheres will bounce off surfaces upon contact, with a maximum of 10 bounces. When they approach injured allies, their speed will reduce</Special_Effect>
+				<Projectile_Speed>80 m/s</Projectile_Speed>
+				<One-time_Healing_Amount>55</One-time_Healing_Amount>
+				<Projectile_Speed_Reduction>7 m/s</Projectile_Speed_Reduction>
+				<Healing_Amount_Ally>50/s</Healing_Amount_Ally>
+				<Healing_Amount_Self>30/s</Healing_Amount_Self>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102323</id>
+			<name>Energy Gun Reload</name>
+			<type>Normal</type>
+			<description>Reload the Energy Gun</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102331</id>
+			<name>Jetpack Dash</name>
+			<type>Normal</type>
+			<description>Dash forward.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Dash</Casting>
+				<Cooldown>2 charges, with each charge taking 10s to recharge</Cooldown>
+				<Dash_Distance>8m</Dash_Distance>
+				<Dash_Direction>Crosshair Direction</Dash_Direction>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102332</id>
+			<name>Flying Ace</name>
+			<type>Normal</type>
+			<description>Hold {Jump} to fall slowly.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Descending_Speed>3.5m/s</Descending_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102341</id>
+			<name>B.r.b.</name>
+			<type>Normal</type>
+			<description>Deploy a Battle Rebirth Beacon that revives a fallen ally and periodically produces &lt;Orange&gt;armor packs&lt;/&gt; and &lt;Orange&gt;rocket jet packs&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Summons</Casting>
+				<Cooldown>40s. You can reclaim the beacon by pressing E. When reclaimed, the cooldown will be reduced based on the beacon's remaining health. If you reclaim a full-health beacon, the minimum cooldown will be 5s</Cooldown>
+				<Duration>300s</Duration>
+				<Special_Effect>Generate an item every 3s, including Armor Pack and Rocket Boots</Special_Effect>
+				<Maximum_Revive_Distance>50m</Maximum_Revive_Distance>
+				<Bonus_Health_From_Armor_Pack>25</Bonus_Health_From_Armor_Pack>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102344</id>
+			<name>Web Server</name>
+			<type>Normal</type>
+			<description>Rocket Raccoon upgrades his &lt;Orange&gt;B.R.B.&lt;/&gt; for Star-Lord and Mister Fantastic. Star-Lord gets an Astral Jump device, allowing him to teleport to its deployment point from anywhere on the map. Mister Fantastic receives a Fantastic Amplifier, removing his &lt;Orange&gt;Elasticity&lt;/&gt; limit and letting him actively enter Inflation state.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>45s</Cooldown>
+				<Team-Up_Bonus>5% Healing Bonus</Team-Up_Bonus>
+				<Health_of_B.R.B.>150</Health_of_B.R.B.>
+				<Arachno-Mine_Damage>100</Arachno-Mine_Damage>
+				<Spider-Drone_Damage>40</Spider-Drone_Damage>
+				<Maximum_Revive_Distance>50m</Maximum_Revive_Distance>
+				<Arachno-Mine_Explosion_Range>3m spherical radius spell field</Arachno-Mine_Explosion_Range>
+				<Spider-Drone_Explosion_Range>1m spherical radius spell field</Spider-Drone_Explosion_Range>
+				<Armor_Pack_Generate_Frequency>6s per pack</Armor_Pack_Generate_Frequency>
+				<Maximum_Arachno-Mine_Quantity>15</Maximum_Arachno-Mine_Quantity>
+				<Arachno-Mine_Generate_Interval>3s</Arachno-Mine_Generate_Interval>
+				<Spider-Drone_Generate_Interval>3s</Spider-Drone_Generate_Interval>
+				<Spider-Drone_Generate_Quantity_Per_Round>1</Spider-Drone_Generate_Quantity_Per_Round>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102351</id>
+			<name>C.y.a.</name>
+			<type>Ultimate</type>
+			<description>Deploy a Cosmic Yarn Amplifier that grants allies a &lt;Buff&gt;Damage Boost&lt;/&gt;, while continuously providing them with &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>20m radius</Range>
+				<Casting>Targeted ability that, when activated, summons a creature and detects allies within the area.</Casting>
+				<Duration>12s</Duration>
+				<Energy_Cost>4300</Energy_Cost>
+				<Bonus_Health>100/s</Bonus_Health>
+				<Damage_Boost>40%</Damage_Boost>
+				<Special_Effect>During the ability's duration, linked allies will receive an additional 100 Bonus Health points per second, capping at 150. After breaking the link, this bonus starts to falloff after 1 second at a rate of 75 per/s</Special_Effect>
+				<key name="Summons&amp;apos; Health">800</key>
+				<Bonus_Max_Health>150</Bonus_Max_Health>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102371</id>
+			<name>Gravity Modification</name>
+			<type>Normal</type>
+			<description>Draw in and fling forward &lt;Orange&gt;Chronoviums&lt;/&gt; to launch the hit enemy upward.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>1.00</rank>
+			<mover_shaker>6.00</mover_shaker>
+			<rank_calc>4.41</rank_calc>
+			<mover_shaker_calc>1.22</mover_shaker_calc>
+			<ZScore>0.31</ZScore>
+			<winrate>54.24</winrate>
+			<pickrate>26.81</pickrate>
+			<banrate>1.03</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>53.32</winrate_prev>
+			<pickrate_prev>24.81</pickrate_prev>
+			<banrate_prev>1.35</banrate_prev>
+			<winrate_change>2.00</winrate_change>
+			<pickrate_change>8.00</pickrate_change>
+			<banrate_change>-24.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>3.00</rank>
+			<mover_shaker>10.00</mover_shaker>
+			<rank_calc>4.33</rank_calc>
+			<mover_shaker_calc>0.49</mover_shaker_calc>
+			<ZScore>0.21</ZScore>
+			<winrate>53.32</winrate>
+			<pickrate>24.81</pickrate>
+			<banrate>1.35</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>53.68</winrate_prev>
+			<pickrate_prev>27.20</pickrate_prev>
+			<banrate_prev>1.84</banrate_prev>
+			<winrate_change>-1.00</winrate_change>
+			<pickrate_change>-9.00</pickrate_change>
+			<banrate_change>-27.00</banrate_change>
+		</item>
+	</meta>
+</all>

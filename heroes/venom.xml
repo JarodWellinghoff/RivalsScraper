@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1035</id>
+	<name>Venom</name>
+	<real_name>Edward "eddie" Brock</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Venom</name>
+			<health>675</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Using his symbiote-enhanced body as the perfect living weapon, Eddie Brock and his alien ally stand ever-ready to unleash vicious attacks upon anyone he deems an enemy. Those ensnared by Venom's tentacles have no choice but to surrender to this insatiable predator.</description>
+	<team>
+		<item>Guardiansofthegalaxy</item>
+		<item>Web_warriors</item>
+		<item>Villains</item>
+	</team>
+	<difficulty>1</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>VANGUARD</role>
+	<abilities>
+		<item>
+			<id>103501</id>
+			<name>Alien Biology</name>
+			<type>Normal</type>
+			<description>PRESS{Jump} to wall crawl, and while crawling, PRESS{PrimaryAttack}to sprint.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Sprinting_Speed>9 m/s</Sprinting_Speed>
+				<Wall-Crawling_Speed>3 m/s</Wall-Crawling_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103511</id>
+			<name>Venom's V-key Normal Attack</name>
+			<type>Melee</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103521</id>
+			<name>Dark Predation</name>
+			<type>Weapon</type>
+			<description>Unleash tentacles forward to attack enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>15m</Range>
+				<Damage>20</Damage>
+				<Casting>Quad-cast delayed spell field</Casting>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Attack_Interval>0.9s, with a 0.1s interval between each tendril</Attack_Interval>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103531</id>
+			<name>Frenzied Arrival</name>
+			<type>Normal</type>
+			<description>Dash to the target location from a certain height. Upon landing, damage nearby enemies, &lt;Debuff&gt;Launching Them Up&lt;/&gt; towards the landing point.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Range>6m spherical radius</Range>
+				<Damage>65 damage, with damage falloff starting at 2m from the center of the spell field and decreasing to 40% at 6m</Damage>
+				<Casting>Targeted</Casting>
+				<Cooldown>8s</Cooldown>
+				<Special_Effect>Knocks enemies inward, with an inward knockback angle of 75°</Special_Effect>
+				<Maximum_Distance>40m</Maximum_Distance>
+				<Minimum_Distance>3m</Minimum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103541</id>
+			<name>Cellular Corrosion</name>
+			<type>Normal</type>
+			<description>Unleash tentacles to &lt;Debuff&gt;Slow&lt;/&gt; enemies within reach. Enemies unable to break free in time will suffer damage.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>8m spherical radius</Range>
+				<Damage>The spell field deals 5 damage, increasing to 80 damage if the target remains in the area for a duration</Damage>
+				<Casting>Spell field that surrounds the caster</Casting>
+				<CoolDown>8s</CoolDown>
+				<Special_Effect>Tendrils apply a 25% Slow on the target and take 3s to inflict damage. If the distance from Venom exceeds 11m, the tendrils will detach</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103551</id>
+			<name>Venom Swing</name>
+			<type>Normal</type>
+			<description>Launch webbing forward, allowing for a singular swing in the desired direction.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Dash</Casting>
+				<Cooldown>8s</Cooldown>
+				<Maximum_Webbing_Length>30m</Maximum_Webbing_Length>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103561</id>
+			<name>Symbiotic Resilience</name>
+			<type>Normal</type>
+			<description>Generate &lt;Buff&gt;Bonus Health&lt;/&gt; against damage. The lower Venom's Health, the greater the &lt;Buff&gt;Bonus Health&lt;/&gt; generated.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Instant Cast</Casting>
+				<Cooldown>15s</Cooldown>
+				<Special_Effect>Grant 100 Bonus Health and convert 120% of lost Health into Bonus Health</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103571</id>
+			<name>Feast Of The Abyss</name>
+			<type>Ultimate</type>
+			<description>Burrow underground for free movement. After a duration or by pressing {PrimaryAttack}, devour enemies above to deal damage based on the enemy's current health and generate equivalent &lt;Buff&gt;Bonus Health&lt;/&gt;. Devoured enemies suffer &lt;Debuff&gt;Reduced Healing&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>7m spherical radius</Range>
+				<Damage>Inflict damage equal to 50% of the target's health, followed by an additional 50 damage</Damage>
+				<Casting>Single-cast spell field that surrounds the caster</Casting>
+				<Energy_Cost>2500</Energy_Cost>
+				<Movement_Boost>80%</Movement_Boost>
+				<Special_Effect>130% of damage dealt is converted into Bonus Health</Special_Effect>
+				<Maximum_Duration>4s</Maximum_Duration>
+				<HEALING_REDUCTION_DURATION>4s</HEALING_REDUCTION_DURATION>
+				<key name="       HEALING REDUCTION PROPORTION       ">30%</key>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>31.00</rank>
+			<mover_shaker>22.00</mover_shaker>
+			<rank_calc>3.85</rank_calc>
+			<mover_shaker_calc>0.00</mover_shaker_calc>
+			<ZScore>0.23</ZScore>
+			<winrate>48.06</winrate>
+			<pickrate>11.82</pickrate>
+			<banrate>0.30</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>47.95</winrate_prev>
+			<pickrate_prev>9.79</pickrate_prev>
+			<banrate_prev>0.26</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>21.00</pickrate_change>
+			<banrate_change>15.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>32.00</rank>
+			<mover_shaker>27.00</mover_shaker>
+			<rank_calc>3.81</rank_calc>
+			<mover_shaker_calc>-0.44</mover_shaker_calc>
+			<ZScore>0.18</ZScore>
+			<winrate>47.95</winrate>
+			<pickrate>9.79</pickrate>
+			<banrate>0.26</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>47.66</winrate_prev>
+			<pickrate_prev>9.87</pickrate_prev>
+			<banrate_prev>0.22</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>-1.00</pickrate_change>
+			<banrate_change>18.00</banrate_change>
+		</item>
+	</meta>
+</all>

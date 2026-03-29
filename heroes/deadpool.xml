@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1057</id>
+	<name>Deadpool</name>
+	<real_name>Wade Wilson</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Deadpool</name>
+			<health>450</health>
+			<movement_speed>600</movement_speed>
+		</item>
+		<item>
+			<id>1</id>
+			<name>Deadpool</name>
+		</item>
+	</transformations>
+	<description>Wade Wilson is the full package (or so he claims), with devastating damage output, an impenetrable shield, and swift healing. There's no limit to what Deadpool can achieve, as long as he keeps his moves flashy! And, of course, every epic attack comes with an endless barrage of witty banter!</description>
+	<team>
+		<item>X_men</item>
+	</team>
+	<difficulty>0</difficulty>
+	<attack_type>Hitscan Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>105701</id>
+			<name>Healing Factor</name>
+			<type>Normal</type>
+			<description>&lt;Buff&gt;Continuously heal&lt;/&gt; while out of combat. When taking heavy fatal damage, briefly become invincible and rapidly heal.</description>
+			<additional_fields>
+				<Key>PASSIVE</Key>
+				<Cooldown>45s</Cooldown>
+				<Special_Effect>The healing factor kicks in after Deadpool has been out of combat for 5s. If Deadpool takes more than 200 damage within a two-second window, the healing factor activates and boosts the healing</Special_Effect>
+				<Healing_over_Time>25/s</Healing_over_Time>
+				<Healing_over_Time_from_Activated_Healing_Factor>50/s</Healing_over_Time_from_Activated_Healing_Factor>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105702</id>
+			<name>Bunny Hop</name>
+			<type>Normal</type>
+			<description>Perform a double jump. Using &lt;Orange&gt;Bunny Hop&lt;/&gt; over others' heads or near vertical walls refreshes the cooldown. Stomping enemies grants &lt;Buff&gt;Bonus Health&lt;/&gt; and deals damage.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Damage>25</Damage>
+				<Cooldown>6s</Cooldown>
+				<Bonus_Health>25, up to 50</Bonus_Health>
+				<Special_Effect>Refresh the cooldown if it hits an enemy.</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105703</id>
+			<name>Maximum Flair</name>
+			<type>Ultimate</type>
+			<description>Increase your &lt;Orange&gt;Style Rating&lt;/&gt; by landing abilities. Ultimate Ability can be unleashed after reaching an "S" rating.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Special_Effect>The ultimate ability can be unleashed after reaching an S rating. The rating is cleared if Deadpool is defeated.</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105704</id>
+			<name>Deadpool On Air</name>
+			<type>Normal</type>
+			<description>Get close to other characters to roast them!</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105711</id>
+			<name>Upgrade!</name>
+			<type>Normal</type>
+			<description>Deal damage to accumulate &lt;Orange&gt;XP&lt;/&gt;. &lt;Orange&gt;When maxed&lt;/&gt;, choose an ability to upgrade. Landing final hits and taking a selfie grants bonus XP. Deadpool is &lt;Buff&gt;Invincible&lt;/&gt; while taking photos.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Special_Effect>Accumulate XP in battle. When maxed, choose an ability to upgrade for powerful boosts</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105713</id>
+			<name>Photo-taking</name>
+			<type>Normal</type>
+			<description>After delivering the Final Hit, you can take a photo with the enemy's corpse. Successfully taking a photo will grant bonus experience points.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105721</id>
+			<name>Dual Desert Eagles - Duelist</name>
+			<type>Weapon</type>
+			<description>Shoot enemies with dual Desert Eagles.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>30</Ammo>
+				<Damage>38 per hit</Damage>
+				<Casting>Rapid-fire projectile</Casting>
+				<Fire_Rate>2.5 rounds per second</Fire_Rate>
+				<Damage_Falloff>Falloff begins at 18m, decreasing to 80% at 30m</Damage_Falloff>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105722</id>
+			<name>Dual Desert Eagles - Duelist Upgraded</name>
+			<type>Weapon</type>
+			<description>Shoot enemies with dual Desert Eagles. After enough shots, unleash a powerful, explosive Boom Emoji for extra damage.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>40</Ammo>
+				<Beam_Damage>46 damage per round</Beam_Damage>
+				<Projectile_Speed>60 m/s</Projectile_Speed>
+				<Spell_Field_Range>3m radius spherical spell field</Spell_Field_Range>
+				<Spell_Field_Damage>25</Spell_Field_Damage>
+				<Beam_Attack_Interval>2 rounds per second</Beam_Attack_Interval>
+				<Projectile_Attack_Interval>After every 5 beam bullets fired, the next shot fires 1 additional projectile</Projectile_Attack_Interval>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105724</id>
+			<name>Kick@$$ Katana - Duelist</name>
+			<type>Weapon</type>
+			<description>Slash forward with dual katanas.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>40 per hit</Damage>
+				<Casting>Melee</Casting>
+				<Attack_Interval>First strike: 0.6s; second strike: 0.53s; third strike: 0.6s</Attack_Interval>
+				<Maximum_Distance>4m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105725</id>
+			<name>Kick@$$ Katana - Duelist Upgraded</name>
+			<type>Weapon</type>
+			<description>Slash forward with dual katanas. &lt;Orange&gt;Stabs&lt;/&gt; can deal critical hits. After a &lt;Orange&gt;Bunny Hop&lt;/&gt;, your next attack is guaranteed to be &lt;Orange&gt;stabs&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>45 per hit</Damage>
+				<Attack_Interval>First strike: 0.5s; second strike: 0.43s; third strike: 0.5s</Attack_Interval>
+				<Maximum_Distance>4m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105741</id>
+			<name>Headshot! - Duelist</name>
+			<type>Normal</type>
+			<description>Remove your Avatar and throw it, damaging enemies along the path and nearby; after a short time, it returns to you.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Casting>Single-cast projectile with delayed impact that also generates a spell field</Casting>
+				<Cooldown>10s</Cooldown>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+				<Projectile_Damage>Unleash: 30; return: 25</Projectile_Damage>
+				<Spell_Field_Range>4m spherical radius spell field</Spell_Field_Range>
+				<Spell_Field_Damage>15/s</Spell_Field_Damage>
+				<Spell_Field_Duration>1s</Spell_Field_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105742</id>
+			<name>Headshot! - Duelist Upgraded</name>
+			<type>Normal</type>
+			<description>Remove your Avatar and throw it, damaging enemies along the path and nearby; after a short time, it returns to you. Catch it for up to two more throws. On the third toss, it explodes at the end to deal area damage.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Cooldown>10s</Cooldown>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+				<Projectile_Damage>Unleash: 30; return: 25</Projectile_Damage>
+				<Spell_Field_Damage>15/s</Spell_Field_Damage>
+				<Spell_Field_Duration>First unleash: 1s; second unleash: 1s; third unleash: 2s</Spell_Field_Duration>
+				<Third_Unleash_Explosion_Damage>45</Third_Unleash_Explosion_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105744</id>
+			<name>Hazardous Hijinks - Duelist</name>
+			<type>Normal</type>
+			<description>Dash forward and slash, striking enemies in your path. Hitting an enemy lets you unleash another Hazardous Hijinks - Duelist, up to two times.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>40</Damage>
+				<Cooldown>2 charges, with each charge taking 10s to recharge.</Cooldown>
+				<Dash_Duration>Up to 12m</Dash_Duration>
+				<Special_Effect>Refresh the cooldown if it hits an enemy for up to 2 times.</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105745</id>
+			<name>Hazardous Hijinks - Duelist Upgraded</name>
+			<type>Normal</type>
+			<description>Dash forward and slash, striking enemies in your path. Each hit refreshes the cooldown and launches you in your chosen direction.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>40</Damage>
+				<Cooldown>2 charges, with each charge taking 10s to recharge.</Cooldown>
+				<Dash_Duration>Up to 12m</Dash_Duration>
+				<Special_Effect>Refresh the cooldown if it hits an enemy. Deadpool bounces as the ability hits an enemy.</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105746</id>
+			<name>Magical Unicorn Shield!</name>
+			<type>Normal</type>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Cooldown>12s</Cooldown>
+				<key name="Summons&amp;apos; Health">300</key>
+				<Maximum_Duration_for_Summons>4s</Maximum_Duration_for_Summons>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105747</id>
+			<name>Magical Unicorn Shield! - Upgraded</name>
+			<type>Normal</type>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Cooldown>12s</Cooldown>
+				<key name="Summons&amp;apos; Health">400</key>
+				<Maximum_Duration_for_Summons>4s</Maximum_Duration_for_Summons>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105751</id>
+			<name>Deadpool In Your Area - Duelist</name>
+			<type>Normal</type>
+			<description>&lt;Debuff&gt;Taunt&lt;/&gt; and deal continuous damage to nearby enemies, disrupting their vision while gaining &lt;Buff&gt;Damage Reduction&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>12s</Cooldown>
+				<Special_Effect>Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.</Special_Effect>
+				<Ability_Duration>5s</Ability_Duration>
+				<Spell_Field_Range>A cylindrical spell field with a 6m radius and a height of 6m</Spell_Field_Range>
+				<Spell_Field_Damage>15/s</Spell_Field_Damage>
+				<Self_Damage_Reduction>20%</Self_Damage_Reduction>
+				<Damage_Needed_to_Remove_the_Disruption>100</Damage_Needed_to_Remove_the_Disruption>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105752</id>
+			<name>Deadpool In Your Area - Duelist Upgraded</name>
+			<type>Normal</type>
+			<description>&lt;Debuff&gt;Taunt&lt;/&gt; and deal continuous damage to nearby enemies, disrupting their vision while gaining &lt;Buff&gt;Damage Reduction&lt;/&gt;. If enemies don't escape in time, the bottom of their screen gets further blocked.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>12s</Cooldown>
+				<Special_Effect>Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.</Special_Effect>
+				<Ability_Duration>5s</Ability_Duration>
+				<Spell_Field_Range>A cylindrical spell field with a 6m radius and a height of 6m</Spell_Field_Range>
+				<Spell_Field_Damage>15/s</Spell_Field_Damage>
+				<Self_Damage_Reduction>35%</Self_Damage_Reduction>
+				<Damage_Needed_to_Remove_the_Disruption>100</Damage_Needed_to_Remove_the_Disruption>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105761</id>
+			<name>Slice And Dice!</name>
+			<type>Normal</type>
+			<description>Switch to dual katanas.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105762</id>
+			<name>Lock And Load!</name>
+			<type>Normal</type>
+			<description>Switch to dual pistols.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105771</id>
+			<name>Skill Issue</name>
+			<type>Ultimate</type>
+			<description>Select an enemy to &lt;Debuff&gt;taunt&lt;/&gt;. They take damage whenever they miss an ability during the effect.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Cooldown>45s</Cooldown>
+				<Ability_Duration>8s</Ability_Duration>
+				<Damage_From_Per_Ability_Missed>60</Damage_From_Per_Ability_Missed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105772</id>
+			<name>Skill Issue - Upgraded</name>
+			<type>Ultimate</type>
+			<description>Select an enemy to &lt;Debuff&gt;taunt&lt;/&gt;, dealing continuous damage. If they miss with an ability during the effect, they suffer extra damage and &lt;Debuff&gt;Vulnerability&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Cooldown>45s</Cooldown>
+				<Ability_Duration>8s</Ability_Duration>
+				<Damage_Over_Time>25/s</Damage_Over_Time>
+				<Damage_From_Per_Ability_Missed>60</Damage_From_Per_Ability_Missed>
+				<Vulnerability_Ration_From_Ability_Missed>10% for each stack. Up to 4 stacks.</Vulnerability_Ration_From_Ability_Missed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105773</id>
+			<name>Pop Quiz!</name>
+			<type>Ultimate</type>
+			<description>Initiate a challenge for yourself while gaining minor &lt;Buff&gt;Speed Boost&lt;/&gt; and &lt;Buff&gt;Healing Over Time&lt;/&gt;. Hit enough enemies with the indicated abilities in time for greatly enhanced &lt;Buff&gt;Speed&lt;/&gt; and &lt;Buff&gt;Healing&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Cooldown>45s</Cooldown>
+				<Movement_Boost>Upon activation: 15%; challenge completed: 30%</Movement_Boost>
+				<Ability_Duration>The challenge lasts 12s. The buff lasts 6s after you complete it.</Ability_Duration>
+				<Healing_over_Time>Upon activation: 35/s; challenge completed: 70/s</Healing_over_Time>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105774</id>
+			<name>Pop Quiz! - Upgraded</name>
+			<type>Ultimate</type>
+			<description>Initiate a challenge for yourself while gaining minor &lt;Buff&gt;Speed Boost&lt;/&gt;, &lt;Buff&gt;Healing Over Time&lt;/&gt;, and &lt;Buff&gt;Damage Boost&lt;/&gt;. Hit enough enemies with the indicated abilities in time for greatly enhanced &lt;Buff&gt;Speed&lt;/&gt;, &lt;Buff&gt;Healing&lt;/&gt;, &lt;Buff&gt;Damage&lt;/&gt;, and refresh all cooldowns except &lt;Orange&gt;Healing Factor&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Cooldown>45s</Cooldown>
+				<Damage_Boost>Upon activation: 15%; challenge completed: 30%</Damage_Boost>
+				<Movement_Boost>Upon activation: 15%; challenge completed: 30%</Movement_Boost>
+				<Ability_Duration>The challenge lasts 12s. The buff lasts 8s after you complete it.</Ability_Duration>
+				<Healing_over_Time>Upon activation: 30/s; challenge completed: 60/s</Healing_over_Time>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105781</id>
+			<name>Comical Chaos</name>
+			<type>Normal</type>
+			<description>Deadpool hands Jeff the Land Shark a plushie. Jeff can spit it ahead where it'll continuously &lt;Debuff&gt;Taunt&lt;/&gt; nearby enemies and &lt;Debuff&gt;Block Vision&lt;/&gt;, while allies in range are healed! Elsa Bloodstone's &lt;Orange&gt;Living Bullet&lt;/&gt; changes to special rounds that &lt;Debuff&gt;Taunt&lt;/&gt; targets with Deadpool's chatter, while &lt;Debuff&gt;Slowing&lt;/&gt;, and damaging nearby enemies over time. Elsa can recall the rounds to heal based on damage dealt.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Team-Up_Bonus>+50 Max Health</Team-Up_Bonus>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105701</id>
+			<name>Healing Factor</name>
+			<type>Normal</type>
+			<description>&lt;Buff&gt;Continuously heal&lt;/&gt; while out of combat. When taking heavy fatal damage, briefly become invincible and rapidly heal.</description>
+			<additional_fields>
+				<Key>PASSIVE</Key>
+				<Cooldown>45s</Cooldown>
+				<Special_Effect>The healing factor kicks in after Deadpool has been out of combat for 5s. If Deadpool takes more than 200 damage within a two-second window, the healing factor activates and boosts the healing</Special_Effect>
+				<Healing_over_Time>25/s</Healing_over_Time>
+				<Healing_over_Time_from_Activated_Healing_Factor>50/s</Healing_over_Time_from_Activated_Healing_Factor>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105702</id>
+			<name>Bunny Hop</name>
+			<type>Normal</type>
+			<description>Perform a double jump. Using &lt;Orange&gt;Bunny Hop&lt;/&gt; over others' heads or near vertical walls refreshes the cooldown. Stomping enemies grants &lt;Buff&gt;Bonus Health&lt;/&gt; and deals damage.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Damage>25</Damage>
+				<Cooldown>6s</Cooldown>
+				<Bonus_Health>25, up to 50</Bonus_Health>
+				<Special_Effect>Refresh the cooldown if it hits an enemy.</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105703</id>
+			<name>Maximum Flair</name>
+			<type>Ultimate</type>
+			<description>Increase your &lt;Orange&gt;Style Rating&lt;/&gt; by landing abilities. Ultimate Ability can be unleashed after reaching an "S" rating.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Special_Effect>The ultimate ability can be unleashed after reaching an S rating. The rating is cleared if Deadpool is defeated.</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105704</id>
+			<name>Deadpool On Air</name>
+			<type>Normal</type>
+			<description>Get close to other characters to roast them!</description>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105711</id>
+			<name>Upgrade!</name>
+			<type>Normal</type>
+			<description>Deal damage to accumulate &lt;Orange&gt;XP&lt;/&gt;. &lt;Orange&gt;When maxed&lt;/&gt;, choose an ability to upgrade. Landing final hits and taking a selfie grants bonus XP. Deadpool is &lt;Buff&gt;Invincible&lt;/&gt; while taking photos.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Special_Effect>Accumulate XP in battle. When maxed, choose an ability to upgrade for powerful boosts</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105713</id>
+			<name>Photo-taking</name>
+			<type>Normal</type>
+			<description>After delivering the Final Hit, you can take a photo with the enemy's corpse. Successfully taking a photo will grant bonus experience points.</description>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105721</id>
+			<name>Dual Desert Eagles - Duelist</name>
+			<type>Weapon</type>
+			<description>Shoot enemies with dual Desert Eagles.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>30</Ammo>
+				<Damage>38 per hit</Damage>
+				<Casting>Rapid-fire projectile</Casting>
+				<Fire_Rate>2.5 rounds per second</Fire_Rate>
+				<Damage_Falloff>Falloff begins at 18m, decreasing to 80% at 30m</Damage_Falloff>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105722</id>
+			<name>Dual Desert Eagles - Duelist Upgraded</name>
+			<type>Weapon</type>
+			<description>Shoot enemies with dual Desert Eagles. After enough shots, unleash a powerful, explosive Boom Emoji for extra damage.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>40</Ammo>
+				<Beam_Damage>46 damage per round</Beam_Damage>
+				<Projectile_Speed>60 m/s</Projectile_Speed>
+				<Spell_Field_Range>3m radius spherical spell field</Spell_Field_Range>
+				<Spell_Field_Damage>25</Spell_Field_Damage>
+				<Beam_Attack_Interval>2 rounds per second</Beam_Attack_Interval>
+				<Projectile_Attack_Interval>After every 5 beam bullets fired, the next shot fires 1 additional projectile</Projectile_Attack_Interval>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105724</id>
+			<name>Kick@$$ Katana - Duelist</name>
+			<type>Weapon</type>
+			<description>Slash forward with dual katanas.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>40 per hit</Damage>
+				<Casting>Melee</Casting>
+				<Attack_Interval>First strike: 0.6s; second strike: 0.53s; third strike: 0.6s</Attack_Interval>
+				<Maximum_Distance>4m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105725</id>
+			<name>Kick@$$ Katana - Duelist Upgraded</name>
+			<type>Weapon</type>
+			<description>Slash forward with dual katanas. &lt;Orange&gt;Stabs&lt;/&gt; can deal critical hits. After a &lt;Orange&gt;Bunny Hop&lt;/&gt;, your next attack is guaranteed to be &lt;Orange&gt;stabs&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>45 per hit</Damage>
+				<Attack_Interval>First strike: 0.5s; second strike: 0.43s; third strike: 0.5s</Attack_Interval>
+				<Maximum_Distance>4m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105741</id>
+			<name>Headshot! - Duelist</name>
+			<type>Normal</type>
+			<description>Remove your Avatar and throw it, damaging enemies along the path and nearby; after a short time, it returns to you.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Casting>Single-cast projectile with delayed impact that also generates a spell field</Casting>
+				<Cooldown>10s</Cooldown>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+				<Projectile_Damage>Unleash: 30; return: 25</Projectile_Damage>
+				<Spell_Field_Range>4m spherical radius spell field</Spell_Field_Range>
+				<Spell_Field_Damage>15/s</Spell_Field_Damage>
+				<Spell_Field_Duration>1s</Spell_Field_Duration>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105742</id>
+			<name>Headshot! - Duelist Upgraded</name>
+			<type>Normal</type>
+			<description>Remove your Avatar and throw it, damaging enemies along the path and nearby; after a short time, it returns to you. Catch it for up to two more throws. On the third toss, it explodes at the end to deal area damage.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Cooldown>10s</Cooldown>
+				<Projectile_Speed>80m/s</Projectile_Speed>
+				<Projectile_Damage>Unleash: 30; return: 25</Projectile_Damage>
+				<Spell_Field_Damage>15/s</Spell_Field_Damage>
+				<Spell_Field_Duration>First unleash: 1s; second unleash: 1s; third unleash: 2s</Spell_Field_Duration>
+				<Third_Unleash_Explosion_Damage>45</Third_Unleash_Explosion_Damage>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105744</id>
+			<name>Hazardous Hijinks - Duelist</name>
+			<type>Normal</type>
+			<description>Dash forward and slash, striking enemies in your path. Hitting an enemy lets you unleash another Hazardous Hijinks - Duelist, up to two times.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>40</Damage>
+				<Cooldown>2 charges, with each charge taking 10s to recharge.</Cooldown>
+				<Dash_Duration>Up to 12m</Dash_Duration>
+				<Special_Effect>Refresh the cooldown if it hits an enemy for up to 2 times.</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105745</id>
+			<name>Hazardous Hijinks - Duelist Upgraded</name>
+			<type>Normal</type>
+			<description>Dash forward and slash, striking enemies in your path. Each hit refreshes the cooldown and launches you in your chosen direction.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>40</Damage>
+				<Cooldown>2 charges, with each charge taking 10s to recharge.</Cooldown>
+				<Dash_Duration>Up to 12m</Dash_Duration>
+				<Special_Effect>Refresh the cooldown if it hits an enemy. Deadpool bounces as the ability hits an enemy.</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105746</id>
+			<name>Magical Unicorn Shield!</name>
+			<type>Normal</type>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Cooldown>12s</Cooldown>
+				<key name="Summons&amp;apos; Health">300</key>
+				<Maximum_Duration_for_Summons>4s</Maximum_Duration_for_Summons>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105747</id>
+			<name>Magical Unicorn Shield! - Upgraded</name>
+			<type>Normal</type>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Cooldown>12s</Cooldown>
+				<key name="Summons&amp;apos; Health">400</key>
+				<Maximum_Duration_for_Summons>4s</Maximum_Duration_for_Summons>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105751</id>
+			<name>Deadpool In Your Area - Duelist</name>
+			<type>Normal</type>
+			<description>&lt;Debuff&gt;Taunt&lt;/&gt; and deal continuous damage to nearby enemies, disrupting their vision while gaining &lt;Buff&gt;Damage Reduction&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>12s</Cooldown>
+				<Special_Effect>Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.</Special_Effect>
+				<Ability_Duration>5s</Ability_Duration>
+				<Spell_Field_Range>A cylindrical spell field with a 6m radius and a height of 6m</Spell_Field_Range>
+				<Spell_Field_Damage>15/s</Spell_Field_Damage>
+				<Self_Damage_Reduction>20%</Self_Damage_Reduction>
+				<Damage_Needed_to_Remove_the_Disruption>100</Damage_Needed_to_Remove_the_Disruption>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105752</id>
+			<name>Deadpool In Your Area - Duelist Upgraded</name>
+			<type>Normal</type>
+			<description>&lt;Debuff&gt;Taunt&lt;/&gt; and deal continuous damage to nearby enemies, disrupting their vision while gaining &lt;Buff&gt;Damage Reduction&lt;/&gt;. If enemies don't escape in time, the bottom of their screen gets further blocked.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>12s</Cooldown>
+				<Special_Effect>Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.</Special_Effect>
+				<Ability_Duration>5s</Ability_Duration>
+				<Spell_Field_Range>A cylindrical spell field with a 6m radius and a height of 6m</Spell_Field_Range>
+				<Spell_Field_Damage>15/s</Spell_Field_Damage>
+				<Self_Damage_Reduction>35%</Self_Damage_Reduction>
+				<Damage_Needed_to_Remove_the_Disruption>100</Damage_Needed_to_Remove_the_Disruption>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105761</id>
+			<name>Slice And Dice!</name>
+			<type>Normal</type>
+			<description>Switch to dual katanas.</description>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105762</id>
+			<name>Lock And Load!</name>
+			<type>Normal</type>
+			<description>Switch to dual pistols.</description>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105771</id>
+			<name>Skill Issue</name>
+			<type>Ultimate</type>
+			<description>Select an enemy to &lt;Debuff&gt;taunt&lt;/&gt;. They take damage whenever they miss an ability during the effect.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Cooldown>45s</Cooldown>
+				<Ability_Duration>8s</Ability_Duration>
+				<Damage_From_Per_Ability_Missed>60</Damage_From_Per_Ability_Missed>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105772</id>
+			<name>Skill Issue - Upgraded</name>
+			<type>Ultimate</type>
+			<description>Select an enemy to &lt;Debuff&gt;taunt&lt;/&gt;, dealing continuous damage. If they miss with an ability during the effect, they suffer extra damage and &lt;Debuff&gt;Vulnerability&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Cooldown>45s</Cooldown>
+				<Ability_Duration>8s</Ability_Duration>
+				<Damage_Over_Time>25/s</Damage_Over_Time>
+				<Damage_From_Per_Ability_Missed>60</Damage_From_Per_Ability_Missed>
+				<Vulnerability_Ration_From_Ability_Missed>10% for each stack. Up to 4 stacks.</Vulnerability_Ration_From_Ability_Missed>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105773</id>
+			<name>Pop Quiz!</name>
+			<type>Ultimate</type>
+			<description>Initiate a challenge for yourself while gaining minor &lt;Buff&gt;Speed Boost&lt;/&gt; and &lt;Buff&gt;Healing Over Time&lt;/&gt;. Hit enough enemies with the indicated abilities in time for greatly enhanced &lt;Buff&gt;Speed&lt;/&gt; and &lt;Buff&gt;Healing&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Cooldown>45s</Cooldown>
+				<Movement_Boost>Upon activation: 15%; challenge completed: 30%</Movement_Boost>
+				<Ability_Duration>The challenge lasts 12s. The buff lasts 6s after you complete it.</Ability_Duration>
+				<Healing_over_Time>Upon activation: 35/s; challenge completed: 70/s</Healing_over_Time>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105774</id>
+			<name>Pop Quiz! - Upgraded</name>
+			<type>Ultimate</type>
+			<description>Initiate a challenge for yourself while gaining minor &lt;Buff&gt;Speed Boost&lt;/&gt;, &lt;Buff&gt;Healing Over Time&lt;/&gt;, and &lt;Buff&gt;Damage Boost&lt;/&gt;. Hit enough enemies with the indicated abilities in time for greatly enhanced &lt;Buff&gt;Speed&lt;/&gt;, &lt;Buff&gt;Healing&lt;/&gt;, &lt;Buff&gt;Damage&lt;/&gt;, and refresh all cooldowns except &lt;Orange&gt;Healing Factor&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Cooldown>45s</Cooldown>
+				<Damage_Boost>Upon activation: 15%; challenge completed: 30%</Damage_Boost>
+				<Movement_Boost>Upon activation: 15%; challenge completed: 30%</Movement_Boost>
+				<Ability_Duration>The challenge lasts 12s. The buff lasts 8s after you complete it.</Ability_Duration>
+				<Healing_over_Time>Upon activation: 30/s; challenge completed: 60/s</Healing_over_Time>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>105781</id>
+			<name>Comical Chaos</name>
+			<type>Normal</type>
+			<description>Deadpool hands Jeff the Land Shark a plushie. Jeff can spit it ahead where it'll continuously &lt;Debuff&gt;Taunt&lt;/&gt; nearby enemies and &lt;Debuff&gt;Block Vision&lt;/&gt;, while allies in range are healed! Elsa Bloodstone's &lt;Orange&gt;Living Bullet&lt;/&gt; changes to special rounds that &lt;Debuff&gt;Taunt&lt;/&gt; targets with Deadpool's chatter, while &lt;Debuff&gt;Slowing&lt;/&gt;, and damaging nearby enemies over time. Elsa can recall the rounds to heal based on damage dealt.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Team-Up_Bonus>+50 Max Health</Team-Up_Bonus>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+	</abilities>
+</all>

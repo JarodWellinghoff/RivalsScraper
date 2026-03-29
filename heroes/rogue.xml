@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1065</id>
+	<name>Rogue</name>
+	<real_name>Anna Marie</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Rogue</name>
+			<health>675</health>
+			<movement_speed>600</movement_speed>
+		</item>
+	</transformations>
+	<description>Anna Marie possesses the Mutant ability to absorb the powers of others with a touch. Her ever-adaptable arsenal of superhuman abilities helps turn the tide of any fight. After touching Raw Chronovium, Rogue's strength soared to new heights, allowing her to overwhelm enemies with unstoppable force!</description>
+	<team>
+		<item>X_men</item>
+		<item>Mutants</item>
+	</team>
+	<difficulty>5</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>VANGUARD</role>
+	<abilities>
+		<item>
+			<id>106511</id>
+			<name>Power Surge Punch</name>
+			<type>Weapon</type>
+			<description>Punch forward with both fists.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>The first two strikes deal 35 damage, while the third strike deals 45 damage</Damage>
+				<Casting>Melee</Casting>
+				<Attack_Speed>The first two strikes: 0.33s/hit; the third strike: 0.73s/hit</Attack_Speed>
+				<Maximum_Distance>4.5m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106512</id>
+			<name>Power Surge Punch (v)</name>
+			<type>Weapon</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106521</id>
+			<name>Defensive Stance</name>
+			<type>Normal</type>
+			<description>Absorb nearby &lt;Orange&gt;projectiles&lt;/&gt; and reduce incoming damage; absorbed damage powers up your next &lt;Orange&gt;Southern Brawl&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Maximum_Energy>100</Maximum_Energy>
+				<Special_Effect>The reduced damage transforms into backlash energy that powers up the next Southern Brawl.</Special_Effect>
+				<Damage_Reduction>60%</Damage_Reduction>
+				<Energy_Consumption>60/s</Energy_Consumption>
+				<Energy_Recovery_Speed>15/s</Energy_Recovery_Speed>
+				<Maximum_Backlash_Energy>100</Maximum_Backlash_Energy>
+				<Maximum_Backlash_Energy_Falloff>20/s</Maximum_Backlash_Energy_Falloff>
+				<Energy_Required_to_Activate_the_Ability>30</Energy_Required_to_Activate_the_Ability>
+				<Reduced_Damage-Backlash_Energy_Conversion_Ratio>0.35</Reduced_Damage-Backlash_Energy_Conversion_Ratio>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106522</id>
+			<name>Southern Brawl</name>
+			<type>Normal</type>
+			<description>While in &lt;Orange&gt;Defensive Stance&lt;/&gt;, dash forward and slam enemies in front, dealing area damage.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Cooldown>6s</Cooldown>
+				<Base_Damage>40</Base_Damage>
+				<Dash_Distance>8m</Dash_Distance>
+				<Special_Effect>Launch up the enemies hit</Special_Effect>
+				<Maximum_Distance>8m</Maximum_Distance>
+				<Backlash_Energy-Extra_Damage_Conversion_Ratio>0.9</Backlash_Energy-Extra_Damage_Conversion_Ratio>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106531</id>
+			<name>Chrono Kick Combo</name>
+			<type>Normal</type>
+			<description>Dash forward and launch the enemy, entering flight; activate again to &lt;Debuff&gt;Knock Down&lt;/&gt; nearby enemies. Your next two &lt;Orange&gt;Power Surge Punch&lt;/&gt; attacks become ranged, piercing enemies and granting &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>10s</Cooldown>
+				<Special_Effect>Launch up the enemy hit, entering flight. The next two Power Surge Punch attacks become ranged, and Chrono Kick Combo can be unleashed again.</Special_Effect>
+				<Projectile_Speed>100 m/s</Projectile_Speed>
+				<Projectile_Damage>60</Projectile_Damage>
+				<Spell_Field_Range>Box shaped spell field. Length: 6.5m; Width: 4.5m; Height: 2m</Spell_Field_Range>
+				<Spell_Field_Damage>30</Spell_Field_Damage>
+				<Maximum_Flight_Duration>3s</Maximum_Flight_Duration>
+				<Knock_Down_Spell_Field_Range>6m radius spherical spell field</Knock_Down_Spell_Field_Range>
+				<Knock_Down_Spell_Field_Damage>30</Knock_Down_Spell_Field_Damage>
+				<Projectile_Maximum_Flying_Distance>20m</Projectile_Maximum_Flying_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106532</id>
+			<name>Chrono Kick Combo: Follow-up</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106533</id>
+			<name>Chrono Kick Combo: Ranged Attack</name>
+			<type>Weapon</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106541</id>
+			<name>Fatal Attraction</name>
+			<type>Normal</type>
+			<description>Dash forward. Press again to unleash a burst of &lt;Orange&gt;Chronovium Power&lt;/&gt; from her ring, dealing continuous damage to nearby foes; after a delay, the energy retracts, pulling all enemies towards Rogue.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Cooldown>14s</Cooldown>
+				<Dash_Damage>30</Dash_Damage>
+				<Dash_Distance>10m</Dash_Distance>
+				<Special_Effect>Launch up enemies hit</Special_Effect>
+				<Retrieve_Spell_Field_Damage>30</Retrieve_Spell_Field_Damage>
+				<Spreading_Spell_Field_Range>Cylindrical Spell Field with a height of 3m, whose radius will expand to 8m after 0.8s</Spreading_Spell_Field_Range>
+				<Spreading_Spell_Field_Damage>40/s</Spreading_Spell_Field_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106551</id>
+			<name>Ability Absorption</name>
+			<type>Normal</type>
+			<description>Dash forward to knock down your target and &lt;Orange&gt;absorb their energy&lt;/&gt;; after &lt;Orange&gt;absorbing&lt;/&gt;, replace &lt;Orange&gt;Ability Absorption&lt;/&gt; with one of their abilities or refresh &lt;Orange&gt;Fatal Attraction&lt;/&gt;. Also, &lt;Orange&gt;absorb&lt;/&gt; Health and stats based on their role.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Cooldown>25s</Cooldown>
+				<Dash_Distance>10m</Dash_Distance>
+				<Special_Effect>After absorbing, replace Ability Absorption with one of their abilities or refresh Fatal Attraction.</Special_Effect>
+				<Absorption_Process>0.75s</Absorption_Process>
+				<Absorbed_Ability_Duration>10s</Absorbed_Ability_Duration>
+				<Absorption_Damage_Over_Time>30/s</Absorption_Damage_Over_Time>
+				<Absorption_Healing_Over_Time>60/s</Absorption_Healing_Over_Time>
+				<Boost_from_Duelist_Ability_Absorption>20% Damage Boost</Boost_from_Duelist_Ability_Absorption>
+				<Boost_from_Vanguard_Ability_Absorption>125 Maximum Health</Boost_from_Vanguard_Ability_Absorption>
+				<Debuff_to_the_Duelist_Absorption_Target>Reduce 3% damage dealt</Debuff_to_the_Duelist_Absorption_Target>
+				<Boost_from_Strategist_Ability_Absorption>Self healing 20/s</Boost_from_Strategist_Ability_Absorption>
+				<Debuff_to_the_Vanguard_Absorption_Target>Reduce 20 Maximum Health</Debuff_to_the_Vanguard_Absorption_Target>
+				<Debuff_to_the_Strategist_Absorption_Target>Reduce 4% healing dealt</Debuff_to_the_Strategist_Absorption_Target>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106561</id>
+			<name>Heartbreaker</name>
+			<type>Ultimate</type>
+			<description>Continuously absorb Ultimate Ability Energy from nearby enemies and steal stats based on their role.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Duration>8s</Duration>
+				<Energy_Cost>3400</Energy_Cost>
+				<Spell_Field_Range>8m radius spherical spell field</Spell_Field_Range>
+				<Spell_Field_Damage>15/s</Spell_Field_Damage>
+				<Maximum_Stats_Stolen_from_Duelists>35% damage boost</Maximum_Stats_Stolen_from_Duelists>
+				<Maximum_Stats_Stolen_from_Vanguards>400 maximum health</Maximum_Stats_Stolen_from_Vanguards>
+				<Maximum_Stats_Stolen_from_Strategists>Self healing 75/s</Maximum_Stats_Stolen_from_Strategists>
+				<Ultimate_Ability_Energy_Absorption_Speed>Absorb 4% of ultimate ability energy per second</Ultimate_Ability_Energy_Absorption_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106571</id>
+			<name>Hearts As One</name>
+			<type>Normal</type>
+			<description>Gambit shares kinetic energy with Magneto and Rogue. When Magneto activates this ability, &lt;Orange&gt;Iron Volley&lt;/&gt; is replaced with &lt;Orange&gt;Ace Greatsword&lt;/&gt;, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay. When Rogue activates the ability, each of her attacks causes a kinetic explosion that damages nearby enemies and heals nearby allies.</description>
+			<additional_fields>
+				<Key>C</Key>
+				<Cooldown>30s</Cooldown>
+				<Spell_Field_Range>8m radius spherical spell field</Spell_Field_Range>
+				<Spell_Field_Damage>5+targets' 3% Maximum Health</Spell_Field_Damage>
+				<Spell_Field_Healing>55</Spell_Field_Healing>
+				<Spell_Field_Duration>8s</Spell_Field_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+</all>

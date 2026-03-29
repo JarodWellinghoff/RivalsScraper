@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1058</id>
+	<name>Gambit</name>
+	<real_name>Remy Lebeau</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Gambit</name>
+			<health>250</health>
+			<movement_speed>600</movement_speed>
+		</item>
+	</transformations>
+	<description>Charming and free-spirited, Remy LeBeau manipulates kinetic energy with unmatched skill. With a flick of his wrist, his charged playing cards become explosive projectiles for foes or heal his allies through kinetic shifting. When the charismatic Gambit lights up the battlefield, he always plays to win!</description>
+	<team>
+		<item>X_men</item>
+		<item>Mutants</item>
+	</team>
+	<difficulty>4</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>STRATEGIST</role>
+	<abilities>
+		<item>
+			<id>105811</id>
+			<name>Street Staff Arts</name>
+			<type>Melee</type>
+			<description>Gambit skillfully wields his staff to pummel enemies in front of him.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105821</id>
+			<name>Kinetic Cards</name>
+			<type>Weapon</type>
+			<description>Launch three kinetic-charged cards in an arc ahead. Each card detonates on impact, creating a single-target explosion that damages enemies and heals allies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>21</Ammo>
+				<Casting>Projectile that fires in a straight trajectory</Casting>
+				<Fire_Rate>0.45s per round</Fire_Rate>
+				<Card_Damage>20 damage per round</Card_Damage>
+				<Card_Healing>28 health per round</Card_Healing>
+				<Critical_Hit>No</Critical_Hit>
+				<Maximum_Distance>60m</Maximum_Distance>
+				<Projectile_Speed>150 m/s</Projectile_Speed>
+				<Cards_Launched_Per_Unleash>3 cards per unleash</Cards_Launched_Per_Unleash>
+				<Angle_Between_the_Side_Cards_and_the_Center_Card>2°</Angle_Between_the_Side_Cards_and_the_Center_Card>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105822</id>
+			<name>Hand Reorder</name>
+			<type>Reload</type>
+			<description>Draw a fresh deck, shuffle, and reload ammo.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105831</id>
+			<name>Bayou Bash</name>
+			<type>Normal</type>
+			<description>Channel kinetic energy into the bo staff, then slam it into the ground after a sweeping strike, creating a shockwave that damages nearby enemies and heals allies. Follow up &lt;Orange&gt;Cajun Charge&lt;/&gt; with &lt;Orange&gt;Big Easy Impact&lt;/&gt; to sprint forward while striking with the bo staff, triggering three kinetic explosions along the path.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>5m spherical radius</Range>
+				<Damage>25 per field</Damage>
+				<Casting>Dash</Casting>
+				<Healing>To allies and self: 15/hit</Healing>
+				<Cooldown>2 charges, with each charge taking 8s to recharge</Cooldown>
+				<Dash_Distance>12m</Dash_Distance>
+				<Big_Easy_Impact> </Big_Easy_Impact>
+				<Spell_Field_Range>5m spherical radius</Spell_Field_Range>
+				<Spell_Field_Generation_Interval>0.1</Spell_Field_Generation_Interval>
+				<Spell_Field_Generation_Quantity>3</Spell_Field_Generation_Quantity>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105841</id>
+			<name>Cajun Charge</name>
+			<type>Normal</type>
+			<description>Side-step forward with bo staff in hand, dashing a short distance.</description>
+			<additional_fields>
+				<Key>Shift</Key>
+				<Casting>Dash</Casting>
+				<Cooldown>2 charges, with each charge taking 12.5s to recharge.</Cooldown>
+				<Dash_Duration>8m</Dash_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105842</id>
+			<name>Big Easy Impact</name>
+			<type>Normal</type>
+			<description>Follow up &lt;Orange&gt;Cajun Charge&lt;/&gt; with a forward sprint while striking with the bo staff, triggering three kinetic explosions along the path.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105851</id>
+			<name>Healing Hearts</name>
+			<type>Normal</type>
+			<description>Conjure a Heart card by consuming one stack of &lt;Orange&gt;Sleight of Hand&lt;/&gt; to Heal and switch to the &lt;Buff&gt;Healing Hearts&lt;/&gt; deck.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>4 charges, with each charge taking 8s to recharge.</Cooldown>
+				<Self_Healing>Heal 20 health per second within duration</Self_Healing>
+				<Special_Effect>Within the duration, consume one stack of Sleight of Hand to use Bridge Boost and Purifying Pick-Up.</Special_Effect>
+				<Maximum_Duration>6s</Maximum_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105852</id>
+			<name>Bridge Boost</name>
+			<type>Normal</type>
+			<description>While the &lt;Buff&gt;Healing Hearts&lt;/&gt; deck is active, spend one stack of &lt;Orange&gt;Sleight of Hand&lt;/&gt; to &lt;Orange&gt;Flush&lt;/&gt; and card spring before firing a full deck forward. Cards bounce between allies on impact, granting Health and a &lt;Buff&gt;Healing Boost&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Projectile that fires in a straight trajectory.</Casting>
+				<Healing>50 damage per round</Healing>
+				<Duration>4s</Duration>
+				<Special_Effect>The projectile automatically tracks allies and will bounce between allies on impact. Bridge Boost bounces on a single target are set to a maximum of 2</Special_Effect>
+				<Projectile_Speed>120m/s</Projectile_Speed>
+				<Healing_Boost_Ratio>0.15</Healing_Boost_Ratio>
+				<Max_Number_of_Ricochets>6</Max_Number_of_Ricochets>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105853</id>
+			<name>Purifying Pick-up</name>
+			<type>Normal</type>
+			<description>While the &lt;Buff&gt;Healing Hearts&lt;/&gt; deck is active, spend one stack of &lt;Orange&gt;Sleight of Hand&lt;/&gt; to &lt;Orange&gt;Raise&lt;/&gt; and launch a cluster of cards in an arc ahead. Explosions heal nearby allies and &lt;Buff&gt;Purify&lt;/&gt; them.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Casting>Projectile that generates a spell field upon impact.</Casting>
+				<Special_Effect>The spell field applies Purify to allies upon impact. This can take effect on allies a maximum of 2 times and on himself once.</Special_Effect>
+				<Maximum_Distance>15m</Maximum_Distance>
+				<Projectile_Speed>100 m/s</Projectile_Speed>
+				<Spell_Field_Range>5m spherical radius</Spell_Field_Range>
+				<Spell_Field_Healing>70 per field</Spell_Field_Healing>
+				<Number_of_Generated_Projectiles>10</Number_of_Generated_Projectiles>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105861</id>
+			<name>Breaking Spades</name>
+			<type>Normal</type>
+			<description>Conjure a Spade card by consuming one stack of &lt;Orange&gt;Sleight of Hand&lt;/&gt; to gain a &lt;Buff&gt;Damage Boost&lt;/&gt; and switch to the &lt;Orange&gt;Breaking Spades&lt;/&gt; deck.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Cooldown>4 charges, with each charge taking 8s to recharge</Cooldown>
+				<Special_Effect>Within the duration, consume one stack of Sleight of Hand to use Explosive Trick and Bidding Barrage</Special_Effect>
+				<Maximum_Duration>6s</Maximum_Duration>
+				<Self_Damage_Boost>10%</Self_Damage_Boost>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105862</id>
+			<name>Explosive Trick</name>
+			<type>Normal</type>
+			<description>While the &lt;Orange&gt;Breaking Spades&lt;/&gt; deck is active, spend one stack of &lt;Orange&gt;Sleight of Hand&lt;/&gt; to &lt;Orange&gt;Flush&lt;/&gt; and fire a full set of cards forward. Cards explode on impact, dealing damage while inflicting &lt;Debuff&gt;Reduced Healing&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Damage>70</Damage>
+				<Casting>Projectile that generates a spell field upon impact</Casting>
+				<Projectile_Speed>150 m/s</Projectile_Speed>
+				<Spell_Field_Range>5m spherical radius</Spell_Field_Range>
+				<Reduced_Healing_Ratio>0.25</Reduced_Healing_Ratio>
+				<Reduced_Healing_Duration>4s</Reduced_Healing_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105863</id>
+			<name>Bidding Barrage</name>
+			<type>Normal</type>
+			<description>While the &lt;Orange&gt;Breaking Spades&lt;/&gt; deck is active, spend one stack of &lt;Orange&gt;Sleight of Hand&lt;/&gt; to &lt;Orange&gt;Raise&lt;/&gt; and scatter cards in an arc in all directions. Explosions damage enemies and &lt;Debuff&gt;Launch&lt;/&gt; them up.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>70</Damage>
+				<Casting>Projectile that generates a spell field upon impact</Casting>
+				<Special_Effect>Launch enemies up on hit, which can take effect only once.</Special_Effect>
+				<Maximum_Distance>15m</Maximum_Distance>
+				<Projectile_Speed>100 m/s</Projectile_Speed>
+				<Spell_Field_Range>5m spherical radius</Spell_Field_Range>
+				<Number_of_Projectiles>10</Number_of_Projectiles>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105871</id>
+			<name>Ragin' Royal Flush</name>
+			<type>Ultimate</type>
+			<description>Lock onto an ally within sight and unleash multiple Aces that heal and &lt;Buff&gt;Purify&lt;/&gt;. Both enter the &lt;Buff&gt;Kinetic Transfer&lt;/&gt; state, granting increased &lt;Buff&gt;Movement Speed&lt;/&gt; and &lt;Buff&gt;Jump Boost&lt;/&gt;, while enhancing attacks with additional single-target explosive damage and providing the ally with Ultimate Ability Charge Acceleration.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>Cone shape spell field, angle range: 110°, length: 40m</Range>
+				<Casting>Targeted</Casting>
+				<Energy_Cost>4500</Energy_Cost>
+				<Special_Effect>Gambit and the targeted ally receive the Purify and Jump Boost effect.</Special_Effect>
+				<One-Time_Healing>100</One-Time_Healing>
+				<Healing_over_time>55/s</Healing_over_time>
+				<Spell_Field_Duration>10s</Spell_Field_Duration>
+				<Enhanced_Damage_Ratio>20%</Enhanced_Damage_Ratio>
+				<Damage_Trigger_Interval>0.5s</Damage_Trigger_Interval>
+				<Movement_Speed_Boost_Ratio>50%</Movement_Speed_Boost_Ratio>
+				<Ultimate_Abilities_Charge_Acceleration_Ratio>30%</Ultimate_Abilities_Charge_Acceleration_Ratio>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105881</id>
+			<name>Ace Of Aces</name>
+			<type>Normal</type>
+			<description>Gambit shares kinetic energy with Magneto and Rogue. When Magneto activates this ability, &lt;Orange&gt;Iron Volley&lt;/&gt; is replaced with &lt;Orange&gt;Ace Greatsword&lt;/&gt;, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay. When Rogue activates the ability, each of her attacks causes a kinetic explosion that damages nearby enemies and heals nearby allies.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Team-Up_Bonus>5% Healing Boost</Team-Up_Bonus>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+</all>

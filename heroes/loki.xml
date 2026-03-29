@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1016</id>
+	<name>Loki</name>
+	<real_name>Loki Laufeyson</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Loki</name>
+			<health>275</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+		<item>
+			<id>1</id>
+			<name>Loki</name>
+		</item>
+	</transformations>
+	<description>What greater thrill is there for a God of Mischief than to outsmart his foes? The cunning trickster Loki uses his illusions and shapeshifting abilities to weave in and out of combat, toying with enemies at every turn.</description>
+	<team>
+		<item>Godsofasgard</item>
+	</team>
+	<difficulty>4</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>STRATEGIST</role>
+	<abilities>
+		<item>
+			<id>101611</id>
+			<name>Backstab</name>
+			<type>Melee</type>
+			<description>Pull out a dagger to stab enemies, dealing extra damage when attacking an enemy from behind.</description>
+			<additional_fields>
+				<Key>V</Key>
+				<Range>3m</Range>
+				<Damage>Damage: 30; Backstab Damage: +15 (total of 45)</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101621</id>
+			<name>Mystical Missile</name>
+			<type>Weapon</type>
+			<description>Fire Mystical Missiles to heal allies or deal damage to enemies. Direct hits on allies provide extra healing.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>10</Ammo>
+				<Range>3m spherical radius</Range>
+				<Damage>The projectile deals no damage, while the spell field inflicts 25 damage per cast</Damage>
+				<Casting>Single-cast projectile with delayed impact that also generates a spell field</Casting>
+				<Fire_Rate>1.75 rounds per second</Fire_Rate>
+				<Critical_Hit>No</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 0.5m, decreasing to 80% at 2.5m</Damage_Falloff>
+				<Healing_Per_Hit>10 per hit</Healing_Per_Hit>
+				<Projectile_Speed>100 m/s</Projectile_Speed>
+				<Area_Of_Effect_Healing>40 per hit</Area_Of_Effect_Healing>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101629</id>
+			<type>Normal</type>
+			<additional_fields>
+				<Health>275</Health>
+				<Movement_Speed>6 m/s</Movement_Speed>
+				<Illusion_Damage>90%</Illusion_Damage>
+				<Illusion_Health>250</Illusion_Health>
+				<Illusion_Healing>90%</Illusion_Healing>
+				<Illusion_Duration>60</Illusion_Duration>
+				<Maximum_Illusion_Quantity>2</Maximum_Illusion_Quantity>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101631</id>
+			<name>Regeneration Domain</name>
+			<type>Normal</type>
+			<description>Use Rune Stones to create a magical field that provides allies &lt;Buff&gt;Healing Over Time&lt;/&gt; and converts incoming damage into further healing.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>A cylindrical spell field with a radius of 5m and a height of 2m</Range>
+				<Casting>Release a spell field at the location of Loki and the Illusion</Casting>
+				<Cooldown>30s</Cooldown>
+				<Duration>5s</Duration>
+				<Healing_Amount>100/s</Healing_Amount>
+				<Special_Effect>The spell field is sustained by Rune Stones. It will disappear if the Rune Stone is destroyed or if its maximum duration is reached. Allies within the field will receive healing over time, and any damage taken will be converted into healing based on the amount of damage taken</Special_Effect>
+				<Conversion_Rate>30%</Conversion_Rate>
+				<Rune_Stone_Health>100</Rune_Stone_Health>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101641</id>
+			<name>Deception</name>
+			<type>Normal</type>
+			<description>Become &lt;Buff&gt;Invisible&lt;/&gt; and conjure an &lt;Orange&gt;Illusion&lt;/&gt; to deceive enemies.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Casting>Instant Cast</Casting>
+				<Cooldown>15s</Cooldown>
+				<Healing_Amount>Health regenerates at a rate of 20 Health per second while invisible</Healing_Amount>
+				<Special_Effect>Loki leaves an illusion in his place and becomes invisible while continuously healing himself. This invisibility has no time limit, but any actions other than casting Devious Exchange, reloading, or casting Doppelganger will render him visible</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101651</id>
+			<name>Doppelganger</name>
+			<type>Normal</type>
+			<description>Project an &lt;Orange&gt;Illusion&lt;/&gt; that can cast some of Loki's abilities.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Targeted</Casting>
+				<Cooldown>2 charges, with each charge taking 12s to recharge</Cooldown>
+				<Special_Effect>Project an Illusion at a selected location</Special_Effect>
+				<Maximum_Distance>30m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101652</id>
+			<name>Devious Exchange</name>
+			<type>Normal</type>
+			<description>Swap with the selected &lt;Orange&gt;Illusion&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Casting>Targeted</Casting>
+				<Cooldown>15s</Cooldown>
+				<Maximum_Distance>30m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101661</id>
+			<name>God Of Mischief</name>
+			<type>Ultimate</type>
+			<description>Shapeshift into a targeted ally or enemy hero and use all their abilities except any of their Team-Up Abilities.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Targeted</Casting>
+				<Duration>12s</Duration>
+				<Energy_Cost>4300</Energy_Cost>
+				<Special_Effect>After transforming, Loki's Ultimate ability will be fully charged. Casting a transformation-type Ultimate ability will extend the duration of God of Mischief until the transformation ability ends</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101611</id>
+			<name>Backstab</name>
+			<type>Melee</type>
+			<description>Pull out a dagger to stab enemies, dealing extra damage when attacking an enemy from behind.</description>
+			<additional_fields>
+				<Key>V</Key>
+				<Range>3m</Range>
+				<Damage>Damage: 30; Backstab Damage: +15 (total of 45)</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101621</id>
+			<name>Mystical Missile</name>
+			<type>Weapon</type>
+			<description>Fire Mystical Missiles to heal allies or deal damage to enemies. Direct hits on allies provide extra healing.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>10</Ammo>
+				<Range>3m spherical radius</Range>
+				<Damage>The projectile deals no damage, while the spell field inflicts 25 damage per cast</Damage>
+				<Casting>Single-cast projectile with delayed impact that also generates a spell field</Casting>
+				<Fire_Rate>1.75 rounds per second</Fire_Rate>
+				<Critical_Hit>No</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 0.5m, decreasing to 80% at 2.5m</Damage_Falloff>
+				<Healing_Per_Hit>10 per hit</Healing_Per_Hit>
+				<Projectile_Speed>100 m/s</Projectile_Speed>
+				<Area_Of_Effect_Healing>40 per hit</Area_Of_Effect_Healing>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101629</id>
+			<type>Normal</type>
+			<additional_fields>
+				<Health>275</Health>
+				<Movement_Speed>6 m/s</Movement_Speed>
+				<Illusion_Damage>90%</Illusion_Damage>
+				<Illusion_Health>250</Illusion_Health>
+				<Illusion_Healing>90%</Illusion_Healing>
+				<Illusion_Duration>60</Illusion_Duration>
+				<Maximum_Illusion_Quantity>2</Maximum_Illusion_Quantity>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101631</id>
+			<name>Regeneration Domain</name>
+			<type>Normal</type>
+			<description>Use Rune Stones to create a magical field that provides allies &lt;Buff&gt;Healing Over Time&lt;/&gt; and converts incoming damage into further healing.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>A cylindrical spell field with a radius of 5m and a height of 2m</Range>
+				<Casting>Release a spell field at the location of Loki and the Illusion</Casting>
+				<Cooldown>30s</Cooldown>
+				<Duration>5s</Duration>
+				<Healing_Amount>100/s</Healing_Amount>
+				<Special_Effect>The spell field is sustained by Rune Stones. It will disappear if the Rune Stone is destroyed or if its maximum duration is reached. Allies within the field will receive healing over time, and any damage taken will be converted into healing based on the amount of damage taken</Special_Effect>
+				<Conversion_Rate>30%</Conversion_Rate>
+				<Rune_Stone_Health>100</Rune_Stone_Health>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101641</id>
+			<name>Deception</name>
+			<type>Normal</type>
+			<description>Become &lt;Buff&gt;Invisible&lt;/&gt; and conjure an &lt;Orange&gt;Illusion&lt;/&gt; to deceive enemies.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Casting>Instant Cast</Casting>
+				<Cooldown>15s</Cooldown>
+				<Healing_Amount>Health regenerates at a rate of 20 Health per second while invisible</Healing_Amount>
+				<Special_Effect>Loki leaves an illusion in his place and becomes invisible while continuously healing himself. This invisibility has no time limit, but any actions other than casting Devious Exchange, reloading, or casting Doppelganger will render him visible</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101651</id>
+			<name>Doppelganger</name>
+			<type>Normal</type>
+			<description>Project an &lt;Orange&gt;Illusion&lt;/&gt; that can cast some of Loki's abilities.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Targeted</Casting>
+				<Cooldown>2 charges, with each charge taking 12s to recharge</Cooldown>
+				<Special_Effect>Project an Illusion at a selected location</Special_Effect>
+				<Maximum_Distance>30m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101652</id>
+			<name>Devious Exchange</name>
+			<type>Normal</type>
+			<description>Swap with the selected &lt;Orange&gt;Illusion&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Casting>Targeted</Casting>
+				<Cooldown>15s</Cooldown>
+				<Maximum_Distance>30m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>101661</id>
+			<name>God Of Mischief</name>
+			<type>Ultimate</type>
+			<description>Shapeshift into a targeted ally or enemy hero and use all their abilities except any of their Team-Up Abilities.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Targeted</Casting>
+				<Duration>12s</Duration>
+				<Energy_Cost>4300</Energy_Cost>
+				<Special_Effect>After transforming, Loki's Ultimate ability will be fully charged. Casting a transformation-type Ultimate ability will extend the duration of God of Mischief until the transformation ability ends</Special_Effect>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>6.00</rank>
+			<mover_shaker>34.00</mover_shaker>
+			<rank_calc>4.15</rank_calc>
+			<mover_shaker_calc>-1.04</mover_shaker_calc>
+			<ZScore>0.15</ZScore>
+			<winrate>49.78</winrate>
+			<pickrate>18.56</pickrate>
+			<banrate>6.08</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>52.14</winrate_prev>
+			<pickrate_prev>22.95</pickrate_prev>
+			<banrate_prev>6.62</banrate_prev>
+			<winrate_change>-5.00</winrate_change>
+			<pickrate_change>-19.00</pickrate_change>
+			<banrate_change>-8.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>2.00</rank>
+			<mover_shaker>37.00</mover_shaker>
+			<rank_calc>4.35</rank_calc>
+			<mover_shaker_calc>-3.39</mover_shaker_calc>
+			<ZScore>0.09</ZScore>
+			<winrate>52.14</winrate>
+			<pickrate>22.95</pickrate>
+			<banrate>6.62</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>50.60</winrate_prev>
+			<pickrate_prev>20.21</pickrate_prev>
+			<banrate_prev>2.73</banrate_prev>
+			<winrate_change>3.00</winrate_change>
+			<pickrate_change>14.00</pickrate_change>
+			<banrate_change>142.00</banrate_change>
+		</item>
+	</meta>
+</all>

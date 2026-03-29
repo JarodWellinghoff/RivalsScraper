@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1052</id>
+	<name>Iron Fist</name>
+	<real_name>Lin Lie</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Iron Fist</name>
+			<health>300</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Lin Lie is a master of Chinese martial arts who once wielded the shattered Sword of Fu Xi. After fusing its pieces with the mighty Chi of Shou-Lao, he is poised to strike his foes with the grace and force of a soaring dragon as the latest immortal Iron Fist.</description>
+	<team>
+		<item>Agentsofatlas</item>
+		<item>Immortalweapon</item>
+	</team>
+	<difficulty>4</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>105202</id>
+			<name>Wall Runner Detection</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105211</id>
+			<name>Crane Leap</name>
+			<type>Normal</type>
+			<description>Perform up to three consecutive jumps while airborne.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Cooldown>3 charges, with each charge taking 1s to recharge</Cooldown>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105221</id>
+			<name>Jeet Kune Do</name>
+			<type>Weapon</type>
+			<description>Strike the targeted enemy with Jeet Kune Do, and the last strike will &lt;Debuff&gt;Launch Up&lt;/&gt; enemies, reducing the cooldown of &lt;Orange&gt;Dragon's Defense&lt;/&gt; with every hit.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>The first four strikes each deal 35 damage, while the fifth strike deals 55 damage</Damage>
+				<Casting>Melee</Casting>
+				<Attack_Interval>The first four strikes have an interval of 0.45s between them, while the fifth strike has a 0.67s interval from the fourth strike</Attack_Interval>
+				<Maximum_Distance>3m</Maximum_Distance>
+				<Maximum_Pull-In_Distance>6m</Maximum_Pull-In_Distance>
+				<key name="Dragon&amp;apos;s Defense Cooldown Reduction Per Hit">1s</key>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105222</id>
+			<name>Jeet Kune Do - In Midair</name>
+			<type>Weapon</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105223</id>
+			<name>Jeet Kune Do - Ultimate On Ground</name>
+			<type>Weapon</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105224</id>
+			<name>Yat Jee Chung Kuen - Ultimate In Midair</name>
+			<type>Weapon</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105231</id>
+			<name>Dragon's Defense</name>
+			<type>Normal</type>
+			<description>Assume a defensive stance with a boost of Chi to block incoming attacks and gain &lt;Buff&gt;Damage Reduction&lt;/&gt;. Once he exits the defensive stance, he gains &lt;Buff&gt;Bonus Health&lt;/&gt; and can strike back with &lt;Orange&gt;Yat Jee Chung Kuen&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Cooldown>15s</Cooldown>
+				<Block_Time>1.2s</Block_Time>
+				<Damage_Reduction>30%</Damage_Reduction>
+				<key name="Max Health/Damage Blocked Conversion">175</key>
+				<key name="Bonus Health/Damage Blocked Conversion">1.3</key>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105232</id>
+			<name>Yat Jee Chung Kuen</name>
+			<type>Weapon</type>
+			<description>Dash forward to pursue the targeted enemy and unleash a flurry of attacks.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>3m</Range>
+				<Damage>8 base damage + 3.1% of the enemy's Max Health per strike</Damage>
+				<Casting>Melee</Casting>
+				<Duration>5s</Duration>
+				<Attack_Speed>7 strikes per second</Attack_Speed>
+				<Maximum_Pull-In_Distance>11m</Maximum_Pull-In_Distance>
+				<Dashing_Speed_Without_Target>12 m/s</Dashing_Speed_Without_Target>
+				<Dashing_Distance_Without_Target>3m</Dashing_Distance_Without_Target>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105233</id>
+			<name>Ultimate Yat Jee Chung Kuen</name>
+			<type>Weapon</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105241</id>
+			<name>Harmony Recovery</name>
+			<type>Normal</type>
+			<description>Cross legs and channel Chi, recovering health. Excess healing converts to &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>12s</Cooldown>
+				<Duration>3s</Duration>
+				<Healing_Per_Second>100</Healing_Per_Second>
+				<key name="Excess Healing/Max Health Conversion">100</key>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105242</id>
+			<name>Lunar Chi</name>
+			<type>Normal</type>
+			<description>Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates &lt;Orange&gt;Harmony Recovery&lt;/&gt;, he can heal nearby allies with &lt;Orange&gt;Lunar Chi&lt;/&gt;. Emma Frost can project ice energy forward, dealing damage and &lt;Debuff&gt;slowing&lt;/&gt; enemies. She can also enhance her diamond form, condensing frost into an &lt;Orange&gt;Iced Out Diamond&lt;/&gt; barrier that blocks enemy attacks and movement.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Cylindrical Spell Field</Casting>
+				<Cooldown>12s</Cooldown>
+				<Duration>3s</Duration>
+				<Healing_Range>A cylindrical spell field with a 10m radius and a height of 10m.</Healing_Range>
+				<Healing_Amount>55/s</Healing_Amount>
+				<Special_Effect>Excess healing converts to Bonus Health.</Special_Effect>
+				<Bonus_Health_Falloff_Delay>2s</Bonus_Health_Falloff_Delay>
+				<Bonus_Health_Falloff_Speed>15/s</Bonus_Health_Falloff_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105251</id>
+			<name>K'un-lun Kick</name>
+			<type>Normal</type>
+			<description>Dash forward, delivering a flying kick when hitting an enemy or reaching full range, dealing damage to nearby enemies. Damage increases with lower enemy health.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Movement-based damage ability</Casting>
+				<Cooldown>10s</Cooldown>
+				<Dashing_Speed>40 m/s</Dashing_Speed>
+				<Maximum_Dash_Distance>12m</Maximum_Dash_Distance>
+				<First_Flying_Kick_Damage>35</First_Flying_Kick_Damage>
+				<Second_Flying_Kick_Damage>35 - 70 (Maximum damage is achieved when the target is at 50% Health)</Second_Flying_Kick_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105261</id>
+			<name>Living Chi</name>
+			<type>Ultimate</type>
+			<description>Become living Chi to boost his speed, damage, and attack range, delivering stronger punches while reducing the cooldown of &lt;Orange&gt;Dragon's Defense&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Duration>12s</Duration>
+				<Energy_Cost>3400</Energy_Cost>
+				<Damage_Boost>30%</Damage_Boost>
+				<Movement_Boost>20%</Movement_Boost>
+				<key name="K&amp;apos;un-Lun Kick Bonus Range">100%</key>
+				<Yat_Jee_Chung_Kuen_Bonus_Range>100%</Yat_Jee_Chung_Kuen_Bonus_Range>
+				<Yat_Jee_Chung_Kuen_Cooldown_Reduction>-80%</Yat_Jee_Chung_Kuen_Cooldown_Reduction>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>28.00</rank>
+			<mover_shaker>32.00</mover_shaker>
+			<rank_calc>3.88</rank_calc>
+			<mover_shaker_calc>-0.57</mover_shaker_calc>
+			<ZScore>0.18</ZScore>
+			<winrate>50.80</winrate>
+			<pickrate>9.62</pickrate>
+			<banrate>0.84</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>49.59</winrate_prev>
+			<pickrate_prev>6.89</pickrate_prev>
+			<banrate_prev>0.52</banrate_prev>
+			<winrate_change>2.00</winrate_change>
+			<pickrate_change>40.00</pickrate_change>
+			<banrate_change>62.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>34.00</rank>
+			<mover_shaker>29.00</mover_shaker>
+			<rank_calc>3.77</rank_calc>
+			<mover_shaker_calc>-0.61</mover_shaker_calc>
+			<ZScore>0.18</ZScore>
+			<winrate>49.59</winrate>
+			<pickrate>6.89</pickrate>
+			<banrate>0.52</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>50.42</winrate_prev>
+			<pickrate_prev>7.26</pickrate_prev>
+			<banrate_prev>0.49</banrate_prev>
+			<winrate_change>-2.00</winrate_change>
+			<pickrate_change>-5.00</pickrate_change>
+			<banrate_change>6.00</banrate_change>
+		</item>
+	</meta>
+</all>

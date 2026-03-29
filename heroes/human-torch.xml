@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1017</id>
+	<name>Human Torch</name>
+	<real_name>Jonathan "johnny" Storm</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Human Torch</name>
+			<health>250</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>The Fantastic Four's resident heartthrob, Johnny Storm, adds an intense flare to every battle he fights. Shrouded in roaring flames, the Human Torch always manages to look cool while turning up the heat!</description>
+	<team>
+		<item>Fantasticfour</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>101701</id>
+			<name>Human Torch Basic Flight Ability</name>
+			<type>Normal</type>
+			<description>The Human Torch can switch to plasma state at any time, enhancing his mobility but continuously draining his stamina.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101711</id>
+			<name>Fire Cluster</name>
+			<type>Weapon</type>
+			<description>Launch forward a cluster of splitting fireballs.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Casting>Burst Projectile</Casting>
+				<Charges>6</Charges>
+				<Fire_Rate>0.5s per round</Fire_Rate>
+				<Shot_Damage>5.5 per round</Shot_Damage>
+				<Charge_Speed>0.33s per use, Fire Cluster has a 0.5s delay before ammo begins to replenish</Charge_Speed>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 15m, decreasing to 60% at 20m.</Damage_Falloff>
+				<Projectile_Speed>150m/s</Projectile_Speed>
+				<Crosshair_Spread_Radius_at_10m>0.33m</Crosshair_Spread_Radius_at_10m>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101721</id>
+			<name>Plasma Body</name>
+			<type>Normal</type>
+			<description>HOLD {Ability2} to enter a state of &lt;Buff&gt;accelerated ascent&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Energy_Cost>15/s</Energy_Cost>
+				<Maximum_Energy>120</Maximum_Energy>
+				<Movement_Boost>2.5m/s</Movement_Boost>
+				<Energy_Recovery_Speed>20/s</Energy_Recovery_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101731</id>
+			<name>Blazing Blast</name>
+			<type>Normal</type>
+			<description>Launch a fireball to deal damage or create a &lt;Orange&gt;Flame Field&lt;/&gt; at the targeted area, dealing damage to enemies within.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Casting>Straight-line projectile that generates a spherical spell field upon impact.</Casting>
+				<Charges>3</Charges>
+				<Charge_Speed>2.5s per strike</Charge_Speed>
+				<Flame_Field_Range>3m spherical radius</Flame_Field_Range>
+				<Blazing_Blast_Damage>45</Blazing_Blast_Damage>
+				<Flame_Field_Duration>6s</Flame_Field_Duration>
+				<Flame_Field_Continuous_Damage>20/s</Flame_Field_Continuous_Damage>
+				<Blazing_Blast_Projectile_Speed>80m/s</Blazing_Blast_Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101741</id>
+			<name>Flaming Meteor</name>
+			<type>Normal</type>
+			<description>Dive towards the ground, dealing damage to enemies. This will also detonate any &lt;Orange&gt;Flame Fields&lt;/&gt; hit and grant you &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Range>5m spherical radius</Range>
+				<Damage>40</Damage>
+				<Cooldown>20s</Cooldown>
+				<Bonus_Health>50</Bonus_Health>
+				<Max_Dash_Speed>80m/s</Max_Dash_Speed>
+				<Flame_Field_Detonation_Range>3m spherical radius</Flame_Field_Detonation_Range>
+				<Flame_Field_Detonation_Damage>55</Flame_Field_Detonation_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101751</id>
+			<name>Pyro-prison</name>
+			<type>Normal</type>
+			<description>When 2 or more  &lt;Orange&gt;Flame Fields&lt;/&gt; exist, connect them to form a fire wall that deals one-off high damage to enemies that pass through the wall, or continuous burning damage if the wall exists in an enclosed area.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>15s</Cooldown>
+				<Max_Link_Height>2m</Max_Link_Height>
+				<Fire_Wall_Damage>65</Fire_Wall_Damage>
+				<Max_Link_Distance>40m</Max_Link_Distance>
+				<Fire_Wall_Duration>5s</Fire_Wall_Duration>
+				<Pyro-Prison_Continuous_Damage>40/s</Pyro-Prison_Continuous_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101761</id>
+			<name>Supernova</name>
+			<type>Ultimate</type>
+			<description>Explode with cosmic fire to deal damage to enemies within range and enter &lt;Orange&gt;Supernova&lt;/&gt; state. While in Supernova state, &lt;Orange&gt;Blazing Blast&lt;/&gt; will transform into &lt;Orange&gt;Flame Tornado&lt;/&gt;, and &lt;Orange&gt;Plasma Body&lt;/&gt; can be activated without any cost.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Duration>8s</Duration>
+				<Energy_Cost>3400</Energy_Cost>
+				<Flame_Tornado_Range>3m spherical radius; 8m high capsule-shaped spell field.</Flame_Tornado_Range>
+				<Activation_Wave_Damage>75</Activation_Wave_Damage>
+				<Supernova_Damage_Reduction>-30%</Supernova_Damage_Reduction>
+				<Activation_Shock_Wave_Range>20m spherical radius</Activation_Shock_Wave_Range>
+				<Flame_Tornado_Unleash_Speed>0.7s per use</Flame_Tornado_Unleash_Speed>
+				<Flame_Tornado_Continuous_Damage>110/s</Flame_Tornado_Continuous_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101771</id>
+			<name>Flame Fist</name>
+			<type>Melee</type>
+			<description>The Human Torch alternates punching forward with both hands, with the power of the flames in his hands dispersing ahead.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101781</id>
+			<name>Burning Soar</name>
+			<type>Normal</type>
+			<description>Soar rapidly upwards.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101793</id>
+			<name>Pyrokinetic Energy</name>
+			<type>Normal</type>
+			<description>Human Torch stores &lt;Orange&gt;Pyrokinetic Energy&lt;/&gt; in Spider-Man's suit, enabling him to unleash an &lt;Orange&gt;Inferno Blast&lt;/&gt; that sprays a fiery web while performing a backflip to create distance. The flames damage enemies and apply a &lt;Orange&gt;Burn-Tracer&lt;/&gt;. Detonating these &lt;Orange&gt;Burn-Tracers&lt;/&gt; inflicts Damage Over Time.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Team-Up_Bonus>5% Damage Boost</Team-Up_Bonus>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>36.00</rank>
+			<mover_shaker>37.00</mover_shaker>
+			<rank_calc>3.69</rank_calc>
+			<mover_shaker_calc>-2.16</mover_shaker_calc>
+			<ZScore>0.07</ZScore>
+			<winrate>48.39</winrate>
+			<pickrate>5.65</pickrate>
+			<banrate>18.31</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>49.96</winrate_prev>
+			<pickrate_prev>6.19</pickrate_prev>
+			<banrate_prev>12.62</banrate_prev>
+			<winrate_change>-3.00</winrate_change>
+			<pickrate_change>-9.00</pickrate_change>
+			<banrate_change>45.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>29.00</rank>
+			<mover_shaker>34.00</mover_shaker>
+			<rank_calc>3.85</rank_calc>
+			<mover_shaker_calc>-1.28</mover_shaker_calc>
+			<ZScore>0.16</ZScore>
+			<winrate>49.96</winrate>
+			<pickrate>6.19</pickrate>
+			<banrate>12.62</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>48.51</winrate_prev>
+			<pickrate_prev>9.25</pickrate_prev>
+			<banrate_prev>8.97</banrate_prev>
+			<winrate_change>3.00</winrate_change>
+			<pickrate_change>-33.00</pickrate_change>
+			<banrate_change>41.00</banrate_change>
+		</item>
+	</meta>
+</all>

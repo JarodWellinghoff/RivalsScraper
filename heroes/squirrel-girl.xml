@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1032</id>
+	<name>Squirrel Girl</name>
+	<real_name>Doreen Green</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Squirrel Girl</name>
+			<health>275</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Possessing only the powers of a common squirrel, somehow Doreen Green manages to defeat seemingly invincible enemies in the most unexpected ways. Any foe who counts her out is bound to fall at the hands of the Unbeatable Squirrel Girl!</description>
+	<team>
+		<item>Avengers</item>
+	</team>
+	<difficulty>1</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>103211</id>
+			<name>Burst Acorn</name>
+			<type>Weapon</type>
+			<description>Shoot bouncing Burst Acorns.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>12</Ammo>
+				<Casting>Arced projectile that generates a spell field upon impact</Casting>
+				<Fire_Rate>1.49 acorns per second</Fire_Rate>
+				<Critical_Hit>No</Critical_Hit>
+				<Damage_Falloff>70% falloff at 3m</Damage_Falloff>
+				<Projectile_Speed>80 m/s</Projectile_Speed>
+				<Spell_Field_Range>3m spherical radius</Spell_Field_Range>
+				<Spell_Field_Damage>110</Spell_Field_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103221</id>
+			<name>Squirrel Blockade</name>
+			<type>Normal</type>
+			<description>Launch an acorn to unleash Squirrel Guards, &lt;Debuff&gt;Imprisoning&lt;/&gt; the first hit enemy.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>50</Damage>
+				<Casting>Charged projectile with an arced trajectory</Casting>
+				<Cooldown>8s</Cooldown>
+				<Projectile_Speed>20 - 60 m/s (Maximum speed is achieved after 0.7s of charging)</Projectile_Speed>
+				<Imprison_Duration>1.33s</Imprison_Duration>
+				<Maximum_Charge_Time>1.5s</Maximum_Charge_Time>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103231</id>
+			<name>Tail Bounce</name>
+			<type>Normal</type>
+			<description>Rocket upwards with a bounce of her tail.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Cooldown>8s</Cooldown>
+				<Jump_Height>9m</Jump_Height>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103241</id>
+			<name>Mammal Bond</name>
+			<type>Normal</type>
+			<description>Reload Burst Acorns and can use an ability without cooldown once in a short duration.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>15s</Cooldown>
+				<Maximum_Duration>5s</Maximum_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103251</id>
+			<name>Unbeatable Squirrel Tsunami</name>
+			<type>Ultimate</type>
+			<description>Summon a horde of squirrels to charge forward, dealing damage while bouncing against structures.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>Length: 3m, Width: 5m, Height: 1.75m</Range>
+				<Damage>150</Damage>
+				<Duration>10s</Duration>
+				<Energy_Cost>2800</Energy_Cost>
+				<Special_Mechanic>The squirrels will rush towards the nearest enemy after bouncing instead of bouncing randomly</Special_Mechanic>
+				<Squirrel_Horde_Health>300</Squirrel_Horde_Health>
+				<Squirrel_Horde_Movement_Speed>9 m/s</Squirrel_Horde_Movement_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>33.00</rank>
+			<mover_shaker>27.00</mover_shaker>
+			<rank_calc>3.77</rank_calc>
+			<mover_shaker_calc>-0.35</mover_shaker_calc>
+			<ZScore>0.20</ZScore>
+			<winrate>46.92</winrate>
+			<pickrate>13.20</pickrate>
+			<banrate>7.39</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>46.66</winrate_prev>
+			<pickrate_prev>12.58</pickrate_prev>
+			<banrate_prev>6.22</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>5.00</pickrate_change>
+			<banrate_change>19.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>36.00</rank>
+			<mover_shaker>31.00</mover_shaker>
+			<rank_calc>3.74</rank_calc>
+			<mover_shaker_calc>-0.79</mover_shaker_calc>
+			<ZScore>0.17</ZScore>
+			<winrate>46.66</winrate>
+			<pickrate>12.58</pickrate>
+			<banrate>6.22</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>47.12</winrate_prev>
+			<pickrate_prev>14.42</pickrate_prev>
+			<banrate_prev>5.58</banrate_prev>
+			<winrate_change>-1.00</winrate_change>
+			<pickrate_change>-13.00</pickrate_change>
+			<banrate_change>11.00</banrate_change>
+		</item>
+	</meta>
+</all>

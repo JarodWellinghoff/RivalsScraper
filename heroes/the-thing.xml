@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1051</id>
+	<name>The Thing</name>
+	<real_name>Benjamin Grimm</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>The Thing</name>
+			<health>700</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Benjamin J. Grimm is unquestionably the rock star of any team he's on. Always at the forefront of the fight, the Thing shields his allies with his unbreakable form, selflessly fending off any harm that comes their way.</description>
+	<team>
+		<item>Fantasticfour</item>
+	</team>
+	<difficulty>1</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>VANGUARD</role>
+	<abilities>
+		<item>
+			<id>105101</id>
+			<name>Unyielding Will</name>
+			<type>Normal</type>
+			<description>Immune to &lt;Debuff&gt;launch-up&lt;/&gt;, &lt;Debuff&gt;knock-back&lt;/&gt;, and other displacement effects.</description>
+			<additional_fields>
+				<Key>PASSIVE</Key>
+				<Special_Effect>Immune to launch-up, knock-back, and other displacement effects</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105111</id>
+			<name>Rocky Jab</name>
+			<type>Weapon</type>
+			<description>Rapidly punch forward.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>Double strike, 40 per hit</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+				<Attack_Range>4m</Attack_Range>
+				<Attack_Interval>Double strike 0.33s between attacks, 1s between sets.</Attack_Interval>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105121</id>
+			<name>Stone Haymaker</name>
+			<type>Weapon</type>
+			<description>Deliver a devastating Heavy Blow that inflicts additional damage with each strike! Upon hit, gain &lt;Buff&gt;Bonus Health&lt;/&gt;. Can &lt;Debuff&gt;Knock Down&lt;/&gt; flying enemies.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>55+10% of enemies' max Health per hit</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+				<Attack_Range>8m</Attack_Range>
+				<Special_Effect>Move forward 3 meters while punching; gain Bonus Health equal to damage dealt (up to 100); once hit, this ability can knock down flying enemies to the ground</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105131</id>
+			<name>Yancy Street Charge</name>
+			<type>Normal</type>
+			<description>Continuously charge forward, &lt;Debuff&gt;launching up&lt;/&gt; enemies and leaving behind a zone at the final position that prevents the use of mobility abilities.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Damage>Charge: 30; ground slam: 20; immobilization zone: 15 per/s</Damage>
+				<Cooldown>10s</Cooldown>
+				<Duration>5s</Duration>
+				<Movement_Boost>100%</Movement_Boost>
+				<Special_Effect>Gain 200 Bonus Health during skill activation</Special_Effect>
+				<Spell_Field_Range>Ground slam: 8m radius, 2.5m high cylindrical spell field. Immobilization zone: 8m radius, 4m high cylindrical spell field</Spell_Field_Range>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105141</id>
+			<name>Embattled Leap</name>
+			<type>Normal</type>
+			<description>Jump toward an ally and apply &lt;Buff&gt;damage reduction&lt;/&gt; to yourself and allies within the landing area.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Targeted</Casting>
+				<Cooldown>Basic Cooldown 3s, with a charge of 10s per use</Cooldown>
+				<Special_Effect>Apply a 20% damage reduction effect to self and 20% damage reduction to all allies within 5m of his landing point for 3s</Special_Effect>
+				<Maximum_Distance>20m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105142</id>
+			<name>Battle Blitz</name>
+			<type>Normal</type>
+			<description>Jump toward an enemy and apply &lt;Debuff&gt;Vulnerability&lt;/&gt; to enemies within the landing area.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<CASTING>Targeted</CASTING>
+				<COOLDOWN>Basic Cooldown 3s, with a charge of 10s per use, shares the same Cooldown with the E Key ability</COOLDOWN>
+				<SPECIAL_EFFECT>Apply a 20% Vulnerability to all enemies within 5m of his landing point for 3s</SPECIAL_EFFECT>
+				<MAXIMUM_DISTANCE>20m</MAXIMUM_DISTANCE>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105151</id>
+			<name>Clobberin' Time</name>
+			<type>Ultimate</type>
+			<description>Use immense power to launch all enemies in front of you into the air.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>Step spell field: 3m high, 10m wide, advancing 2m every 0.1 seconds, up to a maximum of 18m</Range>
+				<Damage>100</Damage>
+				<Energy_Cost>2800</Energy_Cost>
+				<Special_Effect>Stun duration 2.5s</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105193</id>
+			<name>Gamma Jab</name>
+			<type>Weapon</type>
+			<description>Rapidly punch forward with Gamma-powered jabs.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105194</id>
+			<name>Gamma Gauntlets</name>
+			<type>Weapon</type>
+			<description>Hulk charges Black Panther and The Thing with gamma radiation. Black Panther's Vibranium armor is enhanced; when his health is low, he receives a gamma shield, blocking incoming attacks and becoming &lt;Buff&gt;Unstoppable&lt;/&gt;. The Thing gains Gamma Gauntlets. While active, &lt;Orange&gt;Rocky Jab&lt;/&gt; and &lt;Orange&gt;Stone Haymaker&lt;/&gt; deal increased &lt;Buff&gt;Damage&lt;/&gt; and have extended Attack Range. During this period, hitting enemies with these attacks grants &lt;Buff&gt;Bonus Health&lt;/&gt;, and maximum &lt;Buff&gt;Bonus Health&lt;/&gt; cap is increased.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>24.00</rank>
+			<mover_shaker>16.00</mover_shaker>
+			<rank_calc>3.89</rank_calc>
+			<mover_shaker_calc>0.28</mover_shaker_calc>
+			<ZScore>0.25</ZScore>
+			<winrate>49.24</winrate>
+			<pickrate>15.33</pickrate>
+			<banrate>1.73</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>49.57</winrate_prev>
+			<pickrate_prev>17.20</pickrate_prev>
+			<banrate_prev>2.19</banrate_prev>
+			<winrate_change>-1.00</winrate_change>
+			<pickrate_change>-11.00</pickrate_change>
+			<banrate_change>-21.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>21.00</rank>
+			<mover_shaker>9.00</mover_shaker>
+			<rank_calc>3.93</rank_calc>
+			<mover_shaker_calc>0.58</mover_shaker_calc>
+			<ZScore>0.22</ZScore>
+			<winrate>49.57</winrate>
+			<pickrate>17.20</pickrate>
+			<banrate>2.19</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>49.64</winrate_prev>
+			<pickrate_prev>22.11</pickrate_prev>
+			<banrate_prev>3.38</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>-22.00</pickrate_change>
+			<banrate_change>-35.00</banrate_change>
+		</item>
+	</meta>
+</all>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1050</id>
+	<name>Invisible Woman</name>
+	<real_name>Susan Storm</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Invisible Woman</name>
+			<health>275</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>The Invisible Woman is able to slip in and out of sight without a trace. No matter how intense the battle may be, Susan Storm always keeps her cool, conjuring up impenetrable force fields to protect herself and her team.</description>
+	<team>
+		<item>Fantasticfour</item>
+	</team>
+	<difficulty>4</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>STRATEGIST</role>
+	<abilities>
+		<item>
+			<id>105002</id>
+			<name>Covert Advance</name>
+			<type>Normal</type>
+			<description>Enter &lt;Buff&gt;Invisible&lt;/&gt; state some time after disengaging from combat and grant yourself &lt;Buff&gt;Healing Over Time&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Healing_Amount>20/sec</Healing_Amount>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105011</id>
+			<name>Agile Strike</name>
+			<type>Melee</type>
+			<description>Release a three-hit combo, the third attack will &lt;Debuff&gt;launch up&lt;/&gt; enemies in front.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105021</id>
+			<name>Veiled Step</name>
+			<type>Normal</type>
+			<description>Generate a force field at your feet, stepping on it propels you into &lt;Buff&gt;Invisible&lt;/&gt; state.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Cooldown>6s</Cooldown>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105031</id>
+			<name>Orb Projection</name>
+			<type>Weapon</type>
+			<description>Launch a force field that can pierce heroes, flying to maximum distance before returning to Invisible Woman; damaging enemies and healing teammates.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>10</Ammo>
+				<Damage>
+						Deal 30 damage per hit upon being shot out and 15 damage per hit on its return journey.
+						</Damage>
+				<Casting>Single-cast projectile with delayed impact.</Casting>
+				<Fire_Rate>0.5s per hit</Fire_Rate>
+				<Critical_Hit>No</Critical_Hit>
+				<Damage_Falloff>No falloff</Damage_Falloff>
+				<Healing_Amount>
+						Heal 45 health per hit upon being shot out and 35 health per hit on its return journey.
+						</Healing_Amount>
+				<Special_Effect>Orbs can pierce heroes and return to Invisible Woman after reaching their maximum distance. They damage enemies and heal teammates</Special_Effect>
+				<Projectile_Speed>150 m/s</Projectile_Speed>
+				<Maximum_Flight_Distance>35m</Maximum_Flight_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105032</id>
+			<name>Psychic Surge</name>
+			<type>Normal</type>
+			<description>Invisible Woman gathers surrounding psychic energy for future battles.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105041</id>
+			<name>Guardian Shield</name>
+			<type>Normal</type>
+			<description>Generate a force shield in front of a selected ally or press {Interactive} to generate in front of you. The shield can block damage and provide &lt;Buff&gt;Healing Over Time&lt;/&gt; to nearby allies. Enemies that pass through the shield are &lt;Debuff&gt;slowed&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>3m radius</Range>
+				<Casting>Targeted</Casting>
+				<Slow_Rate>35%</Slow_Rate>
+				<Slow_Duration>3s</Slow_Duration>
+				<Healing_Amount>50/sec, self 25/sec</Healing_Amount>
+				<Special_Effect_1>Before the shield is destroyed, Invisible Woman can choose to reproject the shield onto a selected teammate at any time</Special_Effect_1>
+				<Special_Effect_2>After the shield has been damaged, Invisible Woman can press the F key to reclaim the shield and restore its value</Special_Effect_2>
+				<Special_Effect_3>If no Guardian Shield is present, pressing the recall key now deploys a shield in front of Invisible Woman</Special_Effect_3>
+				<Maximum_Shield_Value>200</Maximum_Shield_Value>
+				<Cooldown_After_Destroyed>6s</Cooldown_After_Destroyed>
+				<Recovery_Shield_Value_Per_Second>34</Recovery_Shield_Value_Per_Second>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105042</id>
+			<name>Guardian Shield - Recall</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105043</id>
+			<name>Defensive Shell</name>
+			<type>Normal</type>
+			<description>Generate a force shield in front of you. The shield can block damage and provide &lt;Buff&gt;Healing Over Time&lt;/&gt; to nearby allies. Enemies that pass through the shield are &lt;Debuff&gt;Slowed&lt;/&gt;.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105051</id>
+			<name>Psionic Vortex</name>
+			<type>Normal</type>
+			<description>Gather psionic energy and then cast it. Upon impact or pressing the {Ability2} key again, it erupts into a psionic vortex, continuously drawing in enemies and causing damage.</description>
+			<additional_fields>
+				<Key>Shift</Key>
+				<Casting>Single-cast projectile with delayed impact that also generates a spell field</Casting>
+				<Cooldown>12s</Cooldown>
+				<Slow_Rate>Center 50%, Edge 0</Slow_Rate>
+				<Special_Effect>Applies a slow effect to enemies within the spell field; the closer they are to the center of the field, the greater the slow effect</Special_Effect>
+				<Projectile_Speed>80 m/s</Projectile_Speed>
+				<Spell_Field_Range>5m radius</Spell_Field_Range>
+				<Spell_Field_Damage>35/sec</Spell_Field_Damage>
+				<Spell_Field_Duration>4s</Spell_Field_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105061</id>
+			<name>Force Physics</name>
+			<type>Normal</type>
+			<description>Manipulate psionic energy to push or pull enemies in front of you.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>1.5m radius, 35m length</Range>
+				<Damage>55</Damage>
+				<Casting>Cylindrical Spell Field</Casting>
+				<Cooldown>10s</Cooldown>
+				<Pull-Range>7m</Pull-Range>
+				<Push_Range>12m</Push_Range>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105071</id>
+			<name>Invisible Boundary</name>
+			<type>Ultimate</type>
+			<description>Manifest an unseen force field within a chosen area, rendering allies inside undetectable by enemies and providing &lt;Buff&gt;Healing Over Time&lt;/&gt;. Enemies that pass through the field are &lt;Debuff&gt;Slowed&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>10m radius, 40m height</Range>
+				<Casting>Targeted, generates a cylindrical spell field</Casting>
+				<Duration>8s</Duration>
+				<Energy_Cost>4500</Energy_Cost>
+				<Slow_Duration>1s</Slow_Duration>
+				<Healing_Amount>180/sec</Healing_Amount>
+				<Special_Effect>Slows enemies within range by 20%</Special_Effect>
+				<Pass-Through_Slow_Rate>55%</Pass-Through_Slow_Rate>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105081</id>
+			<name>Fantasti-force</name>
+			<type>Normal</type>
+			<description>The Invisible Woman taps into her powers, channeling Psionic Might to fortify the entire Fantastic Four team. This formidable force bolsters {104000}{000001}{105100}{000003}{101700}, granting damage resistance. Once activated, they can continually generate &lt;Buff&gt;Bonus Health&lt;/&gt;, making up for lost Health with each passing moment.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Team-Up_Bonus>15% Healing Boost</Team-Up_Bonus>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>20.00</rank>
+			<mover_shaker>11.00</mover_shaker>
+			<rank_calc>3.93</rank_calc>
+			<mover_shaker_calc>0.78</mover_shaker_calc>
+			<ZScore>0.28</ZScore>
+			<winrate>46.85</winrate>
+			<pickrate>28.49</pickrate>
+			<banrate>0.15</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>46.72</winrate_prev>
+			<pickrate_prev>28.86</pickrate_prev>
+			<banrate_prev>0.20</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>-1.00</pickrate_change>
+			<banrate_change>-25.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>20.00</rank>
+			<mover_shaker>17.00</mover_shaker>
+			<rank_calc>3.94</rank_calc>
+			<mover_shaker_calc>0.15</mover_shaker_calc>
+			<ZScore>0.20</ZScore>
+			<winrate>46.72</winrate>
+			<pickrate>28.86</pickrate>
+			<banrate>0.20</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>47.06</winrate_prev>
+			<pickrate_prev>36.03</pickrate_prev>
+			<banrate_prev>0.26</banrate_prev>
+			<winrate_change>-1.00</winrate_change>
+			<pickrate_change>-20.00</pickrate_change>
+			<banrate_change>-23.00</banrate_change>
+		</item>
+	</meta>
+</all>

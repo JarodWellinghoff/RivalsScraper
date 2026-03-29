@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1054</id>
+	<name>Phoenix</name>
+	<real_name>Jean Grey</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Phoenix</name>
+		</item>
+	</transformations>
+	<description>Original X-Man Jean Grey boasted immense psychic power even before becoming host to the unbridled Phoenix Force, embodiment of life and psionic energy across the universe. Now aligned with this ancient cosmic power, Jean and the Phoenix traverse space together, burning bright as both a spark of creation and inferno of destruction!</description>
+	<team>
+		<item>Mutants</item>
+		<item>X_men</item>
+		<item>Villains</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Hitscan Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>105411</id>
+			<name>Cosmic Flames</name>
+			<type>Weapon</type>
+			<description>Launch a fiery projectile forward, applying 1 &lt;Orange&gt;Spark&lt;/&gt; to enemies hit. Critical hits apply 2 &lt;Orange&gt;Sparks&lt;/&gt;. At 3 &lt;Orange&gt;Sparks&lt;/&gt; Phoenix triggers a fiery explosion that applies 1 &lt;Orange&gt;Spark&lt;/&gt; to enemies around and &lt;Buff&gt;Healing Over Time&lt;/&gt; to self. &lt;Orange&gt;Sparks&lt;/&gt; from explosions will not stack within a brief period.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105412</id>
+			<name>Phoenix Ray - Pursuit</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105431</id>
+			<name>Phoenix's Punishment</name>
+			<type>Melee</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105441</id>
+			<name>Psionic Detonation</name>
+			<type>Normal</type>
+			<description>Mark a targeted area with psionic energy, followed by a series of fiery explosions. The first blast &lt;Debuff&gt;Stuns&lt;/&gt; enemies, while the subsequent two explosions inflict &lt;Debuff&gt;Slow&lt;/&gt;. Applies 1 &lt;Orange&gt;Spark&lt;/&gt; to enemies hit.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105442</id>
+			<name>Psionic Detonation - Pursuit</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105451</id>
+			<name>Dark Ascent</name>
+			<type>Normal</type>
+			<description>Merge with the Phoenix, entering a state of free flight. Gain a &lt;Buff&gt;Movement Boost&lt;/&gt;.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105461</id>
+			<name>Telepathic Illusion</name>
+			<type>Normal</type>
+			<description>Leave behind an illusion and instantly teleport in the desired direction, followed by detonating the illusion. Enemies hit are applied with 1 &lt;Orange&gt;Spark&lt;/&gt;.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105471</id>
+			<name>Endsong Inferno</name>
+			<type>Ultimate</type>
+			<description>Soar into the sky with the Phoenix and crash down onto a selected area, dealing devastating damage to enemies while creating a shockwave that destroys enemy Summons, Shields, and any &lt;Buff&gt;Bonus Health&lt;/&gt;. Enemies hit are applied with 1 &lt;Orange&gt;Spark&lt;/&gt;.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>35.00</rank>
+			<mover_shaker>36.00</mover_shaker>
+			<rank_calc>3.72</rank_calc>
+			<mover_shaker_calc>-1.50</mover_shaker_calc>
+			<ZScore>0.12</ZScore>
+			<winrate>46.35</winrate>
+			<pickrate>12.47</pickrate>
+			<banrate>1.77</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>46.82</winrate_prev>
+			<pickrate_prev>13.23</pickrate_prev>
+			<banrate_prev>1.27</banrate_prev>
+			<winrate_change>-1.00</winrate_change>
+			<pickrate_change>-6.00</pickrate_change>
+			<banrate_change>39.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>33.00</rank>
+			<mover_shaker>12.00</mover_shaker>
+			<rank_calc>3.78</rank_calc>
+			<mover_shaker_calc>0.46</mover_shaker_calc>
+			<ZScore>0.21</ZScore>
+			<winrate>46.82</winrate>
+			<pickrate>13.23</pickrate>
+			<banrate>1.27</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>46.72</winrate_prev>
+			<pickrate_prev>16.23</pickrate_prev>
+			<banrate_prev>1.72</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>-18.00</pickrate_change>
+			<banrate_change>-26.00</banrate_change>
+		</item>
+	</meta>
+</all>

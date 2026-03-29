@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1056</id>
+	<name>Angela</name>
+	<real_name>Angela Odinsdottir</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Angela</name>
+			<health>450</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>As the Hand of Heven, the warrior called Angela embodies unwavering courage and determination. Able to manipulate Ichors into various weapons and unfurl her wings to soar across the battlefield, she is ready to deliver divine judgment upon her foes!</description>
+	<team>
+		<item>Godsofasgard</item>
+	</team>
+	<difficulty>4</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>VANGUARD</role>
+	<abilities>
+		<item>
+			<id>105611</id>
+			<name>Spear Of Ichors</name>
+			<type>Weapon</type>
+			<description>Lunge forward with your spear, dealing damage that increases with &lt;Orange&gt;Attack Charge&lt;/&gt;. At full charge, Spear of Ichor can deal more damage and &lt;Debuff&gt;launch up&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>45</Damage>
+				<Casting>Melee</Casting>
+				<Special_Effect>At full charge, Spear of Ichor can launch up enemies and cause 15 extra damage.</Special_Effect>
+				<Attack_Interval>0.96s per hit</Attack_Interval>
+				<Maximum_Distance>7m</Maximum_Distance>
+				<Charge-Damage_Conversion_Ratio>45%</Charge-Damage_Conversion_Ratio>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105612</id>
+			<name>Axes Of Ichors</name>
+			<type>Weapon</type>
+			<description>Alternate powerful strikes forward with twin axes, dealing increased damage as &lt;Orange&gt;Attack Charge&lt;/&gt; grows. The fourth strike propels you forward in a swift dash.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>First three strikes: 30; the forth strike: 50.</Damage>
+				<Casting>Melee</Casting>
+				<Special_Effect>The fourth strike propels you forward in a swift dash.</Special_Effect>
+				<Attack_Interval>First three strikes: 0.4s per hit; the forth strike: 0.6s per hit.</Attack_Interval>
+				<Maximum_Distance>4m</Maximum_Distance>
+				<Charge-Damage_Conversion_Ratio>45%</Charge-Damage_Conversion_Ratio>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105621</id>
+			<name>Angel's Smite</name>
+			<type>Melee</type>
+			<description>Slash at enemies with the Blade of the Stars.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105631</id>
+			<name>Shielded Stance</name>
+			<type>Normal</type>
+			<description>Transform Ichors into a shield, gaining &lt;Orange&gt;Attack Charge&lt;/&gt; when absorbing damage.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Cooldown>1.5s</Cooldown>
+				<Recovery_Speed>50/s</Recovery_Speed>
+				<Maximum_Shield_Value>300</Maximum_Shield_Value>
+				<Cooldown_After_Destroyed>4s</Cooldown_After_Destroyed>
+				<Delayed_Recovery_After_Release>2s</Delayed_Recovery_After_Release>
+				<Damage_Resisted-Charge_Conversion_Ratio>25%</Damage_Resisted-Charge_Conversion_Ratio>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105641</id>
+			<name>Assassin's Charge</name>
+			<type>Normal</type>
+			<description>Enter an &lt;Buff&gt;accelerated&lt;/&gt; dash state. Enemies struck head-on are carried through the air for a short distance.</description>
+			<additional_fields>
+				<Key>Shift</Key>
+				<Cooldown>3s</Cooldown>
+				<Energy_Cost>25/s; 75/s when piercing an enemy</Energy_Cost>
+				<Recover_Delay>2</Recover_Delay>
+				<Maximum_Energy>100</Maximum_Energy>
+				<Special_Effect>Every enemy pierced grants Angela with a 50/s passive energy recovery.</Special_Effect>
+				<Piercing_Damage>30</Piercing_Damage>
+				<Dash_State_Speed>18 m/s</Dash_State_Speed>
+				<One-time_Energy_Cost>20</One-time_Energy_Cost>
+				<Energy_Recovery_Speed>10/s</Energy_Recovery_Speed>
+				<Maximum_Enemies_Could_Be_Carried>2</Maximum_Enemies_Could_Be_Carried>
+				<Passive_Energy_Gained_During_the_Dash>25/s</Passive_Energy_Gained_During_the_Dash>
+				<Energy_Required_to_Activate_the_Ability>30</Energy_Required_to_Activate_the_Ability>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105651</id>
+			<name>Divine Judgement</name>
+			<type>Normal</type>
+			<description>Dive downward, switch to twin axes and infuse the ground with Ichors to create a &lt;Orange&gt;Divine Judgement Zone&lt;/&gt; upon impact. Within the zone, gain enhanced &lt;Buff&gt;Speed&lt;/&gt; and attacks grant &lt;Buff&gt;Bonus Health&lt;/&gt; to self and nearby allies.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>Hit damage: 30; damage over time: 12.5/s</Damage>
+				<Cooldown>12s</Cooldown>
+				<Bonus_Health>Within the Divine Judgement zone, Angela’s each Axes of Ichors hit grants 40 Bonus Health to herself and 20 Bonus Health to allies within the area.</Bonus_Health>
+				<Bonus_Max_Health>200</Bonus_Max_Health>
+				<Spell_Field_Duration>6s</Spell_Field_Duration>
+				<Damage_Over_Time_Spell_Field_Range>A cylindrical spell field with a radius of 8m and a height of 2m.</Damage_Over_Time_Spell_Field_Range>
+				<Movement_Boost_Self>35%</Movement_Boost_Self>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105652</id>
+			<name>Wingblade Ascent</name>
+			<type>Normal</type>
+			<description>Take to the skies, switching back to Spear of Ichors.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Ascent_Height>8m</Ascent_Height>
+				<Ascent_Duration>0.35s</Ascent_Duration>
+				<Ascent_Elevation_Angle>60°</Ascent_Elevation_Angle>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>105661</id>
+			<name>Heven's Retribution</name>
+			<type>Ultimate</type>
+			<description>Wrap your spear in ribbons and hurl it with force. Upon impact, the ribbons bind nearby enemies. Angela can leap to the spear's location, damaging surrounding enemies and creating a &lt;Orange&gt;Divine Judgement Zone&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Slow_Rate>80%</Slow_Rate>
+				<Energy_Cost>3100</Energy_Cost>
+				<Special_Effect>Mobility abilities of enemies bound by the ribbons will be disabled. Enemies within a certain distance around the spear will be slowed.</Special_Effect>
+				<key name="SUMMONS&amp;apos; HEALTH">800</key>
+				<Projectile_Speed>60 m/s</Projectile_Speed>
+				<Hit_Ground_Damage>100</Hit_Ground_Damage>
+				<Projectile_Damage>30</Projectile_Damage>
+				<Spell_Field_Range>8m spherical radius</Spell_Field_Range>
+				<Spell_Field_Damage>10</Spell_Field_Damage>
+				<HIt_Ground_Spell_Field_Range>8m spherical radius</HIt_Ground_Spell_Field_Range>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+</all>

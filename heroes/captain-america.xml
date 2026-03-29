@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1022</id>
+	<name>Captain America</name>
+	<real_name>Steven "steve" Rogers</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Captain America</name>
+			<health>575</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Enhanced by the Super-Soldier Serum, Steven "Steve" Rogers uses his Vibranium shield and extensive combat training to confront any threat to justice. When Captain America rallies his troops, a wave of courage sweeps across the battlefield!</description>
+	<team>
+		<item>Avengers</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>VANGUARD</role>
+	<abilities>
+		<item>
+			<id>102235</id>
+			<name>Sentinel Strike</name>
+			<type>Weapon</type>
+			<description>Get up close to strike enemies. Landing the second hit enables a shield throw that can ricochet four times.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>Up to 4 throws</Ammo>
+				<Damage>Melee Attack Damage: 40, Flying Shield Damage: 45</Damage>
+				<Casting>Change Form</Casting>
+				<Melee_Range>4m</Melee_Range>
+				<Critical_Hit>No</Critical_Hit>
+				<Special_Effect>Automatically target enemies near the crosshair</Special_Effect>
+				<Attack_Interval>Melee 1st Hit: 0.4s, Melee 2nd Hit: 0.5s, Flying Shield 1st Hit: 0.5s, Flying Shield 2nd Hit: 0.57s</Attack_Interval>
+				<Max_Flying_Distance>25m</Max_Flying_Distance>
+				<Shield_Flying_Speed>60m/s</Shield_Flying_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102236</id>
+			<name>Liberty Rush</name>
+			<type>Normal</type>
+			<description>Raise the shield and charge forward.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Damage>30</Damage>
+				<Casting>Single-cast forward dash</Casting>
+				<Cooldown>10s</Cooldown>
+				<Dash_Distance>12m</Dash_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102241</id>
+			<name>Living Legend</name>
+			<type>Normal</type>
+			<description>Raise the shield to deflect incoming &lt;Orange&gt;Projectiles&lt;/&gt;, sending them ricocheting in random directions.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Casting>Channeled</Casting>
+				<Cooldown>1s</Cooldown>
+				<Maximum_Shield_Value>350</Maximum_Shield_Value>
+				<Recovery_Shield_Value>50/s</Recovery_Shield_Value>
+				<Ricochet_Damage_Falloff>50%</Ricochet_Damage_Falloff>
+				<Cooldown_After_Destroyed>5s</Cooldown_After_Destroyed>
+				<Delayed_Recovery_After_Release>4s</Delayed_Recovery_After_Release>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102251</id>
+			<name>Leading Dash</name>
+			<type>Normal</type>
+			<description>Boost speed and enable &lt;Orange&gt;Fearless Leap&lt;/&gt; to leap into the air.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Channeled</Casting>
+				<Movement_Boost>33.40%</Movement_Boost>
+				<Fearless_Leap_Height>5m</Fearless_Leap_Height>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102252</id>
+			<name>Fearless Leap</name>
+			<type>Normal</type>
+			<description>Leap high into the air ahead, enabling &lt;Orange&gt;Super-Soldier Slam&lt;/&gt;.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102253</id>
+			<name>Super-soldier Slam</name>
+			<type>Normal</type>
+			<description>Slam down from the sky onto the targeted area, &lt;Debuff&gt;Launching Up&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>30</Damage>
+				<Casting>Targeted</Casting>
+				<Cooldown>12s</Cooldown>
+				<Maximum_Distance>20m (horizontal)</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102261</id>
+			<name>Vibranium Energy Saw</name>
+			<type>Normal</type>
+			<description>Hurl the energy-charged shield to strike enemies in a path.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>Start at 70, with a 20% reduction for each ricochet</Damage>
+				<Casting>Single-cast projectile that can ricochet</Casting>
+				<Cooldown>6s</Cooldown>
+				<Maximum_Distance>25m</Maximum_Distance>
+				<Projectile_Speed>80 m/s</Projectile_Speed>
+				<Number_of_Ricochets>3</Number_of_Ricochets>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102271</id>
+			<name>Freedom Charge</name>
+			<type>Ultimate</type>
+			<description>Shield held high, carve a path forward, granting both himself and allies along the path continuous &lt;Buff&gt;Bonus Health&lt;/&gt; and &lt;Buff&gt;Movement Boosts&lt;/&gt;. Allies also gain Ultimate Ability Charge Acceleration. Using &lt;Orange&gt;Living Legend&lt;/&gt; and &lt;Orange&gt;Leading Dash&lt;/&gt; while this ability is active can &lt;Debuff&gt;Launch Up&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>A spherical spell field with a 4m radius enveloping the caster, and a spell area with a width of 4m along the path</Range>
+				<Casting>Activation</Casting>
+				<Energy_Cost>3100</Energy_Cost>
+				<Movement_Boost>Grant a 30% Movement Boost to both yourself and your allies</Movement_Boost>
+				<Special_Effect>Allies within its path gain a 30% boost to Ultimate Energy charge efficiency</Special_Effect>
+				<Spell_Area_Duration>5s</Spell_Area_Duration>
+				<Health_Recovery_Rate>Cast to gain 150 Bonus Health and grant allies 100 Bonus Health. Every second afterward, gain 100 Bonus Health and grant allies 60 Bonus Health</Health_Recovery_Rate>
+				<Spell_Field_Duration>10s</Spell_Field_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102281</id>
+			<name>Charged Aegis</name>
+			<type>Normal</type>
+			<description>Thor infuses &lt;Orange&gt;Thorforce&lt;/&gt; into {101500}{000003}{102200}, granting them an electrifying enhancement. {101501}{102201}</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102291</id>
+			<name>Captain's Spirit</name>
+			<type>Normal</type>
+			<description>Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to damage nearby foes and grant &lt;Buff&gt;Bonus Health&lt;/&gt; to allies within range. Captain America and Winter Soldier can interact with each other once both parties confirm. The duo then collides and unleashes a shockwave that damages and &lt;Debuff&gt;slows&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Team-Up_Bonus>Captain America gain 100 Max Health</Team-Up_Bonus>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102292</id>
+			<name>Captain's Spirit</name>
+			<type>Normal</type>
+			<description>Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to damage nearby foes and grant &lt;Buff&gt;Bonus Health&lt;/&gt; to allies within range. Captain America and Winter Soldier can interact with each other once both parties confirm. The duo then collides and unleashes a shockwave that damages and &lt;Debuff&gt;slows&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Team-Up_Bonus>Captain America gain 100 Max Health</Team-Up_Bonus>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>8.00</rank>
+			<mover_shaker>5.00</mover_shaker>
+			<rank_calc>4.12</rank_calc>
+			<mover_shaker_calc>1.23</mover_shaker_calc>
+			<ZScore>0.32</ZScore>
+			<winrate>52.87</winrate>
+			<pickrate>9.63</pickrate>
+			<banrate>0.81</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>47.88</winrate_prev>
+			<pickrate_prev>46.19</pickrate_prev>
+			<banrate_prev>1.07</banrate_prev>
+			<winrate_change>10.00</winrate_change>
+			<pickrate_change>-79.00</pickrate_change>
+			<banrate_change>-24.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>5.00</rank>
+			<mover_shaker>1.00</mover_shaker>
+			<rank_calc>4.24</rank_calc>
+			<mover_shaker_calc>4.65</mover_shaker_calc>
+			<ZScore>0.34</ZScore>
+			<winrate>47.88</winrate>
+			<pickrate>46.19</pickrate>
+			<banrate>1.07</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>52.31</winrate_prev>
+			<pickrate_prev>9.48</pickrate_prev>
+			<banrate_prev>0.73</banrate_prev>
+			<winrate_change>-8.00</winrate_change>
+			<pickrate_change>387.00</pickrate_change>
+			<banrate_change>47.00</banrate_change>
+		</item>
+	</meta>
+</all>

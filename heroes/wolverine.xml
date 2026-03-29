@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1049</id>
+	<name>Wolverine</name>
+	<real_name>James "logan" Howlett</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Wolverine</name>
+			<health>350</health>
+			<movement_speed>7m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Thanks to his regenerative healing factor and berserker rage, the centuries-old Logan can fight through the worst pain to go claw-to-claw with any foe. The Wolverine stands ready to shred through all obstacles in his way with his Adamantium claws.</description>
+	<team>
+		<item>X_men</item>
+		<item>Mutants</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>104941</id>
+			<name>Savage Claw</name>
+			<type>Weapon</type>
+			<description>Slash with Adamantium claws for a &lt;Orange&gt;Claw Strike&lt;/&gt;. Unleashing &lt;Orange&gt;Feral Leap&lt;/&gt; will enhance it to &lt;Orange&gt;Berserk Claw Strike&lt;/&gt; for a brief period.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Casting>Melee</Casting>
+				<Base_Damage>15 damage per strike</Base_Damage>
+				<Attack_Interval>The first three strikes have an interval of 0.27s between them, while the fourth strike has a 0.84s interval from the third strike</Attack_Interval>
+				<Maximum_Distance>3.5m</Maximum_Distance>
+				<Percentage_Damage>Deal damage equal to 1.5% of the target's Max Health, with an extra 0.057% damage for each point of Rage</Percentage_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104951</id>
+			<name>Vicious Rampage</name>
+			<type>Normal</type>
+			<description>Dash forward and unleash a &lt;Orange&gt;Claw Strike&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>3m</Range>
+				<Casting>Movement-based damage ability</Casting>
+				<Cooldown>3s</Cooldown>
+				<Base_Damage>15 damage per strike</Base_Damage>
+				<Average_Speed>44m/s</Average_Speed>
+				<Maximum_Distance>7.5m</Maximum_Distance>
+				<Percentage_Damage>Deal damage equal to 1.5% of the target's Max Health, with an extra 0.057% damage for each point of Rage</Percentage_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104972</id>
+			<name>Savage Claw</name>
+			<type>Weapon</type>
+			<description>Slash with Adamantium claws for a &lt;Orange&gt;Claw Strike&lt;/&gt;. Unleashing Feral Leap will enhance it to &lt;Orange&gt;Berserk Claw Strike&lt;/&gt; for a brief period.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Casting>Melee</Casting>
+				<Base_Damage>15 damage per strike</Base_Damage>
+				<Attack_Interval>The first three strikes have an interval of 0.27s between them, while the fourth strike has a 0.84s interval from the third strike</Attack_Interval>
+				<Maximum_Distance>3.5m</Maximum_Distance>
+				<Percentage_Damage>Deal damage equal to 1.5% of the target's Max Health, with an extra 0.057% damage for each point of Rage</Percentage_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104981</id>
+			<name>Last Stand</name>
+			<type>Ultimate</type>
+			<description>&lt;Debuff&gt;Launch Up&lt;/&gt; enemies ahead and spiral through the air, sweeping up enemies along the path and delivering a devastating impact at the landing point. Impact deals extra damage based on &lt;Orange&gt;Rage&lt;/&gt; accumulated.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Energy_Cost>2800</Energy_Cost>
+				<Impact_Range>8m spherical radius</Impact_Range>
+				<Knockdown_Time>0.75s</Knockdown_Time>
+				<Knockback_Range>8m spherical radius</Knockback_Range>
+				<Knockback_Damage>50</Knockback_Damage>
+				<Impact_Base_Damage>50</Impact_Base_Damage>
+				<Impact_Percentage_Damage>Deal damage equal to 10% of the target's Max Health, with an extra 0.3% damage for each point of Rage</Impact_Percentage_Damage>
+				<Snatching_Damage_Over_Time>20/s</Snatching_Damage_Over_Time>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104994</id>
+			<name>Phoenix Warrior</name>
+			<type>Normal</type>
+			<description>Jean Grey imbues Wolverine and Black Widow with the awe-inspiring Phoenix Force. When active, Wolverine's &lt;Orange&gt;Feral Leap&lt;/&gt; transforms into &lt;Orange&gt;Phoenix Warrior&lt;/&gt;, gaining &lt;Buff&gt;lifesteal&lt;/&gt; on all damage dealt and enveloping him with Phoenix flames that scorch nearby enemies, dealing Percentage Damage. Black Widow gains Phoenix Force-empowered bullets; her &lt;Orange&gt;Phoenix Rounds&lt;/&gt; explode on impact and heal allies in the blast radius.</description>
+			<additional_fields>
+				<Key>Shift</Key>
+				<Cooldown>15s</Cooldown>
+				<Smash_Damage>35</Smash_Damage>
+				<Snatch_Damage>35</Snatch_Damage>
+				<Spell_Field_Range>3m spherical radius spell field</Spell_Field_Range>
+				<Knockdown_Duration>0.75s</Knockdown_Duration>
+				<Spell_Field_Damage>Deal damage equals to target's 1% Maximum Health per second</Spell_Field_Damage>
+				<Lifesteal_Proportion>0.33</Lifesteal_Proportion>
+				<Berserk_Claw_Strike_Duration>5s</Berserk_Claw_Strike_Duration>
+				<Berserk_Claw_Strike_Base_Damage>6 damage per strike</Berserk_Claw_Strike_Base_Damage>
+				<Berserk_Claw_Strike_Attack_Interval>5.88 strikes per second</Berserk_Claw_Strike_Attack_Interval>
+				<Berserk_Claw_Strike_Maximum_Distance>3.5m</Berserk_Claw_Strike_Maximum_Distance>
+				<Berserk_Claw_Strike_Percentage_Damage>Deal damage equal to 1% of the target's Max Health, with an extra 0.035% damage for each point of Rage.</Berserk_Claw_Strike_Percentage_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>38.00</rank>
+			<mover_shaker>9.00</mover_shaker>
+			<rank_calc>3.62</rank_calc>
+			<mover_shaker_calc>0.99</mover_shaker_calc>
+			<ZScore>0.30</ZScore>
+			<winrate>48.01</winrate>
+			<pickrate>5.77</pickrate>
+			<banrate>26.35</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>47.68</winrate_prev>
+			<pickrate_prev>5.46</pickrate_prev>
+			<banrate_prev>34.98</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>6.00</pickrate_change>
+			<banrate_change>-25.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>39.00</rank>
+			<mover_shaker>26.00</mover_shaker>
+			<rank_calc>3.56</rank_calc>
+			<mover_shaker_calc>-0.40</mover_shaker_calc>
+			<ZScore>0.19</ZScore>
+			<winrate>47.68</winrate>
+			<pickrate>5.46</pickrate>
+			<banrate>34.98</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>48.71</winrate_prev>
+			<pickrate_prev>7.53</pickrate_prev>
+			<banrate_prev>43.24</banrate_prev>
+			<winrate_change>-2.00</winrate_change>
+			<pickrate_change>-27.00</pickrate_change>
+			<banrate_change>-19.00</banrate_change>
+		</item>
+	</meta>
+</all>

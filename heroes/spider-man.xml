@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1036</id>
+	<name>Spider-man</name>
+	<real_name>Peter Parker</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Spider-man</name>
+			<health>250</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Swinging around the arena on his signature weblines, your friendly neighborhood Spider-Man, AKA Peter Parker, catches his rivals by surprise with sneaky, sticky bursts of webbing and unexpected attacks from above. Look out... here comes the Spider-Man!</description>
+	<team>
+		<item>Web_warriors</item>
+	</team>
+	<difficulty>5</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>103601</id>
+			<name>Thwip And Flip</name>
+			<type>Normal</type>
+			<description>Perform a double jump.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Special_Mechanic>Can only be cast again after landing</Special_Mechanic>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103611</id>
+			<name>Spider-power</name>
+			<type>Weapon</type>
+			<description>Swing fists forward to strike, dealing extra damage to the enemy with a &lt;Orange&gt;Spider-Tracer&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Kick> </Kick>
+				<Punch> </Punch>
+				<Damage>40</Damage>
+				<Casting>Melee</Casting>
+				<Attack_Interval>0.82s per kick</Attack_Interval>
+				<Maximum_Distance>4m</Maximum_Distance>
+				<Special_Mechanic>The default attack is a punch, but after landing two consecutive punches, the next attack will be a flying kick</Special_Mechanic>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103612</id>
+			<name>Spider Power</name>
+			<type>Weapon</type>
+			<description>Punch and kick enemies in succession.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103613</id>
+			<name>Amazing Combo</name>
+			<type>Normal</type>
+			<description>Launch an enemy upward, dealing extra damage to the enemy with a &lt;Orange&gt;Spider-Tracer&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Range>4m spherical radius</Range>
+				<Damage>70</Damage>
+				<Casting>Melee</Casting>
+				<Charges>2</Charges>
+				<Cooldown>2s</Cooldown>
+				<Recharge_Speed>6s per charge</Recharge_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103614</id>
+			<name>Get Over Here</name>
+			<type>Normal</type>
+			<description>When attacking on the ground, launch an enemy upward; when attacking in the air, dash at a chosen enemy.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103621</id>
+			<name>Web-cluster</name>
+			<type>Normal</type>
+			<description>Shoot a Web-Cluster that deals damage and attaches a &lt;Orange&gt;Spider-Tracer&lt;/&gt; to the hit enemy.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>30</Damage>
+				<Casting>Projectile that fires in a straight trajectory</Casting>
+				<Charges>5</Charges>
+				<Critical_Hit>No</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 20m, decreasing to 50% at 40m</Damage_Falloff>
+				<Recharge_Speed>2s per shot</Recharge_Speed>
+				<Projectile_Speed>120 m/s</Projectile_Speed>
+				<Spider-Tracer_Damage>45</Spider-Tracer_Damage>
+				<Spider-Tracer_Duration>3s</Spider-Tracer_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103631</id>
+			<name>Get Over Here!</name>
+			<type>Normal</type>
+			<description>Shoot webbing to reel in the hit enemy. If the enemy is tagged with a &lt;Orange&gt;Spider-Tracer&lt;/&gt;, Spider-Man will get pulled to them instead.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Projectile that fires in a straight trajectory</Casting>
+				<Cooldown>8s</Cooldown>
+				<Kick_Damage>55</Kick_Damage>
+				<Kicking_Distance>24m</Kicking_Distance>
+				<Maximum_Distance>20m</Maximum_Distance>
+				<Projectile_Speed>80 m/s</Projectile_Speed>
+				<Special_Mechanic>Attack enemies marked with a Spider-Tracer, pulling Spider-Man towards them and performing a flying kick</Special_Mechanic>
+				<Projectile_Damage>25</Projectile_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103641</id>
+			<name>Web-swing</name>
+			<type>Normal</type>
+			<description>Shoot a strand of webbing to swing.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Casting>Dash</Casting>
+				<Charges>3</Charges>
+				<Recharge_Speed>6s per charge</Recharge_Speed>
+				<Maximum_Webbing_Length>30m</Maximum_Webbing_Length>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103651</id>
+			<name>Spectacular Spin</name>
+			<type>Ultimate</type>
+			<description>Launch Web-Clusters all around to damage and &lt;Debuff&gt;Stun&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>8m spherical radius</Range>
+				<Damage>13.6 damage per hit</Damage>
+				<Casting>Spherical Spell Field</Casting>
+				<Duration>2.4s</Duration>
+				<Energy_Cost>2800</Energy_Cost>
+				<Slow_Effect>-3% per hit</Slow_Effect>
+				<Slow_Duration>1s</Slow_Duration>
+				<Stun_Duration>1.5s</Stun_Duration>
+				<Special_Effect>Striking an enemy applies a stacking Slow effect, and after reaching a certain number of stacks, the enemy will be Stunned</Special_Effect>
+				<Attack_Interval>0.08s per hit</Attack_Interval>
+				<Hits_Required_to_Stun>20</Hits_Required_to_Stun>
+				<Bonus_Health_Self>250</Bonus_Health_Self>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103662</id>
+			<name>Spider-sense</name>
+			<type>Normal</type>
+			<description>Give a warning of enemies that have been around.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Range>8m spherical radius</Range>
+				<Disappearance_Time_To_Trigger_Detection>3s</Disappearance_Time_To_Trigger_Detection>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103671</id>
+			<name>Wall Crawl</name>
+			<type>Normal</type>
+			<description>PRESS {Jump} to crawl on vertical surfaces, and PRESS {PrimaryAttack} to run on them.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Sprinting_Speed>9 m/s</Sprinting_Speed>
+				<Wall-Crawling_Speed>3 m/s</Wall-Crawling_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103693</id>
+			<name>Inferno Blast</name>
+			<type>Normal</type>
+			<description>Human Torch stores &lt;Orange&gt;Pyrokinetic Energy&lt;/&gt; in Spider-Man's suit, enabling him to unleash an &lt;Orange&gt;Inferno Blast&lt;/&gt; that sprays a fiery web while performing a backflip to create distance. The flames damage enemies and apply a &lt;Orange&gt;Burn-Tracer&lt;/&gt;. Detonating these &lt;Orange&gt;Burn-Tracers&lt;/&gt; inflicts Damage Over Time.</description>
+			<additional_fields>
+				<Key>C</Key>
+				<Damage>30</Damage>
+				<Cooldown>12s</Cooldown>
+				<Maximum_Distance>8m</Maximum_Distance>
+				<Backflip_Distance>7m</Backflip_Distance>
+				<Burn-Tracer_Duration>3s</Burn-Tracer_Duration>
+				<Burn-Tracer_DoT_Damage>15/s</Burn-Tracer_DoT_Damage>
+				<Burn-Tracer_DoT_Duration>4s</Burn-Tracer_DoT_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>30.00</rank>
+			<mover_shaker>25.00</mover_shaker>
+			<rank_calc>3.85</rank_calc>
+			<mover_shaker_calc>-0.11</mover_shaker_calc>
+			<ZScore>0.22</ZScore>
+			<winrate>48.44</winrate>
+			<pickrate>15.13</pickrate>
+			<banrate>3.29</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>47.97</winrate_prev>
+			<pickrate_prev>13.89</pickrate_prev>
+			<banrate_prev>2.83</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>9.00</pickrate_change>
+			<banrate_change>16.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>26.00</rank>
+			<mover_shaker>11.00</mover_shaker>
+			<rank_calc>3.89</rank_calc>
+			<mover_shaker_calc>0.48</mover_shaker_calc>
+			<ZScore>0.21</ZScore>
+			<winrate>47.97</winrate>
+			<pickrate>13.89</pickrate>
+			<banrate>2.83</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>47.22</winrate_prev>
+			<pickrate_prev>14.60</pickrate_prev>
+			<banrate_prev>3.10</banrate_prev>
+			<winrate_change>2.00</winrate_change>
+			<pickrate_change>-5.00</pickrate_change>
+			<banrate_change>-9.00</banrate_change>
+		</item>
+	</meta>
+</all>

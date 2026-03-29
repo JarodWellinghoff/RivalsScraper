@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1015</id>
+	<name>Storm</name>
+	<real_name>Ororo Munroe</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Storm</name>
+			<health>250</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>An Omega-level Mutant ability to manipulate weather makes Ororo Munroe a force to be reckoned with. Rain or shine, thunder or lightning, nature itself bends to the command of the Goddess of the Storm!</description>
+	<team>
+		<item>X_men</item>
+		<item>Mutants</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>101501</id>
+			<name>Windrider</name>
+			<type>Normal</type>
+			<description>Hold {Jump} or {Crouch} to fly vertically. Use direction keys to fly freely.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101511</id>
+			<name>Lightning Claw</name>
+			<type>Melee</type>
+			<description>Melee attacks with lightning energy.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101521</id>
+			<name>Wind Blade</name>
+			<type>Weapon</type>
+			<description>Launch forward-piercing Wind Blades.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>12</Ammo>
+				<Damage>55 damage per round</Damage>
+				<Casting>Projectile that fires in a straight trajectory</Casting>
+				<Fire_Rate>2 rounds per second</Fire_Rate>
+				<Critical_Hit>No</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 15m, decreasing to 60% at 30m</Damage_Falloff>
+				<Special_Effect>Wind Blade pierces through enemies</Special_Effect>
+				<Projectile_Speed>150m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101531</id>
+			<name>Bolt Rush</name>
+			<type>Normal</type>
+			<description>Unleash a lightning bolt forward.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>A cylindrical spell field with a radius of 1m and a height of 40m</Range>
+				<Damage>80</Damage>
+				<Casting>Straight Spell Field</Casting>
+				<Cooldown>8s</Cooldown>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101542</id>
+			<name>Weather Control</name>
+			<type>Normal</type>
+			<description>Switch the weather to empower allies: Tornado grants a &lt;Buff&gt;Movement Boost&lt;/&gt;. Gain &lt;Buff&gt;Bonus Health&lt;/&gt; when dealing damage with &lt;Orange&gt;Wind Blade&lt;/&gt; or &lt;Orange&gt;Bolt Rush&lt;/&gt;. Thunder grants a &lt;Orange&gt;Damage Boost&lt;/&gt;. Hitting enemies with &lt;Orange&gt;Wind Blade&lt;/&gt; reduces the cooldown of &lt;Orange&gt;Bolt Rush&lt;/&gt; and expands &lt;Orange&gt;Bolt Rush&lt;/&gt;'s impact radius.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>15m spherical radius</Range>
+				<Casting>Spherical Spell Field</Casting>
+				<Thunder> </Thunder>
+				<Tornado> </Tornado>
+				<Special_Effect>Under this aura, Wind Blade hits reduce Bolt Rush cooldown by 0.5s (only once per cast, even if hitting multiple enemies). Increase Bolt Rush spell field range radius from 1m to 1.5m</Special_Effect>
+				<Damage_Boost_Ally>8%</Damage_Boost_Ally>
+				<Damage_Boost_Self>12%</Damage_Boost_Self>
+				<Movement_Boost_Ally>8%</Movement_Boost_Ally>
+				<Movement_Boost_Self>16%</Movement_Boost_Self>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101551</id>
+			<name>Goddess Boost</name>
+			<type>Normal</type>
+			<description>Channel the power of the weather to empower Storm: Tornado grants a &lt;Buff&gt;Movement Boost&lt;/&gt; and inflicts &lt;Debuff&gt;Slow&lt;/&gt; on enemies; Thunder grants a &lt;Buff&gt;Damage Boost&lt;/&gt; and summons lightning to inflict damage.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>15m spherical radius</Range>
+				<Damage>35</Damage>
+				<Casting>Spherical Spell Field</Casting>
+				<Cooldown>15s</Cooldown>
+				<Duration>8s</Duration>
+				<Enemy_Slow_Rate>-15%</Enemy_Slow_Rate>
+				<Enhanced_Thunder> </Enhanced_Thunder>
+				<Enhanced_Tornado> </Enhanced_Tornado>
+				<Strike_Frequency>2s per strike</Strike_Frequency>
+				<Damage_Boost_Ally>15%</Damage_Boost_Ally>
+				<Damage_Boost_Self>25%</Damage_Boost_Self>
+				<Movement_Boost_Ally>20%</Movement_Boost_Ally>
+				<Movement_Boost_Self>40%</Movement_Boost_Self>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101561</id>
+			<name>Omega Hurricane</name>
+			<type>Ultimate</type>
+			<description>Transform into a hurricane to draw in nearby enemies and deal damage.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>8m spherical radius</Range>
+				<Damage>80</Damage>
+				<Casting>Spherical Spell Field</Casting>
+				<Energy_Cost>3400</Energy_Cost>
+				<Special_Effect>Weather effects will be disabled during the Ultimate</Special_Effect>
+				<Attack_Interval>2 hits per second</Attack_Interval>
+				<Tornado_Duration>5s</Tornado_Duration>
+				<Maximum_Selection_Duration>5s</Maximum_Selection_Duration>
+				<Bonus_Health_Self>450</Bonus_Health_Self>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>101571</id>
+			<name>Eye Of The Storm</name>
+			<type>Normal</type>
+			<description>Draw in and launch forward &lt;Orange&gt;Chronoviums&lt;/&gt;.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>11.00</rank>
+			<mover_shaker>8.00</mover_shaker>
+			<rank_calc>4.11</rank_calc>
+			<mover_shaker_calc>1.00</mover_shaker_calc>
+			<ZScore>0.30</ZScore>
+			<winrate>53.11</winrate>
+			<pickrate>4.16</pickrate>
+			<banrate>0.38</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>53.63</winrate_prev>
+			<pickrate_prev>3.98</pickrate_prev>
+			<banrate_prev>0.60</banrate_prev>
+			<winrate_change>-1.00</winrate_change>
+			<pickrate_change>5.00</pickrate_change>
+			<banrate_change>-37.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>10.00</rank>
+			<mover_shaker>4.00</mover_shaker>
+			<rank_calc>4.11</rank_calc>
+			<mover_shaker_calc>1.73</mover_shaker_calc>
+			<ZScore>0.25</ZScore>
+			<winrate>53.63</winrate>
+			<pickrate>3.98</pickrate>
+			<banrate>0.60</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>52.90</winrate_prev>
+			<pickrate_prev>4.96</pickrate_prev>
+			<banrate_prev>1.56</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>-20.00</pickrate_change>
+			<banrate_change>-62.00</banrate_change>
+		</item>
+	</meta>
+</all>

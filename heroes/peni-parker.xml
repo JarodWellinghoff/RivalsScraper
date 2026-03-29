@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1042</id>
+	<name>Peni Parker</name>
+	<real_name>Peni Parker</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Peni Parker</name>
+			<health>700</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+		<item>
+			<id>1</id>
+			<name>Peni Parker</name>
+		</item>
+	</transformations>
+	<description>Peni Parker may be young, but she bravely stands on the frontlines to protect the Web of Life and Destiny. Together, this teen prodigy and her state-of-the-art mech, the sensational SP//dr, make for the most thrilling duo on the battlefield!</description>
+	<team>
+		<item>Web_warriors</item>
+	</team>
+	<difficulty>4</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>VANGUARD</role>
+	<abilities>
+		<item>
+			<id>104202</id>
+			<name>Wall Crawl</name>
+			<type>Normal</type>
+			<description>HOLD {Jump} to crawl on vertical surfaces.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Wall-Crawling_Speed>7.2m/s</Wall-Crawling_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104221</id>
+			<name>Cyber-web Cluster</name>
+			<type>Weapon</type>
+			<description>Launch forward a Cyber-Web Cluster.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>1.5m spherical radius</Range>
+				<Damage>Projectile Damage: 15; Spell Field Damage: 15</Damage>
+				<Casting>Rapid-fire, delayed projectile that is accompanied by a spell field</Casting>
+				<Fire_Rate>3.33 rounds per second</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Special_Effect>20% slowdown on release</Special_Effect>
+				<Projectile_Speed>120m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104231</id>
+			<name>Cyber-web Snare</name>
+			<type>Normal</type>
+			<description>Cast futuristic webbing that &lt;Debuff&gt;Immobilizes&lt;/&gt; enemies or creates a &lt;Orange&gt;Cyber-Web&lt;/&gt;. While in the &lt;Orange&gt;Cyber-Web&lt;/&gt;, Peni and allies gain &lt;Buff&gt;Healing Over Time&lt;/&gt; and a &lt;Buff&gt;Movement Boost&lt;/&gt;. Excess healing converts into &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>3m spherical radius</Range>
+				<Damage>5</Damage>
+				<Casting>Single-cast projectile with delayed impact</Casting>
+				<Cooldown>3s</Cooldown>
+				<Projectile_Speed>60 m/s</Projectile_Speed>
+				<Special_Effect_1>Enemies hit are ensnared for 0.7s. While trapped in the Cyber-Web, Peni Parker receives 25 healing per second. Any excess healing is converted into Bonus Health, up to a maximum of 150 Health, and grants a 25% Movement Boost</Special_Effect_1>
+				<Special_Effect_2>Allies in Peni's Cyber-Webs now receive the same Healing Over Time and a Movement Boost effects as her. Movement Boost for allies is 25%, Healing is 15/s. Ally excess healing converts into Bonus Health, up to 25</Special_Effect_2>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104241</id>
+			<name>Bionic Spider-nest</name>
+			<type>Normal</type>
+			<description>Generate a &lt;Orange&gt;Bionic Spider-Nest&lt;/&gt; at a targeted area, periodically spawning &lt;Orange&gt;Spider-Drones&lt;/&gt; and creating &lt;Orange&gt;Cyber-Webs&lt;/&gt;. While in the &lt;Orange&gt;Cyber-Web&lt;/&gt;, Peni and allies gain &lt;Buff&gt;Healing Over Time&lt;/&gt; and a &lt;Buff&gt;Movement Boost&lt;/&gt;. Excess healing converts into &lt;Buff&gt;Bonus Health&lt;/&gt;. &lt;Orange&gt;Spider-Drones&lt;/&gt; inflict a &lt;Debuff&gt;Slow&lt;/&gt; effect on hit, which can stack and refresh its effect period with multiple hits.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>12m spherical radius</Range>
+				<Damage>Each Spider-Drone inflicts 40 damage</Damage>
+				<Casting>Targeted</Casting>
+				<Cooldown>15s</Cooldown>
+				<Special_Effect>Two Spider-Drones are generated every 3s, slows hit enemies by 8% for 2s, each hit stacks the effect and resets the slow period, stacking up to 40%</Special_Effect>
+				<Maximum_Distance>10m</Maximum_Distance>
+				<Spider-Nest_Health>350</Spider-Nest_Health>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104242</id>
+			<name>Armored Spider-nest</name>
+			<type>Normal</type>
+			<description>Rocket Raccoon upgrades his &lt;Orange&gt;B.R.B.&lt;/&gt; for Star-Lord and Mister Fantastic. Star-Lord gets an Astral Jump device, allowing him to teleport to its deployment point from anywhere on the map. Mister Fantastic receives a Fantastic Amplifier, removing his &lt;Orange&gt;Elasticity&lt;/&gt; limit and letting him actively enter Inflation state.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104251</id>
+			<name>Arachno-mine</name>
+			<type>Normal</type>
+			<description>Deploy &lt;Orange&gt;Arachno-Mines&lt;/&gt; that can be concealed within the confines of a &lt;Orange&gt;Cyber-Web&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>3m spherical radius</Range>
+				<Damage>100</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+				<Cooldown>4 charges, with each charge taking 4s to recharge</Cooldown>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104261</id>
+			<name>Cyber-bond</name>
+			<type>Normal</type>
+			<description>Shoot a web strand that links to the targeted area or &lt;Orange&gt;Cyber-Web&lt;/&gt;. If stretched too far, it will trigger a pullback.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Casting>Dash</Casting>
+				<Cooldown>3s</Cooldown>
+				<Projectile_Speed>100m/s</Projectile_Speed>
+				<Pull-back_Distance>10m</Pull-back_Distance>
+				<Maximum_Dash_Distance>30m</Maximum_Dash_Distance>
+				<Minimum_Dash_Distance>10m</Minimum_Dash_Distance>
+				<Maximum_Cyber-Bond_Distance>19m, with the possibility to exceed this distance if descending</Maximum_Cyber-Bond_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104271</id>
+			<name>Spider-sweeper</name>
+			<type>Ultimate</type>
+			<description>Enhance the SP//dr suit, &lt;Buff&gt;Launching Up&lt;/&gt; enemies in its path and deploying &lt;Orange&gt;Arachno-Mines&lt;/&gt;, &lt;Orange&gt;Spider-Drones&lt;/&gt;, and &lt;Orange&gt;Cyber-Webs&lt;/&gt; repeatedly. Spider-Drones inflict a &lt;Debuff&gt;Slow&lt;/&gt; effect on hit, which can stack and refresh its effect period with multiple hits.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>4m spherical radius</Range>
+				<Damage>Sweep Attack Damage: 60</Damage>
+				<Casting>Enhancement</Casting>
+				<Duration>12s</Duration>
+				<Energy_Cost>3400</Energy_Cost>
+				<Sweep_Range>5m</Sweep_Range>
+				<Special_Effect>Gain 450 Bonus Health and a 70% Movement Boost</Special_Effect>
+				<Attack_Interval>1s</Attack_Interval>
+				<Arachno-Mine_Attack_Interval>0.7s</Arachno-Mine_Attack_Interval>
+				<Maximum_Arachno-Mine_Quantity>7</Maximum_Arachno-Mine_Quantity>
+				<Spider-Drone_Generation_Interval>0.5s</Spider-Drone_Generation_Interval>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104282</id>
+			<name>Spider-tech</name>
+			<type>Normal</type>
+			<description>Peni Parker whips up a Sticky Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a &lt;Orange&gt;Spider-Tracer&lt;/&gt; to them. If not thrown in time, it explodes on Spider-Man, recharging a &lt;Orange&gt;Web-Cluster&lt;/&gt; shot and granting &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>104202</id>
+			<name>Wall Crawl</name>
+			<type>Normal</type>
+			<description>HOLD {Jump} to crawl on vertical surfaces.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Wall-Crawling_Speed>7.2m/s</Wall-Crawling_Speed>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>104221</id>
+			<name>Cyber-web Cluster</name>
+			<type>Weapon</type>
+			<description>Launch forward a Cyber-Web Cluster.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>1.5m spherical radius</Range>
+				<Damage>Projectile Damage: 15; Spell Field Damage: 15</Damage>
+				<Casting>Rapid-fire, delayed projectile that is accompanied by a spell field</Casting>
+				<Fire_Rate>3.33 rounds per second</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Special_Effect>20% slowdown on release</Special_Effect>
+				<Projectile_Speed>120m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>104231</id>
+			<name>Cyber-web Snare</name>
+			<type>Normal</type>
+			<description>Cast futuristic webbing that &lt;Debuff&gt;Immobilizes&lt;/&gt; enemies or creates a &lt;Orange&gt;Cyber-Web&lt;/&gt;. While in the &lt;Orange&gt;Cyber-Web&lt;/&gt;, Peni and allies gain &lt;Buff&gt;Healing Over Time&lt;/&gt; and a &lt;Buff&gt;Movement Boost&lt;/&gt;. Excess healing converts into &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>3m spherical radius</Range>
+				<Damage>5</Damage>
+				<Casting>Single-cast projectile with delayed impact</Casting>
+				<Cooldown>3s</Cooldown>
+				<Projectile_Speed>60 m/s</Projectile_Speed>
+				<Special_Effect_1>Enemies hit are ensnared for 0.7s. While trapped in the Cyber-Web, Peni Parker receives 25 healing per second. Any excess healing is converted into Bonus Health, up to a maximum of 150 Health, and grants a 25% Movement Boost</Special_Effect_1>
+				<Special_Effect_2>Allies in Peni's Cyber-Webs now receive the same Healing Over Time and a Movement Boost effects as her. Movement Boost for allies is 25%, Healing is 15/s. Ally excess healing converts into Bonus Health, up to 25</Special_Effect_2>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>104241</id>
+			<name>Bionic Spider-nest</name>
+			<type>Normal</type>
+			<description>Generate a &lt;Orange&gt;Bionic Spider-Nest&lt;/&gt; at a targeted area, periodically spawning &lt;Orange&gt;Spider-Drones&lt;/&gt; and creating &lt;Orange&gt;Cyber-Webs&lt;/&gt;. While in the &lt;Orange&gt;Cyber-Web&lt;/&gt;, Peni and allies gain &lt;Buff&gt;Healing Over Time&lt;/&gt; and a &lt;Buff&gt;Movement Boost&lt;/&gt;. Excess healing converts into &lt;Buff&gt;Bonus Health&lt;/&gt;. &lt;Orange&gt;Spider-Drones&lt;/&gt; inflict a &lt;Debuff&gt;Slow&lt;/&gt; effect on hit, which can stack and refresh its effect period with multiple hits.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Range>12m spherical radius</Range>
+				<Damage>Each Spider-Drone inflicts 40 damage</Damage>
+				<Casting>Targeted</Casting>
+				<Cooldown>15s</Cooldown>
+				<Special_Effect>Two Spider-Drones are generated every 3s, slows hit enemies by 8% for 2s, each hit stacks the effect and resets the slow period, stacking up to 40%</Special_Effect>
+				<Maximum_Distance>10m</Maximum_Distance>
+				<Spider-Nest_Health>350</Spider-Nest_Health>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>104242</id>
+			<name>Armored Spider-nest</name>
+			<type>Normal</type>
+			<description>Rocket Raccoon upgrades his &lt;Orange&gt;B.R.B.&lt;/&gt; for Star-Lord and Mister Fantastic. Star-Lord gets an Astral Jump device, allowing him to teleport to its deployment point from anywhere on the map. Mister Fantastic receives a Fantastic Amplifier, removing his &lt;Orange&gt;Elasticity&lt;/&gt; limit and letting him actively enter Inflation state.</description>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>104251</id>
+			<name>Arachno-mine</name>
+			<type>Normal</type>
+			<description>Deploy &lt;Orange&gt;Arachno-Mines&lt;/&gt; that can be concealed within the confines of a &lt;Orange&gt;Cyber-Web&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>3m spherical radius</Range>
+				<Damage>100</Damage>
+				<Casting>Single-cast Spell Field</Casting>
+				<Cooldown>4 charges, with each charge taking 4s to recharge</Cooldown>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>104261</id>
+			<name>Cyber-bond</name>
+			<type>Normal</type>
+			<description>Shoot a web strand that links to the targeted area or &lt;Orange&gt;Cyber-Web&lt;/&gt;. If stretched too far, it will trigger a pullback.</description>
+			<additional_fields>
+				<Key>F</Key>
+				<Casting>Dash</Casting>
+				<Cooldown>3s</Cooldown>
+				<Projectile_Speed>100m/s</Projectile_Speed>
+				<Pull-back_Distance>10m</Pull-back_Distance>
+				<Maximum_Dash_Distance>30m</Maximum_Dash_Distance>
+				<Minimum_Dash_Distance>10m</Minimum_Dash_Distance>
+				<Maximum_Cyber-Bond_Distance>19m, with the possibility to exceed this distance if descending</Maximum_Cyber-Bond_Distance>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>104271</id>
+			<name>Spider-sweeper</name>
+			<type>Ultimate</type>
+			<description>Enhance the SP//dr suit, &lt;Buff&gt;Launching Up&lt;/&gt; enemies in its path and deploying &lt;Orange&gt;Arachno-Mines&lt;/&gt;, &lt;Orange&gt;Spider-Drones&lt;/&gt;, and &lt;Orange&gt;Cyber-Webs&lt;/&gt; repeatedly. Spider-Drones inflict a &lt;Debuff&gt;Slow&lt;/&gt; effect on hit, which can stack and refresh its effect period with multiple hits.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>4m spherical radius</Range>
+				<Damage>Sweep Attack Damage: 60</Damage>
+				<Casting>Enhancement</Casting>
+				<Duration>12s</Duration>
+				<Energy_Cost>3400</Energy_Cost>
+				<Sweep_Range>5m</Sweep_Range>
+				<Special_Effect>Gain 450 Bonus Health and a 70% Movement Boost</Special_Effect>
+				<Attack_Interval>1s</Attack_Interval>
+				<Arachno-Mine_Attack_Interval>0.7s</Arachno-Mine_Attack_Interval>
+				<Maximum_Arachno-Mine_Quantity>7</Maximum_Arachno-Mine_Quantity>
+				<Spider-Drone_Generation_Interval>0.5s</Spider-Drone_Generation_Interval>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>104282</id>
+			<name>Spider-tech</name>
+			<type>Normal</type>
+			<description>Peni Parker whips up a Sticky Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a &lt;Orange&gt;Spider-Tracer&lt;/&gt; to them. If not thrown in time, it explodes on Spider-Man, recharging a &lt;Orange&gt;Web-Cluster&lt;/&gt; shot and granting &lt;Buff&gt;Bonus Health&lt;/&gt;.</description>
+			<transformation_id>1</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>4.00</rank>
+			<mover_shaker>12.00</mover_shaker>
+			<rank_calc>4.27</rank_calc>
+			<mover_shaker_calc>0.61</mover_shaker_calc>
+			<ZScore>0.27</ZScore>
+			<winrate>55.45</winrate>
+			<pickrate>8.75</pickrate>
+			<banrate>11.13</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>55.19</winrate_prev>
+			<pickrate_prev>7.84</pickrate_prev>
+			<banrate_prev>12.31</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>12.00</pickrate_change>
+			<banrate_change>-10.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>6.00</rank>
+			<mover_shaker>14.00</mover_shaker>
+			<rank_calc>4.23</rank_calc>
+			<mover_shaker_calc>0.41</mover_shaker_calc>
+			<ZScore>0.21</ZScore>
+			<winrate>55.19</winrate>
+			<pickrate>7.84</pickrate>
+			<banrate>12.31</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>55.14</winrate_prev>
+			<pickrate_prev>8.89</pickrate_prev>
+			<banrate_prev>15.60</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>-12.00</pickrate_change>
+			<banrate_change>-21.00</banrate_change>
+		</item>
+	</meta>
+</all>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1060</id>
+	<name>White Fox</name>
+	<real_name>Ami Han</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>White Fox</name>
+			<health>275</health>
+			<movement_speed>600</movement_speed>
+		</item>
+		<item>
+			<id>1</id>
+			<name>White Fox</name>
+		</item>
+	</transformations>
+	<description>Ami Han, the last of the legendary Kumiho, can summon her ancestral Nine-Tailed Power to fortify herself and heal her allies on the battlefield. As the calm and capable Director of Tiger Division, she is any team's unwavering backbone, no matter the foe.</description>
+	<team>
+		<item>Agentsofatlas</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>STRATEGIST</role>
+	<abilities>
+		<item>
+			<id>106011</id>
+			<name>Yeowoo Guseul</name>
+			<type>Weapon</type>
+			<description>Fire a Fox Marble forward that bounces off terrain or heroes, then homes in on nearby heroes. It damages enemies, heals allies, and restores &lt;Orange&gt;Spirit Tail&lt;/&gt; energy.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>Direct hit: 40 per round; bounce hit: 25 per round</Damage>
+				<Fire_Rate>0.45s per round</Fire_Rate>
+				<Healing_Amount>Direct hit: 50 per round; bounce hit: 35 per round</Healing_Amount>
+				<Maximum_Distance>35m</Maximum_Distance>
+				<Projectile_Speed>120m/s</Projectile_Speed>
+				<Bounce_Projectile_Speed>80m/s</Bounce_Projectile_Speed>
+				<Bounce_Projectile_Max_Distance>6m</Bounce_Projectile_Max_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106041</id>
+			<name>Spectral Surge</name>
+			<type>Normal</type>
+			<description>Consume one &lt;Orange&gt;Spirit Tail&lt;/&gt; to send a spectral fox forward. It heals and grants &lt;Buff&gt;invulnerability&lt;/&gt; to allies it passes through, damages and &lt;Debuff&gt;Charms&lt;/&gt; enemies, forcing foes to move toward White Fox.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>65</Damage>
+				<Cooldown>6s</Cooldown>
+				<Charm_Duration>0.4s</Charm_Duration>
+				<Healing_Amount>65</Healing_Amount>
+				<Maximum_Distance>35m</Maximum_Distance>
+				<Projectile_Speed>60m/s</Projectile_Speed>
+				<key name="Damage/Healing Radius">3m</key>
+				<key name="Charm/Invincibility Radius">0.8m</key>
+				<key name="Allies&amp;apos; Invincibility Duration">0.4s</key>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106051</id>
+			<name>Fox Form Awakening</name>
+			<type>Normal</type>
+			<description>Enter &lt;Orange&gt;Awakened&lt;/&gt; state, transforming &lt;Orange&gt;Spirit Tails&lt;/&gt; into physical tails. While active, continuously drain &lt;Orange&gt;Spirit Tail&lt;/&gt; energy and &lt;Buff&gt;heal&lt;/&gt; nearby allies. Striking enemies provides additional area healing.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>15s</Cooldown>
+				<Healing_Amount>25/s</Healing_Amount>
+				<Ability_Duration>Transform 3 tails: 9s; 2 tails: 8s; 1 tail: 7s</Ability_Duration>
+				<Attack_Generated_Healing_Spell_Field_Range>10m radius spherical spell field</Attack_Generated_Healing_Spell_Field_Range>
+				<Healing_Spell_Field_That_Surrounds_the_Caster>10m radius spherical spell field</Healing_Spell_Field_That_Surrounds_the_Caster>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106052</id>
+			<name>Claw Strike</name>
+			<type>Weapon</type>
+			<description>While &lt;Orange&gt;Awakened&lt;/&gt;, slash forward with a flurry of attacks.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>35 per hit</Damage>
+				<Attack_Range>4m</Attack_Range>
+				<Attack_Interval>0.45s per use</Attack_Interval>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106053</id>
+			<name>Tail Sweep</name>
+			<type>Normal</type>
+			<description>While &lt;Orange&gt;Awakened&lt;/&gt;, sweep forward tails to &lt;Debuff&gt;launch up&lt;/&gt; hit enemies.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<DAMAGE>50</DAMAGE>
+				<Cooldown>3s</Cooldown>
+				<Attack_Range>5m</Attack_Range>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106054</id>
+			<name>Predatory Pounce</name>
+			<type>Normal</type>
+			<description>While &lt;Orange&gt;Awakened&lt;/&gt;, dash forward. Hit an enemy to &lt;Debuff&gt;Slow&lt;/&gt; and flip over them, enabling a &lt;Debuff&gt;second dash&lt;/&gt; that &lt;Orange&gt;knocks back&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Shift</Key>
+				<Damage>40</Damage>
+				<Cooldown>6s</Cooldown>
+				<Dash_Duration>15m</Dash_Duration>
+				<Predatory_Pounce_Second_Unleash> </Predatory_Pounce_Second_Unleash>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106061</id>
+			<name>Spirit Sanctuary</name>
+			<type>Normal</type>
+			<description>Teleport to a chosen ally, instantly healing allies in the area while generating a shield.</description>
+			<additional_fields>
+				<Key>Shift</Key>
+				<Cooldown>12s</Cooldown>
+				<Summon_Health>200</Summon_Health>
+				<Maximum_Distance>30m</Maximum_Distance>
+				<One-time_Healing_Amount>70</One-time_Healing_Amount>
+				<Healing_Spell_Field_Range>5m radius spherical spell field</Healing_Spell_Field_Range>
+				<MAXIMUM_DURATION_FOR_SUMMONS>5s</MAXIMUM_DURATION_FOR_SUMMONS>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106071</id>
+			<name>Kumiho Unleashed</name>
+			<type>Ultimate</type>
+			<description>Manifest the full Nine-Tailed Fox form and &lt;Buff&gt;continuously heal&lt;/&gt; nearby allies. Cannot receive healing effects from others while in this form.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Energy_Cost>4800</Energy_Cost>
+				<Healing_Amount>85/s</Healing_Amount>
+				<Maximum_Health>900</Maximum_Health>
+				<Continuous_Healing_Spell_Field_Range>10m radius spherical spell field</Continuous_Healing_Spell_Field_Range>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106072</id>
+			<name>Ninefold Slam</name>
+			<type>Weapon</type>
+			<description>In &lt;Orange&gt;Kumiho Form&lt;/&gt;, slam the ground, causing an explosive shockwave. Hitting enemies or summons grants One-Time Healing to self and nearby allies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>50 per hit</Damage>
+				<Healing_Amount>100 per hit</Healing_Amount>
+				<Attack_Interval>1 per second</Attack_Interval>
+				<Explosion_Damage>50 per hit</Explosion_Damage>
+				<Max_Attack_Range>5m</Max_Attack_Range>
+				<Explosion_Spell_Field_Range>6m radius spherical spell field</Explosion_Spell_Field_Range>
+				<Attack_Generated_Healing_Spell_Field_Range>10m radius spherical spell field</Attack_Generated_Healing_Spell_Field_Range>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106073</id>
+			<name>Blessed By The Nine</name>
+			<type>Normal</type>
+			<description>In &lt;Orange&gt;Kumiho Form&lt;/&gt;, select an ally to grant &lt;Buff&gt;Continuous Healing&lt;/&gt;, &lt;Buff&gt;Unstoppable&lt;/&gt;, and &lt;Buff&gt;Lifesteal&lt;/&gt; for a short time.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Special_Effect>Consume 100 health to activate</Special_Effect>
+				<Life-steal_Ratio>0.25</Life-steal_Ratio>
+				<Maximum_Select_Distance>50m</Maximum_Select_Distance>
+				<Healing_Over_Time_Amount>40/s</Healing_Over_Time_Amount>
+				<Unstoppable_State_Duration>3s</Unstoppable_State_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106074</id>
+			<name>Kumiho Unleashed</name>
+			<type>Ultimate</type>
+			<description>Manifest the full Nine-Tailed Fox form and &lt;Buff&gt;continuously heal&lt;/&gt; nearby allies. Cannot receive healing effects from others while in this form.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Energy_Cost>4800</Energy_Cost>
+				<Healing_Amount>85/s</Healing_Amount>
+				<Maximum_Health>900</Maximum_Health>
+				<Continuous_Healing_Spell_Field_Range>10m radius spherical spell field</Continuous_Healing_Spell_Field_Range>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>106011</id>
+			<name>Yeowoo Guseul</name>
+			<type>Weapon</type>
+			<description>Fire a Fox Marble forward that bounces off terrain or heroes, then homes in on nearby heroes. It damages enemies, heals allies, and restores &lt;Orange&gt;Spirit Tail&lt;/&gt; energy.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>Direct hit: 40 per round; bounce hit: 25 per round</Damage>
+				<Fire_Rate>0.45s per round</Fire_Rate>
+				<Healing_Amount>Direct hit: 50 per round; bounce hit: 35 per round</Healing_Amount>
+				<Maximum_Distance>35m</Maximum_Distance>
+				<Projectile_Speed>120m/s</Projectile_Speed>
+				<Bounce_Projectile_Speed>80m/s</Bounce_Projectile_Speed>
+				<Bounce_Projectile_Max_Distance>6m</Bounce_Projectile_Max_Distance>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>106041</id>
+			<name>Spectral Surge</name>
+			<type>Normal</type>
+			<description>Consume one &lt;Orange&gt;Spirit Tail&lt;/&gt; to send a spectral fox forward. It heals and grants &lt;Buff&gt;invulnerability&lt;/&gt; to allies it passes through, damages and &lt;Debuff&gt;Charms&lt;/&gt; enemies, forcing foes to move toward White Fox.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>65</Damage>
+				<Cooldown>6s</Cooldown>
+				<Charm_Duration>0.4s</Charm_Duration>
+				<Healing_Amount>65</Healing_Amount>
+				<Maximum_Distance>35m</Maximum_Distance>
+				<Projectile_Speed>60m/s</Projectile_Speed>
+				<key name="Damage/Healing Radius">3m</key>
+				<key name="Charm/Invincibility Radius">0.8m</key>
+				<key name="Allies&amp;apos; Invincibility Duration">0.4s</key>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>106051</id>
+			<name>Fox Form Awakening</name>
+			<type>Normal</type>
+			<description>Enter &lt;Orange&gt;Awakened&lt;/&gt; state, transforming &lt;Orange&gt;Spirit Tails&lt;/&gt; into physical tails. While active, continuously drain &lt;Orange&gt;Spirit Tail&lt;/&gt; energy and &lt;Buff&gt;heal&lt;/&gt; nearby allies. Striking enemies provides additional area healing.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Cooldown>15s</Cooldown>
+				<Healing_Amount>25/s</Healing_Amount>
+				<Ability_Duration>Transform 3 tails: 9s; 2 tails: 8s; 1 tail: 7s</Ability_Duration>
+				<Attack_Generated_Healing_Spell_Field_Range>10m radius spherical spell field</Attack_Generated_Healing_Spell_Field_Range>
+				<Healing_Spell_Field_That_Surrounds_the_Caster>10m radius spherical spell field</Healing_Spell_Field_That_Surrounds_the_Caster>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>106052</id>
+			<name>Claw Strike</name>
+			<type>Weapon</type>
+			<description>While &lt;Orange&gt;Awakened&lt;/&gt;, slash forward with a flurry of attacks.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>35 per hit</Damage>
+				<Attack_Range>4m</Attack_Range>
+				<Attack_Interval>0.45s per use</Attack_Interval>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>106053</id>
+			<name>Tail Sweep</name>
+			<type>Normal</type>
+			<description>While &lt;Orange&gt;Awakened&lt;/&gt;, sweep forward tails to &lt;Debuff&gt;launch up&lt;/&gt; hit enemies.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<DAMAGE>50</DAMAGE>
+				<Cooldown>3s</Cooldown>
+				<Attack_Range>5m</Attack_Range>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>106054</id>
+			<name>Predatory Pounce</name>
+			<type>Normal</type>
+			<description>While &lt;Orange&gt;Awakened&lt;/&gt;, dash forward. Hit an enemy to &lt;Debuff&gt;Slow&lt;/&gt; and flip over them, enabling a &lt;Debuff&gt;second dash&lt;/&gt; that &lt;Orange&gt;knocks back&lt;/&gt; enemies.</description>
+			<additional_fields>
+				<Key>Shift</Key>
+				<Damage>40</Damage>
+				<Cooldown>6s</Cooldown>
+				<Dash_Duration>15m</Dash_Duration>
+				<Predatory_Pounce_Second_Unleash> </Predatory_Pounce_Second_Unleash>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>106061</id>
+			<name>Spirit Sanctuary</name>
+			<type>Normal</type>
+			<description>Teleport to a chosen ally, instantly healing allies in the area while generating a shield.</description>
+			<additional_fields>
+				<Key>Shift</Key>
+				<Cooldown>12s</Cooldown>
+				<Summon_Health>200</Summon_Health>
+				<Maximum_Distance>30m</Maximum_Distance>
+				<One-time_Healing_Amount>70</One-time_Healing_Amount>
+				<Healing_Spell_Field_Range>5m radius spherical spell field</Healing_Spell_Field_Range>
+				<MAXIMUM_DURATION_FOR_SUMMONS>5s</MAXIMUM_DURATION_FOR_SUMMONS>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>106071</id>
+			<name>Kumiho Unleashed</name>
+			<type>Ultimate</type>
+			<description>Manifest the full Nine-Tailed Fox form and &lt;Buff&gt;continuously heal&lt;/&gt; nearby allies. Cannot receive healing effects from others while in this form.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Energy_Cost>4800</Energy_Cost>
+				<Healing_Amount>85/s</Healing_Amount>
+				<Maximum_Health>900</Maximum_Health>
+				<Continuous_Healing_Spell_Field_Range>10m radius spherical spell field</Continuous_Healing_Spell_Field_Range>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>106072</id>
+			<name>Ninefold Slam</name>
+			<type>Weapon</type>
+			<description>In &lt;Orange&gt;Kumiho Form&lt;/&gt;, slam the ground, causing an explosive shockwave. Hitting enemies or summons grants One-Time Healing to self and nearby allies.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>50 per hit</Damage>
+				<Healing_Amount>100 per hit</Healing_Amount>
+				<Attack_Interval>1 per second</Attack_Interval>
+				<Explosion_Damage>50 per hit</Explosion_Damage>
+				<Max_Attack_Range>5m</Max_Attack_Range>
+				<Explosion_Spell_Field_Range>6m radius spherical spell field</Explosion_Spell_Field_Range>
+				<Attack_Generated_Healing_Spell_Field_Range>10m radius spherical spell field</Attack_Generated_Healing_Spell_Field_Range>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>106073</id>
+			<name>Blessed By The Nine</name>
+			<type>Normal</type>
+			<description>In &lt;Orange&gt;Kumiho Form&lt;/&gt;, select an ally to grant &lt;Buff&gt;Continuous Healing&lt;/&gt;, &lt;Buff&gt;Unstoppable&lt;/&gt;, and &lt;Buff&gt;Lifesteal&lt;/&gt; for a short time.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Special_Effect>Consume 100 health to activate</Special_Effect>
+				<Life-steal_Ratio>0.25</Life-steal_Ratio>
+				<Maximum_Select_Distance>50m</Maximum_Select_Distance>
+				<Healing_Over_Time_Amount>40/s</Healing_Over_Time_Amount>
+				<Unstoppable_State_Duration>3s</Unstoppable_State_Duration>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+		<item>
+			<id>106074</id>
+			<name>Kumiho Unleashed</name>
+			<type>Ultimate</type>
+			<description>Manifest the full Nine-Tailed Fox form and &lt;Buff&gt;continuously heal&lt;/&gt; nearby allies. Cannot receive healing effects from others while in this form.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Energy_Cost>4800</Energy_Cost>
+				<Healing_Amount>85/s</Healing_Amount>
+				<Maximum_Health>900</Maximum_Health>
+				<Continuous_Healing_Spell_Field_Range>10m radius spherical spell field</Continuous_Healing_Spell_Field_Range>
+			</additional_fields>
+			<transformation_id>1</transformation_id>
+		</item>
+	</abilities>
+</all>

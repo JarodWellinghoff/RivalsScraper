@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1033</id>
+	<name>Black Widow</name>
+	<real_name>Natasha Romanova</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Black Widow</name>
+			<health>250</health>
+			<movement_speed>6m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Natasha Romanova is the world's most elite spy in any era. Her mastery of the sniper rifle eliminates targets from afar, while her shock batons neutralize close-range threats. Black Widow is locked, loaded, and ready to deliver a fatal bite!</description>
+	<team>
+		<item>Avengers</item>
+	</team>
+	<difficulty>4</difficulty>
+	<attack_type>Hitscan Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>103301</id>
+			<name>Widow's Bite Baton</name>
+			<type>Weapon</type>
+			<description>Strike with the enhanced electric batons.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>45</Damage>
+				<Casting>Melee</Casting>
+				<Fire_Rate>2 strikes per second</Fire_Rate>
+				<Maximum_Distance>3m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103311</id>
+			<name>Red Room Rifle</name>
+			<type>Weapon</type>
+			<description>Attack with the Red Room Rifle.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>120 damage per round</Damage>
+				<Casting>Single-cast direct hit</Casting>
+				<Fire_Rate>15</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 10m, decreasing to 50% at 20m</Damage_Falloff>
+				<Special_Effect>Shares the same magazine with Red Room Rifle. Straight Shooter activates only after aiming down sights for a specific duration; otherwise, it will fire from the Red Room Rifle</Special_Effect>
+				<Aiming_down_sights_times>0.3s</Aiming_down_sights_times>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103321</id>
+			<name>Straight Shooter</name>
+			<type>Normal</type>
+			<description>Switch the Red Room Rifle to Sniper mode to fire high-energy rounds.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Damage>120 damage per hit</Damage>
+				<Casting>Single-cast direct hit</Casting>
+				<Fire_Rate>15</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Special_Effect>Shares the same magazine with Red Room Rifle</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103322</id>
+			<name>Red Room Rifle</name>
+			<type>Normal</type>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>120 damage per round</Damage>
+				<Casting>Single-cast direct hit</Casting>
+				<Fire_Rate>15</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 10m, decreasing to 50% at 20m</Damage_Falloff>
+				<Special_Effect>Shares the same magazine with Red Room Rifle. Straight Shooter activates only after aiming down sights for a specific duration; otherwise, it will fire from the Red Room Rifle</Special_Effect>
+				<Aiming_down_sights_times>0.3s</Aiming_down_sights_times>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103323</id>
+			<name>Infra-detector</name>
+			<type>Normal</type>
+			<description>Swap the next bullet for an Infra-Detector, revealing enemy positions in its area for a short duration.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103331</id>
+			<name>Edge Dancer</name>
+			<type>Normal</type>
+			<description>Unleash a spinning kick to &lt;Debuff&gt;Launch Up&lt;/&gt; enemies. Landing the hit will allow her to zip to the target with a grappling hook for a second kick.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Melee</Casting>
+				<Cooldown>15s</Cooldown>
+				<Maximum_Distance>5m</Maximum_Distance>
+				<Flying_Kick_Damage>35</Flying_Kick_Damage>
+				<Flying_Kick_Distance>12m</Flying_Kick_Distance>
+				<Flying_Kick_Stun_Duration>1s</Flying_Kick_Stun_Duration>
+				<Flying_Kick_Casting_Window>5s</Flying_Kick_Casting_Window>
+				<CastingSpinning_Kick_Damage>35</CastingSpinning_Kick_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103332</id>
+			<name>High-energy Kick Select</name>
+			<type>Normal</type>
+			<description>When Edge Dancer is used and Black Widow is aloft, she can activate it again to unleash the accumulated energy, damaging and stunning nearby enemies.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103333</id>
+			<name>High-energy Kick</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103341</id>
+			<name>Fleet Foot</name>
+			<type>Normal</type>
+			<description>Dash forward and enable a powerful jump.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Maximum_Energy>120</Maximum_Energy>
+				<Movement_Boost>33%</Movement_Boost>
+				<Energy_Recovery_Speed>30/s</Energy_Recovery_Speed>
+				<Power_Jump_Energy_Cost>24 per leap</Power_Jump_Energy_Cost>
+				<Energy_Cost_Sprinting>12/s</Energy_Cost_Sprinting>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103351</id>
+			<name>Electro-plasma Explosion</name>
+			<type>Ultimate</type>
+			<description>Switch the Red Room Rifle to Destruction mode and unleash an electro-plasma blast, damaging enemies within range and inflicting them with &lt;Debuff&gt;Vulnerability&lt;/&gt;. Additionally, leave a plasma pool on the ground to &lt;Debuff&gt;Slow&lt;/&gt; nearby enemies.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Slow_Rate>-55%</Slow_Rate>
+				<Energy_Cost>2800</Energy_Cost>
+				<Plasma_Range>1.5m spherical radius</Plasma_Range>
+				<Explosion_Range>5.6m - 8m (Maximum range is achieved after 0.6s of charging)</Explosion_Range>
+				<Plasma_Duration>10s</Plasma_Duration>
+				<Explosion_Damage>120 - 170 (Maximum damage is achieved after 0.6s of charging)</Explosion_Damage>
+				<Projectile_Speed>100m/s</Projectile_Speed>
+				<Number_of_Plasma_Globules>7 - 20 (Maximum amount is achieved after 0.6s of charging)</Number_of_Plasma_Globules>
+				<Vulnerability_Effect_Rate>15%</Vulnerability_Effect_Rate>
+				<Vulnerability_Effect_Duration>4s</Vulnerability_Effect_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103352</id>
+			<name>Plasma Cannon Fire</name>
+			<type>Ultimate</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103361</id>
+			<name>Detector Bullet (toggle)</name>
+			<type>Normal</type>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103391</id>
+			<name>LION'S LAUNCH</name>
+			<type>Weapon</type>
+			<description>Attack with the Red Room Rifle.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>103392</id>
+			<name>FEROCIOUS THROW</name>
+			<type>Normal</type>
+			<description>Switch the Red Room Rifle to Sniper mode to fire high-energy rounds.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>41.00</rank>
+			<mover_shaker>21.00</mover_shaker>
+			<rank_calc>3.27</rank_calc>
+			<mover_shaker_calc>0.01</mover_shaker_calc>
+			<ZScore>0.23</ZScore>
+			<winrate>40.88</winrate>
+			<pickrate>3.93</pickrate>
+			<banrate>0.27</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>40.58</winrate_prev>
+			<pickrate_prev>3.98</pickrate_prev>
+			<banrate_prev>0.26</banrate_prev>
+			<winrate_change>1.00</winrate_change>
+			<pickrate_change>-1.00</pickrate_change>
+			<banrate_change>4.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>41.00</rank>
+			<mover_shaker>19.00</mover_shaker>
+			<rank_calc>3.26</rank_calc>
+			<mover_shaker_calc>0.06</mover_shaker_calc>
+			<ZScore>0.20</ZScore>
+			<winrate>40.58</winrate>
+			<pickrate>3.98</pickrate>
+			<banrate>0.26</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>40.40</winrate_prev>
+			<pickrate_prev>3.37</pickrate_prev>
+			<banrate_prev>0.23</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>18.00</pickrate_change>
+			<banrate_change>13.00</banrate_change>
+		</item>
+	</meta>
+</all>

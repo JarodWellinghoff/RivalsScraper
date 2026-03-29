@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1021</id>
+	<name>Hawkeye</name>
+	<real_name>Clint Barton</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Hawkeye</name>
+			<health>275</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>Despite his lack of superpowers, Hawkeye's unparalleled skills as a marksman have earned him a spot alongside earth's mightiest heroes. With a cool head and steady hand, Clint Barton never misses a target… so enemies best stay out of his sights! </description>
+	<team>
+		<item>Avengers</item>
+	</team>
+	<difficulty>4</difficulty>
+	<attack_type>Projectile Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>102101</id>
+			<name>Skyward Leap</name>
+			<type>Normal</type>
+			<description>Perform a double jump in the direction of movement.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Cooldown>6s</Cooldown>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102111</id>
+			<name>Archer's Focus</name>
+			<type>Normal</type>
+			<description>Aim at an enemy to improve focus, enhancing the damage inflicted by &lt;Orange&gt;Piercing Arrow&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Bonus_Damage>0 - 90 (Maximum damage is achieved after 0.9s of aiming)</Bonus_Damage>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Special_Mechanic>Apply bonus damage to the base damage of Piercing Arrow</Special_Mechanic>
+				<Triggering_Distance>40m</Triggering_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102131</id>
+			<name>Piercing Arrow</name>
+			<type>Weapon</type>
+			<description>Shoot a powerful arrow.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>Infinite</Ammo>
+				<Damage>28 - 70 (Maximum damage is achieved after 0.9s of charging)</Damage>
+				<Casting>Charged projectile with an arced trajectory</Casting>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Projectile_Speed>120 - 180 m/s (Maximum speed is achieved after 0.9s of charging)</Projectile_Speed>
+				<Minimum_Charge_Time>0.7s</Minimum_Charge_Time>
+				<Slow_Rate_While_Charging>-20%</Slow_Rate_While_Charging>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102132</id>
+			<name>Blast Arrow</name>
+			<type>Weapon</type>
+			<description>Shoot three explosive arrows.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Range>3m spherical radius</Range>
+				<Casting>Arced projectile that generates a spell field upon impact</Casting>
+				<Charges>3</Charges>
+				<Cooldown>0.5s</Cooldown>
+				<Spread_Angle>11.3°</Spread_Angle>
+				<Projectile_Speed>60 m/s</Projectile_Speed>
+				<Projectile_Damage>16</Projectile_Damage>
+				<Spell_Field_Damage>34</Spell_Field_Damage>
+				<Blast_Arrows_Per_Cast>3</Blast_Arrows_Per_Cast>
+				<Slow_Rate_While_Charging>-20%</Slow_Rate_While_Charging>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102161</id>
+			<name>Hypersonic Arrow</name>
+			<type>Normal</type>
+			<description>Shoot a Hypersonic Arrow, dealing two instances of damage to enemies in its path and inflicting them with &lt;Debuff&gt;Slow&lt;/&gt;. This ability can &lt;Debuff&gt;Knock Down&lt;/&gt; flying heroes.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Casting>Straight-line projectile that is accompanied by a spell field</Casting>
+				<Cooldown>12s</Cooldown>
+				<Slow_Rate>-40%</Slow_Rate>
+				<First_Damage>55</First_Damage>
+				<Second_Damage>55</Second_Damage>
+				<Slow_Duration>1s</Slow_Duration>
+				<Projectile_Speed>150 m/s</Projectile_Speed>
+				<First_Spell_Field_Range>Length: 3m, Width: 3m, Height: 2.7m</First_Spell_Field_Range>
+				<Second_Spell_Field_Range>Length: 3m, Width: 5m, Height: 1.6m</Second_Spell_Field_Range>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102171</id>
+			<name>Crescent Slash</name>
+			<type>Normal</type>
+			<description>Unsheathe a katana and slash forward, &lt;Debuff&gt;Launching Up&lt;/&gt; hit enemies.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Damage>40</Damage>
+				<Casting>Melee</Casting>
+				<Cooldown>12s</Cooldown>
+				<Maximum_Distance>8m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102181</id>
+			<name>Hunter's Sight</name>
+			<type>Ultimate</type>
+			<description>Capture &lt;Orange&gt;Afterimages&lt;/&gt; of enemies in his view. Damage dealt to an &lt;Orange&gt;Afterimage&lt;/&gt; is transferred to the corresponding enemy.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Duration>10s</Duration>
+				<Energy_Cost>3100</Energy_Cost>
+				<Special_Mechanic>
+						While Hunter's Sight is active, bow draw speed is increased
+						</Special_Mechanic>
+				<Afterimage_Duration>3s</Afterimage_Duration>
+				<Afterimage_Generation_Interval>0.5s</Afterimage_Generation_Interval>
+				<key name="       Draw Speed Boost Multiplier       ">1.5</key>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102191</id>
+			<name>Ronin Slash</name>
+			<type>Melee</type>
+			<description>Swing the wakizashi to strike frontal enemies, deflecting all incoming &lt;Orange&gt;projectiles&lt;/&gt;.</description>
+			<additional_fields>
+				<Key>V</Key>
+				<Casting>Melee</Casting>
+				<Special_Effect>This ability cannot block explosions or effects created by projectiles on hit</Special_Effect>
+				<Maximum_Distance>3m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102193</id>
+			<name>Ice Arrow</name>
+			<type>Normal</type>
+			<description>Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates &lt;Orange&gt;Harmony Recovery&lt;/&gt;, he can heal nearby allies with &lt;Orange&gt;Lunar Chi&lt;/&gt;. Emma Frost can project ice energy forward, dealing damage and &lt;Debuff&gt;slowing&lt;/&gt; enemies. She can also enhance her diamond form, condensing frost into an &lt;Orange&gt;Iced Out Diamond&lt;/&gt; barrier that blocks enemy attacks and movement.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102194</id>
+			<name>Moonlit Slash</name>
+			<type>Normal</type>
+			<description>Cloak &amp; Dagger share light and dark energy with Hawkeye and Psylocke. When Hawkeye uses &lt;Orange&gt;Crescent Slash&lt;/&gt;, he also releases a blade wave that heals and &lt;Buff&gt;boosts healing&lt;/&gt; for teammates, while inflicting damage and &lt;Debuff&gt;Vulnerability&lt;/&gt; on enemies. Psylocke can launch a Light Boomerang Dart that heals allies, harms enemies, and provides her with temporary healing upon return. She can also unleash a ring of Dark Darts that slow enemies while she briefly enters a &lt;Buff&gt;Phased&lt;/&gt; state.</description>
+			<additional_fields>
+				<Key>Shift</Key>
+				<Cooldown>12s</Cooldown>
+				<Healing_Boost>0.15</Healing_Boost>
+				<Blade_Wave_Range>Length: 2m, Width: 6m, Height: 2m</Blade_Wave_Range>
+				<Blade_Wave_Speed>60 m/s</Blade_Wave_Speed>
+				<Blade_Wave_Damage>60</Blade_Wave_Damage>
+				<Blade_Wave_Healing>60</Blade_Wave_Healing>
+				<Vulnerability_Ratio>0.15</Vulnerability_Ratio>
+				<Healing_Boost_Duration>4s</Healing_Boost_Duration>
+				<Vulnerability_Duration>4s</Vulnerability_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>39.00</rank>
+			<mover_shaker>31.00</mover_shaker>
+			<rank_calc>3.54</rank_calc>
+			<mover_shaker_calc>-0.43</mover_shaker_calc>
+			<ZScore>0.19</ZScore>
+			<winrate>45.33</winrate>
+			<pickrate>4.66</pickrate>
+			<banrate>0.29</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>48.79</winrate_prev>
+			<pickrate_prev>11.35</pickrate_prev>
+			<banrate_prev>1.04</banrate_prev>
+			<winrate_change>-7.00</winrate_change>
+			<pickrate_change>-59.00</pickrate_change>
+			<banrate_change>-72.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>35.00</rank>
+			<mover_shaker>35.00</mover_shaker>
+			<rank_calc>3.77</rank_calc>
+			<mover_shaker_calc>-1.59</mover_shaker_calc>
+			<ZScore>0.15</ZScore>
+			<winrate>48.79</winrate>
+			<pickrate>11.35</pickrate>
+			<banrate>1.04</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>44.73</winrate_prev>
+			<pickrate_prev>4.25</pickrate_prev>
+			<banrate_prev>0.32</banrate_prev>
+			<winrate_change>9.00</winrate_change>
+			<pickrate_change>167.00</pickrate_change>
+			<banrate_change>225.00</banrate_change>
+		</item>
+	</meta>
+</all>

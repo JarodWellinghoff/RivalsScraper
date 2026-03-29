@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1024</id>
+	<name>Hela</name>
+	<real_name>Hela</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Hela</name>
+			<health>250</health>
+			<movement_speed>6 m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>As the Goddess of Death, Hela wields supreme control over the fallen souls residing in Hel. With a haunting whisper and a murder of crows, the queen of the underworld gracefully reaps the souls of her enemies without an ounce of mercy.</description>
+	<team>
+		<item>Godsofasgard</item>
+		<item>Villains</item>
+	</team>
+	<difficulty>3</difficulty>
+	<attack_type>Hitscan Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>102411</id>
+			<name>Nastrond Crowstorm</name>
+			<type>Normal</type>
+			<description>Defeating an enemy will generate a Nastrond Crow, exploding after a duration.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Delay>1.8s</Delay>
+				<Range>5m spherical radius</Range>
+				<Damage>80</Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102431</id>
+			<name>Nightsword Thorn</name>
+			<type>Weapon</type>
+			<description>Throw Nightsword Thorns.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Ammo>10</Ammo>
+				<Damage>70</Damage>
+				<Casting>Single-cast direct hit</Casting>
+				<Fire_Rate>2 rounds per second</Fire_Rate>
+				<Critical_Hit>Yes</Critical_Hit>
+				<Damage_Falloff>Falloff begins at 18m, decreasing to 70% at 30m</Damage_Falloff>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102441</id>
+			<name>Piercing Night</name>
+			<type>Normal</type>
+			<description>Fire multiple Nightsword Thorns that detonate after a delay.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>3m spherical radius</Range>
+				<Casting>Straight-line projectile that generates a spell field upon impact</Casting>
+				<Cooldown>8s</Cooldown>
+				<Special_Effect>Projectiles stick to enemies on hit</Special_Effect>
+				<Explosion_Delay>3s</Explosion_Delay>
+				<Projectile_Speed>80 m/s</Projectile_Speed>
+				<Projectile_Damage>10</Projectile_Damage>
+				<Spell_Field_Damage>35 damage per round</Spell_Field_Damage>
+				<Number_of_Projectiles>4</Number_of_Projectiles>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102451</id>
+			<name>Astral Flock</name>
+			<type>Normal</type>
+			<description>Transform into a Nastrond Crow to glide forth, press again to undo the transformation. Gain &lt;Buff&gt;Bonus Health&lt;/&gt; when the transformation ends.</description>
+			<additional_fields>
+				<Key>Shift</Key>
+				<Casting>Dash</Casting>
+				<Cooldown>15s</Cooldown>
+				<Dash_Speed>15 m/s</Dash_Speed>
+				<Bonus_Health>25</Bonus_Health>
+				<Dash_Distance>18m</Dash_Distance>
+				<Special_Effect>Shapeshift into a Nastrond Crow and gain invincibility</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102461</id>
+			<name>Soul Drainer</name>
+			<type>Normal</type>
+			<description>Project an explosive Hel sphere to &lt;Debuff&gt;Stun&lt;/&gt; nearby enemies and pull them into the blast zone.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>3m spherical radius</Range>
+				<Damage>1</Damage>
+				<Casting>Arced projectile that generates a spell field upon impact</Casting>
+				<Cooldown>10s</Cooldown>
+				<Stun_Duration>0.3s</Stun_Duration>
+				<Projectile_Speed>40 m/s</Projectile_Speed>
+				<Spell_Field_Damage>40</Spell_Field_Damage>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102471</id>
+			<name>Goddess Of Death</name>
+			<type>Ultimate</type>
+			<description>Soar into the sky and unleash Nastrond Crows from each hand at will.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Straight-line projectile that generates a spell field upon impact</Casting>
+				<Duration>10s</Duration>
+				<Fire_Rate>1 rounds per second</Fire_Rate>
+				<Energy_Cost>4000</Energy_Cost>
+				<Explosion_Range>6m spherical radius</Explosion_Range>
+				<Explosion_Damage>125</Explosion_Damage>
+				<Projectile_Speed>80 m/s</Projectile_Speed>
+				<Nastrond_Crow_Health>1000</Nastrond_Crow_Health>
+				<Explosion_Damage_Falloff>32% falloff at 4m.</Explosion_Damage_Falloff>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102472</id>
+			<name>Goddess Of Death</name>
+			<type>Ultimate</type>
+			<additional_fields>
+				<Key>Q</Key>
+				<Casting>Straight-line projectile that generates a spell field upon impact</Casting>
+				<Duration>10s</Duration>
+				<Fire_Rate>1 rounds per second</Fire_Rate>
+				<Energy_Cost>4000</Energy_Cost>
+				<Explosion_Range>6m spherical radius</Explosion_Range>
+				<Explosion_Damage>125</Explosion_Damage>
+				<Projectile_Speed>80 m/s</Projectile_Speed>
+				<Nastrond_Crow_Health>1000</Nastrond_Crow_Health>
+				<Explosion_Damage_Falloff>32% falloff at 4m.</Explosion_Damage_Falloff>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102481</id>
+			<name>Hel's Descent</name>
+			<type>Normal</type>
+			<description>HOLD {Jump} to fall slowly.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Descending_Speed>3.5 m/s</Descending_Speed>
+				<Horizontal_Movement_Speed>6 m/s</Horizontal_Movement_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102491</id>
+			<name>Deathly Grasp</name>
+			<type>Normal</type>
+			<description>Press F to pick up a large broken object. LEFT CLICK to throw it in the direction of crosshair.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102493</id>
+			<name>Queen's Guard</name>
+			<type>Normal</type>
+			<description>Absorb nearby &lt;Orange&gt;Chronovium&lt;/&gt; and convert them into &lt;Orange&gt;bonus Health&lt;/&gt;.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102494</id>
+			<name>Hel Tendrils</name>
+			<type>Normal</type>
+			<description>Venom shares his symbiotes with Jeff and Hela. Jeff's &lt;Orange&gt;Guardian of the Deep&lt;/&gt; provides nearby allies with continuous healing, releasing a large healing burst that converts any excess into &lt;Buff&gt;Bonus Health&lt;/&gt; when it ends. Hela's &lt;Orange&gt;Hel Tendrils&lt;/&gt; pulls in nearby enemies, &lt;Debuff&gt;slowing&lt;/&gt; those that try to escape.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Range>3m spherical radius spell field</Range>
+				<Cooldown>10s</Cooldown>
+				<Slow_Effect>Slow the enemies by 20% at the center, increasing to 40% at 2.5m from the center.</Slow_Effect>
+				<Stun_Duration>0.3s</Stun_Duration>
+				<Projectile_Speed>40 m/s</Projectile_Speed>
+				<Spell_Field_Damage>40</Spell_Field_Damage>
+				<Maximum_Linking_Distance>5m</Maximum_Linking_Distance>
+				<Maximum_Linking_Duration>2s</Maximum_Linking_Duration>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>27.00</rank>
+			<mover_shaker>10.00</mover_shaker>
+			<rank_calc>3.88</rank_calc>
+			<mover_shaker_calc>0.84</mover_shaker_calc>
+			<ZScore>0.29</ZScore>
+			<winrate>48.33</winrate>
+			<pickrate>10.55</pickrate>
+			<banrate>0.91</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>52.74</winrate_prev>
+			<pickrate_prev>12.73</pickrate_prev>
+			<banrate_prev>19.14</banrate_prev>
+			<winrate_change>-8.00</winrate_change>
+			<pickrate_change>-17.00</pickrate_change>
+			<banrate_change>-95.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>11.00</rank>
+			<mover_shaker>40.00</mover_shaker>
+			<rank_calc>4.06</rank_calc>
+			<mover_shaker_calc>-34.03</mover_shaker_calc>
+			<ZScore>-0.84</ZScore>
+			<winrate>52.74</winrate>
+			<pickrate>12.73</pickrate>
+			<banrate>19.14</banrate>
+			<usage_trend>Upward</usage_trend>
+			<winrate_prev>48.37</winrate_prev>
+			<pickrate_prev>9.22</pickrate_prev>
+			<banrate_prev>1.45</banrate_prev>
+			<winrate_change>9.00</winrate_change>
+			<pickrate_change>38.00</pickrate_change>
+			<banrate_change>1220.00</banrate_change>
+		</item>
+	</meta>
+</all>

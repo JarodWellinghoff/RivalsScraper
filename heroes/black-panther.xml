@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<id>1026</id>
+	<name>Black Panther</name>
+	<real_name>T'challa</real_name>
+	<transformations>
+		<item>
+			<id>0</id>
+			<name>Black Panther</name>
+			<health>275</health>
+			<movement_speed>7m/s</movement_speed>
+		</item>
+	</transformations>
+	<description>T'Challa, King of Wakanda, wields the perfect blend of the cutting-edge Vibranium technology and ancestral power drawn from the Panther God, Bast. The Black Panther bides his time until elegantly infiltrating enemy lines and commencing his hunt.</description>
+	<team>
+		<item>Avengers</item>
+	</team>
+	<difficulty>4</difficulty>
+	<attack_type>Melee Heroes</attack_type>
+	<role>DUELIST</role>
+	<abilities>
+		<item>
+			<id>102601</id>
+			<name>Panther's Cunning</name>
+			<type>Normal</type>
+			<description>Deal higher damage when at low Health.</description>
+			<additional_fields>
+				<Key>Passive</Key>
+				<Damage_Boost>20%</Damage_Boost>
+				<Trigger_Condition>Health drops below 100</Trigger_Condition>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102611</id>
+			<name>Subtle Step</name>
+			<type>Normal</type>
+			<description>HOLD {Jump} to run on a wall; perform a jump after detaching from the wall.</description>
+			<additional_fields>
+				<Key>Space</Key>
+				<Wall-Crawling_Speed>10m/s</Wall-Crawling_Speed>
+				<Double_Jump_Cooldown>3s</Double_Jump_Cooldown>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102621</id>
+			<name>Tracker's Mark</name>
+			<type>Normal</type>
+			<description>Activate the armor's stored Vibranium energy to attach a Vibranium Mark to an enemy.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102631</id>
+			<name>Vibranium Claws</name>
+			<type>Weapon</type>
+			<description>Slice Vibranium Claws forward.</description>
+			<additional_fields>
+				<Key>Left Click</Key>
+				<Damage>35</Damage>
+				<Casting>Melee</Casting>
+				<Attack_Interval>0.44s per hit</Attack_Interval>
+				<Maximum_Distance>3m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102641</id>
+			<name>Spinning Kick</name>
+			<type>Normal</type>
+			<description>Spiral forward and attach a &lt;Orange&gt;Vibranium Mark&lt;/&gt; to hit enemies.</description>
+			<additional_fields>
+				<Key>E</Key>
+				<Damage>70</Damage>
+				<Casting>Movement-based damage ability</Casting>
+				<Cooldown>8s</Cooldown>
+				<Average_Speed>15m/s</Average_Speed>
+				<Maximum_Distance>16m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102651</id>
+			<name>Spear Toss</name>
+			<type>Normal</type>
+			<description>Toss a Vibranium energy spear forward, creating a &lt;Orange&gt;Vibranium Force Field&lt;/&gt; and attaching a &lt;Orange&gt;Vibranium Mark&lt;/&gt; to enemies in its radius.</description>
+			<additional_fields>
+				<Key>Right Click</Key>
+				<Range>5m spherical radius</Range>
+				<Damage>50</Damage>
+				<Casting>Arced projectile that generates a spell field upon impact</Casting>
+				<Charges>2</Charges>
+				<Cooldown>6s</Cooldown>
+				<Projectile_Speed>60m/s</Projectile_Speed>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102661</id>
+			<name>Spirit Rend</name>
+			<type>Normal</type>
+			<description>Lunge forward and deal damage to enemies. &lt;Orange&gt;Vibranium Mark&lt;/&gt; produces &lt;Buff&gt;Bonus Health&lt;/&gt; and refreshes the ability.</description>
+			<additional_fields>
+				<Key>SHIFT</Key>
+				<Damage>80</Damage>
+				<Casting>Movement-based damage ability</Casting>
+				<Cooldown>10s</Cooldown>
+				<Bonus_Health>25</Bonus_Health>
+				<Average_Speed>50m/s</Average_Speed>
+				<Bonus_Max_Health>75</Bonus_Max_Health>
+				<Maximum_Distance>15m</Maximum_Distance>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102671</id>
+			<name>Bast's Descent</name>
+			<type>Ultimate</type>
+			<description>Summon Bast, pouncing forward, dealing damage and attaching a &lt;Buff&gt;Vibranium Mark&lt;/&gt; to hit enemies, while refreshing &lt;Orange&gt;Spirit Rend&lt;/&gt;. Gain &lt;Buff&gt;Damage Reduction&lt;/&gt; while summoning.</description>
+			<additional_fields>
+				<Key>Q</Key>
+				<Range>Length: 22m, Width: 20m, Height: 7m</Range>
+				<Damage>150</Damage>
+				<Casting>Cuboid Spell Field</Casting>
+				<Energy_Cost>3300</Energy_Cost>
+				<Casting_Angle>150°</Casting_Angle>
+				<Special_Effect>Gain 50% Damage Reduction during Bast's Descent startup animation</Special_Effect>
+			</additional_fields>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102691</id>
+			<name>WAKANDAN MASTER</name>
+			<type>Normal</type>
+			<description>Magik opens a portal that anchors an exit at its range limit or upon reactivation. {102600}{000001}{104900}{000001}{000003}{104800} can use the portal.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+		<item>
+			<id>102695</id>
+			<name>Wakandan Master</name>
+			<type>Normal</type>
+			<description>When Magik is on the field, {102600} can tap into Limbo to rewind a few seconds back to a previous position; after passing through Limbo, {102600} will gain &lt;Buff&gt;Bonus Health&lt;/&gt; based on missing health.</description>
+			<transformation_id>0</transformation_id>
+		</item>
+	</abilities>
+	<meta>
+		<item>
+			<date>1756425600</date>
+			<rank>26.00</rank>
+			<mover_shaker>17.00</mover_shaker>
+			<rank_calc>3.88</rank_calc>
+			<mover_shaker_calc>0.19</mover_shaker_calc>
+			<ZScore>0.24</ZScore>
+			<winrate>50.00</winrate>
+			<pickrate>8.38</pickrate>
+			<banrate>40.19</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>49.88</winrate_prev>
+			<pickrate_prev>8.58</pickrate_prev>
+			<banrate_prev>42.82</banrate_prev>
+			<winrate_change>0.00</winrate_change>
+			<pickrate_change>-2.00</pickrate_change>
+			<banrate_change>-6.00</banrate_change>
+		</item>
+		<item>
+			<date>1755216000</date>
+			<rank>28.00</rank>
+			<mover_shaker>30.00</mover_shaker>
+			<rank_calc>3.86</rank_calc>
+			<mover_shaker_calc>-0.62</mover_shaker_calc>
+			<ZScore>0.18</ZScore>
+			<winrate>49.88</winrate>
+			<pickrate>8.58</pickrate>
+			<banrate>42.82</banrate>
+			<usage_trend>Downward</usage_trend>
+			<winrate_prev>50.41</winrate_prev>
+			<pickrate_prev>12.37</pickrate_prev>
+			<banrate_prev>45.94</banrate_prev>
+			<winrate_change>-1.00</winrate_change>
+			<pickrate_change>-31.00</pickrate_change>
+			<banrate_change>-7.00</banrate_change>
+		</item>
+	</meta>
+</all>
