@@ -10,70 +10,70 @@
 		</metadata>
 		<stats>
 			<timePlayed>
-				<value>1513703</value>
-				<display>420h</display>
+				<value>1517264</value>
+				<display>421h</display>
 			</timePlayed>
 			<matchesPlayed>
-				<value>2826</value>
-				<display>2,826</display>
+				<value>2834</value>
+				<display>2,834</display>
 			</matchesPlayed>
 			<matchesWon>
-				<value>1470</value>
-				<display>1,470</display>
+				<value>1476</value>
+				<display>1,476</display>
 			</matchesWon>
 			<matchesWinPct>
-				<value>52.0</value>
-				<display>52.0%</display>
+				<value>52.1</value>
+				<display>52.1%</display>
 			</matchesWinPct>
 			<kills>
-				<value>33688</value>
-				<display>33,688</display>
+				<value>33802</value>
+				<display>33,802</display>
 			</kills>
 			<deaths>
-				<value>16648</value>
-				<display>16,648</display>
+				<value>16681</value>
+				<display>16,681</display>
 			</deaths>
 			<assists>
-				<value>23172</value>
-				<display>23,172</display>
+				<value>23241</value>
+				<display>23,241</display>
 			</assists>
 			<kdRatio>
-				<value>2.023546371936569</value>
-				<display>2.02</display>
+				<value>2.0263773155086624</value>
+				<display>2.03</display>
 			</kdRatio>
 			<kdaRatio>3.42</kdaRatio>
 			<totalHeroDamage>
-				<value>22740652.01348388</value>
-				<display>22,740,652</display>
+				<value>22796580.662020203</value>
+				<display>22,796,581</display>
 			</totalHeroDamage>
 			<totalHeroDamagePerMinute>
 				<value>901.0</value>
 				<display>901</display>
 			</totalHeroDamagePerMinute>
 			<totalHeroHeal>
-				<value>14669849.572484417</value>
-				<display>14,669,850</display>
+				<value>14707112.95066969</value>
+				<display>14,707,113</display>
 			</totalHeroHeal>
 			<totalHeroHealPerMinute>
-				<value>581.0</value>
-				<display>581</display>
+				<value>582.0</value>
+				<display>582</display>
 			</totalHeroHealPerMinute>
 			<totalDamageTaken>
-				<value>34066124.48591719</value>
-				<display>34,066,124</display>
+				<value>34163186.95876435</value>
+				<display>34,163,187</display>
 			</totalDamageTaken>
 			<totalDamageTakenPerMinute>
-				<value>1350.0</value>
-				<display>1,350</display>
+				<value>1351.0</value>
+				<display>1,351</display>
 			</totalDamageTakenPerMinute>
 			<lastKills>
-				<value>11081</value>
-				<display>11,081</display>
+				<value>11098</value>
+				<display>11,098</display>
 			</lastKills>
-			<headKills>464</headKills>
+			<headKills>465</headKills>
 			<soloKills>
-				<value>2018</value>
-				<display>2,018</display>
+				<value>2019</value>
+				<display>2,019</display>
 			</soloKills>
 			<maxSurvivalKills>29</maxSurvivalKills>
 			<maxContinueKills>6</maxContinueKills>
@@ -82,34 +82,34 @@
 			<continueKills5>5</continueKills5>
 			<continueKills6>1</continueKills6>
 			<mainAttacks>
-				<value>238305429</value>
-				<display>238,305,429</display>
+				<value>238541849</value>
+				<display>238,541,849</display>
 			</mainAttacks>
 			<mainAttackHits>
-				<value>86404085</value>
-				<display>86,404,085</display>
+				<value>86473923</value>
+				<display>86,473,923</display>
 			</mainAttackHits>
 			<shieldHits>
-				<value>9254488</value>
-				<display>9,254,488</display>
+				<value>9268999</value>
+				<display>9,268,999</display>
 			</shieldHits>
 			<summonerHits>
-				<value>3352717</value>
-				<display>3,352,717</display>
+				<value>3353159</value>
+				<display>3,353,159</display>
 			</summonerHits>
 			<chaosHits>
-				<value>10084837</value>
-				<display>10,084,837</display>
+				<value>10097218</value>
+				<display>10,097,218</display>
 			</chaosHits>
-			<totalMvp>77</totalMvp>
+			<totalMvp>79</totalMvp>
 			<totalMvpPct>
-				<value>5.238095238095238</value>
-				<display>5.24</display>
+				<value>5.35230352303523</value>
+				<display>5.35</display>
 			</totalMvpPct>
 			<totalSvp>86</totalSvp>
 			<totalSvpPct>
-				<value>6.342182890855458</value>
-				<display>6.34</display>
+				<value>6.332842415316642</value>
+				<display>6.33</display>
 			</totalSvpPct>
 			<ranked>
 				<value>3550.0</value>
@@ -5445,6 +5445,646 @@
 	<item>
 		<type>hero</type>
 		<attributes>
+			<heroId>1058</heroId>
+			<mode>all</mode>
+			<role>strategist</role>
+		</attributes>
+		<metadata>
+			<hero_name>Gambit</hero_name>
+			<roleName>Strategist</roleName>
+		</metadata>
+		<stats>
+			<timePlayed>
+				<value>37317.95</value>
+				<display>10h 21m</display>
+			</timePlayed>
+			<timePlayedWon>
+				<value>17276.348</value>
+				<display>4h 47m</display>
+			</timePlayedWon>
+			<matchesPlayed>69.7</matchesPlayed>
+			<matchesWon>
+				<value>33.2</value>
+				<display>33</display>
+			</matchesWon>
+			<matchesWinPct>
+				<value>47.63271162123387</value>
+				<display>47.6%</display>
+			</matchesWinPct>
+			<kills>819</kills>
+			<deaths>407</deaths>
+			<assists>
+				<value>1033</value>
+				<display>1,033</display>
+			</assists>
+			<kdRatio>
+				<value>2.0122850122850124</value>
+				<display>2.01</display>
+			</kdRatio>
+			<kdaRatio>
+				<value>4.5503685503685505</value>
+				<display>4.55</display>
+			</kdaRatio>
+			<totalHeroDamage>
+				<value>453459.76652640104</value>
+				<display>453,460</display>
+			</totalHeroDamage>
+			<totalHeroDamagePerMinute>
+				<value>729.0</value>
+				<display>729</display>
+			</totalHeroDamagePerMinute>
+			<totalHeroHeal>
+				<value>870285.4085025787</value>
+				<display>870,285</display>
+			</totalHeroHeal>
+			<totalHeroHealPerMinute>
+				<value>1399.0</value>
+				<display>1,399</display>
+			</totalHeroHealPerMinute>
+			<totalDamageTaken>
+				<value>440857.11061257124</value>
+				<display>440,857</display>
+			</totalDamageTaken>
+			<totalDamageTakenPerMinute>
+				<value>709.0</value>
+				<display>709</display>
+			</totalDamageTakenPerMinute>
+			<lastKills>226</lastKills>
+			<headKills>0</headKills>
+			<soloKills>16</soloKills>
+			<survivalKills>380</survivalKills>
+			<continueKills>93</continueKills>
+			<continueKills3>2</continueKills3>
+			<continueKills4>1</continueKills4>
+			<continueKills5>0</continueKills5>
+			<continueKills6>0</continueKills6>
+			<mainAttacks>
+				<value>17815821</value>
+				<display>17,815,821</display>
+			</mainAttacks>
+			<mainAttackHits>
+				<value>5702301</value>
+				<display>5,702,301</display>
+			</mainAttackHits>
+			<shieldHits>
+				<value>590835</value>
+				<display>590,835</display>
+			</shieldHits>
+			<summonerHits>
+				<value>202302</value>
+				<display>202,302</display>
+			</summonerHits>
+			<chaosHits>
+				<value>811486</value>
+				<display>811,486</display>
+			</chaosHits>
+			<totalMvp>4</totalMvp>
+			<totalSvp>4</totalSvp>
+			<featureNormalData1>
+				<value>67.0</value>
+				<display>67</display>
+			</featureNormalData1>
+			<featureNormalData2>
+				<value>401.0</value>
+				<display>401</display>
+			</featureNormalData2>
+			<featureNormalData3>
+				<value>271.0</value>
+				<display>271</display>
+			</featureNormalData3>
+			<featureCriticalRate1CritHits/>
+			<featureCriticalRate1Hits/>
+			<featureCriticalRate2CritHits/>
+			<featureCriticalRate2Hits/>
+			<featureHitRate1UseCount/>
+			<featureHitRate1RealHitHeroCount/>
+			<featureHitRate1ChaosHits/>
+			<featureHitRate1AllyHits/>
+			<featureHitRate1HeroHits/>
+			<featureHitRate1EnemyHits/>
+			<featureHitRate1ShieldHits/>
+			<featureHitRate1SummonerHits/>
+			<featureHitRate2UseCount/>
+			<featureHitRate2RealHitHeroCount/>
+			<featureHitRate2ChaosHits/>
+			<featureHitRate2AllyHits/>
+			<featureHitRate2HeroHits/>
+			<featureHitRate2EnemyHits/>
+			<featureHitRate2ShieldHits/>
+			<featureHitRate2SummonerHits/>
+			<featureSpecialData1Total/>
+			<featureSpecialData1Value/>
+		</stats>
+	</item>
+	<item>
+		<type>hero</type>
+		<attributes>
+			<heroId>10571</heroId>
+			<mode>all</mode>
+			<role>vanguard</role>
+		</attributes>
+		<metadata>
+			<hero_name>Deadpool (Vanguard)</hero_name>
+			<roleName>Vanguard</roleName>
+		</metadata>
+		<stats>
+			<timePlayed>
+				<value>103287.914</value>
+				<display>28h</display>
+			</timePlayed>
+			<timePlayedWon>
+				<value>55952.221</value>
+				<display>15h</display>
+			</timePlayedWon>
+			<matchesPlayed>189.0</matchesPlayed>
+			<matchesWon>
+				<value>101.2</value>
+				<display>101</display>
+			</matchesWon>
+			<matchesWinPct>
+				<value>53.54497354497355</value>
+				<display>53.5%</display>
+			</matchesWinPct>
+			<kills>
+				<value>2511</value>
+				<display>2,511</display>
+			</kills>
+			<deaths>
+				<value>1197</value>
+				<display>1,197</display>
+			</deaths>
+			<assists>820</assists>
+			<kdRatio>
+				<value>2.0977443609022557</value>
+				<display>2.10</display>
+			</kdRatio>
+			<kdaRatio>
+				<value>2.7827903091060984</value>
+				<display>2.78</display>
+			</kdaRatio>
+			<totalHeroDamage>
+				<value>2093458.119728949</value>
+				<display>2,093,458</display>
+			</totalHeroDamage>
+			<totalHeroDamagePerMinute>
+				<value>1216.0</value>
+				<display>1,216</display>
+			</totalHeroDamagePerMinute>
+			<totalHeroHeal>
+				<value>317131.1360872984</value>
+				<display>317,131</display>
+			</totalHeroHeal>
+			<totalHeroHealPerMinute>
+				<value>184.0</value>
+				<display>184</display>
+			</totalHeroHealPerMinute>
+			<totalDamageTaken>
+				<value>3727576.0612868965</value>
+				<display>3,727,576</display>
+			</totalDamageTaken>
+			<totalDamageTakenPerMinute>
+				<value>2165.0</value>
+				<display>2,165</display>
+			</totalDamageTakenPerMinute>
+			<lastKills>728</lastKills>
+			<headKills>69</headKills>
+			<soloKills>115</soloKills>
+			<survivalKills>
+				<value>1164</value>
+				<display>1,164</display>
+			</survivalKills>
+			<continueKills>223</continueKills>
+			<continueKills3>4</continueKills3>
+			<continueKills4>0</continueKills4>
+			<continueKills5>0</continueKills5>
+			<continueKills6>0</continueKills6>
+			<mainAttacks>
+				<value>5495373</value>
+				<display>5,495,373</display>
+			</mainAttacks>
+			<mainAttackHits>
+				<value>1516760</value>
+				<display>1,516,760</display>
+			</mainAttackHits>
+			<shieldHits>
+				<value>367732</value>
+				<display>367,732</display>
+			</shieldHits>
+			<summonerHits>
+				<value>91796</value>
+				<display>91,796</display>
+			</summonerHits>
+			<chaosHits>
+				<value>273926</value>
+				<display>273,926</display>
+			</chaosHits>
+			<totalMvp>3</totalMvp>
+			<totalSvp>2</totalSvp>
+			<featureNormalData1>
+				<value>852314.4181518555</value>
+				<display>852,314</display>
+			</featureNormalData1>
+			<featureNormalData2>
+				<value>838.0</value>
+				<display>838</display>
+			</featureNormalData2>
+			<featureNormalData3/>
+			<featureCriticalRate1CritHits>
+				<value>2190</value>
+				<display>2,190</display>
+			</featureCriticalRate1CritHits>
+			<featureCriticalRate1Hits>
+				<value>29493</value>
+				<display>29,493</display>
+			</featureCriticalRate1Hits>
+			<featureCriticalRate2CritHits/>
+			<featureCriticalRate2Hits/>
+			<featureHitRate1UseCount/>
+			<featureHitRate1RealHitHeroCount/>
+			<featureHitRate1ChaosHits/>
+			<featureHitRate1AllyHits/>
+			<featureHitRate1HeroHits/>
+			<featureHitRate1EnemyHits/>
+			<featureHitRate1ShieldHits/>
+			<featureHitRate1SummonerHits/>
+			<featureHitRate2UseCount/>
+			<featureHitRate2RealHitHeroCount/>
+			<featureHitRate2ChaosHits/>
+			<featureHitRate2AllyHits/>
+			<featureHitRate2HeroHits/>
+			<featureHitRate2EnemyHits/>
+			<featureHitRate2ShieldHits/>
+			<featureHitRate2SummonerHits/>
+			<featureSpecialData1Total/>
+			<featureSpecialData1Value/>
+		</stats>
+	</item>
+	<item>
+		<type>hero</type>
+		<attributes>
+			<heroId>1036</heroId>
+			<mode>all</mode>
+			<role>duelist</role>
+		</attributes>
+		<metadata>
+			<hero_name>Spider-Man</hero_name>
+			<roleName>Duelist</roleName>
+		</metadata>
+		<stats>
+			<timePlayed>
+				<value>1889.624</value>
+				<display>31m 29s</display>
+			</timePlayed>
+			<timePlayedWon>
+				<value>0.0</value>
+				<display>0s</display>
+			</timePlayedWon>
+			<matchesPlayed>3.5</matchesPlayed>
+			<matchesWon>
+				<value>0.0</value>
+				<display>0</display>
+			</matchesWon>
+			<matchesWinPct>
+				<value>0.0</value>
+				<display>0.0%</display>
+			</matchesWinPct>
+			<kills>21</kills>
+			<deaths>35</deaths>
+			<assists>8</assists>
+			<kdRatio>
+				<value>0.6</value>
+				<display>0.60</display>
+			</kdRatio>
+			<kdaRatio>
+				<value>0.8285714285714286</value>
+				<display>0.83</display>
+			</kdaRatio>
+			<totalHeroDamage>
+				<value>15827.554573118687</value>
+				<display>15,828</display>
+			</totalHeroDamage>
+			<totalHeroDamagePerMinute>
+				<value>503.0</value>
+				<display>503</display>
+			</totalHeroDamagePerMinute>
+			<totalHeroHeal>
+				<value>0.0</value>
+				<display>0</display>
+			</totalHeroHeal>
+			<totalHeroHealPerMinute>
+				<value>0.0</value>
+				<display>0</display>
+			</totalHeroHealPerMinute>
+			<totalDamageTaken>
+				<value>17493.53109073639</value>
+				<display>17,494</display>
+			</totalDamageTaken>
+			<totalDamageTakenPerMinute>
+				<value>555.0</value>
+				<display>555</display>
+			</totalDamageTakenPerMinute>
+			<lastKills>11</lastKills>
+			<headKills>0</headKills>
+			<soloKills>4</soloKills>
+			<survivalKills>10</survivalKills>
+			<continueKills>4</continueKills>
+			<continueKills3>0</continueKills3>
+			<continueKills4>0</continueKills4>
+			<continueKills5>0</continueKills5>
+			<continueKills6>0</continueKills6>
+			<mainAttacks>689</mainAttacks>
+			<mainAttackHits>70</mainAttackHits>
+			<shieldHits>19</shieldHits>
+			<summonerHits>0</summonerHits>
+			<chaosHits>1</chaosHits>
+			<totalMvp>0</totalMvp>
+			<totalSvp>0</totalSvp>
+			<featureNormalData1>
+				<value>5.0</value>
+				<display>5</display>
+			</featureNormalData1>
+			<featureNormalData2/>
+			<featureNormalData3/>
+			<featureCriticalRate1CritHits/>
+			<featureCriticalRate1Hits/>
+			<featureCriticalRate2CritHits/>
+			<featureCriticalRate2Hits/>
+			<featureHitRate1UseCount>495</featureHitRate1UseCount>
+			<featureHitRate1RealHitHeroCount>0</featureHitRate1RealHitHeroCount>
+			<featureHitRate1ChaosHits>12</featureHitRate1ChaosHits>
+			<featureHitRate1AllyHits>0</featureHitRate1AllyHits>
+			<featureHitRate1HeroHits>141</featureHitRate1HeroHits>
+			<featureHitRate1EnemyHits>141</featureHitRate1EnemyHits>
+			<featureHitRate1ShieldHits>23</featureHitRate1ShieldHits>
+			<featureHitRate1SummonerHits>2</featureHitRate1SummonerHits>
+			<featureHitRate2UseCount/>
+			<featureHitRate2RealHitHeroCount/>
+			<featureHitRate2ChaosHits/>
+			<featureHitRate2AllyHits/>
+			<featureHitRate2HeroHits/>
+			<featureHitRate2EnemyHits/>
+			<featureHitRate2ShieldHits/>
+			<featureHitRate2SummonerHits/>
+			<featureSpecialData1Total/>
+			<featureSpecialData1Value/>
+		</stats>
+	</item>
+	<item>
+		<type>hero</type>
+		<attributes>
+			<heroId>10573</heroId>
+			<mode>all</mode>
+			<role>strategist</role>
+		</attributes>
+		<metadata>
+			<hero_name>Deadpool (Strategist)</hero_name>
+			<roleName>Strategist</roleName>
+		</metadata>
+		<stats>
+			<timePlayed>
+				<value>13765.48</value>
+				<display>3h 49m</display>
+			</timePlayed>
+			<timePlayedWon>
+				<value>7351.4</value>
+				<display>2h 02m</display>
+			</timePlayedWon>
+			<matchesPlayed>28.3</matchesPlayed>
+			<matchesWon>
+				<value>14.9</value>
+				<display>15</display>
+			</matchesWon>
+			<matchesWinPct>
+				<value>52.65017667844523</value>
+				<display>52.7%</display>
+			</matchesWinPct>
+			<kills>325</kills>
+			<deaths>150</deaths>
+			<assists>353</assists>
+			<kdRatio>
+				<value>2.1666666666666665</value>
+				<display>2.17</display>
+			</kdRatio>
+			<kdaRatio>4.52</kdaRatio>
+			<totalHeroDamage>
+				<value>189669.202925995</value>
+				<display>189,669</display>
+			</totalHeroDamage>
+			<totalHeroDamagePerMinute>
+				<value>827.0</value>
+				<display>827</display>
+			</totalHeroDamagePerMinute>
+			<totalHeroHeal>
+				<value>357721.6245713234</value>
+				<display>357,722</display>
+			</totalHeroHeal>
+			<totalHeroHealPerMinute>
+				<value>1559.0</value>
+				<display>1,559</display>
+			</totalHeroHealPerMinute>
+			<totalDamageTaken>
+				<value>218605.76719501615</value>
+				<display>218,606</display>
+			</totalDamageTaken>
+			<totalDamageTakenPerMinute>
+				<value>953.0</value>
+				<display>953</display>
+			</totalDamageTakenPerMinute>
+			<lastKills>52</lastKills>
+			<headKills>1</headKills>
+			<soloKills>6</soloKills>
+			<survivalKills>140</survivalKills>
+			<continueKills>27</continueKills>
+			<continueKills3>0</continueKills3>
+			<continueKills4>0</continueKills4>
+			<continueKills5>0</continueKills5>
+			<continueKills6>0</continueKills6>
+			<mainAttacks>
+				<value>758218</value>
+				<display>758,218</display>
+			</mainAttacks>
+			<mainAttackHits>
+				<value>303303</value>
+				<display>303,303</display>
+			</mainAttackHits>
+			<shieldHits>
+				<value>27143</value>
+				<display>27,143</display>
+			</shieldHits>
+			<summonerHits>
+				<value>4739</value>
+				<display>4,739</display>
+			</summonerHits>
+			<chaosHits>
+				<value>32554</value>
+				<display>32,554</display>
+			</chaosHits>
+			<totalMvp>4</totalMvp>
+			<totalSvp>0</totalSvp>
+			<featureNormalData1>
+				<value>19200.0</value>
+				<display>19,200</display>
+			</featureNormalData1>
+			<featureNormalData2>
+				<value>134.0</value>
+				<display>134</display>
+			</featureNormalData2>
+			<featureNormalData3/>
+			<featureCriticalRate1CritHits>107</featureCriticalRate1CritHits>
+			<featureCriticalRate1Hits>
+				<value>1890</value>
+				<display>1,890</display>
+			</featureCriticalRate1Hits>
+			<featureCriticalRate2CritHits/>
+			<featureCriticalRate2Hits/>
+			<featureHitRate1UseCount/>
+			<featureHitRate1RealHitHeroCount/>
+			<featureHitRate1ChaosHits/>
+			<featureHitRate1AllyHits/>
+			<featureHitRate1HeroHits/>
+			<featureHitRate1EnemyHits/>
+			<featureHitRate1ShieldHits/>
+			<featureHitRate1SummonerHits/>
+			<featureHitRate2UseCount/>
+			<featureHitRate2RealHitHeroCount/>
+			<featureHitRate2ChaosHits/>
+			<featureHitRate2AllyHits/>
+			<featureHitRate2HeroHits/>
+			<featureHitRate2EnemyHits/>
+			<featureHitRate2ShieldHits/>
+			<featureHitRate2SummonerHits/>
+			<featureSpecialData1Total/>
+			<featureSpecialData1Value/>
+		</stats>
+	</item>
+	<item>
+		<type>hero</type>
+		<attributes>
+			<heroId>1059</heroId>
+			<mode>all</mode>
+			<role>duelist</role>
+		</attributes>
+		<metadata>
+			<hero_name>Elsa Bloodstone</hero_name>
+			<roleName>Duelist</roleName>
+		</metadata>
+		<stats>
+			<timePlayed>
+				<value>2463.633</value>
+				<display>41m 03s</display>
+			</timePlayed>
+			<timePlayedWon>
+				<value>1097.739</value>
+				<display>18m 17s</display>
+			</timePlayedWon>
+			<matchesPlayed>4.8</matchesPlayed>
+			<matchesWon>
+				<value>2.2</value>
+				<display>2</display>
+			</matchesWon>
+			<matchesWinPct>
+				<value>45.833333333333336</value>
+				<display>45.8%</display>
+			</matchesWinPct>
+			<kills>55</kills>
+			<deaths>35</deaths>
+			<assists>6</assists>
+			<kdRatio>
+				<value>1.5714285714285714</value>
+				<display>1.57</display>
+			</kdRatio>
+			<kdaRatio>
+				<value>1.7428571428571429</value>
+				<display>1.74</display>
+			</kdaRatio>
+			<totalHeroDamage>
+				<value>44597.447638869286</value>
+				<display>44,597</display>
+			</totalHeroDamage>
+			<totalHeroDamagePerMinute>
+				<value>1086.0</value>
+				<display>1,086</display>
+			</totalHeroDamagePerMinute>
+			<totalHeroHeal>
+				<value>191.89073181152344</value>
+				<display>192</display>
+			</totalHeroHeal>
+			<totalHeroHealPerMinute>
+				<value>5.0</value>
+				<display>5</display>
+			</totalHeroHealPerMinute>
+			<totalDamageTaken>
+				<value>39143.26223152876</value>
+				<display>39,143</display>
+			</totalDamageTaken>
+			<totalDamageTakenPerMinute>
+				<value>953.0</value>
+				<display>953</display>
+			</totalDamageTakenPerMinute>
+			<lastKills>18</lastKills>
+			<headKills>1</headKills>
+			<soloKills>0</soloKills>
+			<survivalKills>20</survivalKills>
+			<continueKills>7</continueKills>
+			<continueKills3>0</continueKills3>
+			<continueKills4>0</continueKills4>
+			<continueKills5>0</continueKills5>
+			<continueKills6>0</continueKills6>
+			<mainAttacks>
+				<value>1095280</value>
+				<display>1,095,280</display>
+			</mainAttacks>
+			<mainAttackHits>
+				<value>313853</value>
+				<display>313,853</display>
+			</mainAttackHits>
+			<shieldHits>
+				<value>151225</value>
+				<display>151,225</display>
+			</shieldHits>
+			<summonerHits>
+				<value>10892</value>
+				<display>10,892</display>
+			</summonerHits>
+			<chaosHits>
+				<value>50971</value>
+				<display>50,971</display>
+			</chaosHits>
+			<totalMvp>0</totalMvp>
+			<totalSvp>0</totalSvp>
+			<featureNormalData1>
+				<value>2.0</value>
+				<display>2</display>
+			</featureNormalData1>
+			<featureNormalData2/>
+			<featureNormalData3/>
+			<featureCriticalRate1CritHits>75</featureCriticalRate1CritHits>
+			<featureCriticalRate1Hits>560</featureCriticalRate1Hits>
+			<featureCriticalRate2CritHits/>
+			<featureCriticalRate2Hits/>
+			<featureHitRate1UseCount>190</featureHitRate1UseCount>
+			<featureHitRate1RealHitHeroCount>0</featureHitRate1RealHitHeroCount>
+			<featureHitRate1ChaosHits>21</featureHitRate1ChaosHits>
+			<featureHitRate1AllyHits>0</featureHitRate1AllyHits>
+			<featureHitRate1HeroHits>55</featureHitRate1HeroHits>
+			<featureHitRate1EnemyHits>55</featureHitRate1EnemyHits>
+			<featureHitRate1ShieldHits>0</featureHitRate1ShieldHits>
+			<featureHitRate1SummonerHits>0</featureHitRate1SummonerHits>
+			<featureHitRate2UseCount/>
+			<featureHitRate2RealHitHeroCount/>
+			<featureHitRate2ChaosHits/>
+			<featureHitRate2AllyHits/>
+			<featureHitRate2HeroHits/>
+			<featureHitRate2EnemyHits/>
+			<featureHitRate2ShieldHits/>
+			<featureHitRate2SummonerHits/>
+			<featureSpecialData1Total/>
+			<featureSpecialData1Value/>
+		</stats>
+	</item>
+	<item>
+		<type>hero</type>
+		<attributes>
 			<heroId>10572</heroId>
 			<mode>all</mode>
 			<role>duelist</role>
@@ -5686,649 +6326,6 @@
 	<item>
 		<type>hero</type>
 		<attributes>
-			<heroId>1058</heroId>
-			<mode>all</mode>
-			<role>strategist</role>
-		</attributes>
-		<metadata>
-			<hero_name>Gambit</hero_name>
-			<roleName>Strategist</roleName>
-		</metadata>
-		<stats>
-			<timePlayed>
-				<value>37317.95</value>
-				<display>10h 21m</display>
-			</timePlayed>
-			<timePlayedWon>
-				<value>17276.348</value>
-				<display>4h 47m</display>
-			</timePlayedWon>
-			<matchesPlayed>69.7</matchesPlayed>
-			<matchesWon>
-				<value>33.2</value>
-				<display>33</display>
-			</matchesWon>
-			<matchesWinPct>
-				<value>47.63271162123387</value>
-				<display>47.6%</display>
-			</matchesWinPct>
-			<kills>819</kills>
-			<deaths>407</deaths>
-			<assists>
-				<value>1033</value>
-				<display>1,033</display>
-			</assists>
-			<kdRatio>
-				<value>2.0122850122850124</value>
-				<display>2.01</display>
-			</kdRatio>
-			<kdaRatio>
-				<value>4.5503685503685505</value>
-				<display>4.55</display>
-			</kdaRatio>
-			<totalHeroDamage>
-				<value>453459.76652640104</value>
-				<display>453,460</display>
-			</totalHeroDamage>
-			<totalHeroDamagePerMinute>
-				<value>729.0</value>
-				<display>729</display>
-			</totalHeroDamagePerMinute>
-			<totalHeroHeal>
-				<value>870285.4085025787</value>
-				<display>870,285</display>
-			</totalHeroHeal>
-			<totalHeroHealPerMinute>
-				<value>1399.0</value>
-				<display>1,399</display>
-			</totalHeroHealPerMinute>
-			<totalDamageTaken>
-				<value>440857.11061257124</value>
-				<display>440,857</display>
-			</totalDamageTaken>
-			<totalDamageTakenPerMinute>
-				<value>709.0</value>
-				<display>709</display>
-			</totalDamageTakenPerMinute>
-			<lastKills>226</lastKills>
-			<headKills>0</headKills>
-			<soloKills>16</soloKills>
-			<survivalKills>380</survivalKills>
-			<continueKills>93</continueKills>
-			<continueKills3>2</continueKills3>
-			<continueKills4>1</continueKills4>
-			<continueKills5>0</continueKills5>
-			<continueKills6>0</continueKills6>
-			<mainAttacks>
-				<value>17815821</value>
-				<display>17,815,821</display>
-			</mainAttacks>
-			<mainAttackHits>
-				<value>5702301</value>
-				<display>5,702,301</display>
-			</mainAttackHits>
-			<shieldHits>
-				<value>590835</value>
-				<display>590,835</display>
-			</shieldHits>
-			<summonerHits>
-				<value>202302</value>
-				<display>202,302</display>
-			</summonerHits>
-			<chaosHits>
-				<value>811486</value>
-				<display>811,486</display>
-			</chaosHits>
-			<totalMvp>4</totalMvp>
-			<totalSvp>4</totalSvp>
-			<featureNormalData1>
-				<value>67.0</value>
-				<display>67</display>
-			</featureNormalData1>
-			<featureNormalData2>
-				<value>401.0</value>
-				<display>401</display>
-			</featureNormalData2>
-			<featureNormalData3>
-				<value>271.0</value>
-				<display>271</display>
-			</featureNormalData3>
-			<featureCriticalRate1CritHits/>
-			<featureCriticalRate1Hits/>
-			<featureCriticalRate2CritHits/>
-			<featureCriticalRate2Hits/>
-			<featureHitRate1UseCount/>
-			<featureHitRate1RealHitHeroCount/>
-			<featureHitRate1ChaosHits/>
-			<featureHitRate1AllyHits/>
-			<featureHitRate1HeroHits/>
-			<featureHitRate1EnemyHits/>
-			<featureHitRate1ShieldHits/>
-			<featureHitRate1SummonerHits/>
-			<featureHitRate2UseCount/>
-			<featureHitRate2RealHitHeroCount/>
-			<featureHitRate2ChaosHits/>
-			<featureHitRate2AllyHits/>
-			<featureHitRate2HeroHits/>
-			<featureHitRate2EnemyHits/>
-			<featureHitRate2ShieldHits/>
-			<featureHitRate2SummonerHits/>
-			<featureSpecialData1Total/>
-			<featureSpecialData1Value/>
-		</stats>
-	</item>
-	<item>
-		<type>hero</type>
-		<attributes>
-			<heroId>10571</heroId>
-			<mode>all</mode>
-			<role>vanguard</role>
-		</attributes>
-		<metadata>
-			<hero_name>Deadpool (Vanguard)</hero_name>
-			<roleName>Vanguard</roleName>
-		</metadata>
-		<stats>
-			<timePlayed>
-				<value>100946.903</value>
-				<display>28h</display>
-			</timePlayed>
-			<timePlayedWon>
-				<value>54868.433</value>
-				<display>15h</display>
-			</timePlayedWon>
-			<matchesPlayed>184.3</matchesPlayed>
-			<matchesWon>
-				<value>98.2</value>
-				<display>98</display>
-			</matchesWon>
-			<matchesWinPct>
-				<value>53.28269126424308</value>
-				<display>53.3%</display>
-			</matchesWinPct>
-			<kills>
-				<value>2452</value>
-				<display>2,452</display>
-			</kills>
-			<deaths>
-				<value>1175</value>
-				<display>1,175</display>
-			</deaths>
-			<assists>796</assists>
-			<kdRatio>
-				<value>2.086808510638298</value>
-				<display>2.09</display>
-			</kdRatio>
-			<kdaRatio>
-				<value>2.764255319148936</value>
-				<display>2.76</display>
-			</kdaRatio>
-			<totalHeroDamage>
-				<value>2052609.1143283509</value>
-				<display>2,052,609</display>
-			</totalHeroDamage>
-			<totalHeroDamagePerMinute>
-				<value>1220.0</value>
-				<display>1,220</display>
-			</totalHeroDamagePerMinute>
-			<totalHeroHeal>
-				<value>311467.36396205425</value>
-				<display>311,467</display>
-			</totalHeroHeal>
-			<totalHeroHealPerMinute>
-				<value>185.0</value>
-				<display>185</display>
-			</totalHeroHealPerMinute>
-			<totalDamageTaken>
-				<value>3643883.8001158535</value>
-				<display>3,643,884</display>
-			</totalDamageTaken>
-			<totalDamageTakenPerMinute>
-				<value>2166.0</value>
-				<display>2,166</display>
-			</totalDamageTakenPerMinute>
-			<lastKills>717</lastKills>
-			<headKills>68</headKills>
-			<soloKills>115</soloKills>
-			<survivalKills>
-				<value>1136</value>
-				<display>1,136</display>
-			</survivalKills>
-			<continueKills>218</continueKills>
-			<continueKills3>4</continueKills3>
-			<continueKills4>0</continueKills4>
-			<continueKills5>0</continueKills5>
-			<continueKills6>0</continueKills6>
-			<mainAttacks>
-				<value>5379403</value>
-				<display>5,379,403</display>
-			</mainAttacks>
-			<mainAttackHits>
-				<value>1487553</value>
-				<display>1,487,553</display>
-			</mainAttackHits>
-			<shieldHits>
-				<value>359501</value>
-				<display>359,501</display>
-			</shieldHits>
-			<summonerHits>
-				<value>91593</value>
-				<display>91,593</display>
-			</summonerHits>
-			<chaosHits>
-				<value>269178</value>
-				<display>269,178</display>
-			</chaosHits>
-			<totalMvp>3</totalMvp>
-			<totalSvp>2</totalSvp>
-			<featureNormalData1>
-				<value>830555.4911499023</value>
-				<display>830,555</display>
-			</featureNormalData1>
-			<featureNormalData2>
-				<value>824.0</value>
-				<display>824</display>
-			</featureNormalData2>
-			<featureNormalData3/>
-			<featureCriticalRate1CritHits>
-				<value>2150</value>
-				<display>2,150</display>
-			</featureCriticalRate1CritHits>
-			<featureCriticalRate1Hits>
-				<value>28818</value>
-				<display>28,818</display>
-			</featureCriticalRate1Hits>
-			<featureCriticalRate2CritHits/>
-			<featureCriticalRate2Hits/>
-			<featureHitRate1UseCount/>
-			<featureHitRate1RealHitHeroCount/>
-			<featureHitRate1ChaosHits/>
-			<featureHitRate1AllyHits/>
-			<featureHitRate1HeroHits/>
-			<featureHitRate1EnemyHits/>
-			<featureHitRate1ShieldHits/>
-			<featureHitRate1SummonerHits/>
-			<featureHitRate2UseCount/>
-			<featureHitRate2RealHitHeroCount/>
-			<featureHitRate2ChaosHits/>
-			<featureHitRate2AllyHits/>
-			<featureHitRate2HeroHits/>
-			<featureHitRate2EnemyHits/>
-			<featureHitRate2ShieldHits/>
-			<featureHitRate2SummonerHits/>
-			<featureSpecialData1Total/>
-			<featureSpecialData1Value/>
-		</stats>
-	</item>
-	<item>
-		<type>hero</type>
-		<attributes>
-			<heroId>1036</heroId>
-			<mode>all</mode>
-			<role>duelist</role>
-		</attributes>
-		<metadata>
-			<hero_name>Spider-Man</hero_name>
-			<roleName>Duelist</roleName>
-		</metadata>
-		<stats>
-			<timePlayed>
-				<value>1889.624</value>
-				<display>31m 29s</display>
-			</timePlayed>
-			<timePlayedWon>
-				<value>0.0</value>
-				<display>0s</display>
-			</timePlayedWon>
-			<matchesPlayed>3.5</matchesPlayed>
-			<matchesWon>
-				<value>0.0</value>
-				<display>0</display>
-			</matchesWon>
-			<matchesWinPct>
-				<value>0.0</value>
-				<display>0.0%</display>
-			</matchesWinPct>
-			<kills>21</kills>
-			<deaths>35</deaths>
-			<assists>8</assists>
-			<kdRatio>
-				<value>0.6</value>
-				<display>0.60</display>
-			</kdRatio>
-			<kdaRatio>
-				<value>0.8285714285714286</value>
-				<display>0.83</display>
-			</kdaRatio>
-			<totalHeroDamage>
-				<value>15827.554573118687</value>
-				<display>15,828</display>
-			</totalHeroDamage>
-			<totalHeroDamagePerMinute>
-				<value>503.0</value>
-				<display>503</display>
-			</totalHeroDamagePerMinute>
-			<totalHeroHeal>
-				<value>0.0</value>
-				<display>0</display>
-			</totalHeroHeal>
-			<totalHeroHealPerMinute>
-				<value>0.0</value>
-				<display>0</display>
-			</totalHeroHealPerMinute>
-			<totalDamageTaken>
-				<value>17493.53109073639</value>
-				<display>17,494</display>
-			</totalDamageTaken>
-			<totalDamageTakenPerMinute>
-				<value>555.0</value>
-				<display>555</display>
-			</totalDamageTakenPerMinute>
-			<lastKills>11</lastKills>
-			<headKills>0</headKills>
-			<soloKills>4</soloKills>
-			<survivalKills>10</survivalKills>
-			<continueKills>4</continueKills>
-			<continueKills3>0</continueKills3>
-			<continueKills4>0</continueKills4>
-			<continueKills5>0</continueKills5>
-			<continueKills6>0</continueKills6>
-			<mainAttacks>689</mainAttacks>
-			<mainAttackHits>70</mainAttackHits>
-			<shieldHits>19</shieldHits>
-			<summonerHits>0</summonerHits>
-			<chaosHits>1</chaosHits>
-			<totalMvp>0</totalMvp>
-			<totalSvp>0</totalSvp>
-			<featureNormalData1>
-				<value>5.0</value>
-				<display>5</display>
-			</featureNormalData1>
-			<featureNormalData2/>
-			<featureNormalData3/>
-			<featureCriticalRate1CritHits/>
-			<featureCriticalRate1Hits/>
-			<featureCriticalRate2CritHits/>
-			<featureCriticalRate2Hits/>
-			<featureHitRate1UseCount>495</featureHitRate1UseCount>
-			<featureHitRate1RealHitHeroCount>0</featureHitRate1RealHitHeroCount>
-			<featureHitRate1ChaosHits>12</featureHitRate1ChaosHits>
-			<featureHitRate1AllyHits>0</featureHitRate1AllyHits>
-			<featureHitRate1HeroHits>141</featureHitRate1HeroHits>
-			<featureHitRate1EnemyHits>141</featureHitRate1EnemyHits>
-			<featureHitRate1ShieldHits>23</featureHitRate1ShieldHits>
-			<featureHitRate1SummonerHits>2</featureHitRate1SummonerHits>
-			<featureHitRate2UseCount/>
-			<featureHitRate2RealHitHeroCount/>
-			<featureHitRate2ChaosHits/>
-			<featureHitRate2AllyHits/>
-			<featureHitRate2HeroHits/>
-			<featureHitRate2EnemyHits/>
-			<featureHitRate2ShieldHits/>
-			<featureHitRate2SummonerHits/>
-			<featureSpecialData1Total/>
-			<featureSpecialData1Value/>
-		</stats>
-	</item>
-	<item>
-		<type>hero</type>
-		<attributes>
-			<heroId>10573</heroId>
-			<mode>all</mode>
-			<role>strategist</role>
-		</attributes>
-		<metadata>
-			<hero_name>Deadpool (Strategist)</hero_name>
-			<roleName>Strategist</roleName>
-		</metadata>
-		<stats>
-			<timePlayed>
-				<value>12545.945</value>
-				<display>3h 29m</display>
-			</timePlayed>
-			<timePlayedWon>
-				<value>6410.522</value>
-				<display>1h 46m</display>
-			</timePlayedWon>
-			<matchesPlayed>25.0</matchesPlayed>
-			<matchesWon>
-				<value>11.9</value>
-				<display>12</display>
-			</matchesWon>
-			<matchesWinPct>
-				<value>47.6</value>
-				<display>47.6%</display>
-			</matchesWinPct>
-			<kills>270</kills>
-			<deaths>139</deaths>
-			<assists>308</assists>
-			<kdRatio>
-				<value>1.9424460431654675</value>
-				<display>1.94</display>
-			</kdRatio>
-			<kdaRatio>
-				<value>4.158273381294964</value>
-				<display>4.16</display>
-			</kdaRatio>
-			<totalHeroDamage>
-				<value>174589.55979026854</value>
-				<display>174,590</display>
-			</totalHeroDamage>
-			<totalHeroDamagePerMinute>
-				<value>835.0</value>
-				<display>835</display>
-			</totalHeroDamagePerMinute>
-			<totalHeroHeal>
-				<value>326122.0185112953</value>
-				<display>326,122</display>
-			</totalHeroHeal>
-			<totalHeroHealPerMinute>
-				<value>1560.0</value>
-				<display>1,560</display>
-			</totalHeroHealPerMinute>
-			<totalDamageTaken>
-				<value>205235.5555188954</value>
-				<display>205,236</display>
-			</totalDamageTaken>
-			<totalDamageTakenPerMinute>
-				<value>982.0</value>
-				<display>982</display>
-			</totalDamageTakenPerMinute>
-			<lastKills>46</lastKills>
-			<headKills>1</headKills>
-			<soloKills>5</soloKills>
-			<survivalKills>121</survivalKills>
-			<continueKills>25</continueKills>
-			<continueKills3>0</continueKills3>
-			<continueKills4>0</continueKills4>
-			<continueKills5>0</continueKills5>
-			<continueKills6>0</continueKills6>
-			<mainAttacks>
-				<value>686031</value>
-				<display>686,031</display>
-			</mainAttacks>
-			<mainAttackHits>
-				<value>274137</value>
-				<display>274,137</display>
-			</mainAttackHits>
-			<shieldHits>
-				<value>24461</value>
-				<display>24,461</display>
-			</shieldHits>
-			<summonerHits>
-				<value>4637</value>
-				<display>4,637</display>
-			</summonerHits>
-			<chaosHits>
-				<value>28816</value>
-				<display>28,816</display>
-			</chaosHits>
-			<totalMvp>2</totalMvp>
-			<totalSvp>0</totalSvp>
-			<featureNormalData1>
-				<value>18600.0</value>
-				<display>18,600</display>
-			</featureNormalData1>
-			<featureNormalData2>
-				<value>124.0</value>
-				<display>124</display>
-			</featureNormalData2>
-			<featureNormalData3/>
-			<featureCriticalRate1CritHits>96</featureCriticalRate1CritHits>
-			<featureCriticalRate1Hits>
-				<value>1726</value>
-				<display>1,726</display>
-			</featureCriticalRate1Hits>
-			<featureCriticalRate2CritHits/>
-			<featureCriticalRate2Hits/>
-			<featureHitRate1UseCount/>
-			<featureHitRate1RealHitHeroCount/>
-			<featureHitRate1ChaosHits/>
-			<featureHitRate1AllyHits/>
-			<featureHitRate1HeroHits/>
-			<featureHitRate1EnemyHits/>
-			<featureHitRate1ShieldHits/>
-			<featureHitRate1SummonerHits/>
-			<featureHitRate2UseCount/>
-			<featureHitRate2RealHitHeroCount/>
-			<featureHitRate2ChaosHits/>
-			<featureHitRate2AllyHits/>
-			<featureHitRate2HeroHits/>
-			<featureHitRate2EnemyHits/>
-			<featureHitRate2ShieldHits/>
-			<featureHitRate2SummonerHits/>
-			<featureSpecialData1Total/>
-			<featureSpecialData1Value/>
-		</stats>
-	</item>
-	<item>
-		<type>hero</type>
-		<attributes>
-			<heroId>1059</heroId>
-			<mode>all</mode>
-			<role>duelist</role>
-		</attributes>
-		<metadata>
-			<hero_name>Elsa Bloodstone</hero_name>
-			<roleName>Duelist</roleName>
-		</metadata>
-		<stats>
-			<timePlayed>
-				<value>2463.633</value>
-				<display>41m 03s</display>
-			</timePlayed>
-			<timePlayedWon>
-				<value>1097.739</value>
-				<display>18m 17s</display>
-			</timePlayedWon>
-			<matchesPlayed>4.8</matchesPlayed>
-			<matchesWon>
-				<value>2.2</value>
-				<display>2</display>
-			</matchesWon>
-			<matchesWinPct>
-				<value>45.833333333333336</value>
-				<display>45.8%</display>
-			</matchesWinPct>
-			<kills>55</kills>
-			<deaths>35</deaths>
-			<assists>6</assists>
-			<kdRatio>
-				<value>1.5714285714285714</value>
-				<display>1.57</display>
-			</kdRatio>
-			<kdaRatio>
-				<value>1.7428571428571429</value>
-				<display>1.74</display>
-			</kdaRatio>
-			<totalHeroDamage>
-				<value>44597.447638869286</value>
-				<display>44,597</display>
-			</totalHeroDamage>
-			<totalHeroDamagePerMinute>
-				<value>1086.0</value>
-				<display>1,086</display>
-			</totalHeroDamagePerMinute>
-			<totalHeroHeal>
-				<value>191.89073181152344</value>
-				<display>192</display>
-			</totalHeroHeal>
-			<totalHeroHealPerMinute>
-				<value>5.0</value>
-				<display>5</display>
-			</totalHeroHealPerMinute>
-			<totalDamageTaken>
-				<value>39143.26223152876</value>
-				<display>39,143</display>
-			</totalDamageTaken>
-			<totalDamageTakenPerMinute>
-				<value>953.0</value>
-				<display>953</display>
-			</totalDamageTakenPerMinute>
-			<lastKills>18</lastKills>
-			<headKills>1</headKills>
-			<soloKills>0</soloKills>
-			<survivalKills>20</survivalKills>
-			<continueKills>7</continueKills>
-			<continueKills3>0</continueKills3>
-			<continueKills4>0</continueKills4>
-			<continueKills5>0</continueKills5>
-			<continueKills6>0</continueKills6>
-			<mainAttacks>
-				<value>1095280</value>
-				<display>1,095,280</display>
-			</mainAttacks>
-			<mainAttackHits>
-				<value>313853</value>
-				<display>313,853</display>
-			</mainAttackHits>
-			<shieldHits>
-				<value>151225</value>
-				<display>151,225</display>
-			</shieldHits>
-			<summonerHits>
-				<value>10892</value>
-				<display>10,892</display>
-			</summonerHits>
-			<chaosHits>
-				<value>50971</value>
-				<display>50,971</display>
-			</chaosHits>
-			<totalMvp>0</totalMvp>
-			<totalSvp>0</totalSvp>
-			<featureNormalData1>
-				<value>2.0</value>
-				<display>2</display>
-			</featureNormalData1>
-			<featureNormalData2/>
-			<featureNormalData3/>
-			<featureCriticalRate1CritHits>75</featureCriticalRate1CritHits>
-			<featureCriticalRate1Hits>560</featureCriticalRate1Hits>
-			<featureCriticalRate2CritHits/>
-			<featureCriticalRate2Hits/>
-			<featureHitRate1UseCount>190</featureHitRate1UseCount>
-			<featureHitRate1RealHitHeroCount>0</featureHitRate1RealHitHeroCount>
-			<featureHitRate1ChaosHits>21</featureHitRate1ChaosHits>
-			<featureHitRate1AllyHits>0</featureHitRate1AllyHits>
-			<featureHitRate1HeroHits>55</featureHitRate1HeroHits>
-			<featureHitRate1EnemyHits>55</featureHitRate1EnemyHits>
-			<featureHitRate1ShieldHits>0</featureHitRate1ShieldHits>
-			<featureHitRate1SummonerHits>0</featureHitRate1SummonerHits>
-			<featureHitRate2UseCount/>
-			<featureHitRate2RealHitHeroCount/>
-			<featureHitRate2ChaosHits/>
-			<featureHitRate2AllyHits/>
-			<featureHitRate2HeroHits/>
-			<featureHitRate2EnemyHits/>
-			<featureHitRate2ShieldHits/>
-			<featureHitRate2SummonerHits/>
-			<featureSpecialData1Total/>
-			<featureSpecialData1Value/>
-		</stats>
-	</item>
-	<item>
-		<type>hero</type>
-		<attributes>
 			<heroId>1055</heroId>
 			<mode>all</mode>
 			<role>duelist</role>
@@ -6411,119 +6408,6 @@
 			<featureNormalData3/>
 			<featureCriticalRate1CritHits/>
 			<featureCriticalRate1Hits/>
-			<featureCriticalRate2CritHits/>
-			<featureCriticalRate2Hits/>
-			<featureHitRate1UseCount/>
-			<featureHitRate1RealHitHeroCount/>
-			<featureHitRate1ChaosHits/>
-			<featureHitRate1AllyHits/>
-			<featureHitRate1HeroHits/>
-			<featureHitRate1EnemyHits/>
-			<featureHitRate1ShieldHits/>
-			<featureHitRate1SummonerHits/>
-			<featureHitRate2UseCount/>
-			<featureHitRate2RealHitHeroCount/>
-			<featureHitRate2ChaosHits/>
-			<featureHitRate2AllyHits/>
-			<featureHitRate2HeroHits/>
-			<featureHitRate2EnemyHits/>
-			<featureHitRate2ShieldHits/>
-			<featureHitRate2SummonerHits/>
-			<featureSpecialData1Total/>
-			<featureSpecialData1Value/>
-		</stats>
-	</item>
-	<item>
-		<type>hero</type>
-		<attributes>
-			<heroId>1044</heroId>
-			<mode>all</mode>
-			<role>duelist</role>
-		</attributes>
-		<metadata>
-			<hero_name>Blade</hero_name>
-			<roleName>Duelist</roleName>
-		</metadata>
-		<stats>
-			<timePlayed>
-				<value>93.053</value>
-				<display>01m 33s</display>
-			</timePlayed>
-			<timePlayedWon>
-				<value>0.0</value>
-				<display>0s</display>
-			</timePlayedWon>
-			<matchesPlayed>0.2</matchesPlayed>
-			<matchesWon>
-				<value>0.0</value>
-				<display>0</display>
-			</matchesWon>
-			<matchesWinPct>
-				<value>0.0</value>
-				<display>0.0%</display>
-			</matchesWinPct>
-			<kills>0</kills>
-			<deaths>2</deaths>
-			<assists>0</assists>
-			<kdRatio>
-				<value>0.0</value>
-				<display>0.00</display>
-			</kdRatio>
-			<kdaRatio>
-				<value>0.0</value>
-				<display>0.00</display>
-			</kdaRatio>
-			<totalHeroDamage>
-				<value>997.8205780982971</value>
-				<display>998</display>
-			</totalHeroDamage>
-			<totalHeroDamagePerMinute>
-				<value>643.0</value>
-				<display>643</display>
-			</totalHeroDamagePerMinute>
-			<totalHeroHeal>
-				<value>33.12000226974487</value>
-				<display>33</display>
-			</totalHeroHeal>
-			<totalHeroHealPerMinute>
-				<value>21.0</value>
-				<display>21</display>
-			</totalHeroHealPerMinute>
-			<totalDamageTaken>
-				<value>1338.5199031829834</value>
-				<display>1,339</display>
-			</totalDamageTaken>
-			<totalDamageTakenPerMinute>
-				<value>863.0</value>
-				<display>863</display>
-			</totalDamageTakenPerMinute>
-			<lastKills>0</lastKills>
-			<headKills>0</headKills>
-			<soloKills>0</soloKills>
-			<survivalKills>0</survivalKills>
-			<continueKills>0</continueKills>
-			<continueKills3>0</continueKills3>
-			<continueKills4>0</continueKills4>
-			<continueKills5>0</continueKills5>
-			<continueKills6>0</continueKills6>
-			<mainAttacks>276</mainAttacks>
-			<mainAttackHits>55</mainAttackHits>
-			<shieldHits>11</shieldHits>
-			<summonerHits>0</summonerHits>
-			<chaosHits>0</chaosHits>
-			<totalMvp>0</totalMvp>
-			<totalSvp>0</totalSvp>
-			<featureNormalData1>
-				<value>0.0</value>
-				<display>0</display>
-			</featureNormalData1>
-			<featureNormalData2>
-				<value>0.0</value>
-				<display>0</display>
-			</featureNormalData2>
-			<featureNormalData3/>
-			<featureCriticalRate1CritHits>2</featureCriticalRate1CritHits>
-			<featureCriticalRate1Hits>55</featureCriticalRate1Hits>
 			<featureCriticalRate2CritHits/>
 			<featureCriticalRate2Hits/>
 			<featureHitRate1UseCount/>
@@ -6657,6 +6541,119 @@
 		</stats>
 	</item>
 	<item>
+		<type>hero</type>
+		<attributes>
+			<heroId>1044</heroId>
+			<mode>all</mode>
+			<role>duelist</role>
+		</attributes>
+		<metadata>
+			<hero_name>Blade</hero_name>
+			<roleName>Duelist</roleName>
+		</metadata>
+		<stats>
+			<timePlayed>
+				<value>93.053</value>
+				<display>01m 33s</display>
+			</timePlayed>
+			<timePlayedWon>
+				<value>0.0</value>
+				<display>0s</display>
+			</timePlayedWon>
+			<matchesPlayed>0.2</matchesPlayed>
+			<matchesWon>
+				<value>0.0</value>
+				<display>0</display>
+			</matchesWon>
+			<matchesWinPct>
+				<value>0.0</value>
+				<display>0.0%</display>
+			</matchesWinPct>
+			<kills>0</kills>
+			<deaths>2</deaths>
+			<assists>0</assists>
+			<kdRatio>
+				<value>0.0</value>
+				<display>0.00</display>
+			</kdRatio>
+			<kdaRatio>
+				<value>0.0</value>
+				<display>0.00</display>
+			</kdaRatio>
+			<totalHeroDamage>
+				<value>997.8205780982971</value>
+				<display>998</display>
+			</totalHeroDamage>
+			<totalHeroDamagePerMinute>
+				<value>643.0</value>
+				<display>643</display>
+			</totalHeroDamagePerMinute>
+			<totalHeroHeal>
+				<value>33.12000226974487</value>
+				<display>33</display>
+			</totalHeroHeal>
+			<totalHeroHealPerMinute>
+				<value>21.0</value>
+				<display>21</display>
+			</totalHeroHealPerMinute>
+			<totalDamageTaken>
+				<value>1338.5199031829834</value>
+				<display>1,339</display>
+			</totalDamageTaken>
+			<totalDamageTakenPerMinute>
+				<value>863.0</value>
+				<display>863</display>
+			</totalDamageTakenPerMinute>
+			<lastKills>0</lastKills>
+			<headKills>0</headKills>
+			<soloKills>0</soloKills>
+			<survivalKills>0</survivalKills>
+			<continueKills>0</continueKills>
+			<continueKills3>0</continueKills3>
+			<continueKills4>0</continueKills4>
+			<continueKills5>0</continueKills5>
+			<continueKills6>0</continueKills6>
+			<mainAttacks>276</mainAttacks>
+			<mainAttackHits>55</mainAttackHits>
+			<shieldHits>11</shieldHits>
+			<summonerHits>0</summonerHits>
+			<chaosHits>0</chaosHits>
+			<totalMvp>0</totalMvp>
+			<totalSvp>0</totalSvp>
+			<featureNormalData1>
+				<value>0.0</value>
+				<display>0</display>
+			</featureNormalData1>
+			<featureNormalData2>
+				<value>0.0</value>
+				<display>0</display>
+			</featureNormalData2>
+			<featureNormalData3/>
+			<featureCriticalRate1CritHits>2</featureCriticalRate1CritHits>
+			<featureCriticalRate1Hits>55</featureCriticalRate1Hits>
+			<featureCriticalRate2CritHits/>
+			<featureCriticalRate2Hits/>
+			<featureHitRate1UseCount/>
+			<featureHitRate1RealHitHeroCount/>
+			<featureHitRate1ChaosHits/>
+			<featureHitRate1AllyHits/>
+			<featureHitRate1HeroHits/>
+			<featureHitRate1EnemyHits/>
+			<featureHitRate1ShieldHits/>
+			<featureHitRate1SummonerHits/>
+			<featureHitRate2UseCount/>
+			<featureHitRate2RealHitHeroCount/>
+			<featureHitRate2ChaosHits/>
+			<featureHitRate2AllyHits/>
+			<featureHitRate2HeroHits/>
+			<featureHitRate2EnemyHits/>
+			<featureHitRate2ShieldHits/>
+			<featureHitRate2SummonerHits/>
+			<featureSpecialData1Total/>
+			<featureSpecialData1Value/>
+		</stats>
+	</item>
+	<item>
 		<type>hero-role</type>
 		<attributes>
 			<roleId>strategist</roleId>
@@ -6667,48 +6664,48 @@
 		</metadata>
 		<stats>
 			<timePlayed>
-				<value>605423.649</value>
+				<value>606643.184</value>
 				<display>168h</display>
 			</timePlayed>
 			<timePlayedWon>
-				<value>312345.045</value>
-				<display>86h</display>
+				<value>313285.923</value>
+				<display>87h</display>
 			</timePlayedWon>
 			<matchesPlayed>
-				<value>1133.4</value>
-				<display>1,133.4</display>
+				<value>1136.7</value>
+				<display>1,136.7</display>
 			</matchesPlayed>
 			<matchesWon>
-				<value>601.9</value>
-				<display>602</display>
+				<value>604.9</value>
+				<display>605</display>
 			</matchesWon>
 			<matchesWinPct>
-				<value>53.105699664725606</value>
-				<display>53.1%</display>
+				<value>53.215448227324714</value>
+				<display>53.2%</display>
 			</matchesWinPct>
 			<kills>
-				<value>11237</value>
-				<display>11,237</display>
+				<value>11292</value>
+				<display>11,292</display>
 			</kills>
 			<deaths>
-				<value>6129</value>
-				<display>6,129</display>
+				<value>6140</value>
+				<display>6,140</display>
 			</deaths>
 			<assists>
-				<value>18551</value>
-				<display>18,551</display>
+				<value>18596</value>
+				<display>18,596</display>
 			</assists>
 			<kdRatio>
-				<value>1.833414912710067</value>
-				<display>1.83</display>
+				<value>1.8390879478827362</value>
+				<display>1.84</display>
 			</kdRatio>
 			<kdaRatio>
-				<value>4.8601729482786755</value>
-				<display>4.86</display>
+				<value>4.867752442996743</value>
+				<display>4.87</display>
 			</kdaRatio>
 			<totalHeroDamage>
-				<value>5516760.939635575</value>
-				<display>5,516,761</display>
+				<value>5531840.582771301</value>
+				<display>5,531,841</display>
 			</totalHeroDamage>
 			<totalHeroDamagePerMinute>
 				<value>547.0</value>
@@ -6720,52 +6717,52 @@
 				<display>0</display>
 			</totalHeroHealPerMinute>
 			<totalDamageTaken>
-				<value>6633351.803421408</value>
-				<display>6,633,352</display>
+				<value>6646722.015097529</value>
+				<display>6,646,722</display>
 			</totalDamageTaken>
 			<totalDamageTakenPerMinute>
 				<value>657.0</value>
 				<display>657</display>
 			</totalDamageTakenPerMinute>
 			<lastKills>
-				<value>2712</value>
-				<display>2,712</display>
+				<value>2718</value>
+				<display>2,718</display>
 			</lastKills>
 			<headKills>159</headKills>
-			<soloKills>425</soloKills>
+			<soloKills>426</soloKills>
 			<survivalKills>
-				<value>5746</value>
-				<display>5,746</display>
+				<value>5765</value>
+				<display>5,765</display>
 			</survivalKills>
 			<continueKills>
-				<value>1258</value>
-				<display>1,258</display>
+				<value>1260</value>
+				<display>1,260</display>
 			</continueKills>
 			<continueKills3>26</continueKills3>
 			<continueKills4>3</continueKills4>
 			<continueKills5>0</continueKills5>
 			<continueKills6>0</continueKills6>
 			<mainAttacks>
-				<value>109764871</value>
-				<display>109,764,871</display>
+				<value>109837058</value>
+				<display>109,837,058</display>
 			</mainAttacks>
 			<mainAttackHits>
-				<value>46174019</value>
-				<display>46,174,019</display>
+				<value>46203185</value>
+				<display>46,203,185</display>
 			</mainAttackHits>
 			<shieldHits>
-				<value>3068660</value>
-				<display>3,068,660</display>
+				<value>3071342</value>
+				<display>3,071,342</display>
 			</shieldHits>
 			<summonerHits>
-				<value>1066576</value>
-				<display>1,066,576</display>
+				<value>1066678</value>
+				<display>1,066,678</display>
 			</summonerHits>
 			<chaosHits>
-				<value>4791414</value>
-				<display>4,791,414</display>
+				<value>4795152</value>
+				<display>4,795,152</display>
 			</chaosHits>
-			<totalMvp>35</totalMvp>
+			<totalMvp>37</totalMvp>
 			<totalSvp>32</totalSvp>
 		</stats>
 	</item>
@@ -6780,48 +6777,48 @@
 		</metadata>
 		<stats>
 			<timePlayed>
-				<value>603295.554</value>
-				<display>167h</display>
+				<value>605636.5650000001</value>
+				<display>168h</display>
 			</timePlayed>
 			<timePlayedWon>
-				<value>319233.00800000003</value>
+				<value>320316.79600000003</value>
 				<display>88h</display>
 			</timePlayedWon>
 			<matchesPlayed>
-				<value>1102.8000000000002</value>
-				<display>1,102.8</display>
+				<value>1107.5000000000002</value>
+				<display>1,107.5</display>
 			</matchesPlayed>
 			<matchesWon>
-				<value>586.5</value>
-				<display>586</display>
+				<value>589.5</value>
+				<display>590</display>
 			</matchesWon>
 			<matchesWinPct>
-				<value>53.18280739934711</value>
+				<value>53.227990970654616</value>
 				<display>53.2%</display>
 			</matchesWinPct>
 			<kills>
-				<value>14518</value>
-				<display>14,518</display>
+				<value>14577</value>
+				<display>14,577</display>
 			</kills>
 			<deaths>
-				<value>6522</value>
-				<display>6,522</display>
+				<value>6544</value>
+				<display>6,544</display>
 			</deaths>
 			<assists>
-				<value>3930</value>
-				<display>3,930</display>
+				<value>3954</value>
+				<display>3,954</display>
 			</assists>
 			<kdRatio>
-				<value>2.226004293161607</value>
+				<value>2.227536674816626</value>
 				<display>2.23</display>
 			</kdRatio>
 			<kdaRatio>
-				<value>2.828580190125728</value>
+				<value>2.8317542787286065</value>
 				<display>2.83</display>
 			</kdaRatio>
 			<totalHeroDamage>
-				<value>10808293.007569512</value>
-				<display>10,808,293</display>
+				<value>10849142.01297011</value>
+				<display>10,849,142</display>
 			</totalHeroDamage>
 			<totalHeroDamagePerMinute>
 				<value>1075.0</value>
@@ -6833,50 +6830,50 @@
 				<display>0</display>
 			</totalHeroHealPerMinute>
 			<totalDamageTaken>
-				<value>22985934.303925402</value>
-				<display>22,985,934</display>
+				<value>23069626.565096445</value>
+				<display>23,069,627</display>
 			</totalDamageTaken>
 			<totalDamageTakenPerMinute>
-				<value>2286.0</value>
-				<display>2,286</display>
+				<value>2285.0</value>
+				<display>2,285</display>
 			</totalDamageTakenPerMinute>
 			<lastKills>
-				<value>4962</value>
-				<display>4,962</display>
+				<value>4973</value>
+				<display>4,973</display>
 			</lastKills>
-			<headKills>117</headKills>
+			<headKills>118</headKills>
 			<soloKills>852</soloKills>
 			<survivalKills>
-				<value>7599</value>
-				<display>7,599</display>
+				<value>7627</value>
+				<display>7,627</display>
 			</survivalKills>
 			<continueKills>
-				<value>1756</value>
-				<display>1,756</display>
+				<value>1761</value>
+				<display>1,761</display>
 			</continueKills>
 			<continueKills3>95</continueKills3>
 			<continueKills4>13</continueKills4>
 			<continueKills5>1</continueKills5>
 			<continueKills6>0</continueKills6>
 			<mainAttacks>
-				<value>43870763</value>
-				<display>43,870,763</display>
+				<value>43986733</value>
+				<display>43,986,733</display>
 			</mainAttacks>
 			<mainAttackHits>
-				<value>13995292</value>
-				<display>13,995,292</display>
+				<value>14024499</value>
+				<display>14,024,499</display>
 			</mainAttackHits>
 			<shieldHits>
-				<value>2402167</value>
-				<display>2,402,167</display>
+				<value>2410398</value>
+				<display>2,410,398</display>
 			</shieldHits>
 			<summonerHits>
-				<value>822323</value>
-				<display>822,323</display>
+				<value>822526</value>
+				<display>822,526</display>
 			</summonerHits>
 			<chaosHits>
-				<value>1622817</value>
-				<display>1,622,817</display>
+				<value>1627565</value>
+				<display>1,627,565</display>
 			</chaosHits>
 			<totalMvp>25</totalMvp>
 			<totalSvp>27</totalSvp>

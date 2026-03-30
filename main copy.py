@@ -356,6 +356,7 @@ def fix_mangled_keys(obj):
 # ── Main ───────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
+    player = "Expired Milk"
     player = "Skellinghoff"
     matches_url = (
         f"https://api.tracker.gg/api/v2/marvel-rivals/standard/matches/ign/{player}"
