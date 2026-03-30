@@ -397,25 +397,25 @@ if __name__ == "__main__":
             converted = clean_heroes_data(data)
             write_xml(
                 converted,
-                os.path.join(player_dir, "heroes.xml"),
+                os.path.join(player_dir, "HeroHistory.xml"),
                 root_tag="heroes",
             )
-            print(f"  [PLAYER] {player} -> player/{player}/heroes.xml")
+            print(f"  [PLAYER] {player} -> player/{player}/HeroHistory.xml")
 
         elif name == "ranked":
             converted = clean_ranked_data(data)
             write_xml(
                 converted,
-                os.path.join(player_dir, "ranked.xml"),
+                os.path.join(player_dir, "RankedHistory.xml"),
                 root_tag="ranked",
             )
-            print(f"  [PLAYER] {player} -> player/{player}/ranked.xml")
+            print(f"  [PLAYER] {player} -> player/{player}/RankedHistory.xml")
 
         elif name == "matches":
             converted = clean_matches_list(data)
             write_xml(
                 converted,
-                os.path.join(player_dir, "match_history.xml"),
+                os.path.join(player_dir, "MatchHistory.xml"),
                 root_tag="match_history",
             )
             print(f"  [MATCH]  {player} -> player/{player}/match_history.xml")
